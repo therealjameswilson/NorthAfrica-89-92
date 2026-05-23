@@ -24,6 +24,7 @@ The committed data currently contains:
 - `34` Southern Africa boundary rows
 - `11` compiler gap-tracker items
 - `13` next-harvest source pools
+- `51` Volume XX persons-list candidates, with `33` direct Bush names-list authority matches
 
 The official History.state.gov page lists the volume status as **Being
 Researched**.
@@ -67,6 +68,18 @@ This writes:
 - `data/gap-tracker.json` and `data/gap-tracker.js`
 - `data/source-pools.json` and `data/source-pools.js`
 - `reports/gap-tracker-build.json`
+
+Build the persons list from the Bush comprehensive names authority document with:
+
+```bash
+BUSH_NAMES_DOCX="/path/to/Bush Comprehensive Names List.docx" node scripts/build-persons-list.js
+```
+
+When `BUSH_NAMES_DOCX` is omitted, the script looks for
+`sources/Bush Comprehensive Names List.docx`. It writes:
+
+- `data/persons.json` and `data/persons.js`
+- `reports/persons-list-build.json`
 
 The Public Papers layer is generated from local companion-volume harvests when
 they are present in the same workspace. The committed `data/public-references.*`

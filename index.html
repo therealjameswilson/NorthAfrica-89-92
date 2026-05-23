@@ -20,6 +20,7 @@
         <a href="#workbench">Desk</a>
         <a href="#gap-tracker">Gaps</a>
         <a href="#source-pools">Source Pools</a>
+        <a href="persons.html">Persons</a>
         <a href="#chapters">Lanes</a>
         <a href="#records">Chronology</a>
         <a href="#policy-files">Policy Files</a>
@@ -308,9 +309,17 @@
             </p>
           </article>
           <article>
+            <h3>Persons Authority</h3>
+            <p>
+              <a href="persons.html">Volume XX Persons</a> generated from the Bush comprehensive names list,
+              official conversation participants, boundary rows, and compiler gap targets.
+            </p>
+          </article>
+          <article>
             <h3>Local Refresh</h3>
             <pre><code>node scripts/harvest-volume20.js
 node scripts/build-gap-tracker.js
+BUSH_NAMES_DOCX=... node scripts/build-persons-list.js
 python3 -m http.server 4194</code></pre>
           </article>
         </div>

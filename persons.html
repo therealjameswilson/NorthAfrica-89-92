@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Persons - FRUS 1989-1992 Volume XX Assist</title>
+    <meta
+      name="description"
+      content="Compiler persons list for Foreign Relations of the United States, 1989-1992, Volume XX, North Africa; Sub-Saharan Africa."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="FRUS Volume XX Assist home">
+        <span class="brand-mark">XX</span>
+        <span>North Africa Desk</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="index.html#workbench">Desk</a>
+        <a href="index.html#gap-tracker">Gaps</a>
+        <a href="persons.html" aria-current="page">Persons</a>
+        <a href="index.html#records">Chronology</a>
+        <a href="index.html#policy-files">Policy Files</a>
+        <a href="index.html#boundary">Boundaries</a>
+        <a href="index.html#sources">Sources</a>
+      </nav>
+    </header>
+
+    <main class="document-main" id="top">
+      <section class="document-heading" aria-labelledby="persons-title">
+        <p class="kicker">FRUS 1989-1992, Volume XX</p>
+        <h1 id="persons-title">Persons</h1>
+        <p class="lede">
+          A compiler persons list shaped after the published FRUS persons pages,
+          generated from the Bush comprehensive names authority list and the
+          current Volume XX chronology, boundary, and gap-tracker data.
+        </p>
+      </section>
+
+      <section class="section persons-section" aria-labelledby="persons-list-title">
+        <div class="section-heading compact-heading">
+          <h2 id="persons-list-title">Alphabetical List</h2>
+          <p id="persons-build-note" class="source-note compact-note">
+            Loading persons authority data...
+          </p>
+        </div>
+        <div class="tools persons-tools" aria-label="Search and filter persons">
+          <label class="search-field">
+            <span>Search persons</span>
+            <input id="person-search" type="search" placeholder="Search names, offices, countries, or scopes" />
+          </label>
+          <label>
+            <span>Scope</span>
+            <select id="person-scope-filter"></select>
+          </label>
+          <label>
+            <span>Source</span>
+            <select id="person-source-filter"></select>
+          </label>
+          <button id="clear-person-filters" type="button">Reset</button>
+          <button id="export-persons" type="button">CSV</button>
+          <p id="person-summary" class="summary">Loading persons...</p>
+        </div>
+        <div id="persons-root" class="persons-root" aria-live="polite">
+          <p class="loading">Loading persons list...</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Persons list for Volume XX. Authority entries are taken from the attached Bush comprehensive names list where available.</p>
+    </footer>
+
+    <script src="data/persons.js"></script>
+    <script src="persons.js"></script>
+  </body>
+</html>
