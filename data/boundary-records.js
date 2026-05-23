@@ -1,0 +1,2076 @@
+window.BOUNDARY_RECORDS = [
+  {
+    "id": "bush-library-428080251",
+    "date": "1989-10-05",
+    "sortDate": "1989-10-05",
+    "dateText": "October 5, 1989",
+    "type": "Memcon",
+    "title": "Meeting with Dr. Jonas Savimbi, President of UNITA",
+    "documentTitle": "Meeting with Dr. Jonas Savimbi, President of UNITA",
+    "participants": [
+      "George H. W. Bush",
+      "Jonas Savimbi"
+    ],
+    "counterpart": "Jonas Savimbi",
+    "countries": [
+      "United States",
+      "Angola"
+    ],
+    "country": "Angola",
+    "chapter": {
+      "number": 9,
+      "name": "Boundary: Southern Africa"
+    },
+    "releaseStatus": "Full",
+    "documentAvailable": true,
+    "naid": "428080251",
+    "catalogUrl": "https://catalog.archives.gov/id/428080251",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-10-05--Savimbi.pdf",
+    "objectFilename": "1989-10-05--Savimbi.pdf",
+    "pageCount": 6,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "Bush Library Memcons and Telcons index",
+      "tableUrl": "https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": "2163580",
+      "series": "Presidential Memcon Files",
+      "seriesNaid": "321498039",
+      "fileUnitTitle": "[Memorandum of Conversations (Memcons) - June 1989-December 1989]: October 1989",
+      "fileUnitNaid": "325377394",
+      "fileUnitUrl": "https://catalog.archives.gov/id/325377394",
+      "objectFilename": "1989-10-05--Savimbi.pdf"
+    },
+    "frusVolume": {
+      "id": "frus1989-92v20",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume XX, North Africa; Sub-Saharan Africa",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v20",
+      "status": "Being Researched",
+      "statusUrl": "https://history.state.gov/historicaldocuments/status-of-the-series"
+    },
+    "topics": [
+      "Regional and Multilateral",
+      "Angola",
+      "Memcon",
+      "Online PDF",
+      "Full"
+    ],
+    "notes": "",
+    "sourceNote": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 10/5/1989; Type Memcon; Participants Savimbi, Jonas; Country Angola; Release Status Full; NAID 428080251. National Archives Catalog item: Meeting with Dr. Jonas Savimbi, President of UNITA, NAID 428080251. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons) - June 1989-December 1989]: October 1989, NAID 325377394. Digital object: 1989-10-05--Savimbi.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-10-05--Savimbi.pdf. Access/release status: Full.",
+    "boundaryReason": "Southern Africa is assigned to FRUS 1989-1992, Volume XIX."
+  },
+  {
+    "id": "bush-library-428081119",
+    "date": "1990-10-02",
+    "sortDate": "1990-10-02",
+    "dateText": "October 2, 1990",
+    "type": "Memcon",
+    "title": "Meeting wlth Jonas Savimbi, Leader of UNITA of Angola",
+    "documentTitle": "Meeting wlth Jonas Savimbi, Leader of UNITA of Angola",
+    "participants": [
+      "George H. W. Bush",
+      "Jonas Savimbi"
+    ],
+    "counterpart": "Jonas Savimbi",
+    "countries": [
+      "United States",
+      "Angola"
+    ],
+    "country": "Angola",
+    "chapter": {
+      "number": 9,
+      "name": "Boundary: Southern Africa"
+    },
+    "releaseStatus": "Partial",
+    "documentAvailable": true,
+    "naid": "428081119",
+    "catalogUrl": "https://catalog.archives.gov/id/428081119",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-10-02--Savimbi.pdf",
+    "objectFilename": "1990-10-02--Savimbi.pdf",
+    "pageCount": 5,
+    "accessRestriction": "Restricted - Partly",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "Bush Library Memcons and Telcons index",
+      "tableUrl": "https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": "2163580",
+      "series": "Presidential Memcon Files",
+      "seriesNaid": "321498039",
+      "fileUnitTitle": "[Memorandum of Conversations (Memcons)-July 1990-December 1990]: October 1990",
+      "fileUnitNaid": "325541480",
+      "fileUnitUrl": "https://catalog.archives.gov/id/325541480",
+      "objectFilename": "1990-10-02--Savimbi.pdf"
+    },
+    "frusVolume": {
+      "id": "frus1989-92v20",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume XX, North Africa; Sub-Saharan Africa",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v20",
+      "status": "Being Researched",
+      "statusUrl": "https://history.state.gov/historicaldocuments/status-of-the-series"
+    },
+    "topics": [
+      "Regional and Multilateral",
+      "Angola",
+      "Memcon",
+      "Online PDF",
+      "Partial"
+    ],
+    "notes": "",
+    "sourceNote": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 10/2/1990; Type Memcon; Participants Savimbi, Jonas; Country Angola; Release Status Partial; NAID 428081119. National Archives Catalog item: Meeting wlth Jonas Savimbi, Leader of UNITA of Angola, NAID 428081119. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1990-December 1990]: October 1990, NAID 325541480. Digital object: 1990-10-02--Savimbi.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-10-02--Savimbi.pdf. Access/release status: Partial.",
+    "boundaryReason": "Southern Africa is assigned to FRUS 1989-1992, Volume XIX."
+  },
+  {
+    "id": "bush-library-428081241",
+    "date": "1990-12-13",
+    "sortDate": "1990-12-13",
+    "dateText": "December 13, 1990",
+    "type": "Memcon",
+    "title": "Meeting with Jonas Savimbi, Leader of UNITA of Angola",
+    "documentTitle": "Meeting with Jonas Savimbi, Leader of UNITA of Angola",
+    "participants": [
+      "George H. W. Bush",
+      "Jonas Savimbi"
+    ],
+    "counterpart": "Jonas Savimbi",
+    "countries": [
+      "United States",
+      "Angola"
+    ],
+    "country": "Angola",
+    "chapter": {
+      "number": 9,
+      "name": "Boundary: Southern Africa"
+    },
+    "releaseStatus": "Full",
+    "documentAvailable": true,
+    "naid": "428081241",
+    "catalogUrl": "https://catalog.archives.gov/id/428081241",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-12-13--Savimbi.pdf",
+    "objectFilename": "1990-12-13--Savimbi.pdf",
+    "pageCount": 3,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "Bush Library Memcons and Telcons index",
+      "tableUrl": "https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": "2163580",
+      "series": "Presidential Memcon Files",
+      "seriesNaid": "321498039",
+      "fileUnitTitle": "[Memorandum of Conversations (Memcons)-July 1990-December 1990]: December 1990",
+      "fileUnitNaid": "325541483",
+      "fileUnitUrl": "https://catalog.archives.gov/id/325541483",
+      "objectFilename": "1990-12-13--Savimbi.pdf"
+    },
+    "frusVolume": {
+      "id": "frus1989-92v20",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume XX, North Africa; Sub-Saharan Africa",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v20",
+      "status": "Being Researched",
+      "statusUrl": "https://history.state.gov/historicaldocuments/status-of-the-series"
+    },
+    "topics": [
+      "Regional and Multilateral",
+      "Angola",
+      "Memcon",
+      "Online PDF",
+      "Full"
+    ],
+    "notes": "",
+    "sourceNote": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 12/13/1990; Type Memcon; Participants Savimbi, Jonas; Country Angola; Release Status Full; NAID 428081241. National Archives Catalog item: Meeting with Jonas Savimbi, Leader of UNITA of Angola, NAID 428081241. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1990-December 1990]: December 1990, NAID 325541483. Digital object: 1990-12-13--Savimbi.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-12-13--Savimbi.pdf. Access/release status: Full.",
+    "boundaryReason": "Southern Africa is assigned to FRUS 1989-1992, Volume XIX."
+  },
+  {
+    "id": "bush-library-428081879",
+    "date": "1991-09-16",
+    "sortDate": "1991-09-16",
+    "dateText": "September 16, 1991",
+    "type": "Memcon",
+    "title": "Meeting with President dos Santos of Angola, September 16, 1991",
+    "documentTitle": "Meeting with President dos Santos of Angola, September 16, 1991",
+    "participants": [
+      "George H. W. Bush",
+      "Jose Eduardo dos Santos"
+    ],
+    "counterpart": "Jose Eduardo dos Santos",
+    "countries": [
+      "United States",
+      "Angola"
+    ],
+    "country": "Angola",
+    "chapter": {
+      "number": 9,
+      "name": "Boundary: Southern Africa"
+    },
+    "releaseStatus": "Full",
+    "documentAvailable": true,
+    "naid": "428081879",
+    "catalogUrl": "https://catalog.archives.gov/id/428081879",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-09-16--dos-Santos.pdf",
+    "objectFilename": "1991-09-16--dos-Santos.pdf",
+    "pageCount": 4,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "Bush Library Memcons and Telcons index",
+      "tableUrl": "https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": "2163580",
+      "series": "Presidential Memcon Files",
+      "seriesNaid": "321498039",
+      "fileUnitTitle": "[Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991",
+      "fileUnitNaid": "325542558",
+      "fileUnitUrl": "https://catalog.archives.gov/id/325542558",
+      "objectFilename": "1991-09-16--dos-Santos.pdf"
+    },
+    "frusVolume": {
+      "id": "frus1989-92v20",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume XX, North Africa; Sub-Saharan Africa",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v20",
+      "status": "Being Researched",
+      "statusUrl": "https://history.state.gov/historicaldocuments/status-of-the-series"
+    },
+    "topics": [
+      "Regional and Multilateral",
+      "Angola",
+      "Memcon",
+      "Online PDF",
+      "Full"
+    ],
+    "notes": "",
+    "sourceNote": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 9/16/1991; Type Memcon; Participants dos Santos, Jose Eduardo; Country Angola; Release Status Full; NAID 428081879. National Archives Catalog item: Meeting with President dos Santos of Angola, September 16, 1991, NAID 428081879. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991, NAID 325542558. Digital object: 1991-09-16--dos-Santos.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-09-16--dos-Santos.pdf. Access/release status: Full.",
+    "boundaryReason": "Southern Africa is assigned to FRUS 1989-1992, Volume XIX."
+  },
+  {
+    "id": "bush-library-428081939",
+    "date": "1991-10-07",
+    "sortDate": "1991-10-07",
+    "dateText": "October 7, 1991",
+    "type": "Memcon",
+    "title": "Meeting with Dr. Jonas Savimbi, President of UNITA, October 7, 1991",
+    "documentTitle": "Meeting with Dr. Jonas Savimbi, President of UNITA, October 7, 1991",
+    "participants": [
+      "George H. W. Bush",
+      "Jonas Savimbi"
+    ],
+    "counterpart": "Jonas Savimbi",
+    "countries": [
+      "United States",
+      "Angola"
+    ],
+    "country": "Angola",
+    "chapter": {
+      "number": 9,
+      "name": "Boundary: Southern Africa"
+    },
+    "releaseStatus": "Partial",
+    "documentAvailable": true,
+    "naid": "428081939",
+    "catalogUrl": "https://catalog.archives.gov/id/428081939",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-10-07--Savimbi.pdf",
+    "objectFilename": "1991-10-07--Savimbi.pdf",
+    "pageCount": 6,
+    "accessRestriction": "Restricted - Partly",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "Bush Library Memcons and Telcons index",
+      "tableUrl": "https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": "2163580",
+      "series": "Presidential Memcon Files",
+      "seriesNaid": "321498039",
+      "fileUnitTitle": "[Memorandum of Conversations (Memcons)-July 1991-December 1991]: October 1991",
+      "fileUnitNaid": "325542559",
+      "fileUnitUrl": "https://catalog.archives.gov/id/325542559",
+      "objectFilename": "1991-10-07--Savimbi.pdf"
+    },
+    "frusVolume": {
+      "id": "frus1989-92v20",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume XX, North Africa; Sub-Saharan Africa",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v20",
+      "status": "Being Researched",
+      "statusUrl": "https://history.state.gov/historicaldocuments/status-of-the-series"
+    },
+    "topics": [
+      "Regional and Multilateral",
+      "Angola",
+      "Memcon",
+      "Online PDF",
+      "Partial"
+    ],
+    "notes": "",
+    "sourceNote": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 10/7/1991; Type Memcon; Participants Savimbi, Jonas; Country Angola; Release Status Partial; NAID 428081939. National Archives Catalog item: Meeting with Dr. Jonas Savimbi, President of UNITA, October 7, 1991, NAID 428081939. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1991-December 1991]: October 1991, NAID 325542559. Digital object: 1991-10-07--Savimbi.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-10-07--Savimbi.pdf. Access/release status: Partial.",
+    "boundaryReason": "Southern Africa is assigned to FRUS 1989-1992, Volume XIX."
+  },
+  {
+    "id": "bush-library-428080037",
+    "date": "1989-06-07",
+    "sortDate": "1989-06-07",
+    "dateText": "June 7, 1989",
+    "type": "Memcon",
+    "title": "Meetlng with the President and Botswanan President Quett K.J. Masire, June 7, 1989",
+    "documentTitle": "Meetlng with the President and Botswanan President Quett K.J. Masire, June 7, 1989",
+    "participants": [
+      "George H. W. Bush",
+      "Quett K J. Masire"
+    ],
+    "counterpart": "Quett K J. Masire",
+    "countries": [
+      "United States",
+      "Botswana"
+    ],
+    "country": "Botswana",
+    "chapter": {
+      "number": 9,
+      "name": "Boundary: Southern Africa"
+    },
+    "releaseStatus": "Full",
+    "documentAvailable": true,
+    "naid": "428080037",
+    "catalogUrl": "https://catalog.archives.gov/id/428080037",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-06-07--Masire.pdf",
+    "objectFilename": "1989-06-07--Masire.pdf",
+    "pageCount": 4,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "Bush Library Memcons and Telcons index",
+      "tableUrl": "https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": "2163580",
+      "series": "Presidential Memcon Files",
+      "seriesNaid": "321498039",
+      "fileUnitTitle": "[Memorandum of Conversations (Memcons) - June 1989-December 1989]: June 1989",
+      "fileUnitNaid": "325377389",
+      "fileUnitUrl": "https://catalog.archives.gov/id/325377389",
+      "objectFilename": "1989-06-07--Masire.pdf"
+    },
+    "frusVolume": {
+      "id": "frus1989-92v20",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume XX, North Africa; Sub-Saharan Africa",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v20",
+      "status": "Being Researched",
+      "statusUrl": "https://history.state.gov/historicaldocuments/status-of-the-series"
+    },
+    "topics": [
+      "Regional and Multilateral",
+      "Botswana",
+      "Memcon",
+      "Online PDF",
+      "Full"
+    ],
+    "notes": "",
+    "sourceNote": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 6/7/1989; Type Memcon; Participants Masire, Quett K.J.; Country Botswana; Release Status Full; NAID 428080037. National Archives Catalog item: Meetlng with the President and Botswanan President Quett K.J. Masire, June 7, 1989, NAID 428080037. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons) - June 1989-December 1989]: June 1989, NAID 325377389. Digital object: 1989-06-07--Masire.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-06-07--Masire.pdf. Access/release status: Full.",
+    "boundaryReason": "Southern Africa is assigned to FRUS 1989-1992, Volume XIX."
+  },
+  {
+    "id": "bush-library-428082431",
+    "date": "1992-12-17",
+    "sortDate": "1992-12-17",
+    "dateText": "December 17, 1992",
+    "type": "Telcon",
+    "title": "Telcon with Quette Masire, President of Botswana, December 17, 1992",
+    "documentTitle": "Telcon with Quette Masire, President of Botswana, December 17, 1992",
+    "participants": [
+      "George H. W. Bush",
+      "Quett K J. Masire"
+    ],
+    "counterpart": "Quett K J. Masire",
+    "countries": [
+      "United States",
+      "Botswana"
+    ],
+    "country": "Botswana",
+    "chapter": {
+      "number": 9,
+      "name": "Boundary: Southern Africa"
+    },
+    "releaseStatus": "Full",
+    "documentAvailable": true,
+    "naid": "428082431",
+    "catalogUrl": "https://catalog.archives.gov/id/428082431",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1992-12-17--Masire.pdf",
+    "objectFilename": "1992-12-17--Masire.pdf",
+    "pageCount": 3,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "Bush Library Memcons and Telcons index",
+      "tableUrl": "https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": "2163580",
+      "series": "Presidential Telcon Files",
+      "seriesNaid": "321498139",
+      "fileUnitTitle": "[Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]:  December 1992",
+      "fileUnitNaid": "325592783",
+      "fileUnitUrl": "https://catalog.archives.gov/id/325592783",
+      "objectFilename": "1992-12-17--Masire.pdf"
+    },
+    "frusVolume": {
+      "id": "frus1989-92v20",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume XX, North Africa; Sub-Saharan Africa",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v20",
+      "status": "Being Researched",
+      "statusUrl": "https://history.state.gov/historicaldocuments/status-of-the-series"
+    },
+    "topics": [
+      "Regional and Multilateral",
+      "Botswana",
+      "Telcon",
+      "Online PDF",
+      "Full"
+    ],
+    "notes": "",
+    "sourceNote": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 12/17/1992; Type Telcon; Participants Masire, Quett K.J.; Country Botswana; Release Status Full; NAID 428082431. National Archives Catalog item: Telcon with Quette Masire, President of Botswana, December 17, 1992, NAID 428082431. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]:  December 1992, NAID 325592783. Digital object: 1992-12-17--Masire.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1992-12-17--Masire.pdf. Access/release status: Full.",
+    "boundaryReason": "Southern Africa is assigned to FRUS 1989-1992, Volume XIX."
+  },
+  {
+    "id": "bush-library-428080579",
+    "date": "1990-03-12",
+    "sortDate": "1990-03-12",
+    "dateText": "March 12, 1990",
+    "type": "Memcon",
+    "title": "Luncheon Meeting with President Joaquim Chissano of Mozambique, March 12, 1990",
+    "documentTitle": "Luncheon Meeting with President Joaquim Chissano of Mozambique, March 12, 1990",
+    "participants": [
+      "George H. W. Bush",
+      "Joaquim Chissano"
+    ],
+    "counterpart": "Joaquim Chissano",
+    "countries": [
+      "United States",
+      "Mozambique"
+    ],
+    "country": "Mozambique",
+    "chapter": {
+      "number": 9,
+      "name": "Boundary: Southern Africa"
+    },
+    "releaseStatus": "Partial",
+    "documentAvailable": true,
+    "naid": "428080579",
+    "catalogUrl": "https://catalog.archives.gov/id/428080579",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-03-12--Chissano.pdf",
+    "objectFilename": "1990-03-12--Chissano.pdf",
+    "pageCount": 11,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "Bush Library Memcons and Telcons index",
+      "tableUrl": "https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": "2163580",
+      "series": "Presidential Memcon Files",
+      "seriesNaid": "321498039",
+      "fileUnitTitle": "[Memorandum of Conversations (Memcons)-January 1990-June 1990]: March 1990",
+      "fileUnitNaid": "325377406",
+      "fileUnitUrl": "https://catalog.archives.gov/id/325377406",
+      "objectFilename": "1990-03-12--Chissano.pdf"
+    },
+    "frusVolume": {
+      "id": "frus1989-92v20",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume XX, North Africa; Sub-Saharan Africa",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v20",
+      "status": "Being Researched",
+      "statusUrl": "https://history.state.gov/historicaldocuments/status-of-the-series"
+    },
+    "topics": [
+      "Regional and Multilateral",
+      "Mozambique",
+      "Memcon",
+      "Online PDF",
+      "Partial"
+    ],
+    "notes": "",
+    "sourceNote": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 3/12/1990; Type Memcon; Participants Chissano, Joaquim; Country Mozambique; Release Status Partial; NAID 428080579. National Archives Catalog item: Luncheon Meeting with President Joaquim Chissano of Mozambique, March 12, 1990, NAID 428080579. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1990-June 1990]: March 1990, NAID 325377406. Digital object: 1990-03-12--Chissano.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-03-12--Chissano.pdf. Access/release status: Partial.",
+    "boundaryReason": "Southern Africa is assigned to FRUS 1989-1992, Volume XIX."
+  },
+  {
+    "id": "bush-library-428080581",
+    "date": "1990-03-13",
+    "sortDate": "1990-03-13",
+    "dateText": "March 13, 1990",
+    "type": "Memcon",
+    "title": "Meeting with President Joaquim Chissano of Mozamgique, March 13, 1990 (1 of 3)",
+    "documentTitle": "Meeting with President Joaquim Chissano of Mozamgique, March 13, 1990 (1 of 3)",
+    "participants": [
+      "George H. W. Bush",
+      "Joaquim Chissano"
+    ],
+    "counterpart": "Joaquim Chissano",
+    "countries": [
+      "United States",
+      "Mozambique"
+    ],
+    "country": "Mozambique",
+    "chapter": {
+      "number": 9,
+      "name": "Boundary: Southern Africa"
+    },
+    "releaseStatus": "Partial",
+    "documentAvailable": true,
+    "naid": "428080581",
+    "catalogUrl": "https://catalog.archives.gov/id/428080581",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-03-13--Chissano-1.pdf",
+    "objectFilename": "1990-03-13--Chissano-1.pdf",
+    "pageCount": 6,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "Bush Library Memcons and Telcons index",
+      "tableUrl": "https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": "2163580",
+      "series": "Presidential Memcon Files",
+      "seriesNaid": "321498039",
+      "fileUnitTitle": "[Memorandum of Conversations (Memcons)-January 1990-June 1990]: March 1990",
+      "fileUnitNaid": "325377406",
+      "fileUnitUrl": "https://catalog.archives.gov/id/325377406",
+      "objectFilename": "1990-03-13--Chissano-1.pdf"
+    },
+    "frusVolume": {
+      "id": "frus1989-92v20",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume XX, North Africa; Sub-Saharan Africa",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v20",
+      "status": "Being Researched",
+      "statusUrl": "https://history.state.gov/historicaldocuments/status-of-the-series"
+    },
+    "topics": [
+      "Regional and Multilateral",
+      "Mozambique",
+      "Memcon",
+      "Online PDF",
+      "Partial"
+    ],
+    "notes": "",
+    "sourceNote": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 3/13/1990; Type Memcon; Participants Chissano, Joaquim; Country Mozambique; Release Status Partial; NAID 428080581. National Archives Catalog item: Meeting with President Joaquim Chissano of Mozamgique, March 13, 1990 (1 of 3), NAID 428080581. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1990-June 1990]: March 1990, NAID 325377406. Digital object: 1990-03-13--Chissano-1.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-03-13--Chissano-1.pdf. Access/release status: Partial.",
+    "boundaryReason": "Southern Africa is assigned to FRUS 1989-1992, Volume XIX."
+  },
+  {
+    "id": "bush-library-428080585",
+    "date": "1990-03-13",
+    "sortDate": "1990-03-13",
+    "dateText": "March 13, 1990",
+    "type": "Memcon",
+    "title": "Luncheon Meeting with President Joaquim Chissano of Mozambique, March 13, 1990 (3 of 3)",
+    "documentTitle": "Luncheon Meeting with President Joaquim Chissano of Mozambique, March 13, 1990 (3 of 3)",
+    "participants": [
+      "George H. W. Bush",
+      "Joaquim Chissano"
+    ],
+    "counterpart": "Joaquim Chissano",
+    "countries": [
+      "United States",
+      "Mozambique"
+    ],
+    "country": "Mozambique",
+    "chapter": {
+      "number": 9,
+      "name": "Boundary: Southern Africa"
+    },
+    "releaseStatus": "Partial",
+    "documentAvailable": true,
+    "naid": "428080585",
+    "catalogUrl": "https://catalog.archives.gov/id/428080585",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-03-13--Chissano-3.pdf",
+    "objectFilename": "1990-03-13--Chissano-3.pdf",
+    "pageCount": 11,
+    "accessRestriction": "Restricted - Partly",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "Bush Library Memcons and Telcons index",
+      "tableUrl": "https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": "2163580",
+      "series": "Presidential Memcon Files",
+      "seriesNaid": "321498039",
+      "fileUnitTitle": "[Memorandum of Conversations (Memcons)-January 1990-June 1990]: March 1990",
+      "fileUnitNaid": "325377406",
+      "fileUnitUrl": "https://catalog.archives.gov/id/325377406",
+      "objectFilename": "1990-03-13--Chissano-3.pdf"
+    },
+    "frusVolume": {
+      "id": "frus1989-92v20",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume XX, North Africa; Sub-Saharan Africa",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v20",
+      "status": "Being Researched",
+      "statusUrl": "https://history.state.gov/historicaldocuments/status-of-the-series"
+    },
+    "topics": [
+      "Regional and Multilateral",
+      "Mozambique",
+      "Memcon",
+      "Online PDF",
+      "Partial"
+    ],
+    "notes": "",
+    "sourceNote": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 3/13/1990; Type Memcon; Participants Chissano, Joaquim; Country Mozambique; Release Status Partial; NAID 428080585. National Archives Catalog item: Luncheon Meeting with President Joaquim Chissano of Mozambique, March 13, 1990 (3 of 3), NAID 428080585. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1990-June 1990]: March 1990, NAID 325377406. Digital object: 1990-03-13--Chissano-3.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-03-13--Chissano-3.pdf. Access/release status: Partial.",
+    "boundaryReason": "Southern Africa is assigned to FRUS 1989-1992, Volume XIX."
+  },
+  {
+    "id": "bush-library-428080583",
+    "date": "1990-03-13",
+    "sortDate": "1990-03-13",
+    "dateText": "March 13, 1990",
+    "type": "Memcon",
+    "title": "Plenary Meeting with President Joaguim Chissano of Mozambique, March 13, 1990 (2 of 3)",
+    "documentTitle": "Plenary Meeting with President Joaguim Chissano of Mozambique, March 13, 1990 (2 of 3)",
+    "participants": [
+      "George H. W. Bush",
+      "Joaquim Chissano"
+    ],
+    "counterpart": "Joaquim Chissano",
+    "countries": [
+      "United States",
+      "Mozambique"
+    ],
+    "country": "Mozambique",
+    "chapter": {
+      "number": 9,
+      "name": "Boundary: Southern Africa"
+    },
+    "releaseStatus": "Full",
+    "documentAvailable": true,
+    "naid": "428080583",
+    "catalogUrl": "https://catalog.archives.gov/id/428080583",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-03-13--Chissano-2.pdf",
+    "objectFilename": "1990-03-13--Chissano-2.pdf",
+    "pageCount": 9,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "Bush Library Memcons and Telcons index",
+      "tableUrl": "https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": "2163580",
+      "series": "Presidential Memcon Files",
+      "seriesNaid": "321498039",
+      "fileUnitTitle": "[Memorandum of Conversations (Memcons)-January 1990-June 1990]: March 1990",
+      "fileUnitNaid": "325377406",
+      "fileUnitUrl": "https://catalog.archives.gov/id/325377406",
+      "objectFilename": "1990-03-13--Chissano-2.pdf"
+    },
+    "frusVolume": {
+      "id": "frus1989-92v20",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume XX, North Africa; Sub-Saharan Africa",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v20",
+      "status": "Being Researched",
+      "statusUrl": "https://history.state.gov/historicaldocuments/status-of-the-series"
+    },
+    "topics": [
+      "Regional and Multilateral",
+      "Mozambique",
+      "Memcon",
+      "Online PDF",
+      "Full"
+    ],
+    "notes": "",
+    "sourceNote": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 3/13/1990; Type Memcon; Participants Chissano, Joaquim; Country Mozambique; Release Status Full; NAID 428080583. National Archives Catalog item: Plenary Meeting with President Joaguim Chissano of Mozambique, March 13, 1990 (2 of 3), NAID 428080583. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1990-June 1990]: March 1990, NAID 325377406. Digital object: 1990-03-13--Chissano-2.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-03-13--Chissano-2.pdf. Access/release status: Full.",
+    "boundaryReason": "Southern Africa is assigned to FRUS 1989-1992, Volume XIX."
+  },
+  {
+    "id": "bush-library-428080781",
+    "date": "1990-06-19",
+    "sortDate": "1990-06-19",
+    "dateText": "June 19, 1990",
+    "type": "Memcon",
+    "title": "Meeting with President Sam Nujoma of Namibia, June 19, 1990",
+    "documentTitle": "Meeting with President Sam Nujoma of Namibia, June 19, 1990",
+    "participants": [
+      "George H. W. Bush",
+      "Sam Nujoma"
+    ],
+    "counterpart": "Sam Nujoma",
+    "countries": [
+      "United States",
+      "Namibia"
+    ],
+    "country": "Namibia",
+    "chapter": {
+      "number": 9,
+      "name": "Boundary: Southern Africa"
+    },
+    "releaseStatus": "Full",
+    "documentAvailable": true,
+    "naid": "428080781",
+    "catalogUrl": "https://catalog.archives.gov/id/428080781",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-06-19--Nujoma.pdf",
+    "objectFilename": "1990-06-19--Nujoma.pdf",
+    "pageCount": 8,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "Bush Library Memcons and Telcons index",
+      "tableUrl": "https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": "2163580",
+      "series": "Presidential Memcon Files",
+      "seriesNaid": "321498039",
+      "fileUnitTitle": "[Memorandum of Conversations (Memcons)-January 1990-June 1990]: June 1990",
+      "fileUnitNaid": "325541473",
+      "fileUnitUrl": "https://catalog.archives.gov/id/325541473",
+      "objectFilename": "1990-06-19--Nujoma.pdf"
+    },
+    "frusVolume": {
+      "id": "frus1989-92v20",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume XX, North Africa; Sub-Saharan Africa",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v20",
+      "status": "Being Researched",
+      "statusUrl": "https://history.state.gov/historicaldocuments/status-of-the-series"
+    },
+    "topics": [
+      "Regional and Multilateral",
+      "Namibia",
+      "Memcon",
+      "Online PDF",
+      "Full"
+    ],
+    "notes": "",
+    "sourceNote": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 6/19/1990; Type Memcon; Participants Nujoma, Sam; Country Namibia; Release Status Full; NAID 428080781. National Archives Catalog item: Meeting with President Sam Nujoma of Namibia, June 19, 1990, NAID 428080781. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1990-June 1990]: June 1990, NAID 325541473. Digital object: 1990-06-19--Nujoma.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-06-19--Nujoma.pdf. Access/release status: Full.",
+    "boundaryReason": "Southern Africa is assigned to FRUS 1989-1992, Volume XIX."
+  },
+  {
+    "id": "bush-library-428080517",
+    "date": "1990-02-10",
+    "sortDate": "1990-02-10",
+    "dateText": "February 10, 1990",
+    "type": "Telcon",
+    "title": "Telephone Conversation with State President De Klerk of South Africa, February 10, 1990",
+    "documentTitle": "Telephone Conversation with State President De Klerk of South Africa, February 10, 1990",
+    "participants": [
+      "George H. W. Bush",
+      "F. W. de Klerk"
+    ],
+    "counterpart": "F. W. de Klerk",
+    "countries": [
+      "United States",
+      "South Africa"
+    ],
+    "country": "South Africa",
+    "chapter": {
+      "number": 9,
+      "name": "Boundary: Southern Africa"
+    },
+    "releaseStatus": "Full",
+    "documentAvailable": true,
+    "naid": "428080517",
+    "catalogUrl": "https://catalog.archives.gov/id/428080517",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-02-10--de-Klerk.pdf",
+    "objectFilename": "1990-02-10--de-Klerk.pdf",
+    "pageCount": 3,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "Bush Library Memcons and Telcons index",
+      "tableUrl": "https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": "2163580",
+      "series": "Presidential Telcon Files",
+      "seriesNaid": "321498139",
+      "fileUnitTitle": "[Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: February 1990",
+      "fileUnitNaid": "325592641",
+      "fileUnitUrl": "https://catalog.archives.gov/id/325592641",
+      "objectFilename": "1990-02-10--de-Klerk.pdf"
+    },
+    "frusVolume": {
+      "id": "frus1989-92v20",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume XX, North Africa; Sub-Saharan Africa",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v20",
+      "status": "Being Researched",
+      "statusUrl": "https://history.state.gov/historicaldocuments/status-of-the-series"
+    },
+    "topics": [
+      "Regional and Multilateral",
+      "South Africa",
+      "Telcon",
+      "Online PDF",
+      "Full"
+    ],
+    "notes": "",
+    "sourceNote": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/10/1990; Type Telcon; Participants de Klerk, F.W.; Country South Africa; Release Status Full; NAID 428080517. National Archives Catalog item: Telephone Conversation with State President De Klerk of South Africa, February 10, 1990, NAID 428080517. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: February 1990, NAID 325592641. Digital object: 1990-02-10--de-Klerk.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-02-10--de-Klerk.pdf. Access/release status: Full.",
+    "boundaryReason": "Southern Africa is assigned to FRUS 1989-1992, Volume XIX."
+  },
+  {
+    "id": "bush-library-428080809",
+    "date": "1990-06-27",
+    "sortDate": "1990-06-27",
+    "dateText": "June 27, 1990",
+    "type": "Telcon",
+    "title": "Telephone Conversation with President F. W. de Klerk of South Africa, June 27, 1990",
+    "documentTitle": "Telephone Conversation with President F. W. de Klerk of South Africa, June 27, 1990",
+    "participants": [
+      "George H. W. Bush",
+      "F. W. de Klerk"
+    ],
+    "counterpart": "F. W. de Klerk",
+    "countries": [
+      "United States",
+      "South Africa"
+    ],
+    "country": "South Africa",
+    "chapter": {
+      "number": 9,
+      "name": "Boundary: Southern Africa"
+    },
+    "releaseStatus": "Full",
+    "documentAvailable": true,
+    "naid": "428080809",
+    "catalogUrl": "https://catalog.archives.gov/id/428080809",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-06-27--de-Klerk.pdf",
+    "objectFilename": "1990-06-27--de-Klerk.pdf",
+    "pageCount": 6,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "Bush Library Memcons and Telcons index",
+      "tableUrl": "https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": "2163580",
+      "series": "Presidential Telcon Files",
+      "seriesNaid": "321498139",
+      "fileUnitTitle": "[Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]:  June 1990",
+      "fileUnitNaid": "325592645",
+      "fileUnitUrl": "https://catalog.archives.gov/id/325592645",
+      "objectFilename": "1990-06-27--de-Klerk.pdf"
+    },
+    "frusVolume": {
+      "id": "frus1989-92v20",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume XX, North Africa; Sub-Saharan Africa",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v20",
+      "status": "Being Researched",
+      "statusUrl": "https://history.state.gov/historicaldocuments/status-of-the-series"
+    },
+    "topics": [
+      "Regional and Multilateral",
+      "South Africa",
+      "Telcon",
+      "Online PDF",
+      "Full"
+    ],
+    "notes": "",
+    "sourceNote": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 6/27/1990; Type Telcon; Participants de Klerk, F.W.; Country South Africa; Release Status Full; NAID 428080809. National Archives Catalog item: Telephone Conversation with President F. W. de Klerk of South Africa, June 27, 1990, NAID 428080809. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]:  June 1990, NAID 325592645. Digital object: 1990-06-27--de-Klerk.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-06-27--de-Klerk.pdf. Access/release status: Full.",
+    "boundaryReason": "Southern Africa is assigned to FRUS 1989-1992, Volume XIX."
+  },
+  {
+    "id": "bush-library-428080799",
+    "date": "1990-06-30",
+    "sortDate": "1990-06-30",
+    "dateText": "June 30, 1990",
+    "type": "No Telcon",
+    "title": "Telephone Conversation with Nelson Mandela of The African National Congress, June 30, 1990",
+    "documentTitle": "Telephone Conversation with Nelson Mandela of The African National Congress, June 30, 1990",
+    "participants": [
+      "George H. W. Bush",
+      "Nelson Mandela"
+    ],
+    "counterpart": "Nelson Mandela",
+    "countries": [
+      "United States",
+      "South Africa"
+    ],
+    "country": "South Africa",
+    "chapter": {
+      "number": 9,
+      "name": "Boundary: Southern Africa"
+    },
+    "releaseStatus": "Marker / no memorandum listed",
+    "documentAvailable": false,
+    "naid": "428080799",
+    "catalogUrl": "https://catalog.archives.gov/id/428080799",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-06-30--Mandela.pdf",
+    "objectFilename": "1990-06-30--Mandela.pdf",
+    "pageCount": 3,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "Bush Library Memcons and Telcons index",
+      "tableUrl": "https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": "2163580",
+      "series": "Presidential Telcon Files",
+      "seriesNaid": "321498139",
+      "fileUnitTitle": "[Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]:  June 1990",
+      "fileUnitNaid": "325592645",
+      "fileUnitUrl": "https://catalog.archives.gov/id/325592645",
+      "objectFilename": "1990-06-30--Mandela.pdf"
+    },
+    "frusVolume": {
+      "id": "frus1989-92v20",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume XX, North Africa; Sub-Saharan Africa",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v20",
+      "status": "Being Researched",
+      "statusUrl": "https://history.state.gov/historicaldocuments/status-of-the-series"
+    },
+    "topics": [
+      "Regional and Multilateral",
+      "South Africa",
+      "No Telcon",
+      "Marker / no public PDF",
+      "Marker / no memorandum listed"
+    ],
+    "notes": "",
+    "sourceNote": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 6/30/1990; Type No Telcon; Participants Mandela, Nelson; Country South Africa; Release Status Full; NAID 428080799. National Archives Catalog item: Telephone Conversation with Nelson Mandela of The African National Congress, June 30, 1990, NAID 428080799. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]:  June 1990, NAID 325592645. Digital object: 1990-06-30--Mandela.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-06-30--Mandela.pdf. Access/release status: Marker / no memorandum listed.",
+    "boundaryReason": "Southern Africa is assigned to FRUS 1989-1992, Volume XIX."
+  },
+  {
+    "id": "bush-library-428080943",
+    "date": "1990-08-13",
+    "sortDate": "1990-08-13",
+    "dateText": "August 13, 1990",
+    "type": "Telcon",
+    "title": "Telcon with F.W. de Klerk of South Africa, August 13, 1990",
+    "documentTitle": "Telcon with F.W. de Klerk of South Africa, August 13, 1990",
+    "participants": [
+      "George H. W. Bush",
+      "F. W. de Klerk"
+    ],
+    "counterpart": "F. W. de Klerk",
+    "countries": [
+      "United States",
+      "South Africa"
+    ],
+    "country": "South Africa",
+    "chapter": {
+      "number": 9,
+      "name": "Boundary: Southern Africa"
+    },
+    "releaseStatus": "Full",
+    "documentAvailable": true,
+    "naid": "428080943",
+    "catalogUrl": "https://catalog.archives.gov/id/428080943",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-13--de-Klerk.pdf",
+    "objectFilename": "1990-08-13--de-Klerk.pdf",
+    "pageCount": 4,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "Bush Library Memcons and Telcons index",
+      "tableUrl": "https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": "2163580",
+      "series": "Presidential Telcon Files",
+      "seriesNaid": "321498139",
+      "fileUnitTitle": "[Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  August 1990 [2]",
+      "fileUnitNaid": "325592648",
+      "fileUnitUrl": "https://catalog.archives.gov/id/325592648",
+      "objectFilename": "1990-08-13--de-Klerk.pdf"
+    },
+    "frusVolume": {
+      "id": "frus1989-92v20",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume XX, North Africa; Sub-Saharan Africa",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v20",
+      "status": "Being Researched",
+      "statusUrl": "https://history.state.gov/historicaldocuments/status-of-the-series"
+    },
+    "topics": [
+      "Regional and Multilateral",
+      "South Africa",
+      "Telcon",
+      "Online PDF",
+      "Full"
+    ],
+    "notes": "",
+    "sourceNote": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/13/1990; Type Telcon; Participants de Klerk, F.W.; Country South Africa; Release Status Full; NAID 428080943. National Archives Catalog item: Telcon with F.W. de Klerk of South Africa, August 13, 1990, NAID 428080943. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  August 1990 [2], NAID 325592648. Digital object: 1990-08-13--de-Klerk.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-13--de-Klerk.pdf. Access/release status: Full.",
+    "boundaryReason": "Southern Africa is assigned to FRUS 1989-1992, Volume XIX."
+  },
+  {
+    "id": "bush-library-428081033",
+    "date": "1990-09-24",
+    "sortDate": "1990-09-24",
+    "dateText": "September 24, 1990",
+    "type": "Memcon",
+    "title": "Plenary Meeting with President F.W. de Klerk of South Africa, September 24, 1990",
+    "documentTitle": "Plenary Meeting with President F.W. de Klerk of South Africa, September 24, 1990",
+    "participants": [
+      "George H. W. Bush",
+      "F. W. de Klerk"
+    ],
+    "counterpart": "F. W. de Klerk",
+    "countries": [
+      "United States",
+      "South Africa"
+    ],
+    "country": "South Africa",
+    "chapter": {
+      "number": 9,
+      "name": "Boundary: Southern Africa"
+    },
+    "releaseStatus": "Full",
+    "documentAvailable": true,
+    "naid": "428081033",
+    "catalogUrl": "https://catalog.archives.gov/id/428081033",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-09-24--de-Klerk.pdf",
+    "objectFilename": "1990-09-24--de-Klerk.pdf",
+    "pageCount": 5,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "Bush Library Memcons and Telcons index",
+      "tableUrl": "https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": "2163580",
+      "series": "Presidential Memcon Files",
+      "seriesNaid": "321498039",
+      "fileUnitTitle": "[Memorandum of Conversations (Memcons)-July 1990-December 1990]: September 1990",
+      "fileUnitNaid": "325541479",
+      "fileUnitUrl": "https://catalog.archives.gov/id/325541479",
+      "objectFilename": "1990-09-24--de-Klerk.pdf"
+    },
+    "frusVolume": {
+      "id": "frus1989-92v20",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume XX, North Africa; Sub-Saharan Africa",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v20",
+      "status": "Being Researched",
+      "statusUrl": "https://history.state.gov/historicaldocuments/status-of-the-series"
+    },
+    "topics": [
+      "Regional and Multilateral",
+      "South Africa",
+      "Memcon",
+      "Online PDF",
+      "Full"
+    ],
+    "notes": "",
+    "sourceNote": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 9/24/1990; Type Memcon; Participants de Klerk, F.W.; Country South Africa; Release Status Full; NAID 428081033. National Archives Catalog item: Plenary Meeting with President F.W. de Klerk of South Africa, September 24, 1990, NAID 428081033. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1990-December 1990]: September 1990, NAID 325541479. Digital object: 1990-09-24--de-Klerk.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-09-24--de-Klerk.pdf. Access/release status: Full.",
+    "boundaryReason": "Southern Africa is assigned to FRUS 1989-1992, Volume XIX."
+  },
+  {
+    "id": "bush-library-428081123",
+    "date": "1990-10-05",
+    "sortDate": "1990-10-05",
+    "dateText": "October 5, 1990",
+    "type": "Telcon",
+    "title": "Telcon with Nelson Mandela, Deputy President of the ANC, South Africa",
+    "documentTitle": "Telcon with Nelson Mandela, Deputy President of the ANC, South Africa",
+    "participants": [
+      "George H. W. Bush",
+      "Nelson Mandela"
+    ],
+    "counterpart": "Nelson Mandela",
+    "countries": [
+      "United States",
+      "South Africa"
+    ],
+    "country": "South Africa",
+    "chapter": {
+      "number": 9,
+      "name": "Boundary: Southern Africa"
+    },
+    "releaseStatus": "Full",
+    "documentAvailable": true,
+    "naid": "428081123",
+    "catalogUrl": "https://catalog.archives.gov/id/428081123",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-10-05--Mandela.pdf",
+    "objectFilename": "1990-10-05--Mandela.pdf",
+    "pageCount": 5,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "Bush Library Memcons and Telcons index",
+      "tableUrl": "https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": "2163580",
+      "series": "Presidential Telcon Files",
+      "seriesNaid": "321498139",
+      "fileUnitTitle": "[Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  October 1990",
+      "fileUnitNaid": "325592650",
+      "fileUnitUrl": "https://catalog.archives.gov/id/325592650",
+      "objectFilename": "1990-10-05--Mandela.pdf"
+    },
+    "frusVolume": {
+      "id": "frus1989-92v20",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume XX, North Africa; Sub-Saharan Africa",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v20",
+      "status": "Being Researched",
+      "statusUrl": "https://history.state.gov/historicaldocuments/status-of-the-series"
+    },
+    "topics": [
+      "Regional and Multilateral",
+      "South Africa",
+      "Telcon",
+      "Online PDF",
+      "Full"
+    ],
+    "notes": "",
+    "sourceNote": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 10/5/1990; Type Telcon; Participants Mandela, Nelson; Country South Africa; Release Status Full; NAID 428081123. National Archives Catalog item: Telcon with Nelson Mandela, Deputy President of the ANC, South Africa, NAID 428081123. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  October 1990, NAID 325592650. Digital object: 1990-10-05--Mandela.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-10-05--Mandela.pdf. Access/release status: Full.",
+    "boundaryReason": "Southern Africa is assigned to FRUS 1989-1992, Volume XIX."
+  },
+  {
+    "id": "bush-library-428081345",
+    "date": "1991-01-15",
+    "sortDate": "1991-01-15",
+    "dateText": "January 15, 1991",
+    "type": "Telcon",
+    "title": "Telephone Conversation with F.W. de Klerk of South Africa on January 15, 1991",
+    "documentTitle": "Telephone Conversation with F.W. de Klerk of South Africa on January 15, 1991",
+    "participants": [
+      "George H. W. Bush",
+      "F. W. de Klerk"
+    ],
+    "counterpart": "F. W. de Klerk",
+    "countries": [
+      "United States",
+      "South Africa"
+    ],
+    "country": "South Africa",
+    "chapter": {
+      "number": 9,
+      "name": "Boundary: Southern Africa"
+    },
+    "releaseStatus": "Full",
+    "documentAvailable": true,
+    "naid": "428081345",
+    "catalogUrl": "https://catalog.archives.gov/id/428081345",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-01-15--de-Klerk.pdf",
+    "objectFilename": "1991-01-15--de-Klerk.pdf",
+    "pageCount": 3,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "Bush Library Memcons and Telcons index",
+      "tableUrl": "https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": "2163580",
+      "series": "Presidential Telcon Files",
+      "seriesNaid": "321498139",
+      "fileUnitTitle": "[Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  January 1991",
+      "fileUnitNaid": "325592653",
+      "fileUnitUrl": "https://catalog.archives.gov/id/325592653",
+      "objectFilename": "1991-01-15--de-Klerk.pdf"
+    },
+    "frusVolume": {
+      "id": "frus1989-92v20",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume XX, North Africa; Sub-Saharan Africa",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v20",
+      "status": "Being Researched",
+      "statusUrl": "https://history.state.gov/historicaldocuments/status-of-the-series"
+    },
+    "topics": [
+      "Regional and Multilateral",
+      "South Africa",
+      "Telcon",
+      "Online PDF",
+      "Full"
+    ],
+    "notes": "",
+    "sourceNote": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/15/1991; Type Telcon; Participants de Klerk, F.W.; Country South Africa; Release Status Full; NAID 428081345. National Archives Catalog item: Telephone Conversation with F.W. de Klerk of South Africa on January 15, 1991, NAID 428081345. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  January 1991, NAID 325592653. Digital object: 1991-01-15--de-Klerk.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-01-15--de-Klerk.pdf. Access/release status: Full.",
+    "boundaryReason": "Southern Africa is assigned to FRUS 1989-1992, Volume XIX."
+  },
+  {
+    "id": "bush-library-428081413",
+    "date": "1991-02-04",
+    "sortDate": "1991-02-04",
+    "dateText": "February 4, 1991",
+    "type": "Telcon",
+    "title": "Telephone Conversation with F.W. de Klerk of South Africa on February 4, 1991",
+    "documentTitle": "Telephone Conversation with F.W. de Klerk of South Africa on February 4, 1991",
+    "participants": [
+      "George H. W. Bush",
+      "F. W. de Klerk"
+    ],
+    "counterpart": "F. W. de Klerk",
+    "countries": [
+      "United States",
+      "South Africa"
+    ],
+    "country": "South Africa",
+    "chapter": {
+      "number": 9,
+      "name": "Boundary: Southern Africa"
+    },
+    "releaseStatus": "Full",
+    "documentAvailable": true,
+    "naid": "428081413",
+    "catalogUrl": "https://catalog.archives.gov/id/428081413",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-02-04--de-Klerk.pdf",
+    "objectFilename": "1991-02-04--de-Klerk.pdf",
+    "pageCount": 5,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "Bush Library Memcons and Telcons index",
+      "tableUrl": "https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": "2163580",
+      "series": "Presidential Telcon Files",
+      "seriesNaid": "321498139",
+      "fileUnitTitle": "[Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  February 1991 [1]",
+      "fileUnitNaid": "325592654",
+      "fileUnitUrl": "https://catalog.archives.gov/id/325592654",
+      "objectFilename": "1991-02-04--de-Klerk.pdf"
+    },
+    "frusVolume": {
+      "id": "frus1989-92v20",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume XX, North Africa; Sub-Saharan Africa",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v20",
+      "status": "Being Researched",
+      "statusUrl": "https://history.state.gov/historicaldocuments/status-of-the-series"
+    },
+    "topics": [
+      "Regional and Multilateral",
+      "South Africa",
+      "Telcon",
+      "Online PDF",
+      "Full"
+    ],
+    "notes": "",
+    "sourceNote": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/4/1991; Type Telcon; Participants de Klerk, F.W.; Country South Africa; Release Status Full; NAID 428081413. National Archives Catalog item: Telephone Conversation with F.W. de Klerk of South Africa on February 4, 1991, NAID 428081413. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  February 1991 [1], NAID 325592654. Digital object: 1991-02-04--de-Klerk.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-02-04--de-Klerk.pdf. Access/release status: Full.",
+    "boundaryReason": "Southern Africa is assigned to FRUS 1989-1992, Volume XIX."
+  },
+  {
+    "id": "bush-library-428081565",
+    "date": "1991-03-06",
+    "sortDate": "1991-03-06",
+    "dateText": "March 6, 1991",
+    "type": "Telcon",
+    "title": "Telephone Conversation with Nelson Mandela of South Africa on March 6, 1991",
+    "documentTitle": "Telephone Conversation with Nelson Mandela of South Africa on March 6, 1991",
+    "participants": [
+      "George H. W. Bush",
+      "Nelson Mandela"
+    ],
+    "counterpart": "Nelson Mandela",
+    "countries": [
+      "United States",
+      "South Africa"
+    ],
+    "country": "South Africa",
+    "chapter": {
+      "number": 9,
+      "name": "Boundary: Southern Africa"
+    },
+    "releaseStatus": "Full",
+    "documentAvailable": true,
+    "naid": "428081565",
+    "catalogUrl": "https://catalog.archives.gov/id/428081565",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-03-06--Mandela.pdf",
+    "objectFilename": "1991-03-06--Mandela.pdf",
+    "pageCount": 5,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "Bush Library Memcons and Telcons index",
+      "tableUrl": "https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": "2163580",
+      "series": "Presidential Telcon Files",
+      "seriesNaid": "321498139",
+      "fileUnitTitle": "[Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  March 1991",
+      "fileUnitNaid": "325592656",
+      "fileUnitUrl": "https://catalog.archives.gov/id/325592656",
+      "objectFilename": "1991-03-06--Mandela.pdf"
+    },
+    "frusVolume": {
+      "id": "frus1989-92v20",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume XX, North Africa; Sub-Saharan Africa",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v20",
+      "status": "Being Researched",
+      "statusUrl": "https://history.state.gov/historicaldocuments/status-of-the-series"
+    },
+    "topics": [
+      "Regional and Multilateral",
+      "South Africa",
+      "Telcon",
+      "Online PDF",
+      "Full"
+    ],
+    "notes": "",
+    "sourceNote": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 3/6/1991; Type Telcon; Participants Mandela, Nelson; Country South Africa; Release Status Full; NAID 428081565. National Archives Catalog item: Telephone Conversation with Nelson Mandela of South Africa on March 6, 1991, NAID 428081565. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  March 1991, NAID 325592656. Digital object: 1991-03-06--Mandela.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-03-06--Mandela.pdf. Access/release status: Full.",
+    "boundaryReason": "Southern Africa is assigned to FRUS 1989-1992, Volume XIX."
+  },
+  {
+    "id": "bush-library-428081659",
+    "date": "1991-05-03",
+    "sortDate": "1991-05-03",
+    "dateText": "May 3, 1991",
+    "type": "Telcon",
+    "title": "Telcon with Nelson Mandela of South Africa on May 3, 1991",
+    "documentTitle": "Telcon with Nelson Mandela of South Africa on May 3, 1991",
+    "participants": [
+      "George H. W. Bush",
+      "Nelson Mandela"
+    ],
+    "counterpart": "Nelson Mandela",
+    "countries": [
+      "United States",
+      "South Africa"
+    ],
+    "country": "South Africa",
+    "chapter": {
+      "number": 9,
+      "name": "Boundary: Southern Africa"
+    },
+    "releaseStatus": "Full",
+    "documentAvailable": true,
+    "naid": "428081659",
+    "catalogUrl": "https://catalog.archives.gov/id/428081659",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-05-03--Mandela.pdf",
+    "objectFilename": "1991-05-03--Mandela.pdf",
+    "pageCount": 4,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "Bush Library Memcons and Telcons index",
+      "tableUrl": "https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": "2163580",
+      "series": "Presidential Telcon Files",
+      "seriesNaid": "321498139",
+      "fileUnitTitle": "[Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]:  May 1991",
+      "fileUnitNaid": "325592658",
+      "fileUnitUrl": "https://catalog.archives.gov/id/325592658",
+      "objectFilename": "1991-05-03--Mandela.pdf"
+    },
+    "frusVolume": {
+      "id": "frus1989-92v20",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume XX, North Africa; Sub-Saharan Africa",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v20",
+      "status": "Being Researched",
+      "statusUrl": "https://history.state.gov/historicaldocuments/status-of-the-series"
+    },
+    "topics": [
+      "Regional and Multilateral",
+      "South Africa",
+      "Telcon",
+      "Online PDF",
+      "Full"
+    ],
+    "notes": "",
+    "sourceNote": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 5/3/1991; Type Telcon; Participants Mandela, Nelson; Country South Africa; Release Status Full; NAID 428081659. National Archives Catalog item: Telcon with Nelson Mandela of South Africa on May 3, 1991, NAID 428081659. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]:  May 1991, NAID 325592658. Digital object: 1991-05-03--Mandela.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-05-03--Mandela.pdf. Access/release status: Full.",
+    "boundaryReason": "Southern Africa is assigned to FRUS 1989-1992, Volume XIX."
+  },
+  {
+    "id": "bush-library-428081695",
+    "date": "1991-06-20",
+    "sortDate": "1991-06-20",
+    "dateText": "June 20, 1991",
+    "type": "Memcon",
+    "title": "Meeting with Gatsha Mangosuthu Buthelezi, Chief Minister of KwaZulu, South Africa, June 20, 1991",
+    "documentTitle": "Meeting with Gatsha Mangosuthu Buthelezi, Chief Minister of KwaZulu, South Africa, June 20, 1991",
+    "participants": [
+      "George H. W. Bush",
+      "Gatsha Mangosuthu Buthelezi"
+    ],
+    "counterpart": "Gatsha Mangosuthu Buthelezi",
+    "countries": [
+      "United States",
+      "South Africa"
+    ],
+    "country": "South Africa",
+    "chapter": {
+      "number": 9,
+      "name": "Boundary: Southern Africa"
+    },
+    "releaseStatus": "Full",
+    "documentAvailable": true,
+    "naid": "428081695",
+    "catalogUrl": "https://catalog.archives.gov/id/428081695",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-06-20--Buthelezi.pdf",
+    "objectFilename": "1991-06-20--Buthelezi.pdf",
+    "pageCount": 9,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "Bush Library Memcons and Telcons index",
+      "tableUrl": "https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": "2163580",
+      "series": "Presidential Memcon Files",
+      "seriesNaid": "321498039",
+      "fileUnitTitle": "[Memorandum of Conversations (Memcons)-January 1991-June 1991]: June 1991",
+      "fileUnitNaid": "325542552",
+      "fileUnitUrl": "https://catalog.archives.gov/id/325542552",
+      "objectFilename": "1991-06-20--Buthelezi.pdf"
+    },
+    "frusVolume": {
+      "id": "frus1989-92v20",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume XX, North Africa; Sub-Saharan Africa",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v20",
+      "status": "Being Researched",
+      "statusUrl": "https://history.state.gov/historicaldocuments/status-of-the-series"
+    },
+    "topics": [
+      "Regional and Multilateral",
+      "South Africa",
+      "Memcon",
+      "Online PDF",
+      "Full"
+    ],
+    "notes": "",
+    "sourceNote": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 6/20/1991; Type Memcon; Participants Buthelezi, Gatsha Mangosuthu; Country South Africa; Release Status Full; NAID 428081695. National Archives Catalog item: Meeting with Gatsha Mangosuthu Buthelezi, Chief Minister of KwaZulu, South Africa, June 20, 1991, NAID 428081695. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1991-June 1991]: June 1991, NAID 325542552. Digital object: 1991-06-20--Buthelezi.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-06-20--Buthelezi.pdf. Access/release status: Full.",
+    "boundaryReason": "Southern Africa is assigned to FRUS 1989-1992, Volume XIX."
+  },
+  {
+    "id": "bush-library-428081757",
+    "date": "1991-07-10",
+    "sortDate": "1991-07-10",
+    "dateText": "July 10, 1991",
+    "type": "Telcon",
+    "title": "Telephone Conversation with Nelson Mandela, President of the ANC of South Africa, July 10, 1991",
+    "documentTitle": "Telephone Conversation with Nelson Mandela, President of the ANC of South Africa, July 10, 1991",
+    "participants": [
+      "George H. W. Bush",
+      "Nelson Mandela"
+    ],
+    "counterpart": "Nelson Mandela",
+    "countries": [
+      "United States",
+      "South Africa"
+    ],
+    "country": "South Africa",
+    "chapter": {
+      "number": 9,
+      "name": "Boundary: Southern Africa"
+    },
+    "releaseStatus": "Full",
+    "documentAvailable": true,
+    "naid": "428081757",
+    "catalogUrl": "https://catalog.archives.gov/id/428081757",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-07-10--Mandela.pdf",
+    "objectFilename": "1991-07-10--Mandela.pdf",
+    "pageCount": 4,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "Bush Library Memcons and Telcons index",
+      "tableUrl": "https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": "2163580",
+      "series": "Presidential Telcon Files",
+      "seriesNaid": "321498139",
+      "fileUnitTitle": "[Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]:  July 1991",
+      "fileUnitNaid": "325592660",
+      "fileUnitUrl": "https://catalog.archives.gov/id/325592660",
+      "objectFilename": "1991-07-10--Mandela.pdf"
+    },
+    "frusVolume": {
+      "id": "frus1989-92v20",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume XX, North Africa; Sub-Saharan Africa",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v20",
+      "status": "Being Researched",
+      "statusUrl": "https://history.state.gov/historicaldocuments/status-of-the-series"
+    },
+    "topics": [
+      "Regional and Multilateral",
+      "South Africa",
+      "Telcon",
+      "Online PDF",
+      "Full"
+    ],
+    "notes": "",
+    "sourceNote": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 7/10/1991; Type Telcon; Participants Mandela, Nelson; Country South Africa; Release Status Full; NAID 428081757. National Archives Catalog item: Telephone Conversation with Nelson Mandela, President of the ANC of South Africa, July 10, 1991, NAID 428081757. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]:  July 1991, NAID 325592660. Digital object: 1991-07-10--Mandela.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-07-10--Mandela.pdf. Access/release status: Full.",
+    "boundaryReason": "Southern Africa is assigned to FRUS 1989-1992, Volume XIX."
+  },
+  {
+    "id": "bush-library-428081763",
+    "date": "1991-07-11",
+    "sortDate": "1991-07-11",
+    "dateText": "July 11, 1991",
+    "type": "Telcon",
+    "title": "Telephone Conversation with President F.W. de Klerk of South Africa, July 11, 1991",
+    "documentTitle": "Telephone Conversation with President F.W. de Klerk of South Africa, July 11, 1991",
+    "participants": [
+      "George H. W. Bush",
+      "F. W. de Klerk"
+    ],
+    "counterpart": "F. W. de Klerk",
+    "countries": [
+      "United States",
+      "South Africa"
+    ],
+    "country": "South Africa",
+    "chapter": {
+      "number": 9,
+      "name": "Boundary: Southern Africa"
+    },
+    "releaseStatus": "Full",
+    "documentAvailable": true,
+    "naid": "428081763",
+    "catalogUrl": "https://catalog.archives.gov/id/428081763",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-07-11--de-Klerk.pdf",
+    "objectFilename": "1991-07-11--de-Klerk.pdf",
+    "pageCount": 4,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "Bush Library Memcons and Telcons index",
+      "tableUrl": "https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": "2163580",
+      "series": "Presidential Telcon Files",
+      "seriesNaid": "321498139",
+      "fileUnitTitle": "[Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]:  July 1991",
+      "fileUnitNaid": "325592660",
+      "fileUnitUrl": "https://catalog.archives.gov/id/325592660",
+      "objectFilename": "1991-07-11--de-Klerk.pdf"
+    },
+    "frusVolume": {
+      "id": "frus1989-92v20",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume XX, North Africa; Sub-Saharan Africa",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v20",
+      "status": "Being Researched",
+      "statusUrl": "https://history.state.gov/historicaldocuments/status-of-the-series"
+    },
+    "topics": [
+      "Regional and Multilateral",
+      "South Africa",
+      "Telcon",
+      "Online PDF",
+      "Full"
+    ],
+    "notes": "",
+    "sourceNote": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 7/11/1991; Type Telcon; Participants de Klerk, F.W.; Country South Africa; Release Status Full; NAID 428081763. National Archives Catalog item: Telephone Conversation with President F.W. de Klerk of South Africa, July 11, 1991, NAID 428081763. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]:  July 1991, NAID 325592660. Digital object: 1991-07-11--de-Klerk.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-07-11--de-Klerk.pdf. Access/release status: Full.",
+    "boundaryReason": "Southern Africa is assigned to FRUS 1989-1992, Volume XIX."
+  },
+  {
+    "id": "bush-library-428082041",
+    "date": "1991-12-05",
+    "sortDate": "1991-12-05",
+    "dateText": "December 5, 1991",
+    "type": "Memcon",
+    "title": "Meeting Between the President and Nelson Mandela, President of African National Congress (ANC), December 5, 1991",
+    "documentTitle": "Meeting Between the President and Nelson Mandela, President of African National Congress (ANC), December 5, 1991",
+    "participants": [
+      "George H. W. Bush",
+      "Nelson Mandela"
+    ],
+    "counterpart": "Nelson Mandela",
+    "countries": [
+      "United States",
+      "South Africa"
+    ],
+    "country": "South Africa",
+    "chapter": {
+      "number": 9,
+      "name": "Boundary: Southern Africa"
+    },
+    "releaseStatus": "Full",
+    "documentAvailable": true,
+    "naid": "428082041",
+    "catalogUrl": "https://catalog.archives.gov/id/428082041",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-12-05--Mandela.pdf",
+    "objectFilename": "1991-12-05--Mandela.pdf",
+    "pageCount": 5,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "Bush Library Memcons and Telcons index",
+      "tableUrl": "https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": "2163580",
+      "series": "Presidential Memcon Files",
+      "seriesNaid": "321498039",
+      "fileUnitTitle": "[Memorandum of Conversations (Memcons)-July 1991-December 1991]: December 1991",
+      "fileUnitNaid": "325542561",
+      "fileUnitUrl": "https://catalog.archives.gov/id/325542561",
+      "objectFilename": "1991-12-05--Mandela.pdf"
+    },
+    "frusVolume": {
+      "id": "frus1989-92v20",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume XX, North Africa; Sub-Saharan Africa",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v20",
+      "status": "Being Researched",
+      "statusUrl": "https://history.state.gov/historicaldocuments/status-of-the-series"
+    },
+    "topics": [
+      "Regional and Multilateral",
+      "South Africa",
+      "Memcon",
+      "Online PDF",
+      "Full"
+    ],
+    "notes": "",
+    "sourceNote": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 12/5/1991; Type Memcon; Participants Mandela, Nelson; Country South Africa; Release Status Full; NAID 428082041. National Archives Catalog item: Meeting Between the President and Nelson Mandela, President of African National Congress (ANC), December 5, 1991, NAID 428082041. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1991-December 1991]: December 1991, NAID 325542561. Digital object: 1991-12-05--Mandela.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-12-05--Mandela.pdf. Access/release status: Full.",
+    "boundaryReason": "Southern Africa is assigned to FRUS 1989-1992, Volume XIX."
+  },
+  {
+    "id": "bush-library-428082091",
+    "date": "1991-12-11",
+    "sortDate": "1991-12-11",
+    "dateText": "December 11, 1991",
+    "type": "Telcon",
+    "title": "Telephone Conversation Between the President and President F.W. de Klerk of South Africa, December 11, 1991",
+    "documentTitle": "Telephone Conversation Between the President and President F.W. de Klerk of South Africa, December 11, 1991",
+    "participants": [
+      "George H. W. Bush",
+      "F. W. de Klerk"
+    ],
+    "counterpart": "F. W. de Klerk",
+    "countries": [
+      "United States",
+      "South Africa"
+    ],
+    "country": "South Africa",
+    "chapter": {
+      "number": 9,
+      "name": "Boundary: Southern Africa"
+    },
+    "releaseStatus": "Partial",
+    "documentAvailable": true,
+    "naid": "428082091",
+    "catalogUrl": "https://catalog.archives.gov/id/428082091",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-12-11--de-Klerk.pdf",
+    "objectFilename": "1991-12-11--de-Klerk.pdf",
+    "pageCount": 4,
+    "accessRestriction": "Restricted - Partly",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "Bush Library Memcons and Telcons index",
+      "tableUrl": "https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": "2163580",
+      "series": "Presidential Telcon Files",
+      "seriesNaid": "321498139",
+      "fileUnitTitle": "[Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]:  December 1991",
+      "fileUnitNaid": "325592665",
+      "fileUnitUrl": "https://catalog.archives.gov/id/325592665",
+      "objectFilename": "1991-12-11--de-Klerk.pdf"
+    },
+    "frusVolume": {
+      "id": "frus1989-92v20",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume XX, North Africa; Sub-Saharan Africa",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v20",
+      "status": "Being Researched",
+      "statusUrl": "https://history.state.gov/historicaldocuments/status-of-the-series"
+    },
+    "topics": [
+      "Regional and Multilateral",
+      "South Africa",
+      "Telcon",
+      "Online PDF",
+      "Partial"
+    ],
+    "notes": "",
+    "sourceNote": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 12/11/1991; Type Telcon; Participants de Klerk, F.W.; Country South Africa; Release Status Partial; NAID 428082091. National Archives Catalog item: Telephone Conversation Between the President and President F.W. de Klerk of South Africa, December 11, 1991, NAID 428082091. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]:  December 1991, NAID 325592665. Digital object: 1991-12-11--de-Klerk.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-12-11--de-Klerk.pdf. Access/release status: Partial.",
+    "boundaryReason": "Southern Africa is assigned to FRUS 1989-1992, Volume XIX."
+  },
+  {
+    "id": "bush-library-428082253",
+    "date": "1992-06-26",
+    "sortDate": "1992-06-26",
+    "dateText": "June 26, 1992",
+    "type": "Telcon",
+    "title": "Telcon with Nelson Mandela, President of the African National Congress of South Africa, June 26, 1992",
+    "documentTitle": "Telcon with Nelson Mandela, President of the African National Congress of South Africa, June 26, 1992",
+    "participants": [
+      "George H. W. Bush",
+      "Nelson Mandela"
+    ],
+    "counterpart": "Nelson Mandela",
+    "countries": [
+      "United States",
+      "South Africa"
+    ],
+    "country": "South Africa",
+    "chapter": {
+      "number": 9,
+      "name": "Boundary: Southern Africa"
+    },
+    "releaseStatus": "Full",
+    "documentAvailable": true,
+    "naid": "428082253",
+    "catalogUrl": "https://catalog.archives.gov/id/428082253",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1992-06-26--Mandela.pdf",
+    "objectFilename": "1992-06-26--Mandela.pdf",
+    "pageCount": 4,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "Bush Library Memcons and Telcons index",
+      "tableUrl": "https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": "2163580",
+      "series": "Presidential Telcon Files",
+      "seriesNaid": "321498139",
+      "fileUnitTitle": "[Memorandum of Telephone Conversations (Telcons) - January 1992-June 1992]:  June 1992",
+      "fileUnitNaid": "325592764",
+      "fileUnitUrl": "https://catalog.archives.gov/id/325592764",
+      "objectFilename": "1992-06-26--Mandela.pdf"
+    },
+    "frusVolume": {
+      "id": "frus1989-92v20",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume XX, North Africa; Sub-Saharan Africa",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v20",
+      "status": "Being Researched",
+      "statusUrl": "https://history.state.gov/historicaldocuments/status-of-the-series"
+    },
+    "topics": [
+      "Regional and Multilateral",
+      "South Africa",
+      "Telcon",
+      "Online PDF",
+      "Full"
+    ],
+    "notes": "",
+    "sourceNote": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 6/26/1992; Type Telcon; Participants Mandela, Nelson; Country South Africa; Release Status Full; NAID 428082253. National Archives Catalog item: Telcon with Nelson Mandela, President of the African National Congress of South Africa, June 26, 1992, NAID 428082253. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1992-June 1992]:  June 1992, NAID 325592764. Digital object: 1992-06-26--Mandela.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1992-06-26--Mandela.pdf. Access/release status: Full.",
+    "boundaryReason": "Southern Africa is assigned to FRUS 1989-1992, Volume XIX."
+  },
+  {
+    "id": "bush-library-428082359",
+    "date": "1992-11-08",
+    "sortDate": "1992-11-08",
+    "dateText": "November 8, 1992",
+    "type": "Telcon",
+    "title": "Telephone Conversation between the President and President de Klerk, November 8, 1992",
+    "documentTitle": "Telephone Conversation between the President and President de Klerk, November 8, 1992",
+    "participants": [
+      "George H. W. Bush",
+      "F. W. de Klerk"
+    ],
+    "counterpart": "F. W. de Klerk",
+    "countries": [
+      "United States",
+      "South Africa"
+    ],
+    "country": "South Africa",
+    "chapter": {
+      "number": 9,
+      "name": "Boundary: Southern Africa"
+    },
+    "releaseStatus": "Full",
+    "documentAvailable": true,
+    "naid": "428082359",
+    "catalogUrl": "https://catalog.archives.gov/id/428082359",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1992-11-08--de-Klerk.pdf",
+    "objectFilename": "1992-11-08--de-Klerk.pdf",
+    "pageCount": 3,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "Bush Library Memcons and Telcons index",
+      "tableUrl": "https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": "2163580",
+      "series": "Presidential Telcon Files",
+      "seriesNaid": "321498139",
+      "fileUnitTitle": "[Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]:  November 1992",
+      "fileUnitNaid": "325592778",
+      "fileUnitUrl": "https://catalog.archives.gov/id/325592778",
+      "objectFilename": "1992-11-08--de-Klerk.pdf"
+    },
+    "frusVolume": {
+      "id": "frus1989-92v20",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume XX, North Africa; Sub-Saharan Africa",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v20",
+      "status": "Being Researched",
+      "statusUrl": "https://history.state.gov/historicaldocuments/status-of-the-series"
+    },
+    "topics": [
+      "Regional and Multilateral",
+      "South Africa",
+      "Telcon",
+      "Online PDF",
+      "Full"
+    ],
+    "notes": "",
+    "sourceNote": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 11/8/1992; Type Telcon; Participants de Klerk, F.W.; Country South Africa; Release Status Full; NAID 428082359. National Archives Catalog item: Telephone Conversation between the President and President de Klerk, November 8, 1992, NAID 428082359. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]:  November 1992, NAID 325592778. Digital object: 1992-11-08--de-Klerk.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1992-11-08--de-Klerk.pdf. Access/release status: Full.",
+    "boundaryReason": "Southern Africa is assigned to FRUS 1989-1992, Volume XIX."
+  },
+  {
+    "id": "bush-library-428080035",
+    "date": "1989-06-07",
+    "sortDate": "1989-06-07",
+    "dateText": "June 7, 1989",
+    "type": "Memcon",
+    "title": "Meeting with the President and Zambian President Kenneth D. Kaunda, June 7, 1989",
+    "documentTitle": "Meeting with the President and Zambian President Kenneth D. Kaunda, June 7, 1989",
+    "participants": [
+      "George H. W. Bush",
+      "Kenneth D Kaunda"
+    ],
+    "counterpart": "Kenneth D Kaunda",
+    "countries": [
+      "United States",
+      "Zambia"
+    ],
+    "country": "Zambia",
+    "chapter": {
+      "number": 9,
+      "name": "Boundary: Southern Africa"
+    },
+    "releaseStatus": "Full",
+    "documentAvailable": true,
+    "naid": "428080035",
+    "catalogUrl": "https://catalog.archives.gov/id/428080035",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-06-07--Kaunda.pdf",
+    "objectFilename": "1989-06-07--Kaunda.pdf",
+    "pageCount": 4,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "Bush Library Memcons and Telcons index",
+      "tableUrl": "https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": "2163580",
+      "series": "Presidential Memcon Files",
+      "seriesNaid": "321498039",
+      "fileUnitTitle": "[Memorandum of Conversations (Memcons) - June 1989-December 1989]: June 1989",
+      "fileUnitNaid": "325377389",
+      "fileUnitUrl": "https://catalog.archives.gov/id/325377389",
+      "objectFilename": "1989-06-07--Kaunda.pdf"
+    },
+    "frusVolume": {
+      "id": "frus1989-92v20",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume XX, North Africa; Sub-Saharan Africa",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v20",
+      "status": "Being Researched",
+      "statusUrl": "https://history.state.gov/historicaldocuments/status-of-the-series"
+    },
+    "topics": [
+      "Regional and Multilateral",
+      "Zambia",
+      "Memcon",
+      "Online PDF",
+      "Full"
+    ],
+    "notes": "",
+    "sourceNote": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 6/7/1989; Type Memcon; Participants Kaunda, Kenneth D.; Country Zambia; Release Status Full; NAID 428080035. National Archives Catalog item: Meeting with the President and Zambian President Kenneth D. Kaunda, June 7, 1989, NAID 428080035. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons) - June 1989-December 1989]: June 1989, NAID 325377389. Digital object: 1989-06-07--Kaunda.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-06-07--Kaunda.pdf. Access/release status: Full.",
+    "boundaryReason": "Southern Africa is assigned to FRUS 1989-1992, Volume XIX."
+  },
+  {
+    "id": "bush-library-428081789",
+    "date": "1991-07-24",
+    "sortDate": "1991-07-24",
+    "dateText": "July 24, 1991",
+    "type": "Memcon",
+    "title": "Oval Office Meeting with President Robert G. Mugabe of Zimbabwe, July 24, 1991 (1 of 3)",
+    "documentTitle": "Oval Office Meeting with President Robert G. Mugabe of Zimbabwe, July 24, 1991 (1 of 3)",
+    "participants": [
+      "George H. W. Bush",
+      "Robert Mugabe"
+    ],
+    "counterpart": "Robert Mugabe",
+    "countries": [
+      "United States",
+      "Zimbabwe"
+    ],
+    "country": "Zimbabwe",
+    "chapter": {
+      "number": 9,
+      "name": "Boundary: Southern Africa"
+    },
+    "releaseStatus": "Full",
+    "documentAvailable": true,
+    "naid": "428081789",
+    "catalogUrl": "https://catalog.archives.gov/id/428081789",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-07-24--Mugabe-1.pdf",
+    "objectFilename": "1991-07-24--Mugabe-1.pdf",
+    "pageCount": 5,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "Bush Library Memcons and Telcons index",
+      "tableUrl": "https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": "2163580",
+      "series": "Presidential Memcon Files",
+      "seriesNaid": "321498039",
+      "fileUnitTitle": "[Memorandum of Conversations (Memcons)-July 1991-December 1991]: July 1991",
+      "fileUnitNaid": "325542555",
+      "fileUnitUrl": "https://catalog.archives.gov/id/325542555",
+      "objectFilename": "1991-07-24--Mugabe-1.pdf"
+    },
+    "frusVolume": {
+      "id": "frus1989-92v20",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume XX, North Africa; Sub-Saharan Africa",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v20",
+      "status": "Being Researched",
+      "statusUrl": "https://history.state.gov/historicaldocuments/status-of-the-series"
+    },
+    "topics": [
+      "Regional and Multilateral",
+      "Zimbabwe",
+      "Memcon",
+      "Online PDF",
+      "Full"
+    ],
+    "notes": "",
+    "sourceNote": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 7/24/1991; Type Memcon; Participants Mugabe, Robert; Country Zimbabwe; Release Status Full; NAID 428081789. National Archives Catalog item: Oval Office Meeting with President Robert G. Mugabe of Zimbabwe, July 24, 1991 (1 of 3), NAID 428081789. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1991-December 1991]: July 1991, NAID 325542555. Digital object: 1991-07-24--Mugabe-1.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-07-24--Mugabe-1.pdf. Access/release status: Full.",
+    "boundaryReason": "Southern Africa is assigned to FRUS 1989-1992, Volume XIX."
+  },
+  {
+    "id": "bush-library-428081791",
+    "date": "1991-07-24",
+    "sortDate": "1991-07-24",
+    "dateText": "July 24, 1991",
+    "type": "Memcon",
+    "title": "Plenary Meeting with President Robert G. Mugabe of Zimbabwe, July 24, 1991 (2 of 3)",
+    "documentTitle": "Plenary Meeting with President Robert G. Mugabe of Zimbabwe, July 24, 1991 (2 of 3)",
+    "participants": [
+      "George H. W. Bush",
+      "Robert Mugabe"
+    ],
+    "counterpart": "Robert Mugabe",
+    "countries": [
+      "United States",
+      "Zimbabwe"
+    ],
+    "country": "Zimbabwe",
+    "chapter": {
+      "number": 9,
+      "name": "Boundary: Southern Africa"
+    },
+    "releaseStatus": "Full",
+    "documentAvailable": true,
+    "naid": "428081791",
+    "catalogUrl": "https://catalog.archives.gov/id/428081791",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-07-24--Mugabe-2.pdf",
+    "objectFilename": "1991-07-24--Mugabe-2.pdf",
+    "pageCount": 6,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "Bush Library Memcons and Telcons index",
+      "tableUrl": "https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": "2163580",
+      "series": "Presidential Memcon Files",
+      "seriesNaid": "321498039",
+      "fileUnitTitle": "[Memorandum of Conversations (Memcons)-July 1991-December 1991]: July 1991",
+      "fileUnitNaid": "325542555",
+      "fileUnitUrl": "https://catalog.archives.gov/id/325542555",
+      "objectFilename": "1991-07-24--Mugabe-2.pdf"
+    },
+    "frusVolume": {
+      "id": "frus1989-92v20",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume XX, North Africa; Sub-Saharan Africa",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v20",
+      "status": "Being Researched",
+      "statusUrl": "https://history.state.gov/historicaldocuments/status-of-the-series"
+    },
+    "topics": [
+      "Regional and Multilateral",
+      "Zimbabwe",
+      "Memcon",
+      "Online PDF",
+      "Full"
+    ],
+    "notes": "",
+    "sourceNote": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 7/24/1991; Type Memcon; Participants Mugabe, Robert; Country Zimbabwe; Release Status Full; NAID 428081791. National Archives Catalog item: Plenary Meeting with President Robert G. Mugabe of Zimbabwe, July 24, 1991 (2 of 3), NAID 428081791. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1991-December 1991]: July 1991, NAID 325542555. Digital object: 1991-07-24--Mugabe-2.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-07-24--Mugabe-2.pdf. Access/release status: Full.",
+    "boundaryReason": "Southern Africa is assigned to FRUS 1989-1992, Volume XIX."
+  },
+  {
+    "id": "bush-library-428081793",
+    "date": "1991-07-24",
+    "sortDate": "1991-07-24",
+    "dateText": "July 24, 1991",
+    "type": "Memcon",
+    "title": "Luncheon Meeting with President Robert G. Mugabe of Zimbabwe, July 24, 1991 (3 of 3)",
+    "documentTitle": "Luncheon Meeting with President Robert G. Mugabe of Zimbabwe, July 24, 1991 (3 of 3)",
+    "participants": [
+      "George H. W. Bush",
+      "Robert Mugabe"
+    ],
+    "counterpart": "Robert Mugabe",
+    "countries": [
+      "United States",
+      "Zimbabwe"
+    ],
+    "country": "Zimbabwe",
+    "chapter": {
+      "number": 9,
+      "name": "Boundary: Southern Africa"
+    },
+    "releaseStatus": "Full",
+    "documentAvailable": true,
+    "naid": "428081793",
+    "catalogUrl": "https://catalog.archives.gov/id/428081793",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-07-24--Mugabe-3.pdf",
+    "objectFilename": "1991-07-24--Mugabe-3.pdf",
+    "pageCount": 7,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "Bush Library Memcons and Telcons index",
+      "tableUrl": "https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": "2163580",
+      "series": "Presidential Memcon Files",
+      "seriesNaid": "321498039",
+      "fileUnitTitle": "[Memorandum of Conversations (Memcons)-July 1991-December 1991]: July 1991",
+      "fileUnitNaid": "325542555",
+      "fileUnitUrl": "https://catalog.archives.gov/id/325542555",
+      "objectFilename": "1991-07-24--Mugabe-3.pdf"
+    },
+    "frusVolume": {
+      "id": "frus1989-92v20",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume XX, North Africa; Sub-Saharan Africa",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v20",
+      "status": "Being Researched",
+      "statusUrl": "https://history.state.gov/historicaldocuments/status-of-the-series"
+    },
+    "topics": [
+      "Regional and Multilateral",
+      "Zimbabwe",
+      "Memcon",
+      "Online PDF",
+      "Full"
+    ],
+    "notes": "",
+    "sourceNote": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 7/24/1991; Type Memcon; Participants Mugabe, Robert; Country Zimbabwe; Release Status Full; NAID 428081793. National Archives Catalog item: Luncheon Meeting with President Robert G. Mugabe of Zimbabwe, July 24, 1991 (3 of 3), NAID 428081793. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1991-December 1991]: July 1991, NAID 325542555. Digital object: 1991-07-24--Mugabe-3.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-07-24--Mugabe-3.pdf. Access/release status: Full.",
+    "boundaryReason": "Southern Africa is assigned to FRUS 1989-1992, Volume XIX."
+  },
+  {
+    "id": "bush-library-428082049",
+    "date": "1991-11-19",
+    "sortDate": "1991-11-19",
+    "dateText": "November 19, 1991",
+    "type": "Telcon",
+    "title": "Telcon with President Robert Mugabe of Zimbabwe on November 19, 1991",
+    "documentTitle": "Telcon with President Robert Mugabe of Zimbabwe on November 19, 1991",
+    "participants": [
+      "George H. W. Bush",
+      "Robert Mugabe"
+    ],
+    "counterpart": "Robert Mugabe",
+    "countries": [
+      "United States",
+      "Zimbabwe"
+    ],
+    "country": "Zimbabwe",
+    "chapter": {
+      "number": 9,
+      "name": "Boundary: Southern Africa"
+    },
+    "releaseStatus": "Full",
+    "documentAvailable": true,
+    "naid": "428082049",
+    "catalogUrl": "https://catalog.archives.gov/id/428082049",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-11-19--Mugabe.pdf",
+    "objectFilename": "1991-11-19--Mugabe.pdf",
+    "pageCount": 3,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "Bush Library Memcons and Telcons index",
+      "tableUrl": "https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": "2163580",
+      "series": "Presidential Telcon Files",
+      "seriesNaid": "321498139",
+      "fileUnitTitle": "[Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]:  November 1991",
+      "fileUnitNaid": "325592664",
+      "fileUnitUrl": "https://catalog.archives.gov/id/325592664",
+      "objectFilename": "1991-11-19--Mugabe.pdf"
+    },
+    "frusVolume": {
+      "id": "frus1989-92v20",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume XX, North Africa; Sub-Saharan Africa",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v20",
+      "status": "Being Researched",
+      "statusUrl": "https://history.state.gov/historicaldocuments/status-of-the-series"
+    },
+    "topics": [
+      "Regional and Multilateral",
+      "Zimbabwe",
+      "Telcon",
+      "Online PDF",
+      "Full"
+    ],
+    "notes": "",
+    "sourceNote": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 11/19/1991; Type Telcon; Participants Mugabe, Robert; Country Zimbabwe; Release Status Full; NAID 428082049. National Archives Catalog item: Telcon with President Robert Mugabe of Zimbabwe on November 19, 1991, NAID 428082049. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]:  November 1991, NAID 325592664. Digital object: 1991-11-19--Mugabe.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-11-19--Mugabe.pdf. Access/release status: Full.",
+    "boundaryReason": "Southern Africa is assigned to FRUS 1989-1992, Volume XIX."
+  }
+];

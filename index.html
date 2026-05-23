@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FRUS 1989-1992 Volume XX Assist</title>
+    <meta
+      name="description"
+      content="A compiler-facing FRUS Assist page for Foreign Relations of the United States, 1989-1992, Volume XX, North Africa; Sub-Saharan Africa."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="FRUS Volume XX Assist home">
+        <span class="brand-mark">XX</span>
+        <span>North Africa Desk</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#workbench">Desk</a>
+        <a href="#chapters">Lanes</a>
+        <a href="#records">Chronology</a>
+        <a href="#policy-files">Policy Files</a>
+        <a href="#public-references">Public Papers</a>
+        <a href="#boundary">Boundaries</a>
+        <a href="#sources">Sources</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="kicker">FRUS 1989-1992, Volume XX</p>
+          <h1 id="hero-title">North Africa; Sub-Saharan Africa</h1>
+          <p class="lede">
+            A working compiler desk for the unpublished Volume XX: official
+            presidential conversations, NSC policy files, public-line checks,
+            and boundary controls for Southern Africa and Somalia.
+          </p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button primary" href="#records">Browse Chronology</a>
+            <a class="button secondary" href="#policy-files">Review Policy Files</a>
+          </div>
+        </div>
+        <aside class="brief visual-brief" aria-label="Archive scope">
+          <img
+            class="archive-map"
+            src="assets/volume20-source-map.svg"
+            alt="Research map for Volume XX source lanes across Africa"
+          />
+          <p class="brief-label">Compiler Scope</p>
+          <dl>
+            <div>
+              <dt>FRUS Volume</dt>
+              <dd>1989-1992, XX</dd>
+            </div>
+            <div>
+              <dt>Official Status</dt>
+              <dd>Being Researched</dd>
+            </div>
+            <div>
+              <dt>Primary Intake</dt>
+              <dd>Bush Library / NARA</dd>
+            </div>
+            <div>
+              <dt>Boundary Watch</dt>
+              <dd>Southern Africa; Somalia</dd>
+            </div>
+          </dl>
+        </aside>
+      </section>
+
+      <section class="stats" aria-label="Volume summary">
+        <div>
+          <span id="total-records">0</span>
+          <p>Volume XX rows</p>
+        </div>
+        <div>
+          <span id="total-pages">0</span>
+          <p>conversation pages</p>
+        </div>
+        <div>
+          <span id="policy-count">0</span>
+          <p>policy files</p>
+        </div>
+        <div>
+          <span id="public-count">0</span>
+          <p>public references</p>
+        </div>
+        <div>
+          <span id="boundary-count">0</span>
+          <p>boundary rows</p>
+        </div>
+      </section>
+
+      <section class="section compiler-section" id="workbench" aria-labelledby="workbench-title">
+        <div class="section-heading">
+          <p class="kicker">Compiler Desk</p>
+          <h2 id="workbench-title">Selection and Boundary Cockpit</h2>
+        </div>
+        <div id="workbench-root" class="workbench-root" aria-live="polite">
+          <p class="loading">Loading compiler desk...</p>
+        </div>
+      </section>
+
+      <section class="section" id="chapters" aria-labelledby="chapters-title">
+        <div class="section-heading">
+          <p class="kicker">Research Lanes</p>
+          <h2 id="chapters-title">Geographic Working Structure</h2>
+        </div>
+        <div id="chapter-grid" class="chapter-grid" aria-live="polite"></div>
+      </section>
+
+      <section class="section records-section" id="records" aria-labelledby="records-title">
+        <div class="section-heading">
+          <p class="kicker">Official Chronology</p>
+          <h2 id="records-title">Bush Library Memcons and Telcons</h2>
+        </div>
+        <div class="tools" aria-label="Search and filter records">
+          <label class="search-field">
+            <span>Search records</span>
+            <input id="record-search" type="search" placeholder="Search people, countries, NAIDs, source notes" />
+          </label>
+          <label>
+            <span>Lane</span>
+            <select id="chapter-filter"></select>
+          </label>
+          <label>
+            <span>Country</span>
+            <select id="country-filter"></select>
+          </label>
+          <label>
+            <span>Release</span>
+            <select id="release-filter"></select>
+          </label>
+          <label>
+            <span>Document</span>
+            <select id="availability-filter"></select>
+          </label>
+          <button id="clear-record-filters" type="button">Reset</button>
+          <button id="export-records" type="button">CSV</button>
+          <p id="records-summary" class="summary">Loading record index...</p>
+        </div>
+        <div id="records-root" class="records-root" aria-live="polite">
+          <p class="loading">Loading conversation records...</p>
+        </div>
+      </section>
+
+      <section class="section policy-section" id="policy-files" aria-labelledby="policy-title">
+        <div class="section-heading">
+          <p class="kicker">NSC / NSR / NSD</p>
+          <h2 id="policy-title">High-Value Policy Files</h2>
+        </div>
+        <div class="tools" aria-label="Search and filter policy files">
+          <label class="search-field">
+            <span>Search files</span>
+            <input id="policy-search" type="search" placeholder="Search title, lane, NAID, source note" />
+          </label>
+          <label>
+            <span>Lane</span>
+            <select id="policy-lane-filter"></select>
+          </label>
+          <label>
+            <span>Priority</span>
+            <select id="policy-priority-filter"></select>
+          </label>
+          <button id="clear-policy-filters" type="button">Reset</button>
+          <button id="export-policy" type="button">CSV</button>
+          <p id="policy-summary" class="summary">Loading policy file index...</p>
+        </div>
+        <div id="policy-root" class="file-grid" aria-live="polite">
+          <p class="loading">Loading policy files...</p>
+        </div>
+      </section>
+
+      <section class="section public-section" id="public-references" aria-labelledby="public-title">
+        <div class="section-heading">
+          <p class="kicker">Public Papers</p>
+          <h2 id="public-title">Public-Line Reference Layer</h2>
+        </div>
+        <div class="tools" aria-label="Search and filter public references">
+          <label class="search-field">
+            <span>Search references</span>
+            <input id="public-search" type="search" placeholder="Search statements, terms, citations" />
+          </label>
+          <label>
+            <span>Lane</span>
+            <select id="public-lane-filter"></select>
+          </label>
+          <button id="clear-public-filters" type="button">Reset</button>
+          <button id="export-public" type="button">CSV</button>
+          <p id="public-summary" class="summary">Loading public reference index...</p>
+        </div>
+        <div id="public-root" class="file-grid" aria-live="polite">
+          <p class="loading">Loading public references...</p>
+        </div>
+      </section>
+
+      <section class="section boundary-section" id="boundary" aria-labelledby="boundary-title">
+        <div class="section-heading">
+          <p class="kicker">Boundary Control</p>
+          <h2 id="boundary-title">Southern Africa and Somalia Handoff</h2>
+        </div>
+        <div class="tools" aria-label="Search boundary records">
+          <label class="search-field">
+            <span>Search boundary rows</span>
+            <input id="boundary-search" type="search" placeholder="Search country, person, NAID, title" />
+          </label>
+          <label>
+            <span>Country</span>
+            <select id="boundary-country-filter"></select>
+          </label>
+          <button id="clear-boundary-filters" type="button">Reset</button>
+          <p id="boundary-summary" class="summary">Loading boundary index...</p>
+        </div>
+        <div id="boundary-root" class="records-root compact-records" aria-live="polite">
+          <p class="loading">Loading boundary records...</p>
+        </div>
+      </section>
+
+      <section class="section sources-section" id="sources" aria-labelledby="sources-title">
+        <div class="section-heading">
+          <p class="kicker">Source Base</p>
+          <h2 id="sources-title">Refresh and Verification Anchors</h2>
+        </div>
+        <div class="source-grid">
+          <article>
+            <h3>Official Volume</h3>
+            <p>
+              <a href="https://history.state.gov/historicaldocuments/frus1989-92v20">History.state.gov Volume XX</a>
+              and the <a href="https://history.state.gov/historicaldocuments/status-of-the-series">status page</a>.
+            </p>
+          </article>
+          <article>
+            <h3>Conversation Intake</h3>
+            <p>
+              <a href="https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons">
+                Bush Library Memcons and Telcons
+              </a>
+              with NARA Catalog item enrichment and PDF page counts.
+            </p>
+          </article>
+          <article>
+            <h3>Policy Files</h3>
+            <p>
+              NSC, NSR, and NSD file anchors from the National Archives Catalog,
+              including Libya, Maghreb, Africa-wide strategy, and Sub-Saharan policy.
+            </p>
+          </article>
+          <article>
+            <h3>Local Refresh</h3>
+            <pre><code>node scripts/harvest-volume20.js
+python3 -m http.server 4194</code></pre>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>FRUS Assist for Volume XX. Data generated from public source records and local companion-volume harvests.</p>
+    </footer>
+
+    <script src="data/volume-meta.js"></script>
+    <script src="data/records.js"></script>
+    <script src="data/boundary-records.js"></script>
+    <script src="data/policy-files.js"></script>
+    <script src="data/public-references.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

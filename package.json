@@ -1,0 +1,11 @@
+{
+  "name": "northafrica-89-92",
+  "version": "1.0.0",
+  "description": "FRUS Assist page for 1989-1992 Volume XX, North Africa; Sub-Saharan Africa.",
+  "type": "commonjs",
+  "scripts": {
+    "harvest": "node scripts/harvest-volume20.js",
+    "check": "node --check app.js && node --check scripts/harvest-volume20.js"
+  },
+  "license": "ISC"
+}

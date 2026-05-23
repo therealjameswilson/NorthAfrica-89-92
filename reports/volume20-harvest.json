@@ -1,0 +1,52 @@
+{
+  "generatedAt": "2026-05-23T11:49:17.817Z",
+  "frusVolume": {
+    "id": "frus1989-92v20",
+    "title": "Foreign Relations of the United States, 1989-1992, Volume XX, North Africa; Sub-Saharan Africa",
+    "url": "https://history.state.gov/historicaldocuments/frus1989-92v20",
+    "status": "Being Researched",
+    "statusUrl": "https://history.state.gov/historicaldocuments/status-of-the-series"
+  },
+  "tableUrl": "https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons",
+  "tableRowsScanned": 1365,
+  "volumeRecordCount": 100,
+  "boundaryRecordCount": 34,
+  "policyFileCount": 9,
+  "publicReferenceCount": 43,
+  "volumeCountryCounts": {
+    "Egypt": 57,
+    "Morocco": 10,
+    "Senegal": 5,
+    "Zaire": 5,
+    "Tunisia": 4,
+    "Algeria": 3,
+    "Cape Verde": 3,
+    "Togo": 3,
+    "Djibouti": 2,
+    "Nigeria": 2,
+    "Uganda": 2,
+    "Benin": 1,
+    "Burundi": 1,
+    "Gambia": 1,
+    "Kenya": 1
+  },
+  "boundaryCountryCounts": {
+    "South Africa": 17,
+    "Angola": 5,
+    "Mozambique": 4,
+    "Zimbabwe": 4,
+    "Botswana": 2,
+    "Namibia": 1,
+    "Zambia": 1
+  },
+  "sourceDatasets": [
+    {
+      "path": "Bush41-drugs-thugs/data/public-statements.json",
+      "exists": true
+    },
+    {
+      "path": "Bush41-LatAm/data/public-statements.json",
+      "exists": true
+    }
+  ]
+}
