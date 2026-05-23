@@ -3,6 +3,8 @@ const records = assignCompilerNumbers(window.VOLUME_RECORDS || []);
 const boundaryRecords = assignBoundaryNumbers(window.BOUNDARY_RECORDS || []);
 const policyFiles = window.POLICY_FILES || [];
 const publicReferences = window.PUBLIC_REFERENCES || [];
+const gapTracker = window.GAP_TRACKER || [];
+const sourcePools = window.SOURCE_POOLS || [];
 const chapters = meta.chapters || [];
 
 const state = {
@@ -25,6 +27,17 @@ const state = {
   boundary: {
     query: "",
     country: ""
+  },
+  gaps: {
+    query: "",
+    lane: "",
+    priority: "",
+    status: ""
+  },
+  sourcePools: {
+    query: "",
+    lane: "",
+    priority: ""
   }
 };
 
@@ -62,7 +75,22 @@ const nodes = {
   boundarySummary: document.querySelector("#boundary-summary"),
   boundarySearch: document.querySelector("#boundary-search"),
   boundaryCountryFilter: document.querySelector("#boundary-country-filter"),
-  clearBoundaryFilters: document.querySelector("#clear-boundary-filters")
+  clearBoundaryFilters: document.querySelector("#clear-boundary-filters"),
+  gapRoot: document.querySelector("#gap-root"),
+  gapSummary: document.querySelector("#gap-summary"),
+  gapSearch: document.querySelector("#gap-search"),
+  gapLaneFilter: document.querySelector("#gap-lane-filter"),
+  gapPriorityFilter: document.querySelector("#gap-priority-filter"),
+  gapStatusFilter: document.querySelector("#gap-status-filter"),
+  clearGapFilters: document.querySelector("#clear-gap-filters"),
+  exportGaps: document.querySelector("#export-gaps"),
+  sourcePoolRoot: document.querySelector("#source-pool-root"),
+  sourcePoolSummary: document.querySelector("#source-pool-summary"),
+  sourcePoolSearch: document.querySelector("#source-pool-search"),
+  sourcePoolLaneFilter: document.querySelector("#source-pool-lane-filter"),
+  sourcePoolPriorityFilter: document.querySelector("#source-pool-priority-filter"),
+  clearSourcePoolFilters: document.querySelector("#clear-source-pool-filters"),
+  exportSourcePools: document.querySelector("#export-source-pools")
 };
 
 function assignCompilerNumbers(items) {
@@ -123,8 +151,17 @@ function searchText(item) {
     item.lane,
     item.priority,
     item.reason,
+    item.problem,
+    item.evidence,
+    item.needed,
+    item.coverage,
+    item.nextUse,
+    item.status,
     item.citation,
-    item.matchedTerms?.join(" ")
+    item.matchedTerms?.join(" "),
+    item.nextActions?.join(" "),
+    item.targetTerms?.join(" "),
+    item.sourcePools?.join(" ")
   ]
     .filter(Boolean)
     .join(" ")
@@ -157,6 +194,7 @@ function renderWorkbench() {
   const egypt = records.filter((record) => record.country === "Egypt");
   const nonBoundaryPolicy = policyFiles.filter((file) => file.priority !== "Boundary");
   const policyPages = nonBoundaryPolicy.reduce((sum, file) => sum + (file.pageCount || 0), 0);
+  const criticalGaps = gapTracker.filter((gap) => gap.priority === "Critical");
   const sourceMix = topCounts(records, (record) => record.source?.series || "Catalog item")
     .slice(0, 3)
     .map(([label, count]) => `${count} ${label}`)
@@ -166,7 +204,8 @@ function renderWorkbench() {
     metricCard("Official rows", records.length, `${pages} PDF pages across Bush Library memcon/telcon rows.`),
     metricCard("Restriction markers", restricted.length, "Partial, restricted, or no-document rows for review."),
     metricCard("Egypt cross-checks", egypt.length, "Rows to compare against Arab-Israeli and Gulf crisis volumes."),
-    metricCard("Policy file pages", policyPages, `${nonBoundaryPolicy.length} NSC/NSR/NSD anchors. ${sourceMix}`)
+    metricCard("Policy file pages", policyPages, `${nonBoundaryPolicy.length} NSC/NSR/NSD anchors. ${sourceMix}`),
+    metricCard("Open critical gaps", criticalGaps.length, `${gapTracker.length} total gap-tracker items now drive the next source harvest.`)
   );
 }
 
@@ -216,6 +255,130 @@ function renderChapters() {
   );
 }
 
+function filteredGaps() {
+  return gapTracker.filter((gap) => {
+    if (!matchesQuery(gap, state.gaps.query)) return false;
+    if (state.gaps.lane && gap.lane !== state.gaps.lane) return false;
+    if (state.gaps.priority && gap.priority !== state.gaps.priority) return false;
+    if (state.gaps.status && gap.status !== state.gaps.status) return false;
+    return true;
+  });
+}
+
+function renderGapTracker() {
+  const priorityOrder = new Map([
+    ["Critical", 1],
+    ["High", 2],
+    ["Medium", 3],
+    ["Low", 4]
+  ]);
+  const visible = filteredGaps().sort(
+    (a, b) =>
+      (priorityOrder.get(a.priority) || 99) - (priorityOrder.get(b.priority) || 99) ||
+      a.lane.localeCompare(b.lane) ||
+      a.title.localeCompare(b.title)
+  );
+  nodes.gapSummary.textContent = `${plural(visible.length, "gap")} visible from ${gapTracker.length} compiler gap items.`;
+  nodes.gapRoot.replaceChildren(...visible.map(gapCard));
+  if (!visible.length) nodes.gapRoot.innerHTML = '<p class="empty">No gap-tracker items match the current filters.</p>';
+}
+
+function gapCard(gap) {
+  const card = document.createElement("article");
+  card.className = `gap-card priority-${gap.priority.toLowerCase()}`;
+
+  const header = document.createElement("header");
+  const titleBlock = document.createElement("div");
+  const meta = document.createElement("div");
+  meta.className = "file-meta";
+  meta.append(textSpan(gap.priority), textSpan(gap.status), textSpan(gap.lane));
+  const title = document.createElement("h3");
+  title.textContent = gap.title;
+  titleBlock.append(meta, title);
+  header.append(titleBlock);
+
+  const evidence = document.createElement("p");
+  evidence.className = "gap-evidence";
+  evidence.textContent = gap.evidence;
+  const problem = document.createElement("p");
+  problem.textContent = gap.problem;
+  const needed = document.createElement("p");
+  needed.className = "source-note";
+  needed.textContent = gap.needed;
+
+  const actions = document.createElement("ol");
+  actions.className = "action-list";
+  for (const action of gap.nextActions || []) {
+    const item = document.createElement("li");
+    item.textContent = action;
+    actions.append(item);
+  }
+
+  const chips = document.createElement("div");
+  chips.className = "chips";
+  for (const term of (gap.targetTerms || []).slice(0, 8)) chips.append(chip(term, gap.priority === "Critical" ? "warn" : ""));
+
+  const pools = document.createElement("p");
+  pools.className = "source-note";
+  pools.textContent = `Source pools: ${(gap.sourcePools || []).join("; ")}`;
+
+  card.append(header, evidence, problem, needed, actions, chips, pools);
+  return card;
+}
+
+function filteredSourcePools() {
+  return sourcePools.filter((pool) => {
+    if (!matchesQuery(pool, state.sourcePools.query)) return false;
+    if (state.sourcePools.lane && pool.lane !== state.sourcePools.lane) return false;
+    if (state.sourcePools.priority && pool.priority !== state.sourcePools.priority) return false;
+    return true;
+  });
+}
+
+function renderSourcePools() {
+  const priorityOrder = new Map([
+    ["Active", 1],
+    ["Next", 2],
+    ["Missing", 3],
+    ["Later", 4]
+  ]);
+  const visible = filteredSourcePools().sort(
+    (a, b) =>
+      (priorityOrder.get(a.priority) || 99) - (priorityOrder.get(b.priority) || 99) ||
+      a.lane.localeCompare(b.lane) ||
+      a.title.localeCompare(b.title)
+  );
+  nodes.sourcePoolSummary.textContent = `${plural(visible.length, "source pool")} visible from ${sourcePools.length} harvest lanes.`;
+  nodes.sourcePoolRoot.replaceChildren(...visible.map(sourcePoolCard));
+  if (!visible.length) nodes.sourcePoolRoot.innerHTML = '<p class="empty">No source pools match the current filters.</p>';
+}
+
+function sourcePoolCard(pool) {
+  const card = document.createElement("article");
+  card.className = `file-card source-pool-card priority-${pool.priority.toLowerCase()}`;
+
+  const header = document.createElement("header");
+  const titleBlock = document.createElement("div");
+  const meta = document.createElement("div");
+  meta.className = "file-meta";
+  meta.append(textSpan(pool.priority), textSpan(pool.lane));
+  const title = document.createElement("h3");
+  title.textContent = pool.title;
+  titleBlock.append(meta, title);
+  header.append(titleBlock);
+
+  const coverage = document.createElement("p");
+  coverage.textContent = pool.coverage;
+  const nextUse = document.createElement("p");
+  nextUse.className = "source-note";
+  nextUse.textContent = pool.nextUse;
+  const actions = document.createElement("div");
+  actions.className = "file-actions";
+  if (pool.url) actions.append(linkButton("Open source", pool.url));
+  card.append(header, chip(pool.priority, pool.priority === "Missing" ? "warn" : "good"), coverage, nextUse, actions);
+  return card;
+}
+
 function populateFilters() {
   addOptions(nodes.chapterFilter, chapters.map((chapter) => chapter.name), "All lanes");
   addOptions(nodes.countryFilter, uniqueSorted(records.map((record) => record.country)), "All countries");
@@ -225,6 +388,11 @@ function populateFilters() {
   addOptions(nodes.policyPriorityFilter, uniqueSorted(policyFiles.map((file) => file.priority)), "All priorities");
   addOptions(nodes.publicLaneFilter, uniqueSorted(publicReferences.map((item) => item.chapter)), "All lanes");
   addOptions(nodes.boundaryCountryFilter, uniqueSorted(boundaryRecords.map((record) => record.country)), "All countries");
+  addOptions(nodes.gapLaneFilter, uniqueSorted(gapTracker.map((gap) => gap.lane)), "All lanes");
+  addOptions(nodes.gapPriorityFilter, uniqueSorted(gapTracker.map((gap) => gap.priority)), "All priorities");
+  addOptions(nodes.gapStatusFilter, uniqueSorted(gapTracker.map((gap) => gap.status)), "All statuses");
+  addOptions(nodes.sourcePoolLaneFilter, uniqueSorted(sourcePools.map((pool) => pool.lane)), "All lanes");
+  addOptions(nodes.sourcePoolPriorityFilter, uniqueSorted(sourcePools.map((pool) => pool.priority)), "All priorities");
 }
 
 function filteredRecords() {
@@ -511,6 +679,81 @@ function downloadCsv(filename, csv) {
 }
 
 function setupEvents() {
+  nodes.gapSearch.addEventListener("input", (event) => {
+    state.gaps.query = event.target.value;
+    renderGapTracker();
+  });
+  nodes.gapLaneFilter.addEventListener("change", (event) => {
+    state.gaps.lane = event.target.value;
+    renderGapTracker();
+  });
+  nodes.gapPriorityFilter.addEventListener("change", (event) => {
+    state.gaps.priority = event.target.value;
+    renderGapTracker();
+  });
+  nodes.gapStatusFilter.addEventListener("change", (event) => {
+    state.gaps.status = event.target.value;
+    renderGapTracker();
+  });
+  nodes.clearGapFilters.addEventListener("click", () => {
+    state.gaps = { query: "", lane: "", priority: "", status: "" };
+    nodes.gapSearch.value = "";
+    nodes.gapLaneFilter.value = "";
+    nodes.gapPriorityFilter.value = "";
+    nodes.gapStatusFilter.value = "";
+    renderGapTracker();
+  });
+  nodes.exportGaps.addEventListener("click", () => {
+    downloadCsv(
+      "frus-volume20-gap-tracker.csv",
+      toCsv(filteredGaps(), [
+        { label: "Priority", value: (gap) => gap.priority },
+        { label: "Status", value: (gap) => gap.status },
+        { label: "Lane", value: (gap) => gap.lane },
+        { label: "Title", value: (gap) => gap.title },
+        { label: "Evidence", value: (gap) => gap.evidence },
+        { label: "Problem", value: (gap) => gap.problem },
+        { label: "Needed", value: (gap) => gap.needed },
+        { label: "Next Actions", value: (gap) => (gap.nextActions || []).join("; ") },
+        { label: "Target Terms", value: (gap) => (gap.targetTerms || []).join("; ") },
+        { label: "Source Pools", value: (gap) => (gap.sourcePools || []).join("; ") }
+      ])
+    );
+  });
+
+  nodes.sourcePoolSearch.addEventListener("input", (event) => {
+    state.sourcePools.query = event.target.value;
+    renderSourcePools();
+  });
+  nodes.sourcePoolLaneFilter.addEventListener("change", (event) => {
+    state.sourcePools.lane = event.target.value;
+    renderSourcePools();
+  });
+  nodes.sourcePoolPriorityFilter.addEventListener("change", (event) => {
+    state.sourcePools.priority = event.target.value;
+    renderSourcePools();
+  });
+  nodes.clearSourcePoolFilters.addEventListener("click", () => {
+    state.sourcePools = { query: "", lane: "", priority: "" };
+    nodes.sourcePoolSearch.value = "";
+    nodes.sourcePoolLaneFilter.value = "";
+    nodes.sourcePoolPriorityFilter.value = "";
+    renderSourcePools();
+  });
+  nodes.exportSourcePools.addEventListener("click", () => {
+    downloadCsv(
+      "frus-volume20-source-pools.csv",
+      toCsv(filteredSourcePools(), [
+        { label: "Priority", value: (pool) => pool.priority },
+        { label: "Lane", value: (pool) => pool.lane },
+        { label: "Title", value: (pool) => pool.title },
+        { label: "URL", value: (pool) => pool.url },
+        { label: "Coverage", value: (pool) => pool.coverage },
+        { label: "Next Use", value: (pool) => pool.nextUse }
+      ])
+    );
+  });
+
   nodes.recordSearch.addEventListener("input", (event) => {
     state.records.query = event.target.value;
     renderRecords();
@@ -642,6 +885,8 @@ function setupEvents() {
 function init() {
   setStats();
   renderWorkbench();
+  renderGapTracker();
+  renderSourcePools();
   renderChapters();
   populateFilters();
   renderRecords();

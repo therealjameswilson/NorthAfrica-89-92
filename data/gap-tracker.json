@@ -1,0 +1,339 @@
+[
+  {
+    "id": "gap-egypt-cross-volume",
+    "priority": "Critical",
+    "status": "Open",
+    "lane": "North Africa",
+    "title": "Separate Egypt-Africa records from Arab-Israeli and Gulf crisis records",
+    "evidence": "57 of 100 current Volume XX conversation rows are Egypt records; several 1990-1991 Mubarak calls are Gulf crisis markers or partial releases.",
+    "problem": "Egypt is geographically in Volume XX, but much of the Bush-Mubarak documentary traffic belongs analytically to Arab-Israeli diplomacy or the Persian Gulf crisis.",
+    "needed": "A cross-volume selection matrix that tags every Egypt row as Volume XX core, Volume XIV overlap, Persian Gulf overlap, counterterrorism overlap, or retain-only chronology.",
+    "nextActions": [
+      "Compare every Egypt row against FRUS Volume XIV, the Persian Gulf crisis volumes, and Volume XXVIII terrorism records.",
+      "Mark Gulf crisis telcons from August 1990-March 1991 for duplicate or excerpt review.",
+      "Flag Egypt records with Africa-specific content: Libya, Sudan, Horn, Nile basin, OAU, African regional policy."
+    ],
+    "targetTerms": [
+      "Mubarak",
+      "Egypt",
+      "Libya",
+      "Sudan",
+      "OAU",
+      "Arab-Israeli",
+      "Persian Gulf"
+    ],
+    "sourcePools": [
+      "Bush Library memcons/telcons",
+      "FRUS cross-volume comparator",
+      "NSC files",
+      "State Department central files"
+    ]
+  },
+  {
+    "id": "gap-libya-pan-am",
+    "priority": "Critical",
+    "status": "Open",
+    "lane": "North Africa",
+    "title": "Build a real Libya, Pan Am 103, and sanctions source lane",
+    "evidence": "1 Libya policy file is currently surfaced; there are no Libya country conversation rows in the Bush Library memcon/telcon intake.",
+    "problem": "Libya should be a central North Africa chapter thread, but the current corpus mostly reaches Libya through public statements and one NSC meeting file.",
+    "needed": "NSC, State, counterterrorism, UN, Treasury/sanctions, intelligence-policy, legal, and allied-consultation records around Libya and Pan Am 103.",
+    "nextActions": [
+      "Harvest NSC and NSC/DC files for Libya, Qadhafi/Gadhafi, Pan Am 103, Lockerbie, sanctions, UN Security Council, and extradition.",
+      "Add State Department Legal Adviser, NEA, IO, S/CT, and sanctions-policy search terms.",
+      "Create a Libya chronology that separates terrorism/sanctions from broader North Africa diplomacy."
+    ],
+    "targetTerms": [
+      "Libya",
+      "Qadhafi",
+      "Gadhafi",
+      "Pan Am 103",
+      "Lockerbie",
+      "sanctions",
+      "UNSC",
+      "extradition"
+    ],
+    "sourcePools": [
+      "NSC Meeting Files",
+      "NSC/DC Meetings",
+      "WHORM",
+      "State Department central files",
+      "Counterterrorism companion volume"
+    ]
+  },
+  {
+    "id": "gap-maghreb-western-sahara",
+    "priority": "High",
+    "status": "Open",
+    "lane": "North Africa",
+    "title": "Expand the Maghreb beyond leader calls",
+    "evidence": "Current rows: Morocco 10, Algeria 3, Tunisia 4; 1 Maghreb policy file is surfaced.",
+    "problem": "The site has good head-of-state contacts but little policy substance on Western Sahara, Algeria transition, Tunisian politics, regional security, or economic reform.",
+    "needed": "Policy files, embassy reporting, briefing material, and NSC/State records for Morocco, Algeria, Tunisia, Western Sahara, and Maghreb regional policy.",
+    "nextActions": [
+      "Search source pools for Western Sahara, Polisario, Maghreb, Hassan, Bendjedid, Ben Ali, Filali, and Abdelhamid.",
+      "Separate ceremonial contacts from policy-bearing records.",
+      "Add withdrawal-sheet leads for partially released Morocco and Tunisia memcons."
+    ],
+    "targetTerms": [
+      "Maghreb",
+      "Western Sahara",
+      "Polisario",
+      "Morocco",
+      "Algeria",
+      "Tunisia",
+      "Hassan",
+      "Ben Ali"
+    ],
+    "sourcePools": [
+      "NSR Files",
+      "Scowcroft Papers",
+      "State Department central files",
+      "Presidential Daily File"
+    ]
+  },
+  {
+    "id": "gap-horn-east-africa",
+    "priority": "High",
+    "status": "Open",
+    "lane": "Horn and East Africa",
+    "title": "Recover Horn and East Africa policy files",
+    "evidence": "6 conversation rows are currently surfaced; Sudan and Ethiopia have no current conversation rows.",
+    "problem": "Horn and East Africa coverage is far too thin for a volume that should capture Sudan, Ethiopia/Eritrea, Uganda, Kenya, Djibouti, humanitarian questions, and regional security.",
+    "needed": "State, NSC, humanitarian, regional-security, and embassy files for Sudan, Ethiopia, Eritrea, Uganda, Kenya, Djibouti, Nile basin, and refugee issues.",
+    "nextActions": [
+      "Run NSC and State searches for Sudan, Ethiopia, Eritrea, Mengistu, Bashir, Museveni, Moi, Djibouti, Nile, famine, refugees, and humanitarian relief.",
+      "Resolve no-document markers for Museveni, Moi, and Buyoya meetings.",
+      "Decide whether Somalia-adjacent humanitarian records belong in Volume XX or Volume XXI."
+    ],
+    "targetTerms": [
+      "Sudan",
+      "Ethiopia",
+      "Eritrea",
+      "Uganda",
+      "Kenya",
+      "Djibouti",
+      "Nile",
+      "famine",
+      "refugees"
+    ],
+    "sourcePools": [
+      "State Department central files",
+      "NSC/DC Meetings",
+      "NSR Files",
+      "Presidential Daily File"
+    ]
+  },
+  {
+    "id": "gap-west-africa-liberia-sahel",
+    "priority": "High",
+    "status": "Open",
+    "lane": "West Africa and Sahel",
+    "title": "Add Liberia, Nigeria, Senegal, and Sahel policy substance",
+    "evidence": "15 West Africa/Sahel conversation rows are surfaced; Nigeria has 2 rows and Liberia has none.",
+    "problem": "Current West Africa coverage is mostly leader contacts and misses policy-heavy issues such as Liberia, ECOMOG, Nigerian transition, aid, debt, narcotics certification, and Sahel security.",
+    "needed": "Policy and crisis files for Liberia/ECOMOG, Nigeria, Senegal, Sahel, economic assistance, democracy, and narcotics-certification overlap.",
+    "nextActions": [
+      "Search for Liberia, Taylor, Doe, ECOMOG, ECOWAS, Nigeria, Babangida, Senegal, Diouf, Sahel, debt, aid, narcotics certification.",
+      "Create a Liberia crisis lead list even if no presidential conversation exists.",
+      "Cross-check counternarcotics records so INCSR/certification material is not lost."
+    ],
+    "targetTerms": [
+      "Liberia",
+      "ECOMOG",
+      "ECOWAS",
+      "Nigeria",
+      "Babangida",
+      "Senegal",
+      "Sahel",
+      "narcotics certification"
+    ],
+    "sourcePools": [
+      "State Department central files",
+      "WHORM",
+      "Chief of Staff files",
+      "Counternarcotics companion volume"
+    ]
+  },
+  {
+    "id": "gap-central-africa-great-lakes",
+    "priority": "High",
+    "status": "Open",
+    "lane": "Central Africa",
+    "title": "Build Central Africa and Great Lakes coverage",
+    "evidence": "5 Central Africa rows are surfaced, including Zaire 5 and Burundi 1; Rwanda has none.",
+    "problem": "The current record set does not yet capture enough on Zaire democratization, Rwanda/Burundi instability, regional conflict, or human rights before the Clinton-era crises.",
+    "needed": "Zaire, Rwanda, Burundi, Chad, Cameroon, Congo, and Great Lakes policy files from State, NSC, human rights, and humanitarian source pools.",
+    "nextActions": [
+      "Search for Zaire, Mobutu, Rwanda, Habyarimana, Burundi, Buyoya, Great Lakes, democratization, human rights, refugees, and Chad.",
+      "Review the no-document Buyoya marker for possible source copies elsewhere.",
+      "Cross-check 1993-2000 Rwanda/Central Africa volumes for inherited issues."
+    ],
+    "targetTerms": [
+      "Zaire",
+      "Mobutu",
+      "Rwanda",
+      "Burundi",
+      "Buyoya",
+      "Great Lakes",
+      "human rights",
+      "refugees"
+    ],
+    "sourcePools": [
+      "State Department central files",
+      "NSC files",
+      "Scowcroft Papers",
+      "Human rights source files"
+    ]
+  },
+  {
+    "id": "gap-1992-africa-policy",
+    "priority": "Critical",
+    "status": "Open",
+    "lane": "Regional and Multilateral",
+    "title": "Fill the 1992 post-Cold War Africa policy gap",
+    "evidence": "Only 5 conversation rows date from 1992, while NSR-30 and NSD-75 show major Africa-wide policy activity in 1992.",
+    "problem": "The current chronology underrepresents the key policy review year when the administration reframed Africa policy after the Cold War.",
+    "needed": "NSR-30 backup, NSD-75 implementation files, interagency papers, aid/security policy records, and State Department reaction/implementation traffic.",
+    "nextActions": [
+      "Harvest NSR-30, NSD-75, Deputies Committee, and State implementation files.",
+      "Search for American Policy Toward Africa in the 1990s, Sub-Saharan Africa, democracy, aid, conflict, debt, sanctions, and humanitarian intervention.",
+      "Create a 1992 policy-review mini-chronology."
+    ],
+    "targetTerms": [
+      "NSR-30",
+      "NSD-75",
+      "Africa in the 1990s",
+      "Sub-Saharan Africa",
+      "democracy",
+      "aid",
+      "debt"
+    ],
+    "sourcePools": [
+      "NSR Files",
+      "NSD Files",
+      "NSC/DC Meetings",
+      "State Department central files"
+    ]
+  },
+  {
+    "id": "gap-declassification-ledger",
+    "priority": "High",
+    "status": "Open",
+    "lane": "All lanes",
+    "title": "Create MDR and declassification worklist",
+    "evidence": "21 partial releases and 9 no-document markers are present in the current intake.",
+    "problem": "The site shows release status but does not yet drive declassification action: withdrawals, possible appeal targets, duplicate source copies, and excerpt decisions.",
+    "needed": "A formal ledger of partials, no-document markers, likely duplicate source copies, and candidate MDR/referral actions.",
+    "nextActions": [
+      "Tag each partial and marker with issue type: national security redaction, no memorandum, missing PDF, duplicate source copy, or cross-volume handling.",
+      "Search Scowcroft, PDB/Presidential Daily File, and State files for duplicate source copies.",
+      "Prioritize partial records tied to Libya, Maghreb, Sudan/Horn, and Africa-wide policy."
+    ],
+    "targetTerms": [
+      "Partial",
+      "No Memcon",
+      "No Telcon",
+      "withdrawal",
+      "MDR",
+      "referral",
+      "duplicate source"
+    ],
+    "sourcePools": [
+      "Bush Library memcons/telcons",
+      "Scowcroft Papers",
+      "Presidential Daily File",
+      "State Department central files"
+    ]
+  },
+  {
+    "id": "gap-state-department-base",
+    "priority": "Critical",
+    "status": "Open",
+    "lane": "All lanes",
+    "title": "Add State Department source base",
+    "evidence": "The current data model is built from Bush Library/NARA presidential records and companion-volume Public Papers data; State Department central and bureau files are not yet represented.",
+    "problem": "A FRUS volume cannot be compiled from presidential conversations alone. State cables, memoranda, policy papers, briefing books, and bureau files are essential.",
+    "needed": "Central Foreign Policy Files, Bureau of African Affairs files, NEA/Maghreb files, IO/UN records, S/CT Libya records, Policy Planning, Legal Adviser, and Secretary Baker trip/meeting files.",
+    "nextActions": [
+      "Create a State Department collection map with file series, date ranges, and access routes.",
+      "Harvest or manually seed A/AF, NEA, IO, S/CT, L, S/P, and Secretary files.",
+      "Add source-note templates for State cables and memoranda distinct from presidential records."
+    ],
+    "targetTerms": [
+      "AF",
+      "NEA",
+      "IO",
+      "S/CT",
+      "Legal Adviser",
+      "Policy Planning",
+      "Central Foreign Policy Files",
+      "Baker"
+    ],
+    "sourcePools": [
+      "State Department central files",
+      "Secretary Baker files",
+      "Bureau of African Affairs",
+      "Policy Planning"
+    ]
+  },
+  {
+    "id": "gap-public-papers-direct-harvest",
+    "priority": "Medium",
+    "status": "Open",
+    "lane": "All lanes",
+    "title": "Run a direct Volume XX Public Papers harvest",
+    "evidence": "43 public references are currently reused from companion-volume harvests; North Africa has 33 public references.",
+    "problem": "The public layer is useful but derivative. It may miss Africa-specific statements not captured by the companion-volume term sets.",
+    "needed": "A direct GovInfo/Public Papers pass using Volume XX country, leader, regional, aid, sanctions, humanitarian, and democracy terms.",
+    "nextActions": [
+      "Harvest GovInfo Public Papers for all Volume XX terms.",
+      "Separate public statements from actual source-document candidates.",
+      "Mark statements as public-line check, chronology anchor, or source-citation support."
+    ],
+    "targetTerms": [
+      "Africa",
+      "Mubarak",
+      "Hassan",
+      "Ben Ali",
+      "Bendjedid",
+      "Mobutu",
+      "Diouf",
+      "Libya",
+      "Sudan"
+    ],
+    "sourcePools": [
+      "GovInfo Public Papers",
+      "Public Papers companion harvests"
+    ]
+  },
+  {
+    "id": "gap-boundary-protocol",
+    "priority": "High",
+    "status": "Open",
+    "lane": "Boundary",
+    "title": "Formalize Southern Africa and Somalia handoff protocol",
+    "evidence": "34 Southern Africa boundary rows are retained, and Somalia policy files are retained as Volume XXI boundary anchors.",
+    "problem": "Boundary rows are visible but need documentary rules: exclude, excerpt, cross-reference, or share with adjacent volume work.",
+    "needed": "A rule set for Volume XIX Southern Africa, Volume XXI Somalia, Volume XXVIII terrorism/counternarcotics, Volume XIV Arab-Israeli, and Persian Gulf crisis overlaps.",
+    "nextActions": [
+      "Add boundary status to every overlap row: exclude, cite elsewhere, duplicate candidate, or retain in Volume XX.",
+      "Create adjacent-volume links for Somalia, Southern Africa, Arab-Israeli, Gulf crisis, and terrorism records.",
+      "Use boundary protocol before adding records to the main chronology."
+    ],
+    "targetTerms": [
+      "Somalia",
+      "South Africa",
+      "Angola",
+      "Mozambique",
+      "Volume XIX",
+      "Volume XXI",
+      "Volume XXVIII"
+    ],
+    "sourcePools": [
+      "Southern Africa companion work",
+      "Somalia Volume XXI",
+      "FRUS cross-volume comparator"
+    ]
+  }
+]

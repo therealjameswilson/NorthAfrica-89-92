@@ -11,6 +11,7 @@ combines:
 - high-value NSC, NSR, and NSD policy-file anchors
 - a Public Papers reference layer reused from companion-volume harvests
 - a boundary-control lane for Southern Africa and Somalia handoff records
+- an explicit compiler gap tracker and next-harvest source-pool queue
 
 ## Current Harvest
 
@@ -21,6 +22,8 @@ The committed data currently contains:
 - `9` NSC/NSR/NSD policy or boundary file anchors
 - `43` Public Papers references
 - `34` Southern Africa boundary rows
+- `11` compiler gap-tracker items
+- `13` next-harvest source pools
 
 The official History.state.gov page lists the volume status as **Being
 Researched**.
@@ -52,6 +55,18 @@ The script writes:
 - `data/public-references.json` and `data/public-references.js`
 - `data/volume-meta.json` and `data/volume-meta.js`
 - `reports/volume20-harvest.json`
+
+Build the compiler gap tracker and source-pool queue with:
+
+```bash
+node scripts/build-gap-tracker.js
+```
+
+This writes:
+
+- `data/gap-tracker.json` and `data/gap-tracker.js`
+- `data/source-pools.json` and `data/source-pools.js`
+- `reports/gap-tracker-build.json`
 
 The Public Papers layer is generated from local companion-volume harvests when
 they are present in the same workspace. The committed `data/public-references.*`

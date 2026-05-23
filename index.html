@@ -18,6 +18,8 @@
       </a>
       <nav aria-label="Primary navigation">
         <a href="#workbench">Desk</a>
+        <a href="#gap-tracker">Gaps</a>
+        <a href="#source-pools">Source Pools</a>
         <a href="#chapters">Lanes</a>
         <a href="#records">Chronology</a>
         <a href="#policy-files">Policy Files</a>
@@ -100,6 +102,64 @@
         </div>
         <div id="workbench-root" class="workbench-root" aria-live="polite">
           <p class="loading">Loading compiler desk...</p>
+        </div>
+      </section>
+
+      <section class="section gap-section" id="gap-tracker" aria-labelledby="gap-title">
+        <div class="section-heading">
+          <p class="kicker">Gap Tracker</p>
+          <h2 id="gap-title">What Still Has To Be Found</h2>
+        </div>
+        <div class="tools" aria-label="Search and filter gap tracker">
+          <label class="search-field">
+            <span>Search gaps</span>
+            <input id="gap-search" type="search" placeholder="Search problems, evidence, terms, source pools" />
+          </label>
+          <label>
+            <span>Lane</span>
+            <select id="gap-lane-filter"></select>
+          </label>
+          <label>
+            <span>Priority</span>
+            <select id="gap-priority-filter"></select>
+          </label>
+          <label>
+            <span>Status</span>
+            <select id="gap-status-filter"></select>
+          </label>
+          <button id="clear-gap-filters" type="button">Reset</button>
+          <button id="export-gaps" type="button">CSV</button>
+          <p id="gap-summary" class="summary">Loading gap tracker...</p>
+        </div>
+        <div id="gap-root" class="gap-grid" aria-live="polite">
+          <p class="loading">Loading gap tracker...</p>
+        </div>
+      </section>
+
+      <section class="section source-pool-section" id="source-pools" aria-labelledby="source-pools-title">
+        <div class="section-heading">
+          <p class="kicker">Source Pools</p>
+          <h2 id="source-pools-title">Next Harvest Queue</h2>
+        </div>
+        <div class="tools" aria-label="Search and filter source pools">
+          <label class="search-field">
+            <span>Search pools</span>
+            <input id="source-pool-search" type="search" placeholder="Search source pool, coverage, next use" />
+          </label>
+          <label>
+            <span>Lane</span>
+            <select id="source-pool-lane-filter"></select>
+          </label>
+          <label>
+            <span>Priority</span>
+            <select id="source-pool-priority-filter"></select>
+          </label>
+          <button id="clear-source-pool-filters" type="button">Reset</button>
+          <button id="export-source-pools" type="button">CSV</button>
+          <p id="source-pool-summary" class="summary">Loading source pools...</p>
+        </div>
+        <div id="source-pool-root" class="file-grid" aria-live="polite">
+          <p class="loading">Loading source pools...</p>
         </div>
       </section>
 
@@ -250,6 +310,7 @@
           <article>
             <h3>Local Refresh</h3>
             <pre><code>node scripts/harvest-volume20.js
+node scripts/build-gap-tracker.js
 python3 -m http.server 4194</code></pre>
           </article>
         </div>
@@ -265,6 +326,8 @@ python3 -m http.server 4194</code></pre>
     <script src="data/boundary-records.js"></script>
     <script src="data/policy-files.js"></script>
     <script src="data/public-references.js"></script>
+    <script src="data/gap-tracker.js"></script>
+    <script src="data/source-pools.js"></script>
     <script src="app.js"></script>
   </body>
 </html>

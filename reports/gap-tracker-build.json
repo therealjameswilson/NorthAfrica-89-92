@@ -1,0 +1,15 @@
+{
+  "generatedAt": "2026-05-23T13:30:40.896Z",
+  "gapCount": 11,
+  "sourcePoolCount": 13,
+  "counts": {
+    "records": 100,
+    "boundaryRecords": 34,
+    "policyFiles": 9,
+    "publicReferences": 43,
+    "egyptCount": 57,
+    "partialCount": 21,
+    "markerCount": 9,
+    "conversationRows1992": 5
+  }
+}
