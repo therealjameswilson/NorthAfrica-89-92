@@ -427,7 +427,7 @@ function buildSourceCopyLedger(mainRecords, boundary) {
       const issueType = /marker|no memorandum/i.test(record.releaseStatus || "")
         ? "Marker / no memorandum"
         : "Partial or restricted release";
-      return {
+      const ledgerItem = {
         id: `ledger-${record.naid || record.id}`,
         compilerNumber: record.compilerNumber || "",
         issueType,
@@ -444,12 +444,16 @@ function buildSourceCopyLedger(mainRecords, boundary) {
         naid: record.naid,
         catalogUrl: record.catalogUrl,
         pdfUrl: record.pdfUrl,
+        frusSourceNote: record.frusSourceNote || "",
         sourceNote: record.sourceNote,
         action:
           issueType === "Marker / no memorandum"
             ? "Search Scowcroft Papers, Presidential Daily File, State files, and adjacent volume files for a duplicate source copy or confirm no memorandum exists."
             : "Review redactions, withdrawal sheets, and duplicate source copies before MDR/referral decisions."
       };
+      if (record.classificationMarking) ledgerItem.classificationMarking = record.classificationMarking;
+      if (record.handlingMarkings?.length) ledgerItem.handlingMarkings = record.handlingMarkings;
+      return ledgerItem;
     })
     .sort(
       (a, b) =>

@@ -1,0 +1,33 @@
+{
+  "generatedAt": "2026-05-25T11:09:47.734Z",
+  "scannedPdfs": true,
+  "pdftotextAvailable": true,
+  "datasets": {
+    "records": {
+      "count": 100,
+      "frusSourceNoteCount": 100,
+      "classificationMarkingCount": 29
+    },
+    "boundary-records": {
+      "count": 34,
+      "frusSourceNoteCount": 34,
+      "classificationMarkingCount": 16
+    },
+    "policy-files": {
+      "count": 9,
+      "frusSourceNoteCount": 9,
+      "classificationMarkingCount": 0
+    },
+    "public-references": {
+      "count": 43,
+      "frusSourceNoteCount": 43,
+      "classificationMarkingCount": 0
+    },
+    "source-copy-ledger": {
+      "count": 37,
+      "frusSourceNoteCount": 37,
+      "classificationMarkingCount": 16
+    }
+  },
+  "scanFailures": []
+}

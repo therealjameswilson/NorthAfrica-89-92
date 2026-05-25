@@ -149,6 +149,7 @@ function searchText(item) {
     item.naid,
     item.type,
     item.releaseStatus,
+    item.frusSourceNote,
     item.sourceNote,
     item.notes,
     item.lane,
@@ -397,9 +398,11 @@ function ledgerCard(item) {
   actions.className = "record-actions";
   if (item.catalogUrl) actions.append(linkButton("Catalog", item.catalogUrl));
   if (item.pdfUrl) actions.append(linkButton("PDF", item.pdfUrl));
-  if (item.sourceNote) actions.append(copyButton(item.sourceNote));
+  if (preferredSourceNote(item)) actions.append(copyButton(preferredSourceNote(item)));
 
   card.append(header, participants, action, actions);
+  const details = sourceNoteDetails(item);
+  if (details) card.append(details);
   return card;
 }
 
@@ -516,17 +519,12 @@ function recordCard(record) {
   actions.className = "record-actions";
   actions.append(linkButton("Catalog", record.catalogUrl));
   if (record.pdfUrl) actions.append(linkButton("PDF", record.pdfUrl));
-  actions.append(copyButton(record.sourceNote));
+  if (preferredSourceNote(record)) actions.append(copyButton(preferredSourceNote(record)));
 
-  const details = document.createElement("details");
-  const summary = document.createElement("summary");
-  summary.textContent = "Source note";
-  const note = document.createElement("p");
-  note.className = "source-note";
-  note.textContent = record.sourceNote;
-  details.append(summary, note);
+  const details = sourceNoteDetails(record);
 
-  card.append(header, participants, actions, details);
+  card.append(header, participants, actions);
+  if (details) card.append(details);
   if (record.notes) {
     const warning = document.createElement("p");
     warning.className = "source-note";
@@ -576,8 +574,10 @@ function policyCard(file) {
   actions.className = "file-actions";
   actions.append(linkButton("Catalog", file.catalogUrl));
   if (file.pdfUrl) actions.append(linkButton("PDF", file.pdfUrl));
-  actions.append(copyButton(file.sourceNote));
+  if (preferredSourceNote(file)) actions.append(copyButton(preferredSourceNote(file)));
   card.append(header, chips, reason, actions);
+  const details = sourceNoteDetails(file);
+  if (details) card.append(details);
   return card;
 }
 
@@ -613,11 +613,13 @@ function publicCard(item) {
   chips.className = "chips";
   for (const term of item.matchedTerms.slice(0, 5)) chips.append(chip(term));
   const citation = document.createElement("p");
-  citation.textContent = item.sourceNote || item.citation || "Public Papers reference.";
+  citation.className = "source-note";
+  citation.textContent = preferredSourceNote(item) || "Public Papers reference.";
   const actions = document.createElement("div");
   actions.className = "file-actions";
   if (item.govinfoUrl) actions.append(linkButton("GovInfo", item.govinfoUrl));
   if (item.pdfUrl) actions.append(linkButton("PDF", item.pdfUrl));
+  if (preferredSourceNote(item)) actions.append(copyButton(preferredSourceNote(item)));
   card.append(header, chips, citation, actions);
   return card;
 }
@@ -681,6 +683,34 @@ function copyButton(value) {
     }, 1200);
   });
   return button;
+}
+
+function preferredSourceNote(item) {
+  return item.frusSourceNote || item.sourceNote || item.citation || "";
+}
+
+function sourceNoteDetails(item) {
+  const frusNote = item.frusSourceNote || "";
+  const fallbackNote = item.sourceNote || item.citation || "";
+  const note = frusNote || fallbackNote;
+  if (!note) return null;
+
+  const details = document.createElement("details");
+  const summary = document.createElement("summary");
+  summary.textContent = frusNote ? "FRUS source note" : "Source note";
+  const sourceNote = document.createElement("p");
+  sourceNote.className = "source-note";
+  sourceNote.textContent = note;
+  details.append(summary, sourceNote);
+
+  if (frusNote && fallbackNote && fallbackNote !== frusNote) {
+    const catalogNote = document.createElement("p");
+    catalogNote.className = "source-note";
+    catalogNote.textContent = `Catalog provenance: ${fallbackNote}`;
+    details.append(catalogNote);
+  }
+
+  return details;
 }
 
 function groupBy(items, getter) {
@@ -847,7 +877,8 @@ function setupEvents() {
         { label: "NAID", value: (record) => record.naid },
         { label: "Catalog URL", value: (record) => record.catalogUrl },
         { label: "PDF URL", value: (record) => record.pdfUrl },
-        { label: "Source Note", value: (record) => record.sourceNote }
+        { label: "FRUS Source Note", value: (record) => record.frusSourceNote },
+        { label: "Catalog Source Note", value: (record) => record.sourceNote }
       ])
     );
   });
@@ -882,7 +913,8 @@ function setupEvents() {
         { label: "NAID", value: (file) => file.naid },
         { label: "Catalog URL", value: (file) => file.catalogUrl },
         { label: "PDF URL", value: (file) => file.pdfUrl },
-        { label: "Source Note", value: (file) => file.sourceNote }
+        { label: "FRUS Source Note", value: (file) => file.frusSourceNote },
+        { label: "Catalog Source Note", value: (file) => file.sourceNote }
       ])
     );
   });
@@ -911,6 +943,7 @@ function setupEvents() {
         { label: "Title", value: (item) => item.title },
         { label: "Matched Terms", value: (item) => item.matchedTerms.join("; ") },
         { label: "URL", value: (item) => item.govinfoUrl || item.pdfUrl },
+        { label: "FRUS Source Note", value: (item) => item.frusSourceNote },
         { label: "Source Note", value: (item) => item.sourceNote }
       ])
     );

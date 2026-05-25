@@ -28,6 +28,7 @@ window.POLICY_FILES = [
       "status": "Being Researched",
       "statusUrl": "https://history.state.gov/historicaldocuments/status-of-the-series"
     },
+    "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), H-Files - National Security Council (NSC) Meeting Files, NSC0034 - December 18, 1989 - Libya. Classification marking not identified in the available catalog/OCR metadata. File unit. Catalog metadata records access status as Restricted - Possibly. Catalog reference: NAID 470760928.",
     "sourceNote": "National Archives Catalog file: NSC0034 - December 18, 1989 - Libya, NAID 470760928. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: H-Files - National Security Council (NSC) Meeting Files, NAID 312293887. Access status: Restricted - Possibly. Digital object: 41-bpr-nsc-hfiles-nsc_mtgs-34-90001-025.pdf, URL https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-34-90001-025.pdf. Catalog: https://catalog.archives.gov/id/470760928."
   },
   {
@@ -59,6 +60,7 @@ window.POLICY_FILES = [
       "status": "Being Researched",
       "statusUrl": "https://history.state.gov/historicaldocuments/status-of-the-series"
     },
+    "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), H-Files - National Security Review (NSR) Files, NSR-23 - February 21, 1990 - U.S. Policy Towards the Maghreb-Morocco / Algeria and Tunisia. Classification marking not identified in the available catalog/OCR metadata. File unit. Catalog metadata records access status as Restricted - Possibly. Catalog reference: NAID 446394969.",
     "sourceNote": "National Archives Catalog file: NSR-23 - February 21, 1990 - U.S. Policy Towards the Maghreb-Morocco / Algeria and Tunisia, NAID 446394969. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: H-Files - National Security Review (NSR) Files, NAID 313189297. Access status: Restricted - Possibly. Digital object: 41-bpr-nsc-hfiles-nsr-23-90007-017.pdf, URL https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-23-90007-017.pdf. Catalog: https://catalog.archives.gov/id/446394969."
   },
   {
@@ -90,6 +92,7 @@ window.POLICY_FILES = [
       "status": "Being Researched",
       "statusUrl": "https://history.state.gov/historicaldocuments/status-of-the-series"
     },
+    "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), H-Files - National Security Review (NSR) Files, NSR-30 - June 15, 1992 - American Policy Toward Africa in the 1990s. Classification marking not identified in the available catalog/OCR metadata. File unit. Catalog metadata records access status as Restricted - Possibly. Catalog reference: NAID 446394987.",
     "sourceNote": "National Archives Catalog file: NSR-30 - June 15, 1992 - American Policy Toward Africa in the 1990s, NAID 446394987. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: H-Files - National Security Review (NSR) Files, NAID 313189297. Access status: Restricted - Possibly. Digital object: 41-bpr-nsc-hfiles-nsr-30-90008-010.pdf, URL https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-30-90008-010.pdf. Catalog: https://catalog.archives.gov/id/446394987."
   },
   {
@@ -121,6 +124,7 @@ window.POLICY_FILES = [
       "status": "Being Researched",
       "statusUrl": "https://history.state.gov/historicaldocuments/status-of-the-series"
     },
+    "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Follow-up Files, DC - Somalia August 14, 1992 14:00 - 15:00 Situation Room. Classification marking not identified in the available catalog/OCR metadata. File unit. Catalog metadata records access status as Restricted - Possibly. Catalog reference: NAID 470761536.",
     "sourceNote": "National Archives Catalog file: DC - Somalia August 14, 1992 14:00 - 15:00 Situation Room, NAID 470761536. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Follow-up Files, NAID 312294094. Access status: Restricted - Possibly. Digital object: 41-bpr-nsc-hfiles-dc_mtgs_foll_up-90044-024.pdf, URL https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/H-Files/NSC-DC_Mtgs_Foll-up_312294094/41-bpr-nsc-hfiles-dc_mtgs_foll_up-90044-024.pdf. Catalog: https://catalog.archives.gov/id/470761536."
   },
   {
@@ -152,6 +156,7 @@ window.POLICY_FILES = [
       "status": "Being Researched",
       "statusUrl": "https://history.state.gov/historicaldocuments/status-of-the-series"
     },
+    "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Files, NSC/DC 385 - October 21, 1992 - NSC/DC Meeting on Somalia, Keywords: Somalia. Classification marking not identified in the available catalog/OCR metadata. File unit. Catalog metadata records access status as Restricted - Possibly. Catalog reference: NAID 470761420.",
     "sourceNote": "National Archives Catalog file: NSC/DC 385 - October 21, 1992 - NSC/DC Meeting on Somalia, Keywords: Somalia, NAID 470761420. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Files, NAID 312294079. Access status: Restricted - Possibly. Digital object: 41-bpr-nsc-hfiles-dc_mtgs-385-90023-029.pdf, URL https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/H-Files/NSC-DC_Mtgs_312294079/41-bpr-nsc-hfiles-dc_mtgs-385-90023-029.pdf. Catalog: https://catalog.archives.gov/id/470761420."
   },
   {
@@ -183,6 +188,7 @@ window.POLICY_FILES = [
       "status": "Being Researched",
       "statusUrl": "https://history.state.gov/historicaldocuments/status-of-the-series"
     },
+    "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Follow-up Files, DC Meeting - Somalia 12/11/92 11:00 am. Classification marking not identified in the available catalog/OCR metadata. File unit. Catalog metadata records access status as Restricted - Possibly. Catalog reference: NAID 470761557.",
     "sourceNote": "National Archives Catalog file: DC Meeting - Somalia 12/11/92 11:00 am, NAID 470761557. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Follow-up Files, NAID 312294094. Access status: Restricted - Possibly. Digital object: 41-bpr-nsc-hfiles-dc_mtgs_foll_up-90045-004.pdf, URL https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/H-Files/NSC-DC_Mtgs_Foll-up_312294094/41-bpr-nsc-hfiles-dc_mtgs_foll_up-90045-004.pdf. Catalog: https://catalog.archives.gov/id/470761557."
   },
   {
@@ -214,6 +220,7 @@ window.POLICY_FILES = [
       "status": "Being Researched",
       "statusUrl": "https://history.state.gov/historicaldocuments/status-of-the-series"
     },
+    "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Follow-up Files, DC Meeting - Somalia 12/23/92 2:00. Classification marking not identified in the available catalog/OCR metadata. File unit. Catalog metadata records access status as Restricted - Possibly. Catalog reference: NAID 470761563.",
     "sourceNote": "National Archives Catalog file: DC Meeting - Somalia 12/23/92 2:00, NAID 470761563. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Follow-up Files, NAID 312294094. Access status: Restricted - Possibly. Digital object: 41-bpr-nsc-hfiles-dc_mtgs_foll_up-90045-010.pdf, URL https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/H-Files/NSC-DC_Mtgs_Foll-up_312294094/41-bpr-nsc-hfiles-dc_mtgs_foll_up-90045-010.pdf. Catalog: https://catalog.archives.gov/id/470761563."
   },
   {
@@ -245,6 +252,7 @@ window.POLICY_FILES = [
       "status": "Being Researched",
       "statusUrl": "https://history.state.gov/historicaldocuments/status-of-the-series"
     },
+    "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), National Security Directives (NSD) Files, NSD-75 - December 23, 1992 - American Policy toward Sub-Saharan Africa in the 1990s. Classification marking not identified in the available catalog/OCR metadata. File unit. Catalog metadata records access status as Restricted - Possibly. Catalog reference: NAID 446396910.",
     "sourceNote": "National Archives Catalog file: NSD-75 - December 23, 1992 - American Policy toward Sub-Saharan Africa in the 1990s, NAID 446396910. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: National Security Directives (NSD) Files, NAID 313189290. Access status: Restricted - Possibly. Digital object: 41-bpr-nsc-hfiles-nsd-75-90005-026.pdf, URL https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/H-Files/NSDs_313189290/41-bpr-nsc-hfiles-nsd-75-90005-026.pdf. Catalog: https://catalog.archives.gov/id/446396910."
   },
   {
@@ -276,6 +284,7 @@ window.POLICY_FILES = [
       "status": "Being Researched",
       "statusUrl": "https://history.state.gov/historicaldocuments/status-of-the-series"
     },
+    "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Follow-up Files, DC Meeting - Somalia 12/30/92 2:00. Classification marking not identified in the available catalog/OCR metadata. File unit. Catalog metadata records access status as Restricted - Possibly. Catalog reference: NAID 470761565.",
     "sourceNote": "National Archives Catalog file: DC Meeting - Somalia 12/30/92 2:00, NAID 470761565. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Follow-up Files, NAID 312294094. Access status: Restricted - Possibly. Digital object: 41-bpr-nsc-hfiles-dc_mtgs_foll_up-90045-012.pdf, URL https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/H-Files/NSC-DC_Mtgs_Foll-up_312294094/41-bpr-nsc-hfiles-dc_mtgs_foll_up-90045-012.pdf. Catalog: https://catalog.archives.gov/id/470761565."
   }
 ];

@@ -58,6 +58,27 @@ The script writes:
 - `data/volume-meta.json` and `data/volume-meta.js`
 - `reports/volume20-harvest.json`
 
+Build FRUS-style source notes for proposed records with:
+
+```bash
+SOURCE_NOTE_SCAN_PDFS=1 node scripts/build-frus-source-notes.js
+```
+
+The `SOURCE_NOTE_SCAN_PDFS=1` option uses `pdftotext` against the public PDFs
+to recover visible classification and handling markings when OCR permits it. Run
+without that environment variable to rebuild source notes from existing metadata
+only. The script preserves the raw NARA/Bush Library catalog provenance in
+`sourceNote` and writes compiler-ready source notes to `frusSourceNote`.
+
+This writes updated:
+
+- `data/records.json` and `data/records.js`
+- `data/boundary-records.json` and `data/boundary-records.js`
+- `data/policy-files.json` and `data/policy-files.js`
+- `data/public-references.json` and `data/public-references.js`
+- `data/source-copy-ledger.json` and `data/source-copy-ledger.js` when present
+- `reports/frus-source-notes-build.json`
+
 Build the compiler gap tracker and source-pool queue with:
 
 ```bash
