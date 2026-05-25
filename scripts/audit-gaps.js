@@ -6,6 +6,7 @@ const path = require("path");
 const repoRoot = path.resolve(__dirname, "..");
 const dataDir = path.join(repoRoot, "data");
 const reportDir = path.join(repoRoot, "reports");
+const reportPath = path.join(reportDir, "gap-audit.json");
 
 const records = readJson("records.json");
 const boundaryRecords = readJson("boundary-records.json");
@@ -46,8 +47,7 @@ const gapText = JSON.stringify(gapTracker);
 const gapPersonTerms = GAP_PERSON_TERMS.filter((term) => gapText.includes(term));
 const unresolvedTerms = ["Abdelhamid"].filter((term) => gapText.includes(term));
 
-const report = {
-  generatedAt: new Date().toISOString(),
+const reportBody = {
   personsCount: persons.length,
   sourceCopyLedgerCount: sourceCopyLedger.length,
   sourceCopyLedgerByIssue: countBy(sourceCopyLedger.map((item) => item.issueType)),
@@ -65,9 +65,14 @@ const report = {
       aliases: person.aliases || []
     }))
 };
+const previousReport = readOptionalJson(reportPath);
+const report = {
+  generatedAt: sameReportBody(previousReport, reportBody) ? previousReport.generatedAt : new Date().toISOString(),
+  ...reportBody
+};
 
 fs.mkdirSync(reportDir, { recursive: true });
-fs.writeFileSync(path.join(reportDir, "gap-audit.json"), `${JSON.stringify(report, null, 2)}\n`);
+fs.writeFileSync(reportPath, `${JSON.stringify(report, null, 2)}\n`);
 
 const failures = [
   ...report.missingChronologyParticipants.map((name) => `missing chronology participant: ${name}`),
@@ -87,6 +92,17 @@ console.log(
 
 function readJson(fileName) {
   return JSON.parse(fs.readFileSync(path.join(dataDir, fileName), "utf8"));
+}
+
+function readOptionalJson(filePath) {
+  if (!fs.existsSync(filePath)) return null;
+  return JSON.parse(fs.readFileSync(filePath, "utf8"));
+}
+
+function sameReportBody(previousReport, nextBody) {
+  if (!previousReport) return false;
+  const { generatedAt, ...previousBody } = previousReport;
+  return JSON.stringify(previousBody) === JSON.stringify(nextBody);
 }
 
 function normalize(value) {
