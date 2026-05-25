@@ -1,7 +1,8 @@
 {
-  "generatedAt": "2026-05-23T16:09:46.741Z",
-  "namesDocxSource": "1-Bush-Comprehensive-Names-List.docx",
-  "authorityEntryCount": 4597,
+  "generatedAt": "2026-05-25T10:55:34.356Z",
+  "namesDocxSource": "data/persons.json selected authority entries",
+  "authorityMode": "cached-selected-authority",
+  "authorityEntryCount": 33,
   "selectedPersonCount": 51,
   "matchedAuthorityCount": 33,
   "generatedFallbackCount": 18,
@@ -11,128 +12,147 @@
       "entry": "Abu Talib, Youssef, Minister of Defense of Egypt",
       "scopes": [
         "Volume XX chronology"
-      ]
+      ],
+      "reviewReason": "No selected authority entry found; generated from Volume XX chronology, boundary, or gap-tracker data."
     },
     {
       "name": "Ibrahim Babangida",
       "entry": "Babangida, Ibrahim, President of Nigeria",
       "scopes": [
         "Volume XX chronology"
-      ]
+      ],
+      "reviewReason": "No selected authority entry found; generated from Volume XX chronology, boundary, or gap-tracker data."
     },
     {
       "name": "Omar al-Bashir",
       "entry": "Bashir, Omar al-, President of Sudan from June 30, 1989",
       "scopes": [
         "Compiler source target"
-      ]
+      ],
+      "reviewReason": "No selected authority entry found; generated from Volume XX chronology, boundary, or gap-tracker data."
     },
     {
       "name": "Gatsha Mangosuthu Buthelezi",
       "entry": "Buthelezi, Gatsha Mangosuthu, Chief Minister of KwaZulu and leader of the Inkatha Freedom Party",
       "scopes": [
         "Boundary handoff"
-      ]
+      ],
+      "reviewReason": "No selected authority entry found; generated from Volume XX chronology, boundary, or gap-tracker data."
     },
     {
       "name": "Pierre Buyoya",
       "entry": "Buyoya, Pierre, President of Burundi until July 10, 1993",
       "scopes": [
         "Volume XX chronology"
-      ]
+      ],
+      "reviewReason": "No selected authority entry found; generated from Volume XX chronology, boundary, or gap-tracker data."
     },
     {
       "name": "Abdellatif Filali",
       "entry": "Filali, Abdellatif, Foreign Minister of Morocco",
       "scopes": [
         "Volume XX chronology"
-      ]
+      ],
+      "reviewReason": "No selected authority entry found; generated from Volume XX chronology, boundary, or gap-tracker data."
     },
     {
       "name": "Hassan Gouled Aptidon",
       "entry": "Gouled Aptidon, Hassan, President of Djibouti",
       "scopes": [
         "Volume XX chronology"
-      ]
+      ],
+      "reviewReason": "No selected authority entry found; generated from Volume XX chronology, boundary, or gap-tracker data."
     },
     {
       "name": "Juvenal Habyarimana",
       "entry": "Habyarimana, Juvenal, President of Rwanda",
       "scopes": [
         "Compiler source target"
-      ]
+      ],
+      "reviewReason": "No selected authority entry found; generated from Volume XX chronology, boundary, or gap-tracker data."
     },
     {
       "name": "Ismail Khelil",
       "entry": "Khelil, Ismail, Ambassador of Tunisia to the United States",
       "scopes": [
         "Volume XX chronology"
-      ]
+      ],
+      "reviewReason": "No selected authority entry found; generated from Volume XX chronology, boundary, or gap-tracker data."
     },
     {
       "name": "Nelson Mandela",
       "entry": "Mandela, Nelson, Deputy President of the African National Congress",
       "scopes": [
         "Boundary handoff"
-      ]
+      ],
+      "reviewReason": "No selected authority entry found; generated from Volume XX chronology, boundary, or gap-tracker data."
     },
     {
       "name": "Quett K J. Masire",
       "entry": "Masire, Quett K.J., President of Botswana",
       "scopes": [
         "Boundary handoff"
-      ]
+      ],
+      "reviewReason": "No selected authority entry found; generated from Volume XX chronology, boundary, or gap-tracker data."
     },
     {
       "name": "Ahmed Esmat Abdel Meguid",
       "entry": "Meguid, Ahmed Esmat Abdel, Foreign Minister of Egypt until May 1991",
       "scopes": [
         "Volume XX chronology"
-      ]
+      ],
+      "reviewReason": "No selected authority entry found; generated from Volume XX chronology, boundary, or gap-tracker data."
     },
     {
       "name": "Amr Mousa",
       "entry": "Mousa, Amr, Foreign Minister of Egypt from May 1991",
       "scopes": [
         "Volume XX chronology"
-      ]
+      ],
+      "reviewReason": "No selected authority entry found; generated from Volume XX chronology, boundary, or gap-tracker data."
     },
     {
       "name": "Yoweri Museveni",
       "entry": "Museveni, Yoweri, President of Uganda",
       "scopes": [
         "Volume XX chronology"
-      ]
+      ],
+      "reviewReason": "Authority spelling or form was normalized for Volume XX search and display."
     },
     {
       "name": "Aristides Pereira",
       "entry": "Pereira, Aristides, President of Cape Verde until March 22, 1991",
       "scopes": [
         "Volume XX chronology"
-      ]
+      ],
+      "reviewReason": "No selected authority entry found; generated from Volume XX chronology, boundary, or gap-tracker data."
     },
     {
       "name": "Muammar Qadhafi",
       "entry": "Qadhafi, Muammar, leader of Libya",
       "scopes": [
         "Compiler source target"
-      ]
+      ],
+      "reviewReason": "No selected authority entry found; generated from Volume XX chronology, boundary, or gap-tracker data."
     },
     {
       "name": "Charles Taylor",
       "entry": "Taylor, Charles, leader of the National Patriotic Front of Liberia",
       "scopes": [
         "Compiler source target"
-      ]
+      ],
+      "reviewReason": "No selected authority entry found; generated from Volume XX chronology, boundary, or gap-tracker data."
     },
     {
       "name": "Carlos Veiga",
       "entry": "Veiga, Carlos, Prime Minister of Cape Verde from April 4, 1991",
       "scopes": [
         "Volume XX chronology"
-      ]
+      ],
+      "reviewReason": "No selected authority entry found; generated from Volume XX chronology, boundary, or gap-tracker data."
     }
   ],
+  "aliasCount": 27,
   "scopes": {
     "Volume XX chronology": 23,
     "U.S. principal": 12,

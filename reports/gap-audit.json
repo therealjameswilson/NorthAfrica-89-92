@@ -1,0 +1,197 @@
+{
+  "generatedAt": "2026-05-25T10:55:44.591Z",
+  "personsCount": 51,
+  "sourceCopyLedgerCount": 37,
+  "sourceCopyLedgerByIssue": {
+    "Partial or restricted release": 27,
+    "Marker / no memorandum": 10
+  },
+  "missingChronologyParticipants": [],
+  "missingBoundaryParticipants": [],
+  "missingGapPersonTerms": [],
+  "unresolvedPersonTargets": [],
+  "personsNeedingAuthorityReview": [
+    {
+      "name": "Youssef Abu Talib",
+      "entry": "Abu Talib, Youssef, Minister of Defense of Egypt",
+      "reviewReason": "No selected authority entry found; generated from Volume XX chronology, boundary, or gap-tracker data.",
+      "scopes": [
+        "Volume XX chronology"
+      ],
+      "aliases": []
+    },
+    {
+      "name": "Ibrahim Babangida",
+      "entry": "Babangida, Ibrahim, President of Nigeria",
+      "reviewReason": "No selected authority entry found; generated from Volume XX chronology, boundary, or gap-tracker data.",
+      "scopes": [
+        "Volume XX chronology"
+      ],
+      "aliases": []
+    },
+    {
+      "name": "Omar al-Bashir",
+      "entry": "Bashir, Omar al-, President of Sudan from June 30, 1989",
+      "reviewReason": "No selected authority entry found; generated from Volume XX chronology, boundary, or gap-tracker data.",
+      "scopes": [
+        "Compiler source target"
+      ],
+      "aliases": []
+    },
+    {
+      "name": "Gatsha Mangosuthu Buthelezi",
+      "entry": "Buthelezi, Gatsha Mangosuthu, Chief Minister of KwaZulu and leader of the Inkatha Freedom Party",
+      "reviewReason": "No selected authority entry found; generated from Volume XX chronology, boundary, or gap-tracker data.",
+      "scopes": [
+        "Boundary handoff"
+      ],
+      "aliases": []
+    },
+    {
+      "name": "Pierre Buyoya",
+      "entry": "Buyoya, Pierre, President of Burundi until July 10, 1993",
+      "reviewReason": "No selected authority entry found; generated from Volume XX chronology, boundary, or gap-tracker data.",
+      "scopes": [
+        "Volume XX chronology"
+      ],
+      "aliases": []
+    },
+    {
+      "name": "Abdellatif Filali",
+      "entry": "Filali, Abdellatif, Foreign Minister of Morocco",
+      "reviewReason": "No selected authority entry found; generated from Volume XX chronology, boundary, or gap-tracker data.",
+      "scopes": [
+        "Volume XX chronology"
+      ],
+      "aliases": []
+    },
+    {
+      "name": "Hassan Gouled Aptidon",
+      "entry": "Gouled Aptidon, Hassan, President of Djibouti",
+      "reviewReason": "No selected authority entry found; generated from Volume XX chronology, boundary, or gap-tracker data.",
+      "scopes": [
+        "Volume XX chronology"
+      ],
+      "aliases": []
+    },
+    {
+      "name": "Juvenal Habyarimana",
+      "entry": "Habyarimana, Juvenal, President of Rwanda",
+      "reviewReason": "No selected authority entry found; generated from Volume XX chronology, boundary, or gap-tracker data.",
+      "scopes": [
+        "Compiler source target"
+      ],
+      "aliases": []
+    },
+    {
+      "name": "Ismail Khelil",
+      "entry": "Khelil, Ismail, Ambassador of Tunisia to the United States",
+      "reviewReason": "No selected authority entry found; generated from Volume XX chronology, boundary, or gap-tracker data.",
+      "scopes": [
+        "Volume XX chronology"
+      ],
+      "aliases": []
+    },
+    {
+      "name": "Nelson Mandela",
+      "entry": "Mandela, Nelson, Deputy President of the African National Congress",
+      "reviewReason": "No selected authority entry found; generated from Volume XX chronology, boundary, or gap-tracker data.",
+      "scopes": [
+        "Boundary handoff"
+      ],
+      "aliases": []
+    },
+    {
+      "name": "Quett K J. Masire",
+      "entry": "Masire, Quett K.J., President of Botswana",
+      "reviewReason": "No selected authority entry found; generated from Volume XX chronology, boundary, or gap-tracker data.",
+      "scopes": [
+        "Boundary handoff"
+      ],
+      "aliases": [
+        "Quett K.J. Masire",
+        "Quette Masire"
+      ]
+    },
+    {
+      "name": "Ahmed Esmat Abdel Meguid",
+      "entry": "Meguid, Ahmed Esmat Abdel, Foreign Minister of Egypt until May 1991",
+      "reviewReason": "No selected authority entry found; generated from Volume XX chronology, boundary, or gap-tracker data.",
+      "scopes": [
+        "Volume XX chronology"
+      ],
+      "aliases": [
+        "Abd el-Meguid",
+        "Abdel Meguid",
+        "Esmat Abd el-Meguid"
+      ]
+    },
+    {
+      "name": "Amr Mousa",
+      "entry": "Mousa, Amr, Foreign Minister of Egypt from May 1991",
+      "reviewReason": "No selected authority entry found; generated from Volume XX chronology, boundary, or gap-tracker data.",
+      "scopes": [
+        "Volume XX chronology"
+      ],
+      "aliases": []
+    },
+    {
+      "name": "Yoweri Museveni",
+      "entry": "Museveni, Yoweri, President of Uganda",
+      "reviewReason": "Authority spelling or form was normalized for Volume XX search and display.",
+      "scopes": [
+        "Volume XX chronology"
+      ],
+      "aliases": [
+        "Musaveni",
+        "Musaveni, Yoweri",
+        "Museveni"
+      ]
+    },
+    {
+      "name": "Aristides Pereira",
+      "entry": "Pereira, Aristides, President of Cape Verde until March 22, 1991",
+      "reviewReason": "No selected authority entry found; generated from Volume XX chronology, boundary, or gap-tracker data.",
+      "scopes": [
+        "Volume XX chronology"
+      ],
+      "aliases": []
+    },
+    {
+      "name": "Muammar Qadhafi",
+      "entry": "Qadhafi, Muammar, leader of Libya",
+      "reviewReason": "No selected authority entry found; generated from Volume XX chronology, boundary, or gap-tracker data.",
+      "scopes": [
+        "Compiler source target"
+      ],
+      "aliases": [
+        "Gaddafi",
+        "Gadhafi",
+        "Muammar Gaddafi",
+        "Muammar Gadhafi",
+        "Muammar Qaddafi",
+        "Qaddafi"
+      ]
+    },
+    {
+      "name": "Charles Taylor",
+      "entry": "Taylor, Charles, leader of the National Patriotic Front of Liberia",
+      "reviewReason": "No selected authority entry found; generated from Volume XX chronology, boundary, or gap-tracker data.",
+      "scopes": [
+        "Compiler source target"
+      ],
+      "aliases": []
+    },
+    {
+      "name": "Carlos Veiga",
+      "entry": "Veiga, Carlos, Prime Minister of Cape Verde from April 4, 1991",
+      "reviewReason": "No selected authority entry found; generated from Volume XX chronology, boundary, or gap-tracker data.",
+      "scopes": [
+        "Volume XX chronology"
+      ],
+      "aliases": [
+        "Viega, Carlos"
+      ]
+    }
+  ]
+}

@@ -38,6 +38,9 @@ function publicLaneCount(lane) {
 
 const partialCount = countWhere(records, (record) => /partial|restricted/i.test(record.releaseStatus || ""));
 const markerCount = countWhere(records, (record) => /marker|no memorandum/i.test(record.releaseStatus || ""));
+const sourceCopyLedger = buildSourceCopyLedger(records, boundaryRecords);
+const ledgerMarkerCount = countWhere(sourceCopyLedger, (item) => item.issueType === "Marker / no memorandum");
+const ledgerPartialCount = countWhere(sourceCopyLedger, (item) => item.issueType === "Partial or restricted release");
 const egyptCount = countCountry("Egypt");
 const libyaPolicyCount = countWhere(policyFiles, (file) => /Libya/i.test(file.title));
 const africaPolicyCount = countWhere(policyFiles, (file) => /Africa|Sub-Saharan/i.test(file.title));
@@ -75,11 +78,11 @@ const gapTracker = [
     needed:
       "NSC, State, counterterrorism, UN, Treasury/sanctions, intelligence-policy, legal, and allied-consultation records around Libya and Pan Am 103.",
     nextActions: [
-      "Harvest NSC and NSC/DC files for Libya, Qadhafi/Gadhafi, Pan Am 103, Lockerbie, sanctions, UN Security Council, and extradition.",
+      "Harvest NSC and NSC/DC files for Libya, Qadhafi/Gadhafi/Qaddafi/Gaddafi, Pan Am 103, Lockerbie, sanctions, UN Security Council, and extradition.",
       "Add State Department Legal Adviser, NEA, IO, S/CT, and sanctions-policy search terms.",
       "Create a Libya chronology that separates terrorism/sanctions from broader North Africa diplomacy."
     ],
-    targetTerms: ["Libya", "Qadhafi", "Gadhafi", "Pan Am 103", "Lockerbie", "sanctions", "UNSC", "extradition"],
+    targetTerms: ["Libya", "Qadhafi", "Gadhafi", "Qaddafi", "Gaddafi", "Pan Am 103", "Lockerbie", "sanctions", "UNSC", "extradition"],
     sourcePools: ["NSC Meeting Files", "NSC/DC Meetings", "WHORM", "State Department central files", "Counterterrorism companion volume"]
   },
   {
@@ -94,11 +97,11 @@ const gapTracker = [
     needed:
       "Policy files, embassy reporting, briefing material, and NSC/State records for Morocco, Algeria, Tunisia, Western Sahara, and Maghreb regional policy.",
     nextActions: [
-      "Search source pools for Western Sahara, Polisario, Maghreb, Hassan, Bendjedid, Ben Ali, Filali, and Abdelhamid.",
+      "Search source pools for Western Sahara, Polisario, Maghreb, Hassan II, Bendjedid, Ben Ali, Filali, and Algeria/Tunisia foreign ministry leads.",
       "Separate ceremonial contacts from policy-bearing records.",
       "Add withdrawal-sheet leads for partially released Morocco and Tunisia memcons."
     ],
-    targetTerms: ["Maghreb", "Western Sahara", "Polisario", "Morocco", "Algeria", "Tunisia", "Hassan", "Ben Ali"],
+    targetTerms: ["Maghreb", "Western Sahara", "Polisario", "Morocco", "Algeria", "Tunisia", "Hassan II", "Ben Ali"],
     sourcePools: ["NSR Files", "Scowcroft Papers", "State Department central files", "Presidential Daily File"]
   },
   {
@@ -183,7 +186,7 @@ const gapTracker = [
     status: "Open",
     lane: "All lanes",
     title: "Create MDR and declassification worklist",
-    evidence: `${partialCount} partial releases and ${markerCount} no-document markers are present in the current intake.`,
+    evidence: `${ledgerPartialCount} partial/restricted releases and ${ledgerMarkerCount} no-document markers are now listed in the source-copy ledger.`,
     problem:
       "The site shows release status but does not yet drive declassification action: withdrawals, possible appeal targets, duplicate source copies, and excerpt decisions.",
     needed:
@@ -377,6 +380,7 @@ const sourcePools = [
 
 writeJsonPair("gap-tracker", "GAP_TRACKER", gapTracker);
 writeJsonPair("source-pools", "SOURCE_POOLS", sourcePools);
+writeJsonPair("source-copy-ledger", "SOURCE_COPY_LEDGER", sourceCopyLedger);
 
 fs.mkdirSync(reportDir, { recursive: true });
 fs.writeFileSync(
@@ -386,6 +390,8 @@ fs.writeFileSync(
       generatedAt: new Date().toISOString(),
       gapCount: gapTracker.length,
       sourcePoolCount: sourcePools.length,
+      sourceCopyLedgerCount: sourceCopyLedger.length,
+      sourceCopyLedgerByIssue: countBy(sourceCopyLedger.map((item) => item.issueType)),
       counts: {
         records: records.length,
         boundaryRecords: boundaryRecords.length,
@@ -394,8 +400,11 @@ fs.writeFileSync(
         egyptCount,
         partialCount,
         markerCount,
+        ledgerPartialCount,
+        ledgerMarkerCount,
         conversationRows1992: yearCount(1992)
-      }
+      },
+      markerRows: sourceCopyLedger.filter((item) => item.issueType === "Marker / no memorandum")
     },
     null,
     2
@@ -408,4 +417,55 @@ function writeJsonPair(baseName, variableName, value) {
   const json = JSON.stringify(value, null, 2);
   fs.writeFileSync(path.join(dataDir, `${baseName}.json`), `${json}\n`);
   fs.writeFileSync(path.join(dataDir, `${baseName}.js`), `window.${variableName} = ${json};\n`);
+}
+
+function buildSourceCopyLedger(mainRecords, boundary) {
+  return mainRecords
+    .concat(boundary)
+    .filter((record) => /partial|restricted|marker|no memorandum/i.test(record.releaseStatus || ""))
+    .map((record) => {
+      const issueType = /marker|no memorandum/i.test(record.releaseStatus || "")
+        ? "Marker / no memorandum"
+        : "Partial or restricted release";
+      return {
+        id: `ledger-${record.naid || record.id}`,
+        compilerNumber: record.compilerNumber || "",
+        issueType,
+        priority: issueType === "Marker / no memorandum" ? "Source-copy search" : "Declassification review",
+        country: record.country,
+        lane: record.chapter?.name || record.lane || "Boundary",
+        date: record.date,
+        sortDate: record.sortDate || record.date || "",
+        dateText: record.dateText || record.date || "",
+        type: record.type,
+        title: record.title,
+        participants: record.participants || [],
+        releaseStatus: record.releaseStatus,
+        naid: record.naid,
+        catalogUrl: record.catalogUrl,
+        pdfUrl: record.pdfUrl,
+        sourceNote: record.sourceNote,
+        action:
+          issueType === "Marker / no memorandum"
+            ? "Search Scowcroft Papers, Presidential Daily File, State files, and adjacent volume files for a duplicate source copy or confirm no memorandum exists."
+            : "Review redactions, withdrawal sheets, and duplicate source copies before MDR/referral decisions."
+      };
+    })
+    .sort(
+      (a, b) =>
+        issueRank(a.issueType) - issueRank(b.issueType) ||
+        (a.lane || "").localeCompare(b.lane || "") ||
+        (a.country || "").localeCompare(b.country || "") ||
+        (a.sortDate || "").localeCompare(b.sortDate || "")
+    );
+}
+
+function issueRank(issueType) {
+  return issueType === "Marker / no memorandum" ? 1 : 2;
+}
+
+function countBy(values) {
+  const counts = {};
+  for (const value of values) counts[value] = (counts[value] || 0) + 1;
+  return Object.fromEntries(Object.entries(counts).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])));
 }

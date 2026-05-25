@@ -34,6 +34,7 @@ function searchText(person) {
     person.entry,
     person.displayName,
     person.description,
+    person.aliases?.join(" "),
     person.source,
     person.scopes?.join(" "),
     person.places?.join(" ")
@@ -107,6 +108,7 @@ function personItem(person) {
   meta.textContent = [
     (person.scopes || []).join("; "),
     (person.places || []).join("; "),
+    person.aliases?.length ? `aliases: ${person.aliases.join("; ")}` : "",
     person.needsReview ? "compiler normalization" : "authority match"
   ]
     .filter(Boolean)
@@ -174,10 +176,13 @@ function setupEvents() {
         { label: "Name", value: (person) => person.displayName },
         { label: "Description", value: (person) => person.description },
         { label: "Entry", value: (person) => person.entry },
+        { label: "Aliases", value: (person) => (person.aliases || []).join("; ") },
         { label: "Scopes", value: (person) => (person.scopes || []).join("; ") },
         { label: "Places", value: (person) => (person.places || []).join("; ") },
         { label: "Source", value: (person) => person.source },
-        { label: "Needs Review", value: (person) => (person.needsReview ? "Yes" : "No") }
+        { label: "Authority Status", value: (person) => person.authorityStatus },
+        { label: "Needs Review", value: (person) => (person.needsReview ? "Yes" : "No") },
+        { label: "Review Reason", value: (person) => person.reviewReason }
       ])
     );
   });

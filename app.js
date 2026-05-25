@@ -5,6 +5,7 @@ const policyFiles = window.POLICY_FILES || [];
 const publicReferences = window.PUBLIC_REFERENCES || [];
 const gapTracker = window.GAP_TRACKER || [];
 const sourcePools = window.SOURCE_POOLS || [];
+const sourceCopyLedger = window.SOURCE_COPY_LEDGER || [];
 const chapters = meta.chapters || [];
 
 const state = {
@@ -90,7 +91,9 @@ const nodes = {
   sourcePoolLaneFilter: document.querySelector("#source-pool-lane-filter"),
   sourcePoolPriorityFilter: document.querySelector("#source-pool-priority-filter"),
   clearSourcePoolFilters: document.querySelector("#clear-source-pool-filters"),
-  exportSourcePools: document.querySelector("#export-source-pools")
+  exportSourcePools: document.querySelector("#export-source-pools"),
+  ledgerRoot: document.querySelector("#ledger-root"),
+  ledgerSummary: document.querySelector("#ledger-summary")
 };
 
 function assignCompilerNumbers(items) {
@@ -351,6 +354,53 @@ function renderSourcePools() {
   nodes.sourcePoolSummary.textContent = `${plural(visible.length, "source pool")} visible from ${sourcePools.length} harvest lanes.`;
   nodes.sourcePoolRoot.replaceChildren(...visible.map(sourcePoolCard));
   if (!visible.length) nodes.sourcePoolRoot.innerHTML = '<p class="empty">No source pools match the current filters.</p>';
+}
+
+function renderSourceCopyLedger() {
+  const markerCount = sourceCopyLedger.filter((item) => item.issueType === "Marker / no memorandum").length;
+  const partialCount = sourceCopyLedger.length - markerCount;
+  nodes.ledgerSummary.textContent = `${plural(sourceCopyLedger.length, "row")} in the source-copy ledger: ${plural(markerCount, "marker")} and ${plural(partialCount, "partial/restricted row")}.`;
+  nodes.ledgerRoot.replaceChildren(...sourceCopyLedger.map(ledgerCard));
+  if (!sourceCopyLedger.length) nodes.ledgerRoot.innerHTML = '<p class="empty">No source-copy ledger rows were generated.</p>';
+}
+
+function ledgerCard(item) {
+  const card = document.createElement("article");
+  card.className = `record-card ledger-card ${item.issueType === "Marker / no memorandum" ? "marker-ledger" : "partial-ledger"}`;
+
+  const header = document.createElement("header");
+  const titleBlock = document.createElement("div");
+  const meta = document.createElement("div");
+  meta.className = "record-id";
+  meta.append(textSpan(item.issueType), textSpan(item.dateText || item.date), textSpan(item.country), textSpan(item.lane));
+  const title = document.createElement("h4");
+  title.textContent = item.title;
+  titleBlock.append(meta, title);
+
+  const chips = document.createElement("div");
+  chips.className = "chips";
+  chips.append(
+    chip(item.priority, item.issueType === "Marker / no memorandum" ? "warn" : "boundary"),
+    chip(`NAID ${item.naid}`),
+    chip(item.releaseStatus, "warn")
+  );
+  header.append(titleBlock, chips);
+
+  const participants = document.createElement("p");
+  participants.textContent = (item.participants || []).join(" / ");
+
+  const action = document.createElement("p");
+  action.className = "source-note";
+  action.textContent = item.action;
+
+  const actions = document.createElement("div");
+  actions.className = "record-actions";
+  if (item.catalogUrl) actions.append(linkButton("Catalog", item.catalogUrl));
+  if (item.pdfUrl) actions.append(linkButton("PDF", item.pdfUrl));
+  if (item.sourceNote) actions.append(copyButton(item.sourceNote));
+
+  card.append(header, participants, action, actions);
+  return card;
 }
 
 function sourcePoolCard(pool) {
@@ -887,6 +937,7 @@ function init() {
   renderWorkbench();
   renderGapTracker();
   renderSourcePools();
+  renderSourceCopyLedger();
   renderChapters();
   populateFilters();
   renderRecords();

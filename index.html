@@ -20,6 +20,7 @@
         <a href="#workbench">Desk</a>
         <a href="#gap-tracker">Gaps</a>
         <a href="#source-pools">Source Pools</a>
+        <a href="#source-copy-ledger">Source Ledger</a>
         <a href="persons.html">Persons</a>
         <a href="#chapters">Lanes</a>
         <a href="#records">Chronology</a>
@@ -161,6 +162,17 @@
         </div>
         <div id="source-pool-root" class="file-grid" aria-live="polite">
           <p class="loading">Loading source pools...</p>
+        </div>
+      </section>
+
+      <section class="section ledger-section" id="source-copy-ledger" aria-labelledby="ledger-title">
+        <div class="section-heading">
+          <p class="kicker">Source-Copy Ledger</p>
+          <h2 id="ledger-title">Markers, Partials, and Duplicate-Copy Leads</h2>
+        </div>
+        <p id="ledger-summary" class="summary ledger-summary">Loading source-copy ledger...</p>
+        <div id="ledger-root" class="records-root compact-records" aria-live="polite">
+          <p class="loading">Loading source-copy ledger...</p>
         </div>
       </section>
 
@@ -337,6 +349,7 @@ python3 -m http.server 4194</code></pre>
     <script src="data/public-references.js"></script>
     <script src="data/gap-tracker.js"></script>
     <script src="data/source-pools.js"></script>
+    <script src="data/source-copy-ledger.js"></script>
     <script src="app.js"></script>
   </body>
 </html>

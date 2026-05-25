@@ -24,6 +24,7 @@ The committed data currently contains:
 - `34` Southern Africa boundary rows
 - `11` compiler gap-tracker items
 - `13` next-harvest source pools
+- `37` source-copy ledger rows for markers, partials, and restricted releases
 - `51` Volume XX persons-list candidates, with `33` direct Bush names-list authority matches
 
 The official History.state.gov page lists the volume status as **Being
@@ -67,6 +68,7 @@ This writes:
 
 - `data/gap-tracker.json` and `data/gap-tracker.js`
 - `data/source-pools.json` and `data/source-pools.js`
+- `data/source-copy-ledger.json` and `data/source-copy-ledger.js`
 - `reports/gap-tracker-build.json`
 
 Build the persons list from the Bush comprehensive names authority document with:
@@ -76,7 +78,9 @@ BUSH_NAMES_DOCX="/path/to/Bush Comprehensive Names List.docx" node scripts/build
 ```
 
 When `BUSH_NAMES_DOCX` is omitted, the script looks for
-`sources/Bush Comprehensive Names List.docx`. It writes:
+`sources/Bush Comprehensive Names List.docx`. If the DOCX is unavailable, it
+reuses the selected authority entries already committed in `data/persons.json`
+so aliases and review metadata can still be regenerated. It writes:
 
 - `data/persons.json` and `data/persons.js`
 - `reports/persons-list-build.json`
@@ -84,6 +88,16 @@ When `BUSH_NAMES_DOCX` is omitted, the script looks for
 The Public Papers layer is generated from local companion-volume harvests when
 they are present in the same workspace. The committed `data/public-references.*`
 files keep the site self-contained for GitHub Pages.
+
+Run the coverage audit with:
+
+```bash
+node scripts/audit-gaps.js
+```
+
+This writes `reports/gap-audit.json` and fails if chronology participants,
+boundary participants, or tracked gap person terms are missing from the persons
+list.
 
 ## Local Preview
 

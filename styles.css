@@ -784,6 +784,18 @@ summary {
   border-top: 4px solid var(--plum);
 }
 
+.ledger-summary {
+  margin-bottom: 16px;
+}
+
+.ledger-card.marker-ledger {
+  border-top: 4px solid var(--rust);
+}
+
+.ledger-card.partial-ledger {
+  border-top: 4px solid var(--gold);
+}
+
 .persons-root {
   display: grid;
   gap: 24px;

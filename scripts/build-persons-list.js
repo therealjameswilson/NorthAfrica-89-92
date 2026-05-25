@@ -125,6 +125,18 @@ const FALLBACKS = {
   "Quett K J. Masire": "Masire, Quett K.J., President of Botswana"
 };
 
+const ALIASES = {
+  "Ahmed Esmat Abdel Meguid": ["Abd el-Meguid", "Abdel Meguid", "Esmat Abd el-Meguid"],
+  "Carlos Veiga": ["Viega, Carlos"],
+  "F. W. de Klerk": ["de Klerk", "F.W. de Klerk"],
+  "George H. W. Bush": ["George H.W. Bush", "President Bush"],
+  "Hosni Mubarak": ["Hosni Mubarek"],
+  "King Hassan II": ["Hassan II", "Hassan"],
+  "Muammar Qadhafi": ["Gadhafi", "Gaddafi", "Qaddafi", "Muammar Gadhafi", "Muammar Gaddafi", "Muammar Qaddafi"],
+  "Quett K J. Masire": ["Quett K.J. Masire", "Quette Masire"],
+  "Yoweri Museveni": ["Musaveni, Yoweri", "Musaveni"]
+};
+
 const LOOKUP_OVERRIDES = {
   "George H. W. Bush": ["Bush, George Herbert Walker"],
   "King Hassan II": ["Hassan II, King of Morocco", "Hassan II"],
@@ -139,17 +151,8 @@ const ENTRY_OVERRIDES = {
   "Yoweri Museveni": "Museveni, Yoweri, President of Uganda"
 };
 
-if (!fs.existsSync(namesDocxPath)) {
-  throw new Error(
-    `Could not find Bush names DOCX at ${namesDocxPath}. Set BUSH_NAMES_DOCX to the attached file path.`
-  );
-}
-
-const authorityEntries = parseDocxParagraphs(namesDocxPath).map((text, index) => ({
-  id: `authority-${String(index + 1).padStart(4, "0")}`,
-  raw: cleanEntry(text),
-  normalized: normalizeText(text)
-}));
+const authority = loadAuthorityEntries(namesDocxPath);
+const authorityEntries = authority.entries;
 
 const candidates = new Map();
 
@@ -179,14 +182,16 @@ fs.writeFileSync(
   `${JSON.stringify(
     {
       generatedAt: new Date().toISOString(),
-      namesDocxSource: sourceLabel(namesDocxPath),
+      namesDocxSource: authority.source,
+      authorityMode: authority.mode,
       authorityEntryCount: authorityEntries.length,
       selectedPersonCount: persons.length,
       matchedAuthorityCount: persons.filter((person) => person.source === "Bush Comprehensive Names List").length,
       generatedFallbackCount: persons.filter((person) => person.source !== "Bush Comprehensive Names List").length,
       generatedFallbacks: persons
         .filter((person) => person.source !== "Bush Comprehensive Names List")
-        .map((person) => ({ name: person.name, entry: person.entry, scopes: person.scopes })),
+        .map((person) => ({ name: person.name, entry: person.entry, scopes: person.scopes, reviewReason: person.reviewReason })),
+      aliasCount: persons.reduce((sum, person) => sum + (person.aliases?.length || 0), 0),
       scopes: countBy(persons.flatMap((person) => person.scopes))
     },
     null,
@@ -203,6 +208,40 @@ function readJson(fileName) {
 function sourceLabel(sourcePath) {
   const relative = path.relative(repoRoot, sourcePath);
   return relative && !relative.startsWith("..") ? relative : path.basename(sourcePath);
+}
+
+function loadAuthorityEntries(docxPath) {
+  if (fs.existsSync(docxPath)) {
+    return {
+      mode: "docx",
+      source: sourceLabel(docxPath),
+      entries: parseDocxParagraphs(docxPath).map((text, index) => ({
+        id: `authority-${String(index + 1).padStart(4, "0")}`,
+        raw: cleanEntry(text),
+        normalized: normalizeText(text)
+      }))
+    };
+  }
+
+  const cachedPath = path.join(dataDir, "persons.json");
+  if (!fs.existsSync(cachedPath)) {
+    throw new Error(
+      `Could not find Bush names DOCX at ${docxPath}. Set BUSH_NAMES_DOCX to the attached file path.`
+    );
+  }
+
+  const cachedPersons = JSON.parse(fs.readFileSync(cachedPath, "utf8"));
+  return {
+    mode: "cached-selected-authority",
+    source: "data/persons.json selected authority entries",
+    entries: cachedPersons
+      .filter((person) => person.source === "Bush Comprehensive Names List")
+      .map((person, index) => ({
+        id: `cached-authority-${String(index + 1).padStart(4, "0")}`,
+        raw: cleanEntry(person.entry),
+        normalized: normalizeText(person.entry)
+      }))
+  };
 }
 
 function parseDocxParagraphs(docxPath) {
@@ -263,11 +302,14 @@ function addCandidate(map, name, scope, place = "", detail = {}) {
     scopes: new Set(),
     places: new Set(),
     lookup: [],
+    aliases: new Set(),
     fallback: ""
   };
   existing.scopes.add(scope);
   if (place) existing.places.add(place);
   existing.lookup.push(...(detail.lookup || []));
+  for (const alias of detail.aliases || []) existing.aliases.add(alias);
+  for (const alias of ALIASES[name] || []) existing.aliases.add(alias);
   if (detail.fallback) existing.fallback = detail.fallback;
   map.set(key, existing);
 }
@@ -286,17 +328,30 @@ function buildPerson(candidate, authorityEntries) {
   const fallback = candidate.fallback || FALLBACKS[candidate.name] || fallbackFromName(candidate.name);
   const entry = ENTRY_OVERRIDES[candidate.name] || authority?.raw || fallback;
   const display = splitEntry(entry);
+  const aliases = uniqueSorted([
+    ...(candidate.aliases || []),
+    ...(LOOKUP_OVERRIDES[candidate.name] || []).filter((lookup) => normalizeText(lookup) !== normalizeText(entry))
+  ]);
+  const authorityStatus = authority && !ENTRY_OVERRIDES[candidate.name] ? "matched" : ENTRY_OVERRIDES[candidate.name] ? "normalized" : "fallback";
   return {
     id: slug(entry),
     name: candidate.name,
     entry,
     displayName: display.name,
     description: display.description,
+    aliases,
     sortKey: sortKeyForEntry(entry),
     scopes: [...candidate.scopes].sort(),
     places: [...candidate.places].filter(Boolean).sort(),
     source: authority && !ENTRY_OVERRIDES[candidate.name] ? "Bush Comprehensive Names List" : "Volume XX compiler normalization",
-    needsReview: !authority || Boolean(ENTRY_OVERRIDES[candidate.name])
+    authorityStatus,
+    needsReview: !authority || Boolean(ENTRY_OVERRIDES[candidate.name]),
+    reviewReason:
+      authorityStatus === "matched"
+        ? ""
+        : authorityStatus === "normalized"
+          ? "Authority spelling or form was normalized for Volume XX search and display."
+          : "No selected authority entry found; generated from Volume XX chronology, boundary, or gap-tracker data."
   };
 }
 
@@ -365,4 +420,8 @@ function countBy(values) {
   const counts = {};
   for (const value of values) counts[value] = (counts[value] || 0) + 1;
   return Object.fromEntries(Object.entries(counts).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])));
+}
+
+function uniqueSorted(values) {
+  return [...new Set(values.filter(Boolean))].sort((a, b) => a.localeCompare(b));
 }
