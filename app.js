@@ -151,6 +151,8 @@ function searchText(item) {
     item.releaseStatus,
     item.frusSourceNote,
     item.sourceNote,
+    item.diaryCrossReferenceNote,
+    item.diaryReferences?.map((reference) => [reference.kind, reference.title, reference.naid, reference.sourceNote].join(" ")).join(" "),
     item.notes,
     item.lane,
     item.priority,
@@ -403,6 +405,8 @@ function ledgerCard(item) {
   card.append(header, participants, action, actions);
   const details = sourceNoteDetails(item);
   if (details) card.append(details);
+  const diaryDetails = diaryReferenceDetails(item);
+  if (diaryDetails) card.append(diaryDetails);
   return card;
 }
 
@@ -525,6 +529,8 @@ function recordCard(record) {
 
   card.append(header, participants, actions);
   if (details) card.append(details);
+  const diaryDetails = diaryReferenceDetails(record);
+  if (diaryDetails) card.append(diaryDetails);
   if (record.notes) {
     const warning = document.createElement("p");
     warning.className = "source-note";
@@ -713,6 +719,38 @@ function sourceNoteDetails(item) {
   return details;
 }
 
+function diaryReferenceDetails(item) {
+  const references = item.diaryReferences || [];
+  if (!references.length) return null;
+
+  const details = document.createElement("details");
+  const summary = document.createElement("summary");
+  summary.textContent = "Daily diary / backup references";
+  const note = document.createElement("p");
+  note.className = "source-note";
+  note.textContent =
+    item.diaryCrossReferenceNote ||
+    "Date-matched Presidential Daily Diary/Backup lead for time, location, attendees, call status, and scheduling context.";
+  const list = document.createElement("ul");
+  list.className = "compact-list";
+  for (const reference of references) {
+    const entry = document.createElement("li");
+    const link = document.createElement("a");
+    link.href = reference.catalogUrl;
+    link.target = "_blank";
+    link.rel = "noreferrer";
+    link.textContent = `${reference.kind}: ${reference.title}`;
+    entry.append(link, textSpan(` NAID ${reference.naid}`));
+    list.append(entry);
+  }
+  details.append(summary, note, list);
+  return details;
+}
+
+function formatDiaryReferences(item) {
+  return (item.diaryReferences || []).map((reference) => `${reference.kind}: ${reference.title} (${reference.catalogUrl})`).join("; ");
+}
+
 function groupBy(items, getter) {
   const groups = new Map();
   for (const item of items) {
@@ -878,7 +916,8 @@ function setupEvents() {
         { label: "Catalog URL", value: (record) => record.catalogUrl },
         { label: "PDF URL", value: (record) => record.pdfUrl },
         { label: "FRUS Source Note", value: (record) => record.frusSourceNote },
-        { label: "Catalog Source Note", value: (record) => record.sourceNote }
+        { label: "Catalog Source Note", value: (record) => record.sourceNote },
+        { label: "Daily Diary/Backup References", value: formatDiaryReferences }
       ])
     );
   });

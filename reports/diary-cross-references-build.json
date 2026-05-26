@@ -1,0 +1,17 @@
+{
+  "generatedAt": "2026-05-26T01:53:54.744Z",
+  "source": {
+    "title": "Presidential Daily Diary and Presidential Daily Backup Materials",
+    "naid": "186322",
+    "catalogUrl": "https://catalog.archives.gov/id/186322",
+    "levelOfDescription": "series",
+    "dateNote": "The daily backup does not contain a record for July 16, 1990.",
+    "accessRestriction": "Restricted - Partly"
+  },
+  "diaryBackupFileUnitCount": 2205,
+  "targetDateCount": 113,
+  "matchedDateCount": 113,
+  "missingDateCount": 0,
+  "matchedRecordCount": 134,
+  "missingDates": []
+}

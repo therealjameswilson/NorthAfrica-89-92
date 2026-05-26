@@ -314,6 +314,15 @@
             </p>
           </article>
           <article>
+            <h3>Diary / Backup</h3>
+            <p>
+              <a href="https://catalog.archives.gov/id/186322">
+                Presidential Daily Diary and Presidential Daily Backup Materials
+              </a>
+              date-matched to chronology rows for time, location, attendee, and call-status checks.
+            </p>
+          </article>
+          <article>
             <h3>Policy Files</h3>
             <p>
               NSC, NSR, and NSD file anchors from the National Archives Catalog,
@@ -330,6 +339,8 @@
           <article>
             <h3>Local Refresh</h3>
             <pre><code>node scripts/harvest-volume20.js
+node scripts/build-diary-cross-references.js
+SOURCE_NOTE_SCAN_PDFS=1 node scripts/build-frus-source-notes.js
 node scripts/build-gap-tracker.js
 BUSH_NAMES_DOCX=... node scripts/build-persons-list.js
 python3 -m http.server 4194</code></pre>

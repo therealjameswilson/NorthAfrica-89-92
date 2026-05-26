@@ -193,11 +193,11 @@ const gapTracker = [
       "A formal ledger of partials, no-document markers, likely duplicate source copies, and candidate MDR/referral actions.",
     nextActions: [
       "Tag each partial and marker with issue type: national security redaction, no memorandum, missing PDF, duplicate source copy, or cross-volume handling.",
-      "Search Scowcroft, PDB/Presidential Daily File, and State files for duplicate source copies.",
+      "Search Scowcroft, Presidential Daily Diary/Backup, PDB/Presidential Daily File, and State files for duplicate source copies or schedule-confirmation leads.",
       "Prioritize partial records tied to Libya, Maghreb, Sudan/Horn, and Africa-wide policy."
     ],
     targetTerms: ["Partial", "No Memcon", "No Telcon", "withdrawal", "MDR", "referral", "duplicate source"],
-    sourcePools: ["Bush Library memcons/telcons", "Scowcroft Papers", "Presidential Daily File", "State Department central files"]
+    sourcePools: ["Bush Library memcons/telcons", "Scowcroft Papers", "Presidential Daily Diary/Backup", "Presidential Daily File", "State Department central files"]
   },
   {
     id: "gap-state-department-base",
@@ -294,6 +294,17 @@ const sourcePools = [
     url: "https://catalog.archives.gov/search-within/595141?availableOnline=true&limit=100",
     coverage: "Daily White House materials, schedules, briefing material, and public/private event packets.",
     nextUse: "Validate state visits, leader meetings, briefing books, and event context around African leaders."
+  },
+  {
+    id: "presidential-daily-diary-backup",
+    priority: "Active",
+    lane: "All lanes",
+    title: "Presidential Daily Diary and Presidential Daily Backup Materials",
+    url: "https://catalog.archives.gov/id/186322",
+    coverage:
+      "Daily diary and backup materials chronicle meetings, events, telephone calls, schedules, attendees, locations, and call status; they usually do not contain call summaries or meeting minutes.",
+    nextUse:
+      "Date-match every proposed meeting and call against diary/backup file units to verify time, location, attendance, call status, and missing-source leads."
   },
   {
     id: "nsc-meetings",
@@ -444,6 +455,8 @@ function buildSourceCopyLedger(mainRecords, boundary) {
         naid: record.naid,
         catalogUrl: record.catalogUrl,
         pdfUrl: record.pdfUrl,
+        diaryReferences: record.diaryReferences || [],
+        diaryCrossReferenceNote: record.diaryCrossReferenceNote || "",
         frusSourceNote: record.frusSourceNote || "",
         sourceNote: record.sourceNote,
         action:

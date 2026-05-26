@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-25T11:14:04.118Z",
+  "generatedAt": "2026-05-26T01:53:54.923Z",
   "gapCount": 11,
-  "sourcePoolCount": 13,
+  "sourcePoolCount": 14,
   "sourceCopyLedgerCount": 37,
   "sourceCopyLedgerByIssue": {
     "Partial or restricted release": 27,
@@ -40,6 +40,17 @@
       "naid": "428080799",
       "catalogUrl": "https://catalog.archives.gov/id/428080799",
       "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-06-30--Mandela.pdf",
+      "diaryReferences": [
+        {
+          "kind": "Daily Backup",
+          "date": "1990-06-30",
+          "title": "[Presidential Daily Backup] 6/30/1990",
+          "naid": "415890651",
+          "catalogUrl": "https://catalog.archives.gov/id/415890651",
+          "sourceNote": "Source: George H.W. Bush Library, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 6/30/1990. Catalog metadata records access status as Restricted - Possibly. Catalog reference: NAID 415890651."
+        }
+      ],
+      "diaryCrossReferenceNote": "Date-matched Presidential Daily Diary/Backup lead. Use to verify time, location, attendees, call status, and scheduling context; the series does not usually provide meeting minutes or call summaries.",
       "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: June 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428080799.",
       "sourceNote": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 6/30/1990; Type No Telcon; Participants Mandela, Nelson; Country South Africa; Release Status Full; NAID 428080799. National Archives Catalog item: Telephone Conversation with Nelson Mandela of The African National Congress, June 30, 1990, NAID 428080799. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]:  June 1990, NAID 325592645. Digital object: 1990-06-30--Mandela.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-06-30--Mandela.pdf. Access/release status: Marker / no memorandum listed.",
       "action": "Search Scowcroft Papers, Presidential Daily File, State files, and adjacent volume files for a duplicate source copy or confirm no memorandum exists."
@@ -64,6 +75,17 @@
       "naid": "428080491",
       "catalogUrl": "https://catalog.archives.gov/id/428080491",
       "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-02-01--Buyoya.pdf",
+      "diaryReferences": [
+        {
+          "kind": "Daily Diary",
+          "date": "1990-02-01",
+          "title": "[Presidential Daily Diary] 2/1/1990",
+          "naid": "415890352",
+          "catalogUrl": "https://catalog.archives.gov/id/415890352",
+          "sourceNote": "Source: George H.W. Bush Library, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 2/1/1990. Catalog metadata records access status as Restricted - Possibly. Catalog reference: NAID 415890352."
+        }
+      ],
+      "diaryCrossReferenceNote": "Date-matched Presidential Daily Diary/Backup lead. Use to verify time, location, attendees, call status, and scheduling context; the series does not usually provide meeting minutes or call summaries.",
       "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428080491.",
       "sourceNote": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/1/1990; Type No Memcon; Participants Buyoya, Pierre; Country Burundi; Release Status blank; NAID 428080491. National Archives Catalog item: Meeting with Pierre Buyoya of Burundi, February 1, 1990, NAID 428080491. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990, NAID 325377405. Digital object: 1990-02-01--Buyoya.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-02-01--Buyoya.pdf. Access/release status: Marker / no memorandum listed.",
       "action": "Search Scowcroft Papers, Presidential Daily File, State files, and adjacent volume files for a duplicate source copy or confirm no memorandum exists."
@@ -88,6 +110,17 @@
       "naid": "428080497",
       "catalogUrl": "https://catalog.archives.gov/id/428080497",
       "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-02-01--Moi.pdf",
+      "diaryReferences": [
+        {
+          "kind": "Daily Diary",
+          "date": "1990-02-01",
+          "title": "[Presidential Daily Diary] 2/1/1990",
+          "naid": "415890352",
+          "catalogUrl": "https://catalog.archives.gov/id/415890352",
+          "sourceNote": "Source: George H.W. Bush Library, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 2/1/1990. Catalog metadata records access status as Restricted - Possibly. Catalog reference: NAID 415890352."
+        }
+      ],
+      "diaryCrossReferenceNote": "Date-matched Presidential Daily Diary/Backup lead. Use to verify time, location, attendees, call status, and scheduling context; the series does not usually provide meeting minutes or call summaries.",
       "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428080497.",
       "sourceNote": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/1/1990; Type No Memcon; Participants Moi, Daniel arap; Country Kenya; Release Status blank; NAID 428080497. National Archives Catalog item: Meeting with Daniel arap Moi of Kenya, February 1, 1990, NAID 428080497. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990, NAID 325377405. Digital object: 1990-02-01--Moi.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-02-01--Moi.pdf. Access/release status: Marker / no memorandum listed.",
       "action": "Search Scowcroft Papers, Presidential Daily File, State files, and adjacent volume files for a duplicate source copy or confirm no memorandum exists."
@@ -112,6 +145,17 @@
       "naid": "428079889",
       "catalogUrl": "https://catalog.archives.gov/id/428079889",
       "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-02-02--Museveni.pdf",
+      "diaryReferences": [
+        {
+          "kind": "Daily Backup",
+          "date": "1989-02-02",
+          "title": "[Presidential Daily Backup] 2/2/1989",
+          "naid": "415889625",
+          "catalogUrl": "https://catalog.archives.gov/id/415889625",
+          "sourceNote": "Source: George H.W. Bush Library, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 2/2/1989. Catalog metadata records access status as Restricted - Possibly. Catalog reference: NAID 415889625."
+        }
+      ],
+      "diaryCrossReferenceNote": "Date-matched Presidential Daily Diary/Backup lead. Use to verify time, location, attendees, call status, and scheduling context; the series does not usually provide meeting minutes or call summaries.",
       "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428079889.",
       "sourceNote": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/2/1989; Type No Memcon; Participants Museveni. Yoweri; Country Uganda; Release Status blank; NAID 428079889. National Archives Catalog item: Meeting with Yoweri Museveni of Uganda, February 2, 1989, NAID 428079889. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989, NAID 325377380. Digital object: 1989-02-02--Museveni.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-02-02--Museveni.pdf. Access/release status: Marker / no memorandum listed.",
       "action": "Search Scowcroft Papers, Presidential Daily File, State files, and adjacent volume files for a duplicate source copy or confirm no memorandum exists."
@@ -136,6 +180,25 @@
       "naid": "428080877",
       "catalogUrl": "https://catalog.archives.gov/id/428080877",
       "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-07--Mubarak.pdf",
+      "diaryReferences": [
+        {
+          "kind": "Daily Diary",
+          "date": "1990-08-07",
+          "title": "[Presidential Daily Diary] 8/7/1990",
+          "naid": "415890726",
+          "catalogUrl": "https://catalog.archives.gov/id/415890726",
+          "sourceNote": "Source: George H.W. Bush Library, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 8/7/1990. Catalog metadata records access status as Restricted - Possibly. Catalog reference: NAID 415890726."
+        },
+        {
+          "kind": "Daily Backup",
+          "date": "1990-08-07",
+          "title": "[Presidential Daily Backup] 8/7/1990",
+          "naid": "415890727",
+          "catalogUrl": "https://catalog.archives.gov/id/415890727",
+          "sourceNote": "Source: George H.W. Bush Library, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 8/7/1990. Catalog metadata records access status as Restricted - Possibly. Catalog reference: NAID 415890727."
+        }
+      ],
+      "diaryCrossReferenceNote": "Date-matched Presidential Daily Diary/Backup lead. Use to verify time, location, attendees, call status, and scheduling context; the series does not usually provide meeting minutes or call summaries.",
       "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [1]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428080877.",
       "sourceNote": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/7/1990; Type No Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status blank; NAID 428080877. National Archives Catalog item: Telephone Call to Hosni Mubarak, August 7, 1990, NAID 428080877. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  August 1990 [1], NAID 325592647. Digital object: 1990-08-07--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-07--Mubarak.pdf. Access/release status: Marker / no memorandum listed.",
       "action": "Search Scowcroft Papers, Presidential Daily File, State files, and adjacent volume files for a duplicate source copy or confirm no memorandum exists."
@@ -160,6 +223,17 @@
       "naid": "428080931",
       "catalogUrl": "https://catalog.archives.gov/id/428080931",
       "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-11--Mubarak.pdf",
+      "diaryReferences": [
+        {
+          "kind": "Daily Diary",
+          "date": "1990-08-11",
+          "title": "[Presidential Daily Diary] 8/11/1990",
+          "naid": "415890734",
+          "catalogUrl": "https://catalog.archives.gov/id/415890734",
+          "sourceNote": "Source: George H.W. Bush Library, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 8/11/1990. Catalog metadata records access status as Restricted - Possibly. Catalog reference: NAID 415890734."
+        }
+      ],
+      "diaryCrossReferenceNote": "Date-matched Presidential Daily Diary/Backup lead. Use to verify time, location, attendees, call status, and scheduling context; the series does not usually provide meeting minutes or call summaries.",
       "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [1]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428080931.",
       "sourceNote": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/11/1990; Type No Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status blank; NAID 428080931. National Archives Catalog item: Telephone Call to Hosni Mubarak, August 11, 1990, NAID 428080931. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  August 1990 [1], NAID 325592647. Digital object: 1990-08-11--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-11--Mubarak.pdf. Access/release status: Marker / no memorandum listed.",
       "action": "Search Scowcroft Papers, Presidential Daily File, State files, and adjacent volume files for a duplicate source copy or confirm no memorandum exists."
@@ -184,6 +258,25 @@
       "naid": "428081047",
       "catalogUrl": "https://catalog.archives.gov/id/428081047",
       "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-09-10--Mubarak.pdf",
+      "diaryReferences": [
+        {
+          "kind": "Daily Diary",
+          "date": "1990-09-10",
+          "title": "[Presidential Daily Diary] 9/10/1990",
+          "naid": "415890794",
+          "catalogUrl": "https://catalog.archives.gov/id/415890794",
+          "sourceNote": "Source: George H.W. Bush Library, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 9/10/1990. Catalog metadata records access status as Restricted - Possibly. Catalog reference: NAID 415890794."
+        },
+        {
+          "kind": "Daily Backup",
+          "date": "1990-09-10",
+          "title": "[Presidential Daily Backup] 9/10/1990",
+          "naid": "415890795",
+          "catalogUrl": "https://catalog.archives.gov/id/415890795",
+          "sourceNote": "Source: George H.W. Bush Library, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 9/10/1990. Catalog metadata records access status as Restricted - Possibly. Catalog reference: NAID 415890795."
+        }
+      ],
+      "diaryCrossReferenceNote": "Date-matched Presidential Daily Diary/Backup lead. Use to verify time, location, attendees, call status, and scheduling context; the series does not usually provide meeting minutes or call summaries.",
       "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: September 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428081047.",
       "sourceNote": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 9/10/1990; Type No Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status blank; NAID 428081047. National Archives Catalog item: Telephone Call to Hosni Mubarak, September 10, 1990, NAID 428081047. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  September 1990, NAID 325592649. Digital object: 1990-09-10--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-09-10--Mubarak.pdf. Access/release status: Marker / no memorandum listed.",
       "action": "Search Scowcroft Papers, Presidential Daily File, State files, and adjacent volume files for a duplicate source copy or confirm no memorandum exists."
@@ -208,6 +301,25 @@
       "naid": "428081331",
       "catalogUrl": "https://catalog.archives.gov/id/428081331",
       "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-01-16--Mubarak.pdf",
+      "diaryReferences": [
+        {
+          "kind": "Daily Diary",
+          "date": "1991-01-16",
+          "title": "[Presidential Daily Diary] 1/16/1991",
+          "naid": "415891052",
+          "catalogUrl": "https://catalog.archives.gov/id/415891052",
+          "sourceNote": "Source: George H.W. Bush Library, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 1/16/1991. Catalog metadata records access status as Restricted - Possibly. Catalog reference: NAID 415891052."
+        },
+        {
+          "kind": "Daily Backup",
+          "date": "1991-01-16",
+          "title": "[Presidential Daily Backup] 1/16/1991",
+          "naid": "415891053",
+          "catalogUrl": "https://catalog.archives.gov/id/415891053",
+          "sourceNote": "Source: George H.W. Bush Library, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 1/16/1991. Catalog metadata records access status as Restricted - Possibly. Catalog reference: NAID 415891053."
+        }
+      ],
+      "diaryCrossReferenceNote": "Date-matched Presidential Daily Diary/Backup lead. Use to verify time, location, attendees, call status, and scheduling context; the series does not usually provide meeting minutes or call summaries.",
       "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: January 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428081331.",
       "sourceNote": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/16/1991; Type No Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status blank; NAID 428081331. National Archives Catalog item: Telephone Call to Hosni Mubarak, January 16, 1991, NAID 428081331. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  January 1991, NAID 325592653. Digital object: 1991-01-16--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-01-16--Mubarak.pdf. Access/release status: Marker / no memorandum listed.",
       "action": "Search Scowcroft Papers, Presidential Daily File, State files, and adjacent volume files for a duplicate source copy or confirm no memorandum exists."
@@ -232,6 +344,17 @@
       "naid": "428081339",
       "catalogUrl": "https://catalog.archives.gov/id/428081339",
       "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-01-20--Mubarak.pdf",
+      "diaryReferences": [
+        {
+          "kind": "Daily Backup",
+          "date": "1991-01-20",
+          "title": "[Presidential Daily Backup] 1/20/1991",
+          "naid": "415891061",
+          "catalogUrl": "https://catalog.archives.gov/id/415891061",
+          "sourceNote": "Source: George H.W. Bush Library, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 1/20/1991. Catalog metadata records access status as Restricted - Possibly. Catalog reference: NAID 415891061."
+        }
+      ],
+      "diaryCrossReferenceNote": "Date-matched Presidential Daily Diary/Backup lead. Use to verify time, location, attendees, call status, and scheduling context; the series does not usually provide meeting minutes or call summaries.",
       "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: January 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428081339.",
       "sourceNote": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/20/1991; Type No Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status blank; NAID 428081339. National Archives Catalog item: Telephone Call to Hosni Mubarek, January 20, 1991, NAID 428081339. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  January 1991, NAID 325592653. Digital object: 1991-01-20--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-01-20--Mubarak.pdf. Access/release status: Marker / no memorandum listed.",
       "action": "Search Scowcroft Papers, Presidential Daily File, State files, and adjacent volume files for a duplicate source copy or confirm no memorandum exists."
@@ -256,6 +379,25 @@
       "naid": "428081547",
       "catalogUrl": "https://catalog.archives.gov/id/428081547",
       "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-03-01--Mubarak.pdf",
+      "diaryReferences": [
+        {
+          "kind": "Daily Diary",
+          "date": "1991-03-01",
+          "title": "[Presidential Daily Diary]  3/1/1991",
+          "naid": "415891140",
+          "catalogUrl": "https://catalog.archives.gov/id/415891140",
+          "sourceNote": "Source: George H.W. Bush Library, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary]  3/1/1991. Catalog metadata records access status as Restricted - Possibly. Catalog reference: NAID 415891140."
+        },
+        {
+          "kind": "Daily Backup",
+          "date": "1991-03-01",
+          "title": "[Presidential Daily Backup] 3/1/1991",
+          "naid": "415891141",
+          "catalogUrl": "https://catalog.archives.gov/id/415891141",
+          "sourceNote": "Source: George H.W. Bush Library, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 3/1/1991. Catalog metadata records access status as Restricted - Possibly. Catalog reference: NAID 415891141."
+        }
+      ],
+      "diaryCrossReferenceNote": "Date-matched Presidential Daily Diary/Backup lead. Use to verify time, location, attendees, call status, and scheduling context; the series does not usually provide meeting minutes or call summaries.",
       "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: March 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428081547.",
       "sourceNote": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 3/1/1991; Type No Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status blank; NAID 428081547. National Archives Catalog item: Telephone Call from Hosni Mubarak, March 1, 1991, NAID 428081547. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  March 1991, NAID 325592656. Digital object: 1991-03-01--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-03-01--Mubarak.pdf. Access/release status: Marker / no memorandum listed.",
       "action": "Search Scowcroft Papers, Presidential Daily File, State files, and adjacent volume files for a duplicate source copy or confirm no memorandum exists."

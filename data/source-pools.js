@@ -36,6 +36,15 @@ window.SOURCE_POOLS = [
     "nextUse": "Validate state visits, leader meetings, briefing books, and event context around African leaders."
   },
   {
+    "id": "presidential-daily-diary-backup",
+    "priority": "Active",
+    "lane": "All lanes",
+    "title": "Presidential Daily Diary and Presidential Daily Backup Materials",
+    "url": "https://catalog.archives.gov/id/186322",
+    "coverage": "Daily diary and backup materials chronicle meetings, events, telephone calls, schedules, attendees, locations, and call status; they usually do not contain call summaries or meeting minutes.",
+    "nextUse": "Date-match every proposed meeting and call against diary/backup file units to verify time, location, attendance, call status, and missing-source leads."
+  },
+  {
     "id": "nsc-meetings",
     "priority": "Next",
     "lane": "Regional and Multilateral",

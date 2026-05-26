@@ -23,8 +23,9 @@ The committed data currently contains:
 - `43` Public Papers references
 - `34` Southern Africa boundary rows
 - `11` compiler gap-tracker items
-- `13` next-harvest source pools
+- `14` next-harvest source pools
 - `37` source-copy ledger rows for markers, partials, and restricted releases
+- `134` meeting/call rows date-matched to Presidential Daily Diary or Daily Backup file units
 - `51` Volume XX persons-list candidates, with `33` direct Bush names-list authority matches
 
 The official History.state.gov page lists the volume status as **Being
@@ -57,6 +58,24 @@ The script writes:
 - `data/public-references.json` and `data/public-references.js`
 - `data/volume-meta.json` and `data/volume-meta.js`
 - `reports/volume20-harvest.json`
+
+Build Presidential Daily Diary and Daily Backup cross-references with:
+
+```bash
+node scripts/build-diary-cross-references.js
+```
+
+This date-matches the Volume XX and boundary chronology rows against
+Presidential Daily Diary and Daily Backup file units under NAID `186322`. It
+adds `diaryReferences` to conversation rows for time, location, attendee,
+call-status, and source-copy checks. The series does not usually contain call
+summaries or meeting minutes.
+
+This writes updated:
+
+- `data/records.json` and `data/records.js`
+- `data/boundary-records.json` and `data/boundary-records.js`
+- `reports/diary-cross-references-build.json`
 
 Build FRUS-style source notes for proposed records with:
 
@@ -135,6 +154,7 @@ Then visit <http://127.0.0.1:4194/>.
 - FRUS Volume XX: <https://history.state.gov/historicaldocuments/frus1989-92v20>
 - Status of the FRUS series: <https://history.state.gov/historicaldocuments/status-of-the-series>
 - Bush Library Memcons and Telcons: <https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons>
+- Presidential Daily Diary and Presidential Daily Backup Materials: <https://catalog.archives.gov/id/186322>
 - Records of the National Security Council, George H. W. Bush Administration: <https://catalog.archives.gov/id/2163580>
 - NSC0034 - Libya: <https://catalog.archives.gov/id/470760928>
 - NSR-23 - U.S. Policy Towards the Maghreb: <https://catalog.archives.gov/id/446394969>

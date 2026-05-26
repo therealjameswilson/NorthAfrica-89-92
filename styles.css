@@ -686,6 +686,14 @@ summary {
   overflow-wrap: anywhere;
 }
 
+.compact-list {
+  margin: 10px 0 0;
+  padding-left: 18px;
+  color: #34444a;
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
 .file-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));

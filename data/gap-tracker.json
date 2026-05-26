@@ -229,7 +229,7 @@
     "needed": "A formal ledger of partials, no-document markers, likely duplicate source copies, and candidate MDR/referral actions.",
     "nextActions": [
       "Tag each partial and marker with issue type: national security redaction, no memorandum, missing PDF, duplicate source copy, or cross-volume handling.",
-      "Search Scowcroft, PDB/Presidential Daily File, and State files for duplicate source copies.",
+      "Search Scowcroft, Presidential Daily Diary/Backup, PDB/Presidential Daily File, and State files for duplicate source copies or schedule-confirmation leads.",
       "Prioritize partial records tied to Libya, Maghreb, Sudan/Horn, and Africa-wide policy."
     ],
     "targetTerms": [
@@ -244,6 +244,7 @@
     "sourcePools": [
       "Bush Library memcons/telcons",
       "Scowcroft Papers",
+      "Presidential Daily Diary/Backup",
       "Presidential Daily File",
       "State Department central files"
     ]

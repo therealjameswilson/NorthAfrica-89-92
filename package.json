@@ -5,11 +5,12 @@
   "type": "commonjs",
   "scripts": {
     "harvest": "node scripts/harvest-volume20.js",
+    "diary": "node scripts/build-diary-cross-references.js",
     "source-notes": "node scripts/build-frus-source-notes.js",
     "gaps": "node scripts/build-gap-tracker.js",
     "persons": "node scripts/build-persons-list.js",
     "audit": "node scripts/audit-gaps.js",
-    "check": "node --check app.js && node --check persons.js && node --check scripts/harvest-volume20.js && node --check scripts/build-frus-source-notes.js && node --check scripts/build-gap-tracker.js && node --check scripts/build-persons-list.js && node --check scripts/audit-gaps.js"
+    "check": "node --check app.js && node --check persons.js && node --check scripts/harvest-volume20.js && node --check scripts/build-diary-cross-references.js && node --check scripts/build-frus-source-notes.js && node --check scripts/build-gap-tracker.js && node --check scripts/build-persons-list.js && node --check scripts/audit-gaps.js"
   },
   "license": "ISC"
 }
