@@ -17,13 +17,13 @@
         <span>North Africa Desk</span>
       </a>
       <nav aria-label="Primary navigation">
+        <a href="#records">Declassified Chronology</a>
         <a href="#workbench">Desk</a>
         <a href="#gap-tracker">Gaps</a>
         <a href="#source-pools">Source Pools</a>
         <a href="#source-copy-ledger">Source Ledger</a>
         <a href="persons.html">Persons</a>
         <a href="#chapters">Lanes</a>
-        <a href="#records">Chronology</a>
         <a href="#policy-files">Policy Files</a>
         <a href="#public-references">Public Papers</a>
         <a href="#boundary">Boundaries</a>
@@ -37,12 +37,13 @@
           <p class="kicker">FRUS 1989-1992, Volume XX</p>
           <h1 id="hero-title">North Africa; Sub-Saharan Africa</h1>
           <p class="lede">
-            A working compiler desk for the unpublished Volume XX: official
-            presidential conversations, NSC policy files, public-line checks,
-            and boundary controls for Southern Africa and Somalia.
+            A working compiler desk led by the declassified document chronology
+            for the unpublished Volume XX: official presidential conversations,
+            NSC policy files, public-line checks, and boundary controls for
+            Southern Africa and Somalia.
           </p>
           <div class="hero-actions" aria-label="Primary actions">
-            <a class="button primary" href="#records">Browse Chronology</a>
+            <a class="button primary" href="#records">Open Declassified Chronology</a>
             <a class="button secondary" href="#policy-files">Review Policy Files</a>
           </div>
         </div>
@@ -72,6 +73,41 @@
             </div>
           </dl>
         </aside>
+      </section>
+
+      <section class="section records-section" id="records" aria-labelledby="records-title">
+        <div class="section-heading">
+          <p class="kicker">Declassified Document Chronology</p>
+          <h2 id="records-title">Bush Library Memcons and Telcons</h2>
+        </div>
+        <div class="tools" aria-label="Search and filter records">
+          <label class="search-field">
+            <span>Search documents</span>
+            <input id="record-search" type="search" placeholder="Search people, countries, NAIDs, source notes" />
+          </label>
+          <label>
+            <span>Lane</span>
+            <select id="chapter-filter"></select>
+          </label>
+          <label>
+            <span>Country</span>
+            <select id="country-filter"></select>
+          </label>
+          <label>
+            <span>Release</span>
+            <select id="release-filter"></select>
+          </label>
+          <label>
+            <span>Document</span>
+            <select id="availability-filter"></select>
+          </label>
+          <button id="clear-record-filters" type="button">Reset</button>
+          <button id="export-records" type="button">CSV</button>
+          <p id="records-summary" class="summary">Loading record index...</p>
+        </div>
+        <div id="records-root" class="records-root" aria-live="polite">
+          <p class="loading">Loading conversation records...</p>
+        </div>
       </section>
 
       <section class="stats" aria-label="Volume summary">
@@ -182,41 +218,6 @@
           <h2 id="chapters-title">Geographic Working Structure</h2>
         </div>
         <div id="chapter-grid" class="chapter-grid" aria-live="polite"></div>
-      </section>
-
-      <section class="section records-section" id="records" aria-labelledby="records-title">
-        <div class="section-heading">
-          <p class="kicker">Official Chronology</p>
-          <h2 id="records-title">Bush Library Memcons and Telcons</h2>
-        </div>
-        <div class="tools" aria-label="Search and filter records">
-          <label class="search-field">
-            <span>Search records</span>
-            <input id="record-search" type="search" placeholder="Search people, countries, NAIDs, source notes" />
-          </label>
-          <label>
-            <span>Lane</span>
-            <select id="chapter-filter"></select>
-          </label>
-          <label>
-            <span>Country</span>
-            <select id="country-filter"></select>
-          </label>
-          <label>
-            <span>Release</span>
-            <select id="release-filter"></select>
-          </label>
-          <label>
-            <span>Document</span>
-            <select id="availability-filter"></select>
-          </label>
-          <button id="clear-record-filters" type="button">Reset</button>
-          <button id="export-records" type="button">CSV</button>
-          <p id="records-summary" class="summary">Loading record index...</p>
-        </div>
-        <div id="records-root" class="records-root" aria-live="polite">
-          <p class="loading">Loading conversation records...</p>
-        </div>
       </section>
 
       <section class="section policy-section" id="policy-files" aria-labelledby="policy-title">
