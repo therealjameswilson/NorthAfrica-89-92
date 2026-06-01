@@ -8,6 +8,7 @@ const sourcePools = window.SOURCE_POOLS || [];
 const sourceCopyLedger = window.SOURCE_COPY_LEDGER || [];
 const compilerBrief = window.COMPILER_BRIEF || null;
 const sourceNotePacket = window.SOURCE_NOTE_PACKET || null;
+const researchRunbook = window.RESEARCH_RUNBOOK || null;
 const decisionWorksheets = window.DECISION_WORKSHEETS || null;
 const chapters = meta.chapters || [];
 const selectionMatrix = buildSelectionMatrix();
@@ -60,6 +61,7 @@ const nodes = {
   boundaryCount: document.querySelector("#boundary-count"),
   compilerBriefRoot: document.querySelector("#compiler-brief-root"),
   sourceNotePacketRoot: document.querySelector("#source-note-packet-root"),
+  researchRunbookRoot: document.querySelector("#research-runbook-root"),
   decisionWorksheetsRoot: document.querySelector("#decision-worksheets-root"),
   workbenchRoot: document.querySelector("#workbench-root"),
   chapterGrid: document.querySelector("#chapter-grid"),
@@ -920,6 +922,102 @@ function queueButton(label, recommendation) {
   return button;
 }
 
+function renderResearchRunbook() {
+  if (!nodes.researchRunbookRoot) return;
+  if (!researchRunbook) {
+    nodes.researchRunbookRoot.innerHTML = '<p class="empty">Research runbook data is unavailable.</p>';
+    return;
+  }
+
+  const summary = document.createElement("div");
+  summary.className = "research-runbook-summary";
+  summary.append(
+    researchRunbookSummaryItem("gap worklists", researchRunbook.summary?.gapCount),
+    researchRunbookSummaryItem("critical gaps", researchRunbook.summary?.criticalGapCount),
+    researchRunbookSummaryItem("query rows", researchRunbook.summary?.queryCount),
+    researchRunbookSummaryItem("State rows", researchRunbook.summary?.stateDepartmentQueryCount),
+    researchRunbookSummaryItem("missing pools", researchRunbook.summary?.missingSourcePoolCount)
+  );
+
+  const actions = document.createElement("div");
+  actions.className = "file-actions packet-actions";
+  actions.append(
+    linkButton("Open runbook", "reports/research-runbook.md"),
+    linkButton("All query CSV", "reports/research-runbook/all-gap-queries.csv"),
+    linkButton("Priority CSV", "reports/research-runbook/priority-gap-queries.csv")
+  );
+
+  const grid = document.createElement("div");
+  grid.className = "research-runbook-grid";
+  grid.append(...(researchRunbook.gaps || []).map(researchRunbookCard));
+
+  nodes.researchRunbookRoot.replaceChildren(summary, actions, grid);
+}
+
+function researchRunbookSummaryItem(label, value) {
+  const item = document.createElement("div");
+  const strong = document.createElement("strong");
+  strong.textContent = String(value ?? 0);
+  const span = document.createElement("span");
+  span.textContent = label;
+  item.append(strong, span);
+  return item;
+}
+
+function researchRunbookCard(gap) {
+  const card = document.createElement("article");
+  card.className = `file-card research-runbook-card priority-${String(gap.priority || "medium").toLowerCase()}`;
+
+  const header = document.createElement("header");
+  const titleBlock = document.createElement("div");
+  const meta = document.createElement("div");
+  meta.className = "file-meta";
+  meta.append(textSpan(gap.priority), textSpan(gap.lane), textSpan(`${gap.queries?.length || 0} queries`));
+  const title = document.createElement("h3");
+  title.textContent = gap.title;
+  titleBlock.append(meta, title);
+  header.append(titleBlock);
+
+  const evidence = document.createElement("p");
+  evidence.textContent = gap.evidence || "";
+  const needed = document.createElement("p");
+  needed.className = "source-note";
+  needed.textContent = gap.needed || "";
+
+  const chips = document.createElement("div");
+  chips.className = "chips";
+  for (const term of (gap.targetTerms || []).slice(0, 7)) chips.append(chip(term, gap.priority === "Critical" ? "warn" : ""));
+
+  const list = document.createElement("ul");
+  list.className = "compiler-row-list";
+  for (const query of (gap.queries || []).slice(0, 4)) list.append(researchRunbookQueryRow(query));
+
+  const actions = document.createElement("div");
+  actions.className = "file-actions";
+  for (const query of (gap.queries || []).slice(0, 2)) {
+    actions.append(linkButton(query.sourcePoolPriority === "Missing" ? "Map source" : "Open query", query.sourcePoolSearchUrl));
+  }
+
+  card.append(header, evidence, needed, chips, list, actions);
+  return card;
+}
+
+function researchRunbookQueryRow(query) {
+  const item = document.createElement("li");
+  const title = document.createElement("a");
+  title.href = query.sourcePoolSearchUrl;
+  title.target = "_blank";
+  title.rel = "noreferrer";
+  title.className = "compiler-row-title";
+  title.textContent = `${query.sourcePoolTitle}: ${query.queryLabel}`;
+  const terms = document.createElement("p");
+  terms.textContent = query.queryTerms || "";
+  const nextAction = document.createElement("p");
+  nextAction.textContent = query.nextAction || "";
+  item.append(title, terms, nextAction);
+  return item;
+}
+
 function renderDecisionWorksheets() {
   if (!nodes.decisionWorksheetsRoot) return;
   if (!decisionWorksheets) {
@@ -1698,6 +1796,7 @@ function init() {
   setStats();
   renderCompilerBrief();
   renderSourceNotePacket();
+  renderResearchRunbook();
   renderDecisionWorksheets();
   renderWorkbench();
   renderGapTracker();

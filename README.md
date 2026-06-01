@@ -26,6 +26,7 @@ The committed data currently contains:
 - `5` start-here compiler brief actions and `7` generated work queues
 - `143` source-note packet rows with FRUS-style notes and diary/backup controls
 - `7` editable decision worksheets, including `186` selection rows and `18` persons authority-review rows
+- `98` missing-source runbook query rows across all compiler gaps
 - `11` compiler gap-tracker items
 - `14` next-harvest source pools
 - `37` source-copy ledger rows for markers, partials, and restricted releases
@@ -139,6 +140,21 @@ authority review work. It writes:
 - `reports/decision-worksheets.md`
 - `reports/decision-worksheets-build.json`
 - `reports/worksheets/*.csv`
+
+Build the missing-source research runbook with:
+
+```bash
+node scripts/build-research-runbook.js
+```
+
+This turns every gap-tracker item into source-pool-specific catalog searches,
+manual archival routes, and ready CSV worklists for harvest follow-up. It
+writes:
+
+- `data/research-runbook.json` and `data/research-runbook.js`
+- `reports/research-runbook.md`
+- `reports/research-runbook-build.json`
+- `reports/research-runbook/*.csv`
 
 Build FRUS-style source notes for proposed records with:
 

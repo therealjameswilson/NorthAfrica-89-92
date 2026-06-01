@@ -1,0 +1,13 @@
+{
+  "generatedAt": "2026-06-01T15:48:36.776Z",
+  "gapCount": 11,
+  "criticalGapCount": 4,
+  "sourcePoolCount": 14,
+  "queryCount": 98,
+  "missingSourcePoolCount": 2,
+  "stateDepartmentQueryCount": 23,
+  "csvFiles": [
+    "reports/research-runbook/all-gap-queries.csv",
+    "reports/research-runbook/priority-gap-queries.csv"
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-01T15:36:29.574Z",
+  "generatedAt": "2026-06-01T15:54:06.017Z",
   "personsCount": 51,
   "selectionMatrixCount": 186,
   "expectedSelectionMatrixCount": 186,
@@ -22,6 +22,16 @@
     "reports/worksheets/cross-volume-boundary.csv",
     "reports/worksheets/public-line-context.csv",
     "reports/worksheets/persons-authority-review.csv"
+  ],
+  "researchRunbookGapCount": 11,
+  "expectedResearchRunbookGapCount": 11,
+  "researchRunbookCriticalGapCount": 4,
+  "expectedResearchRunbookCriticalGapCount": 4,
+  "researchRunbookQueryCount": 98,
+  "researchRunbookStateDepartmentQueryCount": 23,
+  "researchRunbookCsvFiles": [
+    "reports/research-runbook/all-gap-queries.csv",
+    "reports/research-runbook/priority-gap-queries.csv"
   ],
   "selectionMatrixByRecommendation": {
     "Public-line/context check": 43,

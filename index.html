@@ -8,7 +8,7 @@
       name="description"
       content="A compiler-facing FRUS Assist page for Foreign Relations of the United States, 1989-1992, Volume XX, North Africa; Sub-Saharan Africa."
     />
-    <link rel="stylesheet" href="styles.css?v=20260601-worksheets" />
+    <link rel="stylesheet" href="styles.css?v=20260601-runbook" />
   </head>
   <body>
     <header class="site-header">
@@ -20,6 +20,7 @@
         <a href="#records">Declassified Chronology</a>
         <a href="#compiler-brief">Compiler Brief</a>
         <a href="#source-note-packet">Source Notes</a>
+        <a href="#research-runbook">Runbook</a>
         <a href="#decision-worksheets">Worksheets</a>
         <a href="#selection-matrix">Selection Matrix</a>
         <a href="#workbench">Desk</a>
@@ -131,6 +132,16 @@
         </div>
         <div id="source-note-packet-root" class="source-note-packet-root" aria-live="polite">
           <p class="loading">Loading source note packet...</p>
+        </div>
+      </section>
+
+      <section class="section research-runbook-section" id="research-runbook" aria-labelledby="research-runbook-title">
+        <div class="section-heading">
+          <p class="kicker">Missing-Source Harvest Runbook</p>
+          <h2 id="research-runbook-title">Gap-Driven Queries and Archival Routes</h2>
+        </div>
+        <div id="research-runbook-root" class="research-runbook-root" aria-live="polite">
+          <p class="loading">Loading research runbook...</p>
         </div>
       </section>
 
@@ -412,6 +423,7 @@ node scripts/build-selection-matrix.js
 node scripts/build-compiler-brief.js
 node scripts/build-source-note-packet.js
 node scripts/build-decision-worksheets.js
+node scripts/build-research-runbook.js
 node scripts/build-gap-tracker.js
 BUSH_NAMES_DOCX=... node scripts/build-persons-list.js
 python3 -m http.server 4194</code></pre>
@@ -424,17 +436,18 @@ python3 -m http.server 4194</code></pre>
       <p>FRUS Assist for Volume XX. Data generated from public source records and local companion-volume harvests.</p>
     </footer>
 
-    <script src="data/volume-meta.js?v=20260601-worksheets"></script>
-    <script src="data/records.js?v=20260601-worksheets"></script>
-    <script src="data/boundary-records.js?v=20260601-worksheets"></script>
-    <script src="data/policy-files.js?v=20260601-worksheets"></script>
-    <script src="data/public-references.js?v=20260601-worksheets"></script>
-    <script src="data/gap-tracker.js?v=20260601-worksheets"></script>
-    <script src="data/source-pools.js?v=20260601-worksheets"></script>
-    <script src="data/source-copy-ledger.js?v=20260601-worksheets"></script>
-    <script src="data/compiler-brief.js?v=20260601-worksheets"></script>
-    <script src="data/source-note-packet.js?v=20260601-worksheets"></script>
-    <script src="data/decision-worksheets.js?v=20260601-worksheets"></script>
-    <script src="app.js?v=20260601-worksheets"></script>
+    <script src="data/volume-meta.js?v=20260601-runbook"></script>
+    <script src="data/records.js?v=20260601-runbook"></script>
+    <script src="data/boundary-records.js?v=20260601-runbook"></script>
+    <script src="data/policy-files.js?v=20260601-runbook"></script>
+    <script src="data/public-references.js?v=20260601-runbook"></script>
+    <script src="data/gap-tracker.js?v=20260601-runbook"></script>
+    <script src="data/source-pools.js?v=20260601-runbook"></script>
+    <script src="data/source-copy-ledger.js?v=20260601-runbook"></script>
+    <script src="data/compiler-brief.js?v=20260601-runbook"></script>
+    <script src="data/source-note-packet.js?v=20260601-runbook"></script>
+    <script src="data/research-runbook.js?v=20260601-runbook"></script>
+    <script src="data/decision-worksheets.js?v=20260601-runbook"></script>
+    <script src="app.js?v=20260601-runbook"></script>
   </body>
 </html>

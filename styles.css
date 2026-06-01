@@ -402,6 +402,11 @@ dd {
   gap: 16px;
 }
 
+.research-runbook-root {
+  display: grid;
+  gap: 16px;
+}
+
 .decision-worksheets-root {
   display: grid;
   gap: 16px;
@@ -410,6 +415,7 @@ dd {
 .compiler-brief-summary,
 .compiler-brief-actions,
 .source-note-packet-summary,
+.research-runbook-summary,
 .decision-worksheets-summary {
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
@@ -481,6 +487,42 @@ dd {
 }
 
 .source-note-packet-summary span {
+  font-weight: 900;
+}
+
+.research-runbook-summary div {
+  min-height: 112px;
+  padding: 18px;
+  color: #fff;
+  background: var(--navy);
+  border-radius: 8px;
+}
+
+.research-runbook-summary div:nth-child(2) {
+  background: var(--rust);
+}
+
+.research-runbook-summary div:nth-child(3) {
+  background: var(--green);
+}
+
+.research-runbook-summary div:nth-child(4) {
+  background: var(--blue);
+}
+
+.research-runbook-summary div:nth-child(5) {
+  background: var(--plum);
+}
+
+.research-runbook-summary strong {
+  display: block;
+  margin-bottom: 8px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2.7rem;
+  line-height: 0.95;
+}
+
+.research-runbook-summary span {
   font-weight: 900;
 }
 
@@ -570,6 +612,12 @@ dd {
   gap: 14px;
 }
 
+.research-runbook-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
 .compiler-queue-card {
   min-height: auto;
 }
@@ -580,6 +628,19 @@ dd {
 
 .decision-worksheet-card {
   min-height: auto;
+}
+
+.research-runbook-card {
+  min-height: auto;
+  border-top: 5px solid var(--green);
+}
+
+.research-runbook-card.priority-critical {
+  border-top-color: var(--rust);
+}
+
+.research-runbook-card.priority-high {
+  border-top-color: var(--gold);
 }
 
 .compiler-row-list {
@@ -1146,6 +1207,8 @@ footer {
   .compiler-queue-grid,
   .source-note-packet-summary,
   .source-note-group-grid,
+  .research-runbook-summary,
+  .research-runbook-grid,
   .decision-worksheets-summary,
   .decision-worksheet-grid,
   .chapter-grid,
@@ -1209,6 +1272,8 @@ footer {
   .compiler-queue-grid,
   .source-note-packet-summary,
   .source-note-group-grid,
+  .research-runbook-summary,
+  .research-runbook-grid,
   .decision-worksheets-summary,
   .decision-worksheet-grid,
   .chapter-grid,
