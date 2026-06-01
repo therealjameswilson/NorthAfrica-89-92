@@ -10,6 +10,7 @@ const reportPath = path.join(reportDir, "gap-audit.json");
 const selectionReportPath = path.join(reportDir, "selection-matrix-build.json");
 const compilerBriefReportPath = path.join(reportDir, "compiler-brief-build.json");
 const sourceNotePacketReportPath = path.join(reportDir, "source-note-packet-build.json");
+const decisionWorksheetsReportPath = path.join(reportDir, "decision-worksheets-build.json");
 
 const records = readJson("records.json");
 const boundaryRecords = readJson("boundary-records.json");
@@ -21,6 +22,7 @@ const sourceCopyLedger = readJson("source-copy-ledger.json");
 const selectionReport = readOptionalJson(selectionReportPath) || {};
 const compilerBriefReport = readOptionalJson(compilerBriefReportPath) || {};
 const sourceNotePacketReport = readOptionalJson(sourceNotePacketReportPath) || {};
+const decisionWorksheetsReport = readOptionalJson(decisionWorksheetsReportPath) || {};
 
 const GAP_PERSON_TERMS = [
   "Babangida",
@@ -69,6 +71,10 @@ const reportBody = {
   sourceNotePacketFrusSourceNoteRows: sourceNotePacketReport.frusSourceNoteRows || 0,
   sourceNotePacketGroupCount: sourceNotePacketReport.groupCount || 0,
   sourceNotePacketMissingFrusSourceNoteRows: sourceNotePacketReport.missingFrusSourceNoteRows || 0,
+  decisionWorksheetCount: decisionWorksheetsReport.worksheetCount || 0,
+  decisionWorksheetSelectionRows: decisionWorksheetsReport.selectionDecisionRows || 0,
+  decisionWorksheetAuthorityReviewRows: decisionWorksheetsReport.authorityReviewRows || 0,
+  decisionWorksheetCsvFiles: decisionWorksheetsReport.csvFiles || [],
   selectionMatrixByRecommendation: selectionReport.byRecommendation || {},
   sourceCopyLedgerCount: sourceCopyLedger.length,
   sourceCopyLedgerByIssue: countBy(sourceCopyLedger.map((item) => item.issueType)),
@@ -118,6 +124,18 @@ const failures = [
   ...(report.sourceNotePacketMissingFrusSourceNoteRows === 0
     ? []
     : [`source-note packet has missing FRUS source notes: ${report.sourceNotePacketMissingFrusSourceNoteRows}`]),
+  ...(report.decisionWorksheetCount >= 7 ? [] : [`decision worksheet count too low: found ${report.decisionWorksheetCount}`]),
+  ...(report.decisionWorksheetSelectionRows === report.expectedSelectionMatrixCount
+    ? []
+    : [`decision worksheet selection count mismatch: expected ${report.expectedSelectionMatrixCount}, found ${report.decisionWorksheetSelectionRows}`]),
+  ...(report.decisionWorksheetAuthorityReviewRows === report.personsNeedingAuthorityReview.length
+    ? []
+    : [
+        `decision worksheet authority-review count mismatch: expected ${report.personsNeedingAuthorityReview.length}, found ${report.decisionWorksheetAuthorityReviewRows}`
+      ]),
+  ...report.decisionWorksheetCsvFiles
+    .filter((filePath) => !fs.existsSync(path.join(repoRoot, filePath)))
+    .map((filePath) => `missing decision worksheet CSV: ${filePath}`),
   ...report.missingChronologyParticipants.map((name) => `missing chronology participant: ${name}`),
   ...report.missingBoundaryParticipants.map((name) => `missing boundary participant: ${name}`),
   ...report.missingGapPersonTerms.map((name) => `missing gap person term: ${name}`),
@@ -130,7 +148,7 @@ if (failures.length) {
 }
 
 console.log(
-  `Gap audit passed: ${persons.length} persons, ${report.selectionMatrixCount} selection rows, ${report.compilerBriefQueueCount} compiler brief queues, ${report.sourceNotePacketCount} source-note packet rows, ${sourceCopyLedger.length} source-copy ledger rows, ${report.personsNeedingAuthorityReview.length} authority-review entries.`
+  `Gap audit passed: ${persons.length} persons, ${report.selectionMatrixCount} selection rows, ${report.compilerBriefQueueCount} compiler brief queues, ${report.sourceNotePacketCount} source-note packet rows, ${report.decisionWorksheetCount} decision worksheets, ${sourceCopyLedger.length} source-copy ledger rows, ${report.personsNeedingAuthorityReview.length} authority-review entries.`
 );
 
 function readJson(fileName) {

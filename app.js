@@ -8,6 +8,7 @@ const sourcePools = window.SOURCE_POOLS || [];
 const sourceCopyLedger = window.SOURCE_COPY_LEDGER || [];
 const compilerBrief = window.COMPILER_BRIEF || null;
 const sourceNotePacket = window.SOURCE_NOTE_PACKET || null;
+const decisionWorksheets = window.DECISION_WORKSHEETS || null;
 const chapters = meta.chapters || [];
 const selectionMatrix = buildSelectionMatrix();
 
@@ -59,6 +60,7 @@ const nodes = {
   boundaryCount: document.querySelector("#boundary-count"),
   compilerBriefRoot: document.querySelector("#compiler-brief-root"),
   sourceNotePacketRoot: document.querySelector("#source-note-packet-root"),
+  decisionWorksheetsRoot: document.querySelector("#decision-worksheets-root"),
   workbenchRoot: document.querySelector("#workbench-root"),
   chapterGrid: document.querySelector("#chapter-grid"),
   recordsRoot: document.querySelector("#records-root"),
@@ -918,6 +920,86 @@ function queueButton(label, recommendation) {
   return button;
 }
 
+function renderDecisionWorksheets() {
+  if (!nodes.decisionWorksheetsRoot) return;
+  if (!decisionWorksheets) {
+    nodes.decisionWorksheetsRoot.innerHTML = '<p class="empty">Decision worksheet data is unavailable.</p>';
+    return;
+  }
+
+  const summary = document.createElement("div");
+  summary.className = "decision-worksheets-summary";
+  summary.append(
+    worksheetSummaryItem("worksheets", decisionWorksheets.summary?.worksheetCount),
+    worksheetSummaryItem("selection rows", decisionWorksheets.summary?.selectionDecisionRows),
+    worksheetSummaryItem("authority rows", decisionWorksheets.summary?.authorityReviewRows),
+    worksheetSummaryItem("worksheet rows", decisionWorksheets.summary?.worksheetRows)
+  );
+
+  const actions = document.createElement("div");
+  actions.className = "file-actions packet-actions";
+  actions.append(linkButton("Open worksheet guide", "reports/decision-worksheets.md"));
+
+  const grid = document.createElement("div");
+  grid.className = "decision-worksheet-grid";
+  grid.append(...(decisionWorksheets.worksheets || []).map(decisionWorksheetCard));
+
+  nodes.decisionWorksheetsRoot.replaceChildren(summary, actions, grid);
+}
+
+function worksheetSummaryItem(label, value) {
+  const item = document.createElement("div");
+  const strong = document.createElement("strong");
+  strong.textContent = String(value ?? 0);
+  const span = document.createElement("span");
+  span.textContent = label;
+  item.append(strong, span);
+  return item;
+}
+
+function decisionWorksheetCard(worksheet) {
+  const card = document.createElement("article");
+  card.className = "file-card decision-worksheet-card";
+
+  const header = document.createElement("header");
+  const titleBlock = document.createElement("div");
+  const meta = document.createElement("div");
+  meta.className = "file-meta";
+  meta.append(textSpan(worksheet.kind), textSpan(`${worksheet.count} rows`));
+  const title = document.createElement("h3");
+  title.textContent = worksheet.title;
+  titleBlock.append(meta, title);
+  header.append(titleBlock);
+
+  const description = document.createElement("p");
+  description.textContent = worksheet.description;
+
+  const list = document.createElement("ul");
+  list.className = "compiler-row-list";
+  for (const row of (worksheet.previewRows || []).slice(0, 3)) list.append(decisionWorksheetPreviewRow(row));
+
+  const actions = document.createElement("div");
+  actions.className = "file-actions";
+  actions.append(linkButton("Download CSV", worksheet.csvPath));
+  if (worksheet.kind === "selection" && worksheet.previewRows?.[0]?.recommendation) {
+    actions.append(queueButton("Open queue", worksheet.previewRows[0].recommendation));
+  }
+
+  card.append(header, description, list, actions);
+  return card;
+}
+
+function decisionWorksheetPreviewRow(row) {
+  const item = document.createElement("li");
+  const title = document.createElement("span");
+  title.className = "compiler-row-title";
+  title.textContent = row.title || row.name || row.finalAuthorityForm || "Decision row";
+  const detail = document.createElement("p");
+  detail.textContent = row.nextAction || row.reviewReason || row.description || row.recommendation || "Review.";
+  item.append(title, detail);
+  return item;
+}
+
 function selectionDocketCard(item) {
   const count = selectionMatrix.filter((row) => row.recommendation === item.recommendation).length;
   const button = document.createElement("button");
@@ -1616,6 +1698,7 @@ function init() {
   setStats();
   renderCompilerBrief();
   renderSourceNotePacket();
+  renderDecisionWorksheets();
   renderWorkbench();
   renderGapTracker();
   renderSourcePools();

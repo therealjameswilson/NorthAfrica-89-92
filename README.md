@@ -25,6 +25,7 @@ The committed data currently contains:
 - `186` compiler selection matrix rows
 - `5` start-here compiler brief actions and `7` generated work queues
 - `143` source-note packet rows with FRUS-style notes and diary/backup controls
+- `7` editable decision worksheets, including `186` selection rows and `18` persons authority-review rows
 - `11` compiler gap-tracker items
 - `14` next-harvest source pools
 - `37` source-copy ledger rows for markers, partials, and restricted releases
@@ -123,6 +124,21 @@ Diary/Backup control references when available. It writes:
 - `data/source-note-packet.json` and `data/source-note-packet.js`
 - `reports/source-note-packet.md`
 - `reports/source-note-packet-build.json`
+
+Build editable decision worksheets with:
+
+```bash
+node scripts/build-decision-worksheets.js
+```
+
+This creates CSV worksheets with blank compiler decision fields for selection,
+source-copy, declassification, cross-volume/boundary, public-line, and persons
+authority review work. It writes:
+
+- `data/decision-worksheets.json` and `data/decision-worksheets.js`
+- `reports/decision-worksheets.md`
+- `reports/decision-worksheets-build.json`
+- `reports/worksheets/*.csv`
 
 Build FRUS-style source notes for proposed records with:
 

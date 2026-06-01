@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-01T15:29:33.211Z",
+  "generatedAt": "2026-06-01T15:36:29.574Z",
   "personsCount": 51,
   "selectionMatrixCount": 186,
   "expectedSelectionMatrixCount": 186,
@@ -11,6 +11,18 @@
   "sourceNotePacketFrusSourceNoteRows": 143,
   "sourceNotePacketGroupCount": 6,
   "sourceNotePacketMissingFrusSourceNoteRows": 0,
+  "decisionWorksheetCount": 7,
+  "decisionWorksheetSelectionRows": 186,
+  "decisionWorksheetAuthorityReviewRows": 18,
+  "decisionWorksheetCsvFiles": [
+    "reports/worksheets/all-selection-decisions.csv",
+    "reports/worksheets/core-selection-decisions.csv",
+    "reports/worksheets/source-copy-searches.csv",
+    "reports/worksheets/declassification-review.csv",
+    "reports/worksheets/cross-volume-boundary.csv",
+    "reports/worksheets/public-line-context.csv",
+    "reports/worksheets/persons-authority-review.csv"
+  ],
   "selectionMatrixByRecommendation": {
     "Public-line/context check": 43,
     "Boundary handoff": 39,

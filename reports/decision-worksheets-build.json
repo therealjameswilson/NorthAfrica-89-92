@@ -1,0 +1,16 @@
+{
+  "generatedAt": "2026-06-01T15:34:29.689Z",
+  "worksheetCount": 7,
+  "selectionDecisionRows": 186,
+  "authorityReviewRows": 18,
+  "worksheetRows": 390,
+  "csvFiles": [
+    "reports/worksheets/all-selection-decisions.csv",
+    "reports/worksheets/core-selection-decisions.csv",
+    "reports/worksheets/source-copy-searches.csv",
+    "reports/worksheets/declassification-review.csv",
+    "reports/worksheets/cross-volume-boundary.csv",
+    "reports/worksheets/public-line-context.csv",
+    "reports/worksheets/persons-authority-review.csv"
+  ]
+}
