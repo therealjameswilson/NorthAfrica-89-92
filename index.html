@@ -8,7 +8,7 @@
       name="description"
       content="A compiler-facing FRUS Assist page for Foreign Relations of the United States, 1989-1992, Volume XX, North Africa; Sub-Saharan Africa."
     />
-    <link rel="stylesheet" href="styles.css?v=20260601-runbook" />
+    <link rel="stylesheet" href="styles.css?v=20260601-dossiers" />
   </head>
   <body>
     <header class="site-header">
@@ -18,6 +18,7 @@
       </a>
       <nav aria-label="Primary navigation">
         <a href="#records">Declassified Chronology</a>
+        <a href="#country-dossiers">Country Dossiers</a>
         <a href="#compiler-brief">Compiler Brief</a>
         <a href="#source-note-packet">Source Notes</a>
         <a href="#research-runbook">Runbook</a>
@@ -112,6 +113,33 @@
         </div>
         <div id="records-root" class="records-root" aria-live="polite">
           <p class="loading">Loading conversation records...</p>
+        </div>
+      </section>
+
+      <section class="section country-dossiers-section" id="country-dossiers" aria-labelledby="country-dossiers-title">
+        <div class="section-heading">
+          <p class="kicker">Country Dossiers</p>
+          <h2 id="country-dossiers-title">One-Stop Desks by Country</h2>
+        </div>
+        <div class="tools" aria-label="Search and filter country dossiers">
+          <label class="search-field">
+            <span>Search dossiers</span>
+            <input id="country-dossier-search" type="search" placeholder="Search country, status, notes, queries, people" />
+          </label>
+          <label>
+            <span>Lane</span>
+            <select id="country-dossier-lane-filter"></select>
+          </label>
+          <label>
+            <span>Status</span>
+            <select id="country-dossier-status-filter"></select>
+          </label>
+          <button id="clear-country-dossier-filters" type="button">Reset</button>
+          <button id="export-country-dossiers" type="button">CSV</button>
+          <p id="country-dossier-summary" class="summary">Loading country dossiers...</p>
+        </div>
+        <div id="country-dossier-root" class="country-dossier-grid" aria-live="polite">
+          <p class="loading">Loading country dossiers...</p>
         </div>
       </section>
 
@@ -424,6 +452,7 @@ node scripts/build-compiler-brief.js
 node scripts/build-source-note-packet.js
 node scripts/build-decision-worksheets.js
 node scripts/build-research-runbook.js
+node scripts/build-country-dossiers.js
 node scripts/build-gap-tracker.js
 BUSH_NAMES_DOCX=... node scripts/build-persons-list.js
 python3 -m http.server 4194</code></pre>
@@ -436,18 +465,19 @@ python3 -m http.server 4194</code></pre>
       <p>FRUS Assist for Volume XX. Data generated from public source records and local companion-volume harvests.</p>
     </footer>
 
-    <script src="data/volume-meta.js?v=20260601-runbook"></script>
-    <script src="data/records.js?v=20260601-runbook"></script>
-    <script src="data/boundary-records.js?v=20260601-runbook"></script>
-    <script src="data/policy-files.js?v=20260601-runbook"></script>
-    <script src="data/public-references.js?v=20260601-runbook"></script>
-    <script src="data/gap-tracker.js?v=20260601-runbook"></script>
-    <script src="data/source-pools.js?v=20260601-runbook"></script>
-    <script src="data/source-copy-ledger.js?v=20260601-runbook"></script>
-    <script src="data/compiler-brief.js?v=20260601-runbook"></script>
-    <script src="data/source-note-packet.js?v=20260601-runbook"></script>
-    <script src="data/research-runbook.js?v=20260601-runbook"></script>
-    <script src="data/decision-worksheets.js?v=20260601-runbook"></script>
-    <script src="app.js?v=20260601-runbook"></script>
+    <script src="data/volume-meta.js?v=20260601-dossiers"></script>
+    <script src="data/records.js?v=20260601-dossiers"></script>
+    <script src="data/boundary-records.js?v=20260601-dossiers"></script>
+    <script src="data/policy-files.js?v=20260601-dossiers"></script>
+    <script src="data/public-references.js?v=20260601-dossiers"></script>
+    <script src="data/gap-tracker.js?v=20260601-dossiers"></script>
+    <script src="data/source-pools.js?v=20260601-dossiers"></script>
+    <script src="data/source-copy-ledger.js?v=20260601-dossiers"></script>
+    <script src="data/compiler-brief.js?v=20260601-dossiers"></script>
+    <script src="data/source-note-packet.js?v=20260601-dossiers"></script>
+    <script src="data/research-runbook.js?v=20260601-dossiers"></script>
+    <script src="data/country-dossiers.js?v=20260601-dossiers"></script>
+    <script src="data/decision-worksheets.js?v=20260601-dossiers"></script>
+    <script src="app.js?v=20260601-dossiers"></script>
   </body>
 </html>

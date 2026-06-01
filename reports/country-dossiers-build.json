@@ -1,0 +1,14 @@
+{
+  "generatedAt": "2026-06-01T16:00:54.344Z",
+  "dossierCount": 34,
+  "countryCount": 34,
+  "activeChronologyCountries": 15,
+  "noChronologyCountries": 19,
+  "sourceCopyReviewCountries": 9,
+  "directGapCountries": 20,
+  "queryRows": 232,
+  "csvFiles": [
+    "reports/country-dossiers/country-dossiers.csv",
+    "reports/country-dossiers/country-searches.csv"
+  ]
+}

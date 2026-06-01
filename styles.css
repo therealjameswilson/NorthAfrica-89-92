@@ -612,6 +612,29 @@ dd {
   gap: 14px;
 }
 
+.country-dossier-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.country-dossier-preview-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.country-dossier-preview {
+  min-width: 0;
+}
+
+.country-dossier-preview h4 {
+  margin: 0 0 10px;
+  color: var(--navy);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+
 .research-runbook-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -641,6 +664,25 @@ dd {
 
 .research-runbook-card.priority-high {
   border-top-color: var(--gold);
+}
+
+.country-dossier-card {
+  min-height: auto;
+  border-top: 5px solid var(--green);
+}
+
+.country-dossier-card.status-cross-volume-review,
+.country-dossier-card.status-source-copy-review,
+.country-dossier-card.status-missing-source-target {
+  border-top-color: var(--rust);
+}
+
+.country-dossier-card.status-source-base-gap {
+  border-top-color: var(--gold);
+}
+
+.country-dossier-card.status-no-chronology-row {
+  border-top-color: var(--plum);
 }
 
 .compiler-row-list {
@@ -765,6 +807,10 @@ dd {
 .public-section .tools,
 .boundary-section .tools {
   grid-template-columns: minmax(250px, 2fr) minmax(160px, 1fr) auto auto;
+}
+
+.country-dossiers-section .tools {
+  grid-template-columns: minmax(250px, 2fr) minmax(160px, 1fr) minmax(170px, 1fr) auto auto;
 }
 
 .persons-tools {
@@ -1209,6 +1255,8 @@ footer {
   .source-note-group-grid,
   .research-runbook-summary,
   .research-runbook-grid,
+  .country-dossier-grid,
+  .country-dossier-preview-grid,
   .decision-worksheets-summary,
   .decision-worksheet-grid,
   .chapter-grid,
@@ -1226,6 +1274,7 @@ footer {
   .policy-section .tools,
   .gap-section .tools,
   .source-pool-section .tools,
+  .country-dossiers-section .tools,
   .persons-tools,
   .public-section .tools,
   .boundary-section .tools {
@@ -1274,6 +1323,8 @@ footer {
   .source-note-group-grid,
   .research-runbook-summary,
   .research-runbook-grid,
+  .country-dossier-grid,
+  .country-dossier-preview-grid,
   .decision-worksheets-summary,
   .decision-worksheet-grid,
   .chapter-grid,
@@ -1284,6 +1335,7 @@ footer {
   .policy-section .tools,
   .gap-section .tools,
   .source-pool-section .tools,
+  .country-dossiers-section .tools,
   .persons-tools,
   .public-section .tools,
   .boundary-section .tools {

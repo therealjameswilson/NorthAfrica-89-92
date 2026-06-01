@@ -12,7 +12,9 @@ const compilerBriefReportPath = path.join(reportDir, "compiler-brief-build.json"
 const sourceNotePacketReportPath = path.join(reportDir, "source-note-packet-build.json");
 const decisionWorksheetsReportPath = path.join(reportDir, "decision-worksheets-build.json");
 const researchRunbookReportPath = path.join(reportDir, "research-runbook-build.json");
+const countryDossiersReportPath = path.join(reportDir, "country-dossiers-build.json");
 
+const meta = readJson("volume-meta.json");
 const records = readJson("records.json");
 const boundaryRecords = readJson("boundary-records.json");
 const policyFiles = readJson("policy-files.json");
@@ -25,6 +27,7 @@ const compilerBriefReport = readOptionalJson(compilerBriefReportPath) || {};
 const sourceNotePacketReport = readOptionalJson(sourceNotePacketReportPath) || {};
 const decisionWorksheetsReport = readOptionalJson(decisionWorksheetsReportPath) || {};
 const researchRunbookReport = readOptionalJson(researchRunbookReportPath) || {};
+const countryDossiersReport = readOptionalJson(countryDossiersReportPath) || {};
 
 const GAP_PERSON_TERMS = [
   "Babangida",
@@ -61,6 +64,7 @@ const unresolvedTerms = ["Abdelhamid"].filter((term) => gapText.includes(term));
 const expectedSelectionMatrixCount = records.length + boundaryRecords.length + policyFiles.length + publicReferences.length;
 const expectedSourceNotePacketCount = records.length + boundaryRecords.length + policyFiles.length;
 const expectedCriticalGapCount = gapTracker.filter((gap) => gap.priority === "Critical").length;
+const expectedCountryDossierCount = new Set((meta.chapters || []).flatMap((chapter) => chapter.countries || [])).size;
 
 const reportBody = {
   personsCount: persons.length,
@@ -85,6 +89,11 @@ const reportBody = {
   researchRunbookQueryCount: researchRunbookReport.queryCount || 0,
   researchRunbookStateDepartmentQueryCount: researchRunbookReport.stateDepartmentQueryCount || 0,
   researchRunbookCsvFiles: researchRunbookReport.csvFiles || [],
+  countryDossierCount: countryDossiersReport.dossierCount || 0,
+  expectedCountryDossierCount,
+  countryDossierNoChronologyCount: countryDossiersReport.noChronologyCountries || 0,
+  countryDossierQueryRows: countryDossiersReport.queryRows || 0,
+  countryDossierCsvFiles: countryDossiersReport.csvFiles || [],
   selectionMatrixByRecommendation: selectionReport.byRecommendation || {},
   sourceCopyLedgerCount: sourceCopyLedger.length,
   sourceCopyLedgerByIssue: countBy(sourceCopyLedger.map((item) => item.issueType)),
@@ -163,6 +172,15 @@ const failures = [
   ...report.researchRunbookCsvFiles
     .filter((filePath) => !fs.existsSync(path.join(repoRoot, filePath)))
     .map((filePath) => `missing research runbook CSV: ${filePath}`),
+  ...(report.countryDossierCount >= report.expectedCountryDossierCount
+    ? []
+    : [`country dossier count mismatch: expected at least ${report.expectedCountryDossierCount}, found ${report.countryDossierCount}`]),
+  ...(report.countryDossierQueryRows >= report.countryDossierNoChronologyCount
+    ? []
+    : [`country dossier query count too low: found ${report.countryDossierQueryRows}`]),
+  ...report.countryDossierCsvFiles
+    .filter((filePath) => !fs.existsSync(path.join(repoRoot, filePath)))
+    .map((filePath) => `missing country dossier CSV: ${filePath}`),
   ...report.missingChronologyParticipants.map((name) => `missing chronology participant: ${name}`),
   ...report.missingBoundaryParticipants.map((name) => `missing boundary participant: ${name}`),
   ...report.missingGapPersonTerms.map((name) => `missing gap person term: ${name}`),
@@ -175,7 +193,7 @@ if (failures.length) {
 }
 
 console.log(
-  `Gap audit passed: ${persons.length} persons, ${report.selectionMatrixCount} selection rows, ${report.compilerBriefQueueCount} compiler brief queues, ${report.sourceNotePacketCount} source-note packet rows, ${report.decisionWorksheetCount} decision worksheets, ${report.researchRunbookQueryCount} research runbook queries, ${sourceCopyLedger.length} source-copy ledger rows, ${report.personsNeedingAuthorityReview.length} authority-review entries.`
+  `Gap audit passed: ${persons.length} persons, ${report.selectionMatrixCount} selection rows, ${report.compilerBriefQueueCount} compiler brief queues, ${report.sourceNotePacketCount} source-note packet rows, ${report.decisionWorksheetCount} decision worksheets, ${report.researchRunbookQueryCount} research runbook queries, ${report.countryDossierCount} country dossiers, ${sourceCopyLedger.length} source-copy ledger rows, ${report.personsNeedingAuthorityReview.length} authority-review entries.`
 );
 
 function readJson(fileName) {

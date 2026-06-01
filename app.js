@@ -9,6 +9,7 @@ const sourceCopyLedger = window.SOURCE_COPY_LEDGER || [];
 const compilerBrief = window.COMPILER_BRIEF || null;
 const sourceNotePacket = window.SOURCE_NOTE_PACKET || null;
 const researchRunbook = window.RESEARCH_RUNBOOK || null;
+const countryDossiers = window.COUNTRY_DOSSIERS || null;
 const decisionWorksheets = window.DECISION_WORKSHEETS || null;
 const chapters = meta.chapters || [];
 const selectionMatrix = buildSelectionMatrix();
@@ -50,6 +51,11 @@ const state = {
     query: "",
     lane: "",
     priority: ""
+  },
+  countryDossiers: {
+    query: "",
+    lane: "",
+    status: ""
   }
 };
 
@@ -62,6 +68,13 @@ const nodes = {
   compilerBriefRoot: document.querySelector("#compiler-brief-root"),
   sourceNotePacketRoot: document.querySelector("#source-note-packet-root"),
   researchRunbookRoot: document.querySelector("#research-runbook-root"),
+  countryDossierRoot: document.querySelector("#country-dossier-root"),
+  countryDossierSummary: document.querySelector("#country-dossier-summary"),
+  countryDossierSearch: document.querySelector("#country-dossier-search"),
+  countryDossierLaneFilter: document.querySelector("#country-dossier-lane-filter"),
+  countryDossierStatusFilter: document.querySelector("#country-dossier-status-filter"),
+  clearCountryDossierFilters: document.querySelector("#clear-country-dossier-filters"),
+  exportCountryDossiers: document.querySelector("#export-country-dossiers"),
   decisionWorksheetsRoot: document.querySelector("#decision-worksheets-root"),
   workbenchRoot: document.querySelector("#workbench-root"),
   chapterGrid: document.querySelector("#chapter-grid"),
@@ -922,6 +935,151 @@ function queueButton(label, recommendation) {
   return button;
 }
 
+function filteredCountryDossiers() {
+  const dossiers = countryDossiers?.dossiers || [];
+  return dossiers.filter((dossier) => {
+    if (!matchesQuery(dossier, state.countryDossiers.query)) return false;
+    if (state.countryDossiers.lane && !(dossier.lanes || []).includes(state.countryDossiers.lane)) return false;
+    if (state.countryDossiers.status && dossier.coverageStatus !== state.countryDossiers.status) return false;
+    return true;
+  });
+}
+
+function renderCountryDossiers() {
+  if (!nodes.countryDossierRoot) return;
+  if (!countryDossiers) {
+    nodes.countryDossierRoot.innerHTML = '<p class="empty">Country dossier data is unavailable.</p>';
+    return;
+  }
+
+  const visible = filteredCountryDossiers();
+  nodes.countryDossierSummary.textContent = `${plural(visible.length, "country dossier")} visible from ${countryDossiers.summary?.dossierCount || 0} Volume XX country desks.`;
+  nodes.countryDossierRoot.replaceChildren(...visible.map(countryDossierCard));
+  if (!visible.length) nodes.countryDossierRoot.innerHTML = '<p class="empty">No country dossiers match the current filters.</p>';
+}
+
+function countryDossierCard(dossier) {
+  const card = document.createElement("article");
+  card.className = `file-card country-dossier-card status-${slug(dossier.coverageStatus)}`;
+
+  const header = document.createElement("header");
+  const titleBlock = document.createElement("div");
+  const meta = document.createElement("div");
+  meta.className = "file-meta";
+  meta.append(textSpan(dossier.coverageStatus), textSpan((dossier.lanes || []).join("; ")));
+  const title = document.createElement("h3");
+  title.textContent = dossier.country;
+  titleBlock.append(meta, title);
+  header.append(titleBlock);
+
+  const chips = document.createElement("div");
+  chips.className = "chips";
+  chips.append(
+    chip(`${dossier.chronologyRows || 0} chronology rows`, dossier.chronologyRows ? "good" : "warn"),
+    chip(`${dossier.conversationPages || 0} pages`),
+    chip(`${dossier.runbookQueryCount || 0} queries`, dossier.runbookQueryCount ? "" : "warn")
+  );
+  if (dossier.sourceCopyRows) chips.append(chip(`${dossier.sourceCopyRows} source-copy rows`, "warn"));
+  if (dossier.gapCount) chips.append(chip(`${dossier.gapCount} direct gaps`, dossier.coverageStatus === "Chronology active" ? "" : "warn"));
+  if (dossier.publicReferenceCount) chips.append(chip(`${dossier.publicReferenceCount} public refs`));
+  if (dossier.policyFileCount) chips.append(chip(`${dossier.policyFileCount} policy files`));
+
+  const note = document.createElement("p");
+  note.textContent = dossier.coverageNote || "";
+
+  const actionsList = document.createElement("ol");
+  actionsList.className = "action-list";
+  for (const action of (dossier.nextActions || []).slice(0, 4)) {
+    const item = document.createElement("li");
+    item.textContent = action;
+    actionsList.append(item);
+  }
+
+  const previewGrid = document.createElement("div");
+  previewGrid.className = "country-dossier-preview-grid";
+  previewGrid.append(
+    countryDossierPreviewList("Chronology", dossier.chronologyPreview || [], countryChronologyPreviewRow),
+    countryDossierPreviewList("Runbook Queries", dossier.queryRows || [], countryQueryPreviewRow)
+  );
+
+  const actions = document.createElement("div");
+  actions.className = "file-actions";
+  if (dossier.chronologyRows) actions.append(countryChronologyButton(dossier.country));
+  if (dossier.queryRows?.[0]?.sourcePoolSearchUrl) actions.append(linkButton("Open first query", dossier.queryRows[0].sourcePoolSearchUrl));
+  actions.append(linkButton("Dossier CSV", "reports/country-dossiers/country-dossiers.csv"));
+
+  card.append(header, chips, note, actionsList, previewGrid, actions);
+  return card;
+}
+
+function countryDossierPreviewList(title, rows, rowRenderer) {
+  const section = document.createElement("section");
+  section.className = "country-dossier-preview";
+  const heading = document.createElement("h4");
+  heading.textContent = title;
+  const list = document.createElement("ul");
+  list.className = "compiler-row-list";
+  for (const row of rows.slice(0, 3)) list.append(rowRenderer(row));
+  if (!rows.length) {
+    const item = document.createElement("li");
+    const empty = document.createElement("p");
+    empty.textContent = "No rows yet.";
+    item.append(empty);
+    list.append(item);
+  }
+  section.append(heading, list);
+  return section;
+}
+
+function countryChronologyPreviewRow(row) {
+  const item = document.createElement("li");
+  const title = row.catalogUrl ? document.createElement("a") : document.createElement("span");
+  if (row.catalogUrl) {
+    title.href = row.catalogUrl;
+    title.target = "_blank";
+    title.rel = "noreferrer";
+  }
+  title.className = "compiler-row-title";
+  title.textContent = `${row.dateText || row.date || "Undated"} - ${row.title}`;
+  const detail = document.createElement("p");
+  detail.textContent = [row.releaseStatus, row.pageCount ? `${row.pageCount} pages` : "", row.diaryReferenceCount ? "diary/backup matched" : ""]
+    .filter(Boolean)
+    .join(" / ");
+  item.append(title, detail);
+  return item;
+}
+
+function countryQueryPreviewRow(row) {
+  const item = document.createElement("li");
+  const title = document.createElement("a");
+  title.href = row.sourcePoolSearchUrl || row.catalogSearchUrl || "#country-dossiers";
+  title.target = "_blank";
+  title.rel = "noreferrer";
+  title.className = "compiler-row-title";
+  title.textContent = `${row.sourcePoolTitle}: ${row.queryLabel}`;
+  const detail = document.createElement("p");
+  detail.textContent = row.queryTerms || "";
+  item.append(title, detail);
+  return item;
+}
+
+function countryChronologyButton(country) {
+  const button = document.createElement("button");
+  button.type = "button";
+  button.textContent = "Filter chronology";
+  button.addEventListener("click", () => {
+    state.records = { query: "", chapter: "", country, release: "", availability: "" };
+    nodes.recordSearch.value = "";
+    nodes.chapterFilter.value = "";
+    nodes.countryFilter.value = country;
+    nodes.releaseFilter.value = "";
+    nodes.availabilityFilter.value = "";
+    renderRecords();
+    document.querySelector("#records")?.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+  return button;
+}
+
 function renderResearchRunbook() {
   if (!nodes.researchRunbookRoot) return;
   if (!researchRunbook) {
@@ -1184,6 +1342,8 @@ function populateFilters() {
   addOptions(nodes.gapStatusFilter, uniqueSorted(gapTracker.map((gap) => gap.status)), "All statuses");
   addOptions(nodes.sourcePoolLaneFilter, uniqueSorted(sourcePools.map((pool) => pool.lane)), "All lanes");
   addOptions(nodes.sourcePoolPriorityFilter, uniqueSorted(sourcePools.map((pool) => pool.priority)), "All priorities");
+  addOptions(nodes.countryDossierLaneFilter, uniqueSorted((countryDossiers?.dossiers || []).flatMap((dossier) => dossier.lanes || [])), "All lanes");
+  addOptions(nodes.countryDossierStatusFilter, uniqueSorted((countryDossiers?.dossiers || []).map((dossier) => dossier.coverageStatus)), "All statuses");
 }
 
 function filteredRecords() {
@@ -1535,6 +1695,49 @@ function downloadCsv(filename, csv) {
 }
 
 function setupEvents() {
+  nodes.countryDossierSearch.addEventListener("input", (event) => {
+    state.countryDossiers.query = event.target.value;
+    renderCountryDossiers();
+  });
+  nodes.countryDossierLaneFilter.addEventListener("change", (event) => {
+    state.countryDossiers.lane = event.target.value;
+    renderCountryDossiers();
+  });
+  nodes.countryDossierStatusFilter.addEventListener("change", (event) => {
+    state.countryDossiers.status = event.target.value;
+    renderCountryDossiers();
+  });
+  nodes.clearCountryDossierFilters.addEventListener("click", () => {
+    state.countryDossiers = { query: "", lane: "", status: "" };
+    nodes.countryDossierSearch.value = "";
+    nodes.countryDossierLaneFilter.value = "";
+    nodes.countryDossierStatusFilter.value = "";
+    renderCountryDossiers();
+  });
+  nodes.exportCountryDossiers.addEventListener("click", () => {
+    downloadCsv(
+      "frus-volume20-country-dossiers.csv",
+      toCsv(filteredCountryDossiers(), [
+        { label: "Country", value: (dossier) => dossier.country },
+        { label: "Lanes", value: (dossier) => (dossier.lanes || []).join("; ") },
+        { label: "Coverage Status", value: (dossier) => dossier.coverageStatus },
+        { label: "Coverage Note", value: (dossier) => dossier.coverageNote },
+        { label: "Chronology Rows", value: (dossier) => dossier.chronologyRows },
+        { label: "Conversation Pages", value: (dossier) => dossier.conversationPages },
+        { label: "First Date", value: (dossier) => dossier.firstDate },
+        { label: "Last Date", value: (dossier) => dossier.lastDate },
+        { label: "Source-Copy Rows", value: (dossier) => dossier.sourceCopyRows },
+        { label: "Diary-Matched Rows", value: (dossier) => dossier.diaryMatchedRows },
+        { label: "Policy Files", value: (dossier) => dossier.policyFileCount },
+        { label: "Public References", value: (dossier) => dossier.publicReferenceCount },
+        { label: "Direct Gaps", value: (dossier) => dossier.gapCount },
+        { label: "Runbook Queries", value: (dossier) => dossier.runbookQueryCount },
+        { label: "Persons", value: (dossier) => dossier.personCount },
+        { label: "Next Actions", value: (dossier) => (dossier.nextActions || []).join("; ") }
+      ])
+    );
+  });
+
   nodes.gapSearch.addEventListener("input", (event) => {
     state.gaps.query = event.target.value;
     renderGapTracker();
@@ -1794,6 +1997,7 @@ function setupEvents() {
 
 function init() {
   setStats();
+  renderCountryDossiers();
   renderCompilerBrief();
   renderSourceNotePacket();
   renderResearchRunbook();

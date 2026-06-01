@@ -27,6 +27,7 @@ The committed data currently contains:
 - `143` source-note packet rows with FRUS-style notes and diary/backup controls
 - `7` editable decision worksheets, including `186` selection rows and `18` persons authority-review rows
 - `98` missing-source runbook query rows across all compiler gaps
+- `34` country dossiers with chronology, gap, runbook, public-line, policy-file, and persons cues
 - `11` compiler gap-tracker items
 - `14` next-harvest source pools
 - `37` source-copy ledger rows for markers, partials, and restricted releases
@@ -155,6 +156,22 @@ writes:
 - `reports/research-runbook.md`
 - `reports/research-runbook-build.json`
 - `reports/research-runbook/*.csv`
+
+Build country dossiers with:
+
+```bash
+node scripts/build-country-dossiers.js
+```
+
+This creates one compiler desk per Volume XX country, including chronology
+counts, source-copy/declassification pressure, direct gap items, source-pool
+queries, public-line references, policy-file anchors, and persons-list cues. It
+writes:
+
+- `data/country-dossiers.json` and `data/country-dossiers.js`
+- `reports/country-dossiers.md`
+- `reports/country-dossiers-build.json`
+- `reports/country-dossiers/*.csv`
 
 Build FRUS-style source notes for proposed records with:
 

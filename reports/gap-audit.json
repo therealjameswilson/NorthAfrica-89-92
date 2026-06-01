@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-01T15:54:06.017Z",
+  "generatedAt": "2026-06-01T16:04:09.333Z",
   "personsCount": 51,
   "selectionMatrixCount": 186,
   "expectedSelectionMatrixCount": 186,
@@ -32,6 +32,14 @@
   "researchRunbookCsvFiles": [
     "reports/research-runbook/all-gap-queries.csv",
     "reports/research-runbook/priority-gap-queries.csv"
+  ],
+  "countryDossierCount": 34,
+  "expectedCountryDossierCount": 34,
+  "countryDossierNoChronologyCount": 19,
+  "countryDossierQueryRows": 232,
+  "countryDossierCsvFiles": [
+    "reports/country-dossiers/country-dossiers.csv",
+    "reports/country-dossiers/country-searches.csv"
   ],
   "selectionMatrixByRecommendation": {
     "Public-line/context check": 43,
