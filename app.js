@@ -10,6 +10,7 @@ const compilerBrief = window.COMPILER_BRIEF || null;
 const sourceNotePacket = window.SOURCE_NOTE_PACKET || null;
 const researchRunbook = window.RESEARCH_RUNBOOK || null;
 const countryDossiers = window.COUNTRY_DOSSIERS || null;
+const draftDocumentList = window.DRAFT_DOCUMENT_LIST || null;
 const decisionWorksheets = window.DECISION_WORKSHEETS || null;
 const chapters = meta.chapters || [];
 const selectionMatrix = buildSelectionMatrix();
@@ -68,6 +69,7 @@ const nodes = {
   compilerBriefRoot: document.querySelector("#compiler-brief-root"),
   sourceNotePacketRoot: document.querySelector("#source-note-packet-root"),
   researchRunbookRoot: document.querySelector("#research-runbook-root"),
+  draftDocumentListRoot: document.querySelector("#draft-document-list-root"),
   countryDossierRoot: document.querySelector("#country-dossier-root"),
   countryDossierSummary: document.querySelector("#country-dossier-summary"),
   countryDossierSearch: document.querySelector("#country-dossier-search"),
@@ -1080,6 +1082,155 @@ function countryChronologyButton(country) {
   return button;
 }
 
+function renderDraftDocumentList() {
+  if (!nodes.draftDocumentListRoot) return;
+  if (!draftDocumentList) {
+    nodes.draftDocumentListRoot.innerHTML = '<p class="empty">Draft document list data is unavailable.</p>';
+    return;
+  }
+
+  const summary = document.createElement("div");
+  summary.className = "draft-document-summary";
+  summary.append(
+    draftDocumentSummaryItem("proposed", draftDocumentList.summary?.proposedCount),
+    draftDocumentSummaryItem("conditional", draftDocumentList.summary?.conditionalCount),
+    draftDocumentSummaryItem("source notes", draftDocumentList.summary?.sourceNoteCount),
+    draftDocumentSummaryItem("source-copy", draftDocumentList.summary?.sourceCopyBlockers),
+    draftDocumentSummaryItem("cross-volume", draftDocumentList.summary?.crossVolumeScreens)
+  );
+
+  const actions = document.createElement("div");
+  actions.className = "file-actions packet-actions";
+  actions.append(
+    linkButton("Open draft list", "reports/draft-document-list.md"),
+    linkButton("Proposed CSV", "reports/draft-document-list/proposed-documents.csv"),
+    linkButton("Conditional CSV", "reports/draft-document-list/conditional-documents.csv"),
+    linkButton("Chapter gaps CSV", "reports/draft-document-list/chapter-gaps.csv")
+  );
+
+  const proposed = document.createElement("div");
+  proposed.className = "draft-document-proposed";
+  const proposedTitle = document.createElement("h3");
+  proposedTitle.textContent = "First Proposed Documents";
+  const proposedList = document.createElement("ul");
+  proposedList.className = "compiler-row-list";
+  for (const row of (draftDocumentList.proposedRows || []).slice(0, 6)) proposedList.append(draftDocumentRow(row));
+  proposed.append(proposedTitle, proposedList);
+
+  const chapters = document.createElement("div");
+  chapters.className = "draft-chapter-grid";
+  chapters.append(...(draftDocumentList.chapterGroups || []).map(draftChapterCard));
+
+  nodes.draftDocumentListRoot.replaceChildren(summary, actions, proposed, chapters);
+}
+
+function draftDocumentSummaryItem(label, value) {
+  const item = document.createElement("div");
+  const strong = document.createElement("strong");
+  strong.textContent = String(value ?? 0);
+  const span = document.createElement("span");
+  span.textContent = label;
+  item.append(strong, span);
+  return item;
+}
+
+function draftChapterCard(group) {
+  const card = document.createElement("article");
+  card.className = "file-card draft-chapter-card";
+
+  const header = document.createElement("header");
+  const titleBlock = document.createElement("div");
+  const meta = document.createElement("div");
+  meta.className = "file-meta";
+  meta.append(textSpan(`${group.proposedCount} proposed`), textSpan(`${group.conditionalCount} conditional`));
+  const title = document.createElement("h3");
+  title.textContent = group.lane;
+  titleBlock.append(meta, title);
+  header.append(titleBlock);
+
+  const chips = document.createElement("div");
+  chips.className = "chips";
+  if (group.sourceCopyBlockers) chips.append(chip(`${group.sourceCopyBlockers} source-copy`, "warn"));
+  if (group.declassificationBlockers) chips.append(chip(`${group.declassificationBlockers} declass`, "warn"));
+  if (group.crossVolumeScreens) chips.append(chip(`${group.crossVolumeScreens} cross-volume`, "warn"));
+  if (group.missingCountries?.length) chips.append(chip(`${group.missingCountries.length} country gaps`, "warn"));
+
+  const proposedList = document.createElement("ul");
+  proposedList.className = "compiler-row-list";
+  for (const row of (group.proposedRows || []).slice(0, 3)) proposedList.append(draftDocumentRow(row));
+  if (!group.proposedRows?.length) proposedList.append(emptyListItem("No proposed rows yet."));
+
+  const conditionalList = document.createElement("ul");
+  conditionalList.className = "compiler-row-list";
+  for (const row of (group.conditionalRows || []).slice(0, 3)) conditionalList.append(draftDocumentRow(row));
+  if (!group.conditionalRows?.length) conditionalList.append(emptyListItem("No conditional rows in this lane."));
+
+  const laneGrid = document.createElement("div");
+  laneGrid.className = "country-dossier-preview-grid";
+  laneGrid.append(draftMiniSection("Proposed", proposedList), draftMiniSection("Conditional", conditionalList));
+
+  const gaps = document.createElement("ul");
+  gaps.className = "compact-list";
+  for (const gap of (group.openGaps || []).slice(0, 3)) {
+    const item = document.createElement("li");
+    item.textContent = `${gap.priority}: ${gap.title}`;
+    gaps.append(item);
+  }
+
+  const actions = document.createElement("div");
+  actions.className = "file-actions";
+  actions.append(queueButton("Open core queue", "Candidate core document"));
+  if (group.conditionalRows?.length) actions.append(queueButton("Open conditional queue", group.conditionalRows[0].recommendation));
+
+  card.append(header, chips, laneGrid);
+  if (gaps.children.length) card.append(gaps);
+  card.append(actions);
+  return card;
+}
+
+function draftMiniSection(title, list) {
+  const section = document.createElement("section");
+  section.className = "country-dossier-preview";
+  const heading = document.createElement("h4");
+  heading.textContent = title;
+  section.append(heading, list);
+  return section;
+}
+
+function emptyListItem(text) {
+  const item = document.createElement("li");
+  const paragraph = document.createElement("p");
+  paragraph.textContent = text;
+  item.append(paragraph);
+  return item;
+}
+
+function draftDocumentRow(row) {
+  const item = document.createElement("li");
+  const title = row.catalogUrl ? document.createElement("a") : document.createElement("span");
+  if (row.catalogUrl) {
+    title.href = row.catalogUrl;
+    title.target = "_blank";
+    title.rel = "noreferrer";
+  }
+  title.className = "compiler-row-title";
+  title.textContent = `${row.draftNumber} - ${row.dateText || row.date || "Undated"} - ${row.title}`;
+  const detail = document.createElement("p");
+  detail.textContent = [row.editorialStatus, row.country || row.lane, row.releaseStatus].filter(Boolean).join(" / ");
+  item.append(title, detail);
+  if (row.frusSourceNote) {
+    const details = document.createElement("details");
+    const summary = document.createElement("summary");
+    summary.textContent = "FRUS source note";
+    const note = document.createElement("p");
+    note.className = "source-note";
+    note.textContent = row.frusSourceNote;
+    details.append(summary, note);
+    item.append(details);
+  }
+  return item;
+}
+
 function renderResearchRunbook() {
   if (!nodes.researchRunbookRoot) return;
   if (!researchRunbook) {
@@ -1998,6 +2149,7 @@ function setupEvents() {
 function init() {
   setStats();
   renderCountryDossiers();
+  renderDraftDocumentList();
   renderCompilerBrief();
   renderSourceNotePacket();
   renderResearchRunbook();

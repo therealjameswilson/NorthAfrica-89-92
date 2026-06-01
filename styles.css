@@ -407,6 +407,11 @@ dd {
   gap: 16px;
 }
 
+.draft-document-list-root {
+  display: grid;
+  gap: 16px;
+}
+
 .decision-worksheets-root {
   display: grid;
   gap: 16px;
@@ -416,6 +421,7 @@ dd {
 .compiler-brief-actions,
 .source-note-packet-summary,
 .research-runbook-summary,
+.draft-document-summary,
 .decision-worksheets-summary {
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
@@ -523,6 +529,42 @@ dd {
 }
 
 .research-runbook-summary span {
+  font-weight: 900;
+}
+
+.draft-document-summary div {
+  min-height: 112px;
+  padding: 18px;
+  color: #fff;
+  background: var(--navy);
+  border-radius: 8px;
+}
+
+.draft-document-summary div:nth-child(2) {
+  background: var(--green);
+}
+
+.draft-document-summary div:nth-child(3) {
+  background: var(--blue);
+}
+
+.draft-document-summary div:nth-child(4) {
+  background: var(--rust);
+}
+
+.draft-document-summary div:nth-child(5) {
+  background: var(--plum);
+}
+
+.draft-document-summary strong {
+  display: block;
+  margin-bottom: 8px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2.7rem;
+  line-height: 0.95;
+}
+
+.draft-document-summary span {
   font-weight: 900;
 }
 
@@ -641,6 +683,23 @@ dd {
   gap: 14px;
 }
 
+.draft-chapter-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.draft-document-proposed {
+  padding: 18px;
+  background: rgba(255, 255, 255, 0.74);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.draft-document-proposed h3 {
+  margin-bottom: 14px;
+}
+
 .compiler-queue-card {
   min-height: auto;
 }
@@ -683,6 +742,11 @@ dd {
 
 .country-dossier-card.status-no-chronology-row {
   border-top-color: var(--plum);
+}
+
+.draft-chapter-card {
+  min-height: auto;
+  border-top: 5px solid var(--blue);
 }
 
 .compiler-row-list {
@@ -1255,6 +1319,8 @@ footer {
   .source-note-group-grid,
   .research-runbook-summary,
   .research-runbook-grid,
+  .draft-document-summary,
+  .draft-chapter-grid,
   .country-dossier-grid,
   .country-dossier-preview-grid,
   .decision-worksheets-summary,
@@ -1323,6 +1389,8 @@ footer {
   .source-note-group-grid,
   .research-runbook-summary,
   .research-runbook-grid,
+  .draft-document-summary,
+  .draft-chapter-grid,
   .country-dossier-grid,
   .country-dossier-preview-grid,
   .decision-worksheets-summary,

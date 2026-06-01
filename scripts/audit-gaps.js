@@ -13,6 +13,7 @@ const sourceNotePacketReportPath = path.join(reportDir, "source-note-packet-buil
 const decisionWorksheetsReportPath = path.join(reportDir, "decision-worksheets-build.json");
 const researchRunbookReportPath = path.join(reportDir, "research-runbook-build.json");
 const countryDossiersReportPath = path.join(reportDir, "country-dossiers-build.json");
+const draftDocumentListReportPath = path.join(reportDir, "draft-document-list-build.json");
 
 const meta = readJson("volume-meta.json");
 const records = readJson("records.json");
@@ -28,6 +29,7 @@ const sourceNotePacketReport = readOptionalJson(sourceNotePacketReportPath) || {
 const decisionWorksheetsReport = readOptionalJson(decisionWorksheetsReportPath) || {};
 const researchRunbookReport = readOptionalJson(researchRunbookReportPath) || {};
 const countryDossiersReport = readOptionalJson(countryDossiersReportPath) || {};
+const draftDocumentListReport = readOptionalJson(draftDocumentListReportPath) || {};
 
 const GAP_PERSON_TERMS = [
   "Babangida",
@@ -65,6 +67,11 @@ const expectedSelectionMatrixCount = records.length + boundaryRecords.length + p
 const expectedSourceNotePacketCount = records.length + boundaryRecords.length + policyFiles.length;
 const expectedCriticalGapCount = gapTracker.filter((gap) => gap.priority === "Critical").length;
 const expectedCountryDossierCount = new Set((meta.chapters || []).flatMap((chapter) => chapter.countries || [])).size;
+const expectedDraftProposedCount = (selectionReport.byRecommendation?.["Candidate core document"] || 0) + (selectionReport.byRecommendation?.["Policy anchor candidate"] || 0);
+const expectedDraftConditionalCount =
+  (selectionReport.byRecommendation?.["Source-copy search"] || 0) +
+  (selectionReport.byRecommendation?.["Declassification review"] || 0) +
+  (selectionReport.byRecommendation?.["Cross-volume review"] || 0);
 
 const reportBody = {
   personsCount: persons.length,
@@ -94,6 +101,13 @@ const reportBody = {
   countryDossierNoChronologyCount: countryDossiersReport.noChronologyCountries || 0,
   countryDossierQueryRows: countryDossiersReport.queryRows || 0,
   countryDossierCsvFiles: countryDossiersReport.csvFiles || [],
+  draftDocumentProposedCount: draftDocumentListReport.proposedCount || 0,
+  expectedDraftDocumentProposedCount: expectedDraftProposedCount,
+  draftDocumentConditionalCount: draftDocumentListReport.conditionalCount || 0,
+  expectedDraftDocumentConditionalCount: expectedDraftConditionalCount,
+  draftDocumentMissingSourceNoteCount: draftDocumentListReport.missingSourceNoteCount || 0,
+  draftDocumentChapterCount: draftDocumentListReport.chapterCount || 0,
+  draftDocumentCsvFiles: draftDocumentListReport.csvFiles || [],
   selectionMatrixByRecommendation: selectionReport.byRecommendation || {},
   sourceCopyLedgerCount: sourceCopyLedger.length,
   sourceCopyLedgerByIssue: countBy(sourceCopyLedger.map((item) => item.issueType)),
@@ -181,6 +195,25 @@ const failures = [
   ...report.countryDossierCsvFiles
     .filter((filePath) => !fs.existsSync(path.join(repoRoot, filePath)))
     .map((filePath) => `missing country dossier CSV: ${filePath}`),
+  ...(report.draftDocumentProposedCount === report.expectedDraftDocumentProposedCount
+    ? []
+    : [
+        `draft document proposed count mismatch: expected ${report.expectedDraftDocumentProposedCount}, found ${report.draftDocumentProposedCount}`
+      ]),
+  ...(report.draftDocumentConditionalCount === report.expectedDraftDocumentConditionalCount
+    ? []
+    : [
+        `draft document conditional count mismatch: expected ${report.expectedDraftDocumentConditionalCount}, found ${report.draftDocumentConditionalCount}`
+      ]),
+  ...(report.draftDocumentMissingSourceNoteCount === 0
+    ? []
+    : [`draft document list has missing FRUS source notes: ${report.draftDocumentMissingSourceNoteCount}`]),
+  ...(report.draftDocumentChapterCount === (meta.chapters || []).length
+    ? []
+    : [`draft document chapter count mismatch: expected ${(meta.chapters || []).length}, found ${report.draftDocumentChapterCount}`]),
+  ...report.draftDocumentCsvFiles
+    .filter((filePath) => !fs.existsSync(path.join(repoRoot, filePath)))
+    .map((filePath) => `missing draft document CSV: ${filePath}`),
   ...report.missingChronologyParticipants.map((name) => `missing chronology participant: ${name}`),
   ...report.missingBoundaryParticipants.map((name) => `missing boundary participant: ${name}`),
   ...report.missingGapPersonTerms.map((name) => `missing gap person term: ${name}`),
@@ -193,7 +226,7 @@ if (failures.length) {
 }
 
 console.log(
-  `Gap audit passed: ${persons.length} persons, ${report.selectionMatrixCount} selection rows, ${report.compilerBriefQueueCount} compiler brief queues, ${report.sourceNotePacketCount} source-note packet rows, ${report.decisionWorksheetCount} decision worksheets, ${report.researchRunbookQueryCount} research runbook queries, ${report.countryDossierCount} country dossiers, ${sourceCopyLedger.length} source-copy ledger rows, ${report.personsNeedingAuthorityReview.length} authority-review entries.`
+  `Gap audit passed: ${persons.length} persons, ${report.selectionMatrixCount} selection rows, ${report.compilerBriefQueueCount} compiler brief queues, ${report.sourceNotePacketCount} source-note packet rows, ${report.decisionWorksheetCount} decision worksheets, ${report.researchRunbookQueryCount} research runbook queries, ${report.countryDossierCount} country dossiers, ${report.draftDocumentProposedCount} draft proposed rows, ${sourceCopyLedger.length} source-copy ledger rows, ${report.personsNeedingAuthorityReview.length} authority-review entries.`
 );
 
 function readJson(fileName) {

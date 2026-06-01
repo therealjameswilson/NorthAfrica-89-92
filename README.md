@@ -28,6 +28,7 @@ The committed data currently contains:
 - `7` editable decision worksheets, including `186` selection rows and `18` persons authority-review rows
 - `98` missing-source runbook query rows across all compiler gaps
 - `34` country dossiers with chronology, gap, runbook, public-line, policy-file, and persons cues
+- `36` proposed draft-document rows and `68` conditional rows with FRUS source notes
 - `11` compiler gap-tracker items
 - `14` next-harvest source pools
 - `37` source-copy ledger rows for markers, partials, and restricted releases
@@ -172,6 +173,22 @@ writes:
 - `reports/country-dossiers.md`
 - `reports/country-dossiers-build.json`
 - `reports/country-dossiers/*.csv`
+
+Build the draft document list with:
+
+```bash
+node scripts/build-draft-document-list.js
+```
+
+This creates a compiler-facing proposed document register from the selection
+matrix: proposed core/policy rows, conditional source-copy/declassification/
+cross-volume rows, chapter boards, gap controls, diary/backup references, and
+FRUS-style source notes for every row. It writes:
+
+- `data/draft-document-list.json` and `data/draft-document-list.js`
+- `reports/draft-document-list.md`
+- `reports/draft-document-list-build.json`
+- `reports/draft-document-list/*.csv`
 
 Build FRUS-style source notes for proposed records with:
 

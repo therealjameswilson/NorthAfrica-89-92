@@ -8,7 +8,7 @@
       name="description"
       content="A compiler-facing FRUS Assist page for Foreign Relations of the United States, 1989-1992, Volume XX, North Africa; Sub-Saharan Africa."
     />
-    <link rel="stylesheet" href="styles.css?v=20260601-dossiers" />
+    <link rel="stylesheet" href="styles.css?v=20260601-draftdocs" />
     <style id="compiler-network-style">
       .compiler-network {
         border-bottom: 1px solid rgba(31, 41, 51, 0.14);
@@ -88,6 +88,7 @@
       <nav aria-label="Primary navigation">
         <a href="#records">Declassified Chronology</a>
         <a href="#country-dossiers">Country Dossiers</a>
+        <a href="#draft-documents">Draft Docs</a>
         <a href="#compiler-brief">Compiler Brief</a>
         <a href="#source-note-packet">Source Notes</a>
         <a href="#research-runbook">Runbook</a>
@@ -209,6 +210,16 @@
         </div>
         <div id="country-dossier-root" class="country-dossier-grid" aria-live="polite">
           <p class="loading">Loading country dossiers...</p>
+        </div>
+      </section>
+
+      <section class="section draft-documents-section" id="draft-documents" aria-labelledby="draft-documents-title">
+        <div class="section-heading">
+          <p class="kicker">Draft Document List</p>
+          <h2 id="draft-documents-title">Proposed Documents, Conditions, and Chapter Boards</h2>
+        </div>
+        <div id="draft-document-list-root" class="draft-document-list-root" aria-live="polite">
+          <p class="loading">Loading draft document list...</p>
         </div>
       </section>
 
@@ -522,6 +533,7 @@ node scripts/build-source-note-packet.js
 node scripts/build-decision-worksheets.js
 node scripts/build-research-runbook.js
 node scripts/build-country-dossiers.js
+node scripts/build-draft-document-list.js
 node scripts/build-gap-tracker.js
 BUSH_NAMES_DOCX=... node scripts/build-persons-list.js
 python3 -m http.server 4194</code></pre>
@@ -534,19 +546,20 @@ python3 -m http.server 4194</code></pre>
       <p>FRUS Assist for Volume XX. Data generated from public source records and local companion-volume harvests.</p>
     </footer>
 
-    <script src="data/volume-meta.js?v=20260601-dossiers"></script>
-    <script src="data/records.js?v=20260601-dossiers"></script>
-    <script src="data/boundary-records.js?v=20260601-dossiers"></script>
-    <script src="data/policy-files.js?v=20260601-dossiers"></script>
-    <script src="data/public-references.js?v=20260601-dossiers"></script>
-    <script src="data/gap-tracker.js?v=20260601-dossiers"></script>
-    <script src="data/source-pools.js?v=20260601-dossiers"></script>
-    <script src="data/source-copy-ledger.js?v=20260601-dossiers"></script>
-    <script src="data/compiler-brief.js?v=20260601-dossiers"></script>
-    <script src="data/source-note-packet.js?v=20260601-dossiers"></script>
-    <script src="data/research-runbook.js?v=20260601-dossiers"></script>
-    <script src="data/country-dossiers.js?v=20260601-dossiers"></script>
-    <script src="data/decision-worksheets.js?v=20260601-dossiers"></script>
-    <script src="app.js?v=20260601-dossiers"></script>
+    <script src="data/volume-meta.js?v=20260601-draftdocs"></script>
+    <script src="data/records.js?v=20260601-draftdocs"></script>
+    <script src="data/boundary-records.js?v=20260601-draftdocs"></script>
+    <script src="data/policy-files.js?v=20260601-draftdocs"></script>
+    <script src="data/public-references.js?v=20260601-draftdocs"></script>
+    <script src="data/gap-tracker.js?v=20260601-draftdocs"></script>
+    <script src="data/source-pools.js?v=20260601-draftdocs"></script>
+    <script src="data/source-copy-ledger.js?v=20260601-draftdocs"></script>
+    <script src="data/compiler-brief.js?v=20260601-draftdocs"></script>
+    <script src="data/source-note-packet.js?v=20260601-draftdocs"></script>
+    <script src="data/research-runbook.js?v=20260601-draftdocs"></script>
+    <script src="data/country-dossiers.js?v=20260601-draftdocs"></script>
+    <script src="data/draft-document-list.js?v=20260601-draftdocs"></script>
+    <script src="data/decision-worksheets.js?v=20260601-draftdocs"></script>
+    <script src="app.js?v=20260601-draftdocs"></script>
   </body>
 </html>

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-01T16:04:09.333Z",
+  "generatedAt": "2026-06-01T17:43:05.547Z",
   "personsCount": 51,
   "selectionMatrixCount": 186,
   "expectedSelectionMatrixCount": 186,
@@ -40,6 +40,17 @@
   "countryDossierCsvFiles": [
     "reports/country-dossiers/country-dossiers.csv",
     "reports/country-dossiers/country-searches.csv"
+  ],
+  "draftDocumentProposedCount": 36,
+  "expectedDraftDocumentProposedCount": 36,
+  "draftDocumentConditionalCount": 68,
+  "expectedDraftDocumentConditionalCount": 68,
+  "draftDocumentMissingSourceNoteCount": 0,
+  "draftDocumentChapterCount": 5,
+  "draftDocumentCsvFiles": [
+    "reports/draft-document-list/proposed-documents.csv",
+    "reports/draft-document-list/conditional-documents.csv",
+    "reports/draft-document-list/chapter-gaps.csv"
   ],
   "selectionMatrixByRecommendation": {
     "Public-line/context check": 43,
