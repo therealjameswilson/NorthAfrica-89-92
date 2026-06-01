@@ -7,12 +7,16 @@ const repoRoot = path.resolve(__dirname, "..");
 const dataDir = path.join(repoRoot, "data");
 const reportDir = path.join(repoRoot, "reports");
 const reportPath = path.join(reportDir, "gap-audit.json");
+const selectionReportPath = path.join(reportDir, "selection-matrix-build.json");
 
 const records = readJson("records.json");
 const boundaryRecords = readJson("boundary-records.json");
+const policyFiles = readJson("policy-files.json");
+const publicReferences = readJson("public-references.json");
 const persons = readJson("persons.json");
 const gapTracker = readJson("gap-tracker.json");
 const sourceCopyLedger = readJson("source-copy-ledger.json");
+const selectionReport = readOptionalJson(selectionReportPath) || {};
 
 const GAP_PERSON_TERMS = [
   "Babangida",
@@ -46,9 +50,13 @@ const boundaryParticipants = uniqueSorted(boundaryRecords.flatMap((record) => re
 const gapText = JSON.stringify(gapTracker);
 const gapPersonTerms = GAP_PERSON_TERMS.filter((term) => gapText.includes(term));
 const unresolvedTerms = ["Abdelhamid"].filter((term) => gapText.includes(term));
+const expectedSelectionMatrixCount = records.length + boundaryRecords.length + policyFiles.length + publicReferences.length;
 
 const reportBody = {
   personsCount: persons.length,
+  selectionMatrixCount: selectionReport.selectionCount || 0,
+  expectedSelectionMatrixCount,
+  selectionMatrixByRecommendation: selectionReport.byRecommendation || {},
   sourceCopyLedgerCount: sourceCopyLedger.length,
   sourceCopyLedgerByIssue: countBy(sourceCopyLedger.map((item) => item.issueType)),
   missingChronologyParticipants: chronologyParticipants.filter((name) => !included(name)),
@@ -75,6 +83,9 @@ fs.mkdirSync(reportDir, { recursive: true });
 fs.writeFileSync(reportPath, `${JSON.stringify(report, null, 2)}\n`);
 
 const failures = [
+  ...(report.selectionMatrixCount === report.expectedSelectionMatrixCount
+    ? []
+    : [`selection matrix count mismatch: expected ${report.expectedSelectionMatrixCount}, found ${report.selectionMatrixCount}`]),
   ...report.missingChronologyParticipants.map((name) => `missing chronology participant: ${name}`),
   ...report.missingBoundaryParticipants.map((name) => `missing boundary participant: ${name}`),
   ...report.missingGapPersonTerms.map((name) => `missing gap person term: ${name}`),
@@ -87,7 +98,7 @@ if (failures.length) {
 }
 
 console.log(
-  `Gap audit passed: ${persons.length} persons, ${sourceCopyLedger.length} source-copy ledger rows, ${report.personsNeedingAuthorityReview.length} authority-review entries.`
+  `Gap audit passed: ${persons.length} persons, ${report.selectionMatrixCount} selection rows, ${sourceCopyLedger.length} source-copy ledger rows, ${report.personsNeedingAuthorityReview.length} authority-review entries.`
 );
 
 function readJson(fileName) {

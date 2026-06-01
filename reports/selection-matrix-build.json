@@ -1,0 +1,38 @@
+{
+  "generatedAt": "2026-06-01T14:25:44.208Z",
+  "selectionCount": 186,
+  "byRecommendation": {
+    "Public-line/context check": 43,
+    "Boundary handoff": 39,
+    "Cross-volume review": 38,
+    "Candidate core document": 32,
+    "Declassification review": 21,
+    "Source-copy search": 9,
+    "Policy anchor candidate": 4
+  },
+  "byPriority": {
+    "High": 82,
+    "Context": 43,
+    "Boundary": 39,
+    "Critical": 22
+  },
+  "byRecordType": {
+    "Telcon": 68,
+    "Memcon": 56,
+    "Message/letter": 12,
+    "Policy file": 9,
+    "No Telcon": 7,
+    "Statement": 7,
+    "Remarks": 5,
+    "Memorandum/determination": 4,
+    "News conference": 3,
+    "No Memcon": 3,
+    "Exchange with reporters": 2,
+    "Letter": 2,
+    "Memorandum": 2,
+    "News Conference": 2,
+    "Public paper": 2,
+    "Exchange": 1,
+    "Public Paper": 1
+  }
+}

@@ -18,6 +18,7 @@
       </a>
       <nav aria-label="Primary navigation">
         <a href="#records">Declassified Chronology</a>
+        <a href="#selection-matrix">Selection Matrix</a>
         <a href="#workbench">Desk</a>
         <a href="#gap-tracker">Gaps</a>
         <a href="#source-pools">Source Pools</a>
@@ -107,6 +108,38 @@
         </div>
         <div id="records-root" class="records-root" aria-live="polite">
           <p class="loading">Loading conversation records...</p>
+        </div>
+      </section>
+
+      <section class="section selection-section" id="selection-matrix" aria-labelledby="selection-title">
+        <div class="section-heading">
+          <p class="kicker">Compiler Selection Matrix</p>
+          <h2 id="selection-title">Recommendation, Risk, and Next Action</h2>
+        </div>
+        <div id="selection-docket" class="workbench-root selection-docket" aria-label="Selection matrix quick filters"></div>
+        <div class="tools" aria-label="Search and filter compiler selection matrix">
+          <label class="search-field">
+            <span>Search matrix</span>
+            <input id="selection-search" type="search" placeholder="Search recommendation, title, people, flags, next action" />
+          </label>
+          <label>
+            <span>Recommendation</span>
+            <select id="selection-recommendation-filter"></select>
+          </label>
+          <label>
+            <span>Lane</span>
+            <select id="selection-lane-filter"></select>
+          </label>
+          <label>
+            <span>Priority</span>
+            <select id="selection-priority-filter"></select>
+          </label>
+          <button id="clear-selection-filters" type="button">Reset</button>
+          <button id="export-selection" type="button">CSV</button>
+          <p id="selection-summary" class="summary">Loading compiler selection matrix...</p>
+        </div>
+        <div id="selection-root" class="file-grid selection-grid" aria-live="polite">
+          <p class="loading">Loading compiler selection matrix...</p>
         </div>
       </section>
 
@@ -342,6 +375,7 @@
             <pre><code>node scripts/harvest-volume20.js
 node scripts/build-diary-cross-references.js
 SOURCE_NOTE_SCAN_PDFS=1 node scripts/build-frus-source-notes.js
+node scripts/build-selection-matrix.js
 node scripts/build-gap-tracker.js
 BUSH_NAMES_DOCX=... node scripts/build-persons-list.js
 python3 -m http.server 4194</code></pre>

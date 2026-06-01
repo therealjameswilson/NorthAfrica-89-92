@@ -388,6 +388,24 @@ dd {
   line-height: 1.55;
 }
 
+.selection-docket {
+  margin-bottom: 16px;
+}
+
+.docket-card {
+  width: 100%;
+  height: auto;
+  text-align: left;
+}
+
+.docket-card:hover,
+.docket-card:focus-visible {
+  color: var(--ink);
+  background: #fff;
+  border-color: var(--green);
+  box-shadow: 0 16px 34px rgba(20, 33, 61, 0.12);
+}
+
 .chapter-grid {
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));

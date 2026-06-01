@@ -7,6 +7,7 @@ const gapTracker = window.GAP_TRACKER || [];
 const sourcePools = window.SOURCE_POOLS || [];
 const sourceCopyLedger = window.SOURCE_COPY_LEDGER || [];
 const chapters = meta.chapters || [];
+const selectionMatrix = buildSelectionMatrix();
 
 const state = {
   records: {
@@ -24,6 +25,12 @@ const state = {
   public: {
     query: "",
     lane: ""
+  },
+  selection: {
+    query: "",
+    recommendation: "",
+    lane: "",
+    priority: ""
   },
   boundary: {
     query: "",
@@ -72,6 +79,15 @@ const nodes = {
   publicLaneFilter: document.querySelector("#public-lane-filter"),
   clearPublicFilters: document.querySelector("#clear-public-filters"),
   exportPublic: document.querySelector("#export-public"),
+  selectionRoot: document.querySelector("#selection-root"),
+  selectionDocket: document.querySelector("#selection-docket"),
+  selectionSummary: document.querySelector("#selection-summary"),
+  selectionSearch: document.querySelector("#selection-search"),
+  selectionRecommendationFilter: document.querySelector("#selection-recommendation-filter"),
+  selectionLaneFilter: document.querySelector("#selection-lane-filter"),
+  selectionPriorityFilter: document.querySelector("#selection-priority-filter"),
+  clearSelectionFilters: document.querySelector("#clear-selection-filters"),
+  exportSelection: document.querySelector("#export-selection"),
   boundaryRoot: document.querySelector("#boundary-root"),
   boundarySummary: document.querySelector("#boundary-summary"),
   boundarySearch: document.querySelector("#boundary-search"),
@@ -125,6 +141,162 @@ function byChapterThenDate(a, b) {
   );
 }
 
+function buildSelectionMatrix() {
+  return [
+    ...records.map((record) => selectionConversationEntry(record, false)),
+    ...boundaryRecords.map((record) => selectionConversationEntry(record, true)),
+    ...policyFiles.map(selectionPolicyEntry),
+    ...publicReferences.map(selectionPublicEntry)
+  ].sort(selectionSort);
+}
+
+function selectionConversationEntry(record, isBoundary) {
+  const flags = [];
+  if (record.diaryReferences?.length) flags.push("Diary/backup matched");
+  if (/partial|restricted/i.test(record.releaseStatus || "")) flags.push("Partial/restricted release");
+  if (/marker|no memorandum|no public pdf/i.test(record.releaseStatus || "") || !record.documentAvailable) flags.push("Source-copy lead");
+  if (record.country === "Egypt") flags.push("Egypt cross-volume screen");
+  if (isGulfCrisisEgypt(record)) flags.push("Persian Gulf crisis overlap");
+  if (isBoundary) flags.push("Boundary row");
+
+  const recommendation = selectionRecommendationForConversation(record, isBoundary);
+  return compactSelection({
+    id: `selection-${record.id || record.naid}`,
+    sourceId: record.id || "",
+    compilerNumber: record.compilerNumber || "",
+    recordType: record.type || "Conversation",
+    recommendation,
+    priority: selectionPriorityForConversation(record, isBoundary, recommendation),
+    lane: record.chapter?.name || "",
+    country: record.country || "",
+    date: record.date || "",
+    sortDate: record.sortDate || record.date || "",
+    dateText: record.dateText || record.date || "",
+    title: record.title || "",
+    participants: record.participants || [],
+    releaseStatus: record.releaseStatus || "",
+    naid: record.naid || "",
+    catalogUrl: record.catalogUrl || "",
+    pdfUrl: record.pdfUrl || "",
+    pageCount: record.pageCount || 0,
+    flags,
+    basis: selectionBasisForConversation(record, isBoundary, recommendation),
+    nextAction: selectionNextActionForConversation(record, isBoundary, recommendation),
+    frusSourceNote: record.frusSourceNote || "",
+    sourceNote: record.sourceNote || "",
+    diaryReferences: record.diaryReferences || [],
+    diaryCrossReferenceNote: record.diaryCrossReferenceNote || ""
+  });
+}
+
+function selectionPolicyEntry(file) {
+  const isBoundary = file.priority === "Boundary" || /Boundary/i.test(file.lane || "");
+  const recommendation = isBoundary ? "Boundary handoff" : "Policy anchor candidate";
+  return compactSelection({
+    id: `selection-${file.id || file.naid}`,
+    sourceId: file.id || "",
+    recordType: "Policy file",
+    recommendation,
+    priority: isBoundary ? "Boundary" : file.priority || "High",
+    lane: file.lane || "",
+    date: file.date || "",
+    sortDate: file.sortDate || file.date || "",
+    dateText: file.dateText || file.date || "",
+    title: file.title || "",
+    releaseStatus: file.accessRestriction || "",
+    naid: file.naid || "",
+    catalogUrl: file.catalogUrl || "",
+    pdfUrl: file.pdfUrl || "",
+    pageCount: file.pageCount || 0,
+    flags: [file.priority || "Policy file", file.levelOfDescription || ""].filter(Boolean),
+    basis: file.reason || "Policy file surfaced as a source anchor for compilation review.",
+    nextAction: isBoundary
+      ? "Confirm adjacent-volume ownership before selecting or citing this file."
+      : "Review file contents for policy papers, decision memoranda, meeting materials, and source-document candidates.",
+    frusSourceNote: file.frusSourceNote || "",
+    sourceNote: file.sourceNote || ""
+  });
+}
+
+function selectionPublicEntry(item) {
+  return compactSelection({
+    id: `selection-${item.id}`,
+    sourceId: item.id || "",
+    recordType: item.documentType || "Public Papers reference",
+    recommendation: "Public-line/context check",
+    priority: "Context",
+    lane: item.chapter || "",
+    date: item.date || "",
+    sortDate: item.sortDate || item.date || "",
+    dateText: item.dateText || item.date || "",
+    title: item.title || "",
+    catalogUrl: item.govinfoUrl || "",
+    pdfUrl: item.pdfUrl || "",
+    flags: item.matchedTerms || [],
+    basis: item.relevance || "Public Papers reference for public-line and chronology checks.",
+    nextAction: "Use to verify public posture, public chronology, and whether a private source document needs to be paired with public remarks.",
+    frusSourceNote: item.frusSourceNote || "",
+    sourceNote: item.sourceNote || item.citation || ""
+  });
+}
+
+function selectionRecommendationForConversation(record, isBoundary) {
+  if (isBoundary) return "Boundary handoff";
+  if (/marker|no memorandum/i.test(record.releaseStatus || "") || !record.documentAvailable) return "Source-copy search";
+  if (/partial|restricted/i.test(record.releaseStatus || "")) return "Declassification review";
+  if (isGulfCrisisEgypt(record) || record.country === "Egypt") return "Cross-volume review";
+  return "Candidate core document";
+}
+
+function selectionPriorityForConversation(record, isBoundary, recommendation) {
+  if (isBoundary) return "Boundary";
+  if (recommendation === "Source-copy search") return "Critical";
+  if (recommendation === "Declassification review") return "High";
+  if (recommendation === "Cross-volume review") return isGulfCrisisEgypt(record) ? "Critical" : "High";
+  return "High";
+}
+
+function selectionBasisForConversation(record, isBoundary, recommendation) {
+  if (isBoundary) return record.boundaryReason || "Adjacent-volume boundary row retained for handoff control.";
+  if (recommendation === "Source-copy search") {
+    return "Catalog row has no public memorandum/PDF or is marked as a no-memorandum entry; verify whether a duplicate source copy exists.";
+  }
+  if (recommendation === "Declassification review") {
+    return "Public release is partial or restricted; review redactions, withdrawal sheets, and duplicate source copies before selection.";
+  }
+  if (recommendation === "Cross-volume review") {
+    return isGulfCrisisEgypt(record)
+      ? "Egypt record falls in the Persian Gulf crisis window and needs ownership review against Gulf and Arab-Israeli volumes."
+      : "Egypt record belongs geographically in Volume XX but needs screening against Arab-Israeli, Gulf, and terrorism volume boundaries.";
+  }
+  return "Declassified conversation row in a Volume XX geographic lane with direct FRUS source-note and diary/backup support.";
+}
+
+function selectionNextActionForConversation(record, isBoundary, recommendation) {
+  if (isBoundary) return "Confirm exclude, excerpt, cite-elsewhere, or adjacent-volume handoff decision.";
+  if (recommendation === "Source-copy search") {
+    return "Search Presidential Daily Diary/Backup, Scowcroft files, Presidential Daily File, and State files for duplicate source-copy evidence.";
+  }
+  if (recommendation === "Declassification review") return "Assess whether redactions block selection; queue MDR/referral or locate cleaner duplicate copies.";
+  if (recommendation === "Cross-volume review") return "Tag primary volume ownership before selecting; retain only Africa-specific substance for Volume XX.";
+  return "Read for substance, prepare selection/excerpt decision, and verify persons/source notes.";
+}
+
+function isGulfCrisisEgypt(record) {
+  if (record.country !== "Egypt") return false;
+  const date = record.sortDate || record.date || "";
+  return date >= "1990-08-02" && date <= "1991-03-03";
+}
+
+function compactSelection(value) {
+  return Object.fromEntries(
+    Object.entries(value).filter(([, entry]) => {
+      if (Array.isArray(entry)) return entry.length > 0;
+      return entry !== "" && entry !== null && entry !== undefined;
+    })
+  );
+}
+
 function uniqueSorted(values) {
   return [...new Set(values.filter(Boolean))].sort((a, b) => a.localeCompare(b));
 }
@@ -153,6 +325,11 @@ function searchText(item) {
     item.sourceNote,
     item.diaryCrossReferenceNote,
     item.diaryReferences?.map((reference) => [reference.kind, reference.title, reference.naid, reference.sourceNote].join(" ")).join(" "),
+    item.recordType,
+    item.recommendation,
+    item.basis,
+    item.nextAction,
+    item.flags?.join(" "),
     item.notes,
     item.lane,
     item.priority,
@@ -436,6 +613,123 @@ function sourcePoolCard(pool) {
   return card;
 }
 
+function filteredSelectionMatrix() {
+  return selectionMatrix.filter((item) => {
+    if (!matchesQuery(item, state.selection.query)) return false;
+    if (state.selection.recommendation && item.recommendation !== state.selection.recommendation) return false;
+    if (state.selection.lane && item.lane !== state.selection.lane) return false;
+    if (state.selection.priority && item.priority !== state.selection.priority) return false;
+    return true;
+  });
+}
+
+function renderSelectionMatrix() {
+  const visible = filteredSelectionMatrix();
+  nodes.selectionSummary.textContent = `${plural(visible.length, "row")} visible from ${selectionMatrix.length} compiler selection decisions.`;
+  nodes.selectionRoot.replaceChildren(...visible.map(selectionCard));
+  if (!visible.length) nodes.selectionRoot.innerHTML = '<p class="empty">No selection matrix rows match the current filters.</p>';
+}
+
+function renderSelectionDocket() {
+  const docketItems = [
+    {
+      label: "Core candidates",
+      recommendation: "Candidate core document",
+      detail: "Read first for likely Volume XX document selection."
+    },
+    {
+      label: "Source-copy searches",
+      recommendation: "Source-copy search",
+      detail: "Find duplicate source copies or confirm no memorandum exists."
+    },
+    {
+      label: "Declassification reviews",
+      recommendation: "Declassification review",
+      detail: "Check redactions, withdrawal sheets, MDR/referral paths."
+    },
+    {
+      label: "Cross-volume screens",
+      recommendation: "Cross-volume review",
+      detail: "Resolve Egypt, Gulf, Arab-Israeli, and terrorism ownership."
+    },
+    {
+      label: "Boundary handoffs",
+      recommendation: "Boundary handoff",
+      detail: "Confirm cite-elsewhere, exclude, excerpt, or adjacent-volume handling."
+    }
+  ];
+  nodes.selectionDocket.replaceChildren(...docketItems.map(selectionDocketCard));
+}
+
+function selectionDocketCard(item) {
+  const count = selectionMatrix.filter((row) => row.recommendation === item.recommendation).length;
+  const button = document.createElement("button");
+  button.className = "metric-card docket-card";
+  button.type = "button";
+  const strong = document.createElement("strong");
+  strong.textContent = count.toString();
+  const span = document.createElement("span");
+  span.textContent = item.label;
+  const paragraph = document.createElement("p");
+  paragraph.textContent = item.detail;
+  button.append(strong, span, paragraph);
+  button.addEventListener("click", () => {
+    state.selection.recommendation = item.recommendation;
+    state.selection.query = "";
+    state.selection.lane = "";
+    state.selection.priority = "";
+    nodes.selectionSearch.value = "";
+    nodes.selectionRecommendationFilter.value = item.recommendation;
+    nodes.selectionLaneFilter.value = "";
+    nodes.selectionPriorityFilter.value = "";
+    renderSelectionMatrix();
+    document.querySelector("#selection-matrix")?.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+  return button;
+}
+
+function selectionCard(item) {
+  const card = document.createElement("article");
+  card.className = `file-card selection-card priority-${String(item.priority || "context").toLowerCase()}`;
+
+  const header = document.createElement("header");
+  const titleBlock = document.createElement("div");
+  const meta = document.createElement("div");
+  meta.className = "file-meta";
+  meta.append(textSpan(item.recommendation), textSpan(item.priority), textSpan(item.lane), textSpan(item.dateText || item.date));
+  const title = document.createElement("h3");
+  title.textContent = item.title;
+  titleBlock.append(meta, title);
+  header.append(titleBlock);
+
+  const chips = document.createElement("div");
+  chips.className = "chips";
+  if (item.compilerNumber) chips.append(chip(item.compilerNumber));
+  chips.append(chip(item.recordType));
+  if (item.country) chips.append(chip(item.country));
+  if (item.releaseStatus) chips.append(chip(item.releaseStatus, /partial|restricted|marker|no memorandum/i.test(item.releaseStatus) ? "warn" : ""));
+  for (const flag of (item.flags || []).slice(0, 5)) chips.append(chip(flag));
+
+  const basis = document.createElement("p");
+  basis.textContent = item.basis || "";
+  const nextAction = document.createElement("p");
+  nextAction.className = "source-note";
+  nextAction.textContent = item.nextAction || "";
+
+  const actions = document.createElement("div");
+  actions.className = "file-actions";
+  if (item.catalogUrl) actions.append(linkButton(item.naid ? "Catalog" : "Open source", item.catalogUrl));
+  if (item.pdfUrl) actions.append(linkButton("PDF", item.pdfUrl));
+  if (preferredSourceNote(item)) actions.append(copyButton(preferredSourceNote(item)));
+
+  card.append(header, chips, basis, nextAction, actions);
+  const sourceDetails = sourceNoteDetails(item);
+  if (sourceDetails) card.append(sourceDetails);
+  const diaryDetails = diaryReferenceDetails(item);
+  if (diaryDetails) card.append(diaryDetails);
+  return card;
+}
+
 function populateFilters() {
   addOptions(nodes.chapterFilter, chapters.map((chapter) => chapter.name), "All lanes");
   addOptions(nodes.countryFilter, uniqueSorted(records.map((record) => record.country)), "All countries");
@@ -444,6 +738,9 @@ function populateFilters() {
   addOptions(nodes.policyLaneFilter, uniqueSorted(policyFiles.map((file) => file.lane)), "All lanes");
   addOptions(nodes.policyPriorityFilter, uniqueSorted(policyFiles.map((file) => file.priority)), "All priorities");
   addOptions(nodes.publicLaneFilter, uniqueSorted(publicReferences.map((item) => item.chapter)), "All lanes");
+  addOptions(nodes.selectionRecommendationFilter, uniqueSorted(selectionMatrix.map((item) => item.recommendation)), "All recommendations");
+  addOptions(nodes.selectionLaneFilter, uniqueSorted(selectionMatrix.map((item) => item.lane)), "All lanes");
+  addOptions(nodes.selectionPriorityFilter, uniqueSorted(selectionMatrix.map((item) => item.priority)), "All priorities");
   addOptions(nodes.boundaryCountryFilter, uniqueSorted(boundaryRecords.map((record) => record.country)), "All countries");
   addOptions(nodes.gapLaneFilter, uniqueSorted(gapTracker.map((gap) => gap.lane)), "All lanes");
   addOptions(nodes.gapPriorityFilter, uniqueSorted(gapTracker.map((gap) => gap.priority)), "All priorities");
@@ -872,6 +1169,56 @@ function setupEvents() {
     );
   });
 
+  nodes.selectionSearch.addEventListener("input", (event) => {
+    state.selection.query = event.target.value;
+    renderSelectionMatrix();
+  });
+  nodes.selectionRecommendationFilter.addEventListener("change", (event) => {
+    state.selection.recommendation = event.target.value;
+    renderSelectionMatrix();
+  });
+  nodes.selectionLaneFilter.addEventListener("change", (event) => {
+    state.selection.lane = event.target.value;
+    renderSelectionMatrix();
+  });
+  nodes.selectionPriorityFilter.addEventListener("change", (event) => {
+    state.selection.priority = event.target.value;
+    renderSelectionMatrix();
+  });
+  nodes.clearSelectionFilters.addEventListener("click", () => {
+    state.selection = { query: "", recommendation: "", lane: "", priority: "" };
+    nodes.selectionSearch.value = "";
+    nodes.selectionRecommendationFilter.value = "";
+    nodes.selectionLaneFilter.value = "";
+    nodes.selectionPriorityFilter.value = "";
+    renderSelectionMatrix();
+  });
+  nodes.exportSelection.addEventListener("click", () => {
+    downloadCsv(
+      "frus-volume20-selection-matrix.csv",
+      toCsv(filteredSelectionMatrix(), [
+        { label: "Recommendation", value: (item) => item.recommendation },
+        { label: "Priority", value: (item) => item.priority },
+        { label: "Record Type", value: (item) => item.recordType },
+        { label: "Compiler ID", value: (item) => item.compilerNumber },
+        { label: "Date", value: (item) => item.date },
+        { label: "Lane", value: (item) => item.lane },
+        { label: "Country", value: (item) => item.country },
+        { label: "Title", value: (item) => item.title },
+        { label: "Participants", value: (item) => (item.participants || []).join("; ") },
+        { label: "Release", value: (item) => item.releaseStatus },
+        { label: "NAID", value: (item) => item.naid },
+        { label: "Catalog URL", value: (item) => item.catalogUrl },
+        { label: "PDF URL", value: (item) => item.pdfUrl },
+        { label: "Flags", value: (item) => (item.flags || []).join("; ") },
+        { label: "Basis", value: (item) => item.basis },
+        { label: "Next Action", value: (item) => item.nextAction },
+        { label: "FRUS Source Note", value: (item) => item.frusSourceNote },
+        { label: "Daily Diary/Backup References", value: formatDiaryReferences }
+      ])
+    );
+  });
+
   nodes.recordSearch.addEventListener("input", (event) => {
     state.records.query = event.target.value;
     renderRecords();
@@ -1010,6 +1357,8 @@ function init() {
   renderGapTracker();
   renderSourcePools();
   renderSourceCopyLedger();
+  renderSelectionDocket();
+  renderSelectionMatrix();
   renderChapters();
   populateFilters();
   renderRecords();

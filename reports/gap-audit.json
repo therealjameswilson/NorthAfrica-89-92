@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-05-25T10:56:09.125Z",
+  "generatedAt": "2026-06-01T14:24:30.220Z",
   "personsCount": 51,
+  "selectionMatrixCount": 186,
+  "expectedSelectionMatrixCount": 186,
+  "selectionMatrixByRecommendation": {
+    "Public-line/context check": 43,
+    "Boundary handoff": 39,
+    "Cross-volume review": 38,
+    "Candidate core document": 32,
+    "Declassification review": 21,
+    "Source-copy search": 9,
+    "Policy anchor candidate": 4
+  },
   "sourceCopyLedgerCount": 37,
   "sourceCopyLedgerByIssue": {
     "Partial or restricted release": 27,

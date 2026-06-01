@@ -22,6 +22,7 @@ The committed data currently contains:
 - `9` NSC/NSR/NSD policy or boundary file anchors
 - `43` Public Papers references
 - `34` Southern Africa boundary rows
+- `186` compiler selection matrix rows
 - `11` compiler gap-tracker items
 - `14` next-harvest source pools
 - `37` source-copy ledger rows for markers, partials, and restricted releases
@@ -76,6 +77,21 @@ This writes updated:
 - `data/records.json` and `data/records.js`
 - `data/boundary-records.json` and `data/boundary-records.js`
 - `reports/diary-cross-references-build.json`
+
+Build the compiler selection matrix with:
+
+```bash
+node scripts/build-selection-matrix.js
+```
+
+This converts chronology rows, boundary rows, policy-file anchors, and Public
+Papers references into a single triage list with recommendation, priority,
+selection basis, next action, source notes, and diary/backup references where
+available.
+
+This verifies the browser-generated selection matrix and writes:
+
+- `reports/selection-matrix-build.json`
 
 Build FRUS-style source notes for proposed records with:
 
@@ -136,8 +152,8 @@ node scripts/audit-gaps.js
 ```
 
 This writes `reports/gap-audit.json` and fails if chronology participants,
-boundary participants, or tracked gap person terms are missing from the persons
-list.
+boundary participants, tracked gap person terms, or source rows in the compiler
+selection matrix are missing.
 
 ## Local Preview
 
