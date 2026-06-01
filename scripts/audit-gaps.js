@@ -8,6 +8,7 @@ const dataDir = path.join(repoRoot, "data");
 const reportDir = path.join(repoRoot, "reports");
 const reportPath = path.join(reportDir, "gap-audit.json");
 const selectionReportPath = path.join(reportDir, "selection-matrix-build.json");
+const compilerBriefReportPath = path.join(reportDir, "compiler-brief-build.json");
 
 const records = readJson("records.json");
 const boundaryRecords = readJson("boundary-records.json");
@@ -17,6 +18,7 @@ const persons = readJson("persons.json");
 const gapTracker = readJson("gap-tracker.json");
 const sourceCopyLedger = readJson("source-copy-ledger.json");
 const selectionReport = readOptionalJson(selectionReportPath) || {};
+const compilerBriefReport = readOptionalJson(compilerBriefReportPath) || {};
 
 const GAP_PERSON_TERMS = [
   "Babangida",
@@ -56,6 +58,9 @@ const reportBody = {
   personsCount: persons.length,
   selectionMatrixCount: selectionReport.selectionCount || 0,
   expectedSelectionMatrixCount,
+  compilerBriefSelectionCount: compilerBriefReport.selectionCount || 0,
+  compilerBriefQueueCount: compilerBriefReport.queueCount || 0,
+  compilerBriefSourceNoteRows: compilerBriefReport.sourceNoteRows || 0,
   selectionMatrixByRecommendation: selectionReport.byRecommendation || {},
   sourceCopyLedgerCount: sourceCopyLedger.length,
   sourceCopyLedgerByIssue: countBy(sourceCopyLedger.map((item) => item.issueType)),
@@ -86,6 +91,13 @@ const failures = [
   ...(report.selectionMatrixCount === report.expectedSelectionMatrixCount
     ? []
     : [`selection matrix count mismatch: expected ${report.expectedSelectionMatrixCount}, found ${report.selectionMatrixCount}`]),
+  ...(report.compilerBriefSelectionCount === report.expectedSelectionMatrixCount
+    ? []
+    : [`compiler brief selection count mismatch: expected ${report.expectedSelectionMatrixCount}, found ${report.compilerBriefSelectionCount}`]),
+  ...(report.compilerBriefQueueCount >= 7 ? [] : [`compiler brief queue count too low: found ${report.compilerBriefQueueCount}`]),
+  ...(report.compilerBriefSourceNoteRows === report.expectedSelectionMatrixCount
+    ? []
+    : [`compiler brief source-note coverage mismatch: expected ${report.expectedSelectionMatrixCount}, found ${report.compilerBriefSourceNoteRows}`]),
   ...report.missingChronologyParticipants.map((name) => `missing chronology participant: ${name}`),
   ...report.missingBoundaryParticipants.map((name) => `missing boundary participant: ${name}`),
   ...report.missingGapPersonTerms.map((name) => `missing gap person term: ${name}`),
@@ -98,7 +110,7 @@ if (failures.length) {
 }
 
 console.log(
-  `Gap audit passed: ${persons.length} persons, ${report.selectionMatrixCount} selection rows, ${sourceCopyLedger.length} source-copy ledger rows, ${report.personsNeedingAuthorityReview.length} authority-review entries.`
+  `Gap audit passed: ${persons.length} persons, ${report.selectionMatrixCount} selection rows, ${report.compilerBriefQueueCount} compiler brief queues, ${sourceCopyLedger.length} source-copy ledger rows, ${report.personsNeedingAuthorityReview.length} authority-review entries.`
 );
 
 function readJson(fileName) {

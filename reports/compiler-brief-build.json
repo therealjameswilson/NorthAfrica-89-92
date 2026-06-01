@@ -1,0 +1,18 @@
+{
+  "generatedAt": "2026-06-01T15:15:35.661Z",
+  "selectionCount": 186,
+  "queueCount": 7,
+  "startHereCount": 5,
+  "criticalGapCount": 4,
+  "sourceNoteRows": 186,
+  "diaryMatchedRows": 134,
+  "byRecommendation": {
+    "Public-line/context check": 43,
+    "Boundary handoff": 39,
+    "Cross-volume review": 38,
+    "Candidate core document": 32,
+    "Declassification review": 21,
+    "Source-copy search": 9,
+    "Policy anchor candidate": 4
+  }
+}

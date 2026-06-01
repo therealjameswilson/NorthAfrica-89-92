@@ -23,6 +23,7 @@ The committed data currently contains:
 - `43` Public Papers references
 - `34` Southern Africa boundary rows
 - `186` compiler selection matrix rows
+- `5` start-here compiler brief actions and `7` generated work queues
 - `11` compiler gap-tracker items
 - `14` next-harvest source pools
 - `37` source-copy ledger rows for markers, partials, and restricted releases
@@ -92,6 +93,20 @@ available.
 This verifies the browser-generated selection matrix and writes:
 
 - `reports/selection-matrix-build.json`
+
+Build the compiler brief with:
+
+```bash
+node scripts/build-compiler-brief.js
+```
+
+This turns the chronology, selection matrix, source-copy ledger, gap tracker,
+source pools, source notes, and diary/backup matches into a start-here brief
+with queue previews. It writes:
+
+- `data/compiler-brief.json` and `data/compiler-brief.js`
+- `reports/compiler-brief.md`
+- `reports/compiler-brief-build.json`
 
 Build FRUS-style source notes for proposed records with:
 

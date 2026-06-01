@@ -1,8 +1,11 @@
 {
-  "generatedAt": "2026-06-01T14:24:30.220Z",
+  "generatedAt": "2026-06-01T15:17:31.710Z",
   "personsCount": 51,
   "selectionMatrixCount": 186,
   "expectedSelectionMatrixCount": 186,
+  "compilerBriefSelectionCount": 186,
+  "compilerBriefQueueCount": 7,
+  "compilerBriefSourceNoteRows": 186,
   "selectionMatrixByRecommendation": {
     "Public-line/context check": 43,
     "Boundary handoff": 39,

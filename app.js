@@ -6,6 +6,7 @@ const publicReferences = window.PUBLIC_REFERENCES || [];
 const gapTracker = window.GAP_TRACKER || [];
 const sourcePools = window.SOURCE_POOLS || [];
 const sourceCopyLedger = window.SOURCE_COPY_LEDGER || [];
+const compilerBrief = window.COMPILER_BRIEF || null;
 const chapters = meta.chapters || [];
 const selectionMatrix = buildSelectionMatrix();
 
@@ -55,6 +56,7 @@ const nodes = {
   policyCount: document.querySelector("#policy-count"),
   publicCount: document.querySelector("#public-count"),
   boundaryCount: document.querySelector("#boundary-count"),
+  compilerBriefRoot: document.querySelector("#compiler-brief-root"),
   workbenchRoot: document.querySelector("#workbench-root"),
   chapterGrid: document.querySelector("#chapter-grid"),
   recordsRoot: document.querySelector("#records-root"),
@@ -286,6 +288,34 @@ function isGulfCrisisEgypt(record) {
   if (record.country !== "Egypt") return false;
   const date = record.sortDate || record.date || "";
   return date >= "1990-08-02" && date <= "1991-03-03";
+}
+
+function selectionSort(a, b) {
+  return (
+    selectionRecommendationRank(a.recommendation) - selectionRecommendationRank(b.recommendation) ||
+    selectionPriorityRank(a.priority) - selectionPriorityRank(b.priority) ||
+    (a.lane || "").localeCompare(b.lane || "") ||
+    (a.sortDate || "").localeCompare(b.sortDate || "") ||
+    (a.title || "").localeCompare(b.title || "")
+  );
+}
+
+function selectionRecommendationRank(recommendation) {
+  return (
+    {
+      "Candidate core document": 1,
+      "Policy anchor candidate": 2,
+      "Declassification review": 3,
+      "Source-copy search": 4,
+      "Cross-volume review": 5,
+      "Boundary handoff": 6,
+      "Public-line/context check": 7
+    }[recommendation] || 99
+  );
+}
+
+function selectionPriorityRank(priority) {
+  return ({ Critical: 1, High: 2, Medium: 3, Active: 4, Boundary: 5, Context: 6 }[priority] || 99);
 }
 
 function compactSelection(value) {
@@ -659,6 +689,128 @@ function renderSelectionDocket() {
     }
   ];
   nodes.selectionDocket.replaceChildren(...docketItems.map(selectionDocketCard));
+}
+
+function renderCompilerBrief() {
+  if (!nodes.compilerBriefRoot) return;
+  if (!compilerBrief) {
+    nodes.compilerBriefRoot.innerHTML = '<p class="empty">Compiler brief data is unavailable.</p>';
+    return;
+  }
+
+  const summary = document.createElement("div");
+  summary.className = "compiler-brief-summary";
+  summary.append(
+    compilerBriefSummaryItem("Selection rows", compilerBrief.summary?.selectionRows),
+    compilerBriefSummaryItem("Source notes", compilerBrief.summary?.sourceNoteRows),
+    compilerBriefSummaryItem("Diary matches", compilerBrief.summary?.diaryMatchedRows),
+    compilerBriefSummaryItem("Critical gaps", compilerBrief.summary?.criticalGaps)
+  );
+
+  const actions = document.createElement("div");
+  actions.className = "compiler-brief-actions";
+  actions.append(...(compilerBrief.startHere || []).map(compilerBriefActionCard));
+
+  const queues = document.createElement("div");
+  queues.className = "compiler-queue-grid";
+  queues.append(...(compilerBrief.queues || []).map(compilerQueueCard));
+
+  nodes.compilerBriefRoot.replaceChildren(summary, actions, queues);
+}
+
+function compilerBriefSummaryItem(label, value) {
+  const item = document.createElement("div");
+  const strong = document.createElement("strong");
+  strong.textContent = String(value ?? 0);
+  const span = document.createElement("span");
+  span.textContent = label;
+  item.append(strong, span);
+  return item;
+}
+
+function compilerBriefActionCard(item) {
+  const card = document.createElement(item.targetRecommendation ? "button" : "a");
+  card.className = "metric-card compiler-action-card";
+  if (item.targetRecommendation) {
+    card.type = "button";
+    card.addEventListener("click", () => openSelectionRecommendation(item.targetRecommendation));
+  } else {
+    card.href = item.targetHref || "#compiler-brief";
+  }
+
+  const strong = document.createElement("strong");
+  strong.textContent = item.metric || "0";
+  const label = document.createElement("span");
+  label.textContent = item.label || "";
+  const title = document.createElement("h3");
+  title.textContent = item.title || "";
+  const body = document.createElement("p");
+  body.textContent = item.body || "";
+  const action = document.createElement("b");
+  action.textContent = item.actionLabel || "Open";
+  card.append(strong, label, title, body, action);
+  return card;
+}
+
+function compilerQueueCard(queue) {
+  const card = document.createElement("article");
+  card.className = "file-card compiler-queue-card";
+
+  const header = document.createElement("header");
+  const titleBlock = document.createElement("div");
+  const meta = document.createElement("div");
+  meta.className = "file-meta";
+  meta.append(textSpan(queue.recommendation), textSpan(`${queue.count} rows`));
+  const title = document.createElement("h3");
+  title.textContent = queue.title;
+  titleBlock.append(meta, title);
+  header.append(titleBlock);
+
+  const description = document.createElement("p");
+  description.textContent = queue.description;
+
+  const list = document.createElement("ul");
+  list.className = "compiler-row-list";
+  for (const row of (queue.rows || []).slice(0, 3)) list.append(compilerQueueRow(row));
+
+  const actions = document.createElement("div");
+  actions.className = "file-actions";
+  const button = document.createElement("button");
+  button.type = "button";
+  button.textContent = "Open queue";
+  button.addEventListener("click", () => openSelectionRecommendation(queue.recommendation));
+  actions.append(button);
+
+  card.append(header, description, list, actions);
+  return card;
+}
+
+function compilerQueueRow(row) {
+  const item = document.createElement("li");
+  const title = row.catalogUrl ? document.createElement("a") : document.createElement("span");
+  if (row.catalogUrl) {
+    title.href = row.catalogUrl;
+    title.target = "_blank";
+    title.rel = "noreferrer";
+  }
+  title.className = "compiler-row-title";
+  title.textContent = `${row.dateText || row.date || "Undated"} - ${row.title}`;
+  const nextAction = document.createElement("p");
+  nextAction.textContent = row.nextAction || "";
+  item.append(title, nextAction);
+  const details = sourceNoteDetails(row);
+  if (details) item.append(details);
+  return item;
+}
+
+function openSelectionRecommendation(recommendation) {
+  state.selection = { query: "", recommendation, lane: "", priority: "" };
+  nodes.selectionSearch.value = "";
+  nodes.selectionRecommendationFilter.value = recommendation;
+  nodes.selectionLaneFilter.value = "";
+  nodes.selectionPriorityFilter.value = "";
+  renderSelectionMatrix();
+  document.querySelector("#selection-matrix")?.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
 function selectionDocketCard(item) {
@@ -1353,6 +1505,7 @@ function setupEvents() {
 
 function init() {
   setStats();
+  renderCompilerBrief();
   renderWorkbench();
   renderGapTracker();
   renderSourcePools();

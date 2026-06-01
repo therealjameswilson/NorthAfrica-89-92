@@ -8,7 +8,7 @@
       name="description"
       content="A compiler-facing FRUS Assist page for Foreign Relations of the United States, 1989-1992, Volume XX, North Africa; Sub-Saharan Africa."
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css?v=20260601-compiler-brief" />
   </head>
   <body>
     <header class="site-header">
@@ -18,6 +18,7 @@
       </a>
       <nav aria-label="Primary navigation">
         <a href="#records">Declassified Chronology</a>
+        <a href="#compiler-brief">Compiler Brief</a>
         <a href="#selection-matrix">Selection Matrix</a>
         <a href="#workbench">Desk</a>
         <a href="#gap-tracker">Gaps</a>
@@ -108,6 +109,16 @@
         </div>
         <div id="records-root" class="records-root" aria-live="polite">
           <p class="loading">Loading conversation records...</p>
+        </div>
+      </section>
+
+      <section class="section compiler-brief-section" id="compiler-brief" aria-labelledby="compiler-brief-title">
+        <div class="section-heading">
+          <p class="kicker">Compiler Brief</p>
+          <h2 id="compiler-brief-title">Start Here, Then Work the Queues</h2>
+        </div>
+        <div id="compiler-brief-root" class="compiler-brief-root" aria-live="polite">
+          <p class="loading">Loading compiler brief...</p>
         </div>
       </section>
 
@@ -376,6 +387,7 @@
 node scripts/build-diary-cross-references.js
 SOURCE_NOTE_SCAN_PDFS=1 node scripts/build-frus-source-notes.js
 node scripts/build-selection-matrix.js
+node scripts/build-compiler-brief.js
 node scripts/build-gap-tracker.js
 BUSH_NAMES_DOCX=... node scripts/build-persons-list.js
 python3 -m http.server 4194</code></pre>
@@ -388,14 +400,15 @@ python3 -m http.server 4194</code></pre>
       <p>FRUS Assist for Volume XX. Data generated from public source records and local companion-volume harvests.</p>
     </footer>
 
-    <script src="data/volume-meta.js"></script>
-    <script src="data/records.js"></script>
-    <script src="data/boundary-records.js"></script>
-    <script src="data/policy-files.js"></script>
-    <script src="data/public-references.js"></script>
-    <script src="data/gap-tracker.js"></script>
-    <script src="data/source-pools.js"></script>
-    <script src="data/source-copy-ledger.js"></script>
-    <script src="app.js"></script>
+    <script src="data/volume-meta.js?v=20260601-compiler-brief"></script>
+    <script src="data/records.js?v=20260601-compiler-brief"></script>
+    <script src="data/boundary-records.js?v=20260601-compiler-brief"></script>
+    <script src="data/policy-files.js?v=20260601-compiler-brief"></script>
+    <script src="data/public-references.js?v=20260601-compiler-brief"></script>
+    <script src="data/gap-tracker.js?v=20260601-compiler-brief"></script>
+    <script src="data/source-pools.js?v=20260601-compiler-brief"></script>
+    <script src="data/source-copy-ledger.js?v=20260601-compiler-brief"></script>
+    <script src="data/compiler-brief.js?v=20260601-compiler-brief"></script>
+    <script src="app.js?v=20260601-compiler-brief"></script>
   </body>
 </html>
