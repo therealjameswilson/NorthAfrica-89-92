@@ -1,11 +1,16 @@
 {
-  "generatedAt": "2026-06-01T15:17:31.710Z",
+  "generatedAt": "2026-06-01T15:29:33.211Z",
   "personsCount": 51,
   "selectionMatrixCount": 186,
   "expectedSelectionMatrixCount": 186,
   "compilerBriefSelectionCount": 186,
   "compilerBriefQueueCount": 7,
   "compilerBriefSourceNoteRows": 186,
+  "sourceNotePacketCount": 143,
+  "expectedSourceNotePacketCount": 143,
+  "sourceNotePacketFrusSourceNoteRows": 143,
+  "sourceNotePacketGroupCount": 6,
+  "sourceNotePacketMissingFrusSourceNoteRows": 0,
   "selectionMatrixByRecommendation": {
     "Public-line/context check": 43,
     "Boundary handoff": 39,

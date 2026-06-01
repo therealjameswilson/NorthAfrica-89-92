@@ -1,0 +1,16 @@
+{
+  "generatedAt": "2026-06-01T15:27:26.013Z",
+  "sourceRows": 143,
+  "frusSourceNoteRows": 143,
+  "diaryMatchedRows": 134,
+  "groupCount": 6,
+  "missingFrusSourceNoteRows": 0,
+  "byRecommendation": {
+    "Boundary handoff": 39,
+    "Cross-volume review": 38,
+    "Candidate core document": 32,
+    "Declassification review": 21,
+    "Source-copy search": 9,
+    "Policy anchor candidate": 4
+  }
+}

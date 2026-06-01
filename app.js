@@ -7,6 +7,7 @@ const gapTracker = window.GAP_TRACKER || [];
 const sourcePools = window.SOURCE_POOLS || [];
 const sourceCopyLedger = window.SOURCE_COPY_LEDGER || [];
 const compilerBrief = window.COMPILER_BRIEF || null;
+const sourceNotePacket = window.SOURCE_NOTE_PACKET || null;
 const chapters = meta.chapters || [];
 const selectionMatrix = buildSelectionMatrix();
 
@@ -57,6 +58,7 @@ const nodes = {
   publicCount: document.querySelector("#public-count"),
   boundaryCount: document.querySelector("#boundary-count"),
   compilerBriefRoot: document.querySelector("#compiler-brief-root"),
+  sourceNotePacketRoot: document.querySelector("#source-note-packet-root"),
   workbenchRoot: document.querySelector("#workbench-root"),
   chapterGrid: document.querySelector("#chapter-grid"),
   recordsRoot: document.querySelector("#records-root"),
@@ -813,6 +815,109 @@ function openSelectionRecommendation(recommendation) {
   document.querySelector("#selection-matrix")?.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
+function renderSourceNotePacket() {
+  if (!nodes.sourceNotePacketRoot) return;
+  if (!sourceNotePacket) {
+    nodes.sourceNotePacketRoot.innerHTML = '<p class="empty">Source note packet data is unavailable.</p>';
+    return;
+  }
+
+  const summary = document.createElement("div");
+  summary.className = "source-note-packet-summary";
+  summary.append(
+    sourceNotePacketSummaryItem("source rows", sourceNotePacket.summary?.sourceRows),
+    sourceNotePacketSummaryItem("FRUS notes", sourceNotePacket.summary?.frusSourceNoteRows),
+    sourceNotePacketSummaryItem("diary matches", sourceNotePacket.summary?.diaryMatchedRows),
+    sourceNotePacketSummaryItem("source-copy rows", sourceNotePacket.summary?.sourceCopySearchRows),
+    sourceNotePacketSummaryItem("declass rows", sourceNotePacket.summary?.declassificationReviewRows)
+  );
+
+  const packetActions = document.createElement("div");
+  packetActions.className = "file-actions packet-actions";
+  packetActions.append(
+    linkButton("Open Markdown packet", "reports/source-note-packet.md"),
+    copyTextButton("Copy all FRUS notes", (sourceNotePacket.groups || []).map((group) => group.sourceNoteText || "").filter(Boolean).join("\n\n"))
+  );
+
+  const groups = document.createElement("div");
+  groups.className = "source-note-group-grid";
+  groups.append(...(sourceNotePacket.groups || []).map(sourceNoteGroupCard));
+
+  nodes.sourceNotePacketRoot.replaceChildren(summary, packetActions, groups);
+}
+
+function sourceNotePacketSummaryItem(label, value) {
+  const item = document.createElement("div");
+  const strong = document.createElement("strong");
+  strong.textContent = String(value ?? 0);
+  const span = document.createElement("span");
+  span.textContent = label;
+  item.append(strong, span);
+  return item;
+}
+
+function sourceNoteGroupCard(group) {
+  const card = document.createElement("article");
+  card.className = "file-card source-note-group-card";
+
+  const header = document.createElement("header");
+  const titleBlock = document.createElement("div");
+  const meta = document.createElement("div");
+  meta.className = "file-meta";
+  meta.append(textSpan(group.recommendation), textSpan(`${group.count} notes`));
+  const title = document.createElement("h3");
+  title.textContent = group.title;
+  titleBlock.append(meta, title);
+  header.append(titleBlock);
+
+  const description = document.createElement("p");
+  description.textContent = group.description;
+
+  const list = document.createElement("ul");
+  list.className = "compiler-row-list";
+  for (const row of (group.rows || []).slice(0, 3)) list.append(sourceNotePacketRow(row));
+
+  const actions = document.createElement("div");
+  actions.className = "file-actions";
+  actions.append(
+    copyTextButton("Copy queue notes", group.sourceNoteText || ""),
+    queueButton("Open queue", group.recommendation)
+  );
+
+  card.append(header, description, list, actions);
+  return card;
+}
+
+function sourceNotePacketRow(row) {
+  const item = document.createElement("li");
+  const title = row.catalogUrl ? document.createElement("a") : document.createElement("span");
+  if (row.catalogUrl) {
+    title.href = row.catalogUrl;
+    title.target = "_blank";
+    title.rel = "noreferrer";
+  }
+  title.className = "compiler-row-title";
+  title.textContent = `${row.compilerNumber || "n/a"} - ${row.dateText || row.date || "Undated"} - ${row.title}`;
+  const note = document.createElement("p");
+  note.textContent = row.frusSourceNote || row.sourceNote || "";
+  item.append(title, note);
+  if (row.diaryReferences?.length) {
+    const diary = document.createElement("p");
+    diary.className = "source-note-packet-diary";
+    diary.textContent = `Diary/backup: ${row.diaryReferences.map((reference) => `${reference.kind} NAID ${reference.naid}`).join("; ")}`;
+    item.append(diary);
+  }
+  return item;
+}
+
+function queueButton(label, recommendation) {
+  const button = document.createElement("button");
+  button.type = "button";
+  button.textContent = label;
+  button.addEventListener("click", () => openSelectionRecommendation(recommendation));
+  return button;
+}
+
 function selectionDocketCard(item) {
   const count = selectionMatrix.filter((row) => row.recommendation === item.recommendation).length;
   const button = document.createElement("button");
@@ -1126,15 +1231,19 @@ function linkButton(label, href) {
 }
 
 function copyButton(value) {
+  return copyTextButton("Copy note", value);
+}
+
+function copyTextButton(label, value) {
   const button = document.createElement("button");
   button.className = "copy-note";
   button.type = "button";
-  button.textContent = "Copy note";
+  button.textContent = label;
   button.addEventListener("click", async () => {
     await navigator.clipboard.writeText(value || "");
     button.textContent = "Copied";
     setTimeout(() => {
-      button.textContent = "Copy note";
+      button.textContent = label;
     }, 1200);
   });
   return button;
@@ -1506,6 +1615,7 @@ function setupEvents() {
 function init() {
   setStats();
   renderCompilerBrief();
+  renderSourceNotePacket();
   renderWorkbench();
   renderGapTracker();
   renderSourcePools();

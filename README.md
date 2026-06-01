@@ -24,6 +24,7 @@ The committed data currently contains:
 - `34` Southern Africa boundary rows
 - `186` compiler selection matrix rows
 - `5` start-here compiler brief actions and `7` generated work queues
+- `143` source-note packet rows with FRUS-style notes and diary/backup controls
 - `11` compiler gap-tracker items
 - `14` next-harvest source pools
 - `37` source-copy ledger rows for markers, partials, and restricted releases
@@ -107,6 +108,21 @@ with queue previews. It writes:
 - `data/compiler-brief.json` and `data/compiler-brief.js`
 - `reports/compiler-brief.md`
 - `reports/compiler-brief-build.json`
+
+Build the source-note packet with:
+
+```bash
+node scripts/build-source-note-packet.js
+```
+
+This writes every non-public source row into a compiler packet grouped by
+recommendation. Each row includes the FRUS-style source note, catalog
+provenance, catalog/PDF links, next action, and Presidential Daily
+Diary/Backup control references when available. It writes:
+
+- `data/source-note-packet.json` and `data/source-note-packet.js`
+- `reports/source-note-packet.md`
+- `reports/source-note-packet-build.json`
 
 Build FRUS-style source notes for proposed records with:
 

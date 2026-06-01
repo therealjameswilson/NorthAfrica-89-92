@@ -397,8 +397,14 @@ dd {
   gap: 16px;
 }
 
+.source-note-packet-root {
+  display: grid;
+  gap: 16px;
+}
+
 .compiler-brief-summary,
-.compiler-brief-actions {
+.compiler-brief-actions,
+.source-note-packet-summary {
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 14px;
@@ -436,6 +442,49 @@ dd {
   font-weight: 900;
 }
 
+.source-note-packet-summary div {
+  min-height: 112px;
+  padding: 18px;
+  color: #fff;
+  background: var(--navy);
+  border-radius: 8px;
+}
+
+.source-note-packet-summary div:nth-child(2) {
+  background: var(--green);
+}
+
+.source-note-packet-summary div:nth-child(3) {
+  background: var(--blue);
+}
+
+.source-note-packet-summary div:nth-child(4) {
+  background: var(--rust);
+}
+
+.source-note-packet-summary div:nth-child(5) {
+  background: var(--plum);
+}
+
+.source-note-packet-summary strong {
+  display: block;
+  margin-bottom: 8px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2.7rem;
+  line-height: 0.95;
+}
+
+.source-note-packet-summary span {
+  font-weight: 900;
+}
+
+.packet-actions {
+  padding: 14px;
+  background: rgba(255, 255, 255, 0.74);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
 .compiler-action-card {
   display: block;
   width: 100%;
@@ -471,7 +520,17 @@ dd {
   gap: 14px;
 }
 
+.source-note-group-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
 .compiler-queue-card {
+  min-height: auto;
+}
+
+.source-note-group-card {
   min-height: auto;
 }
 
@@ -501,6 +560,11 @@ dd {
   color: var(--navy);
   font-weight: 900;
   line-height: 1.35;
+}
+
+.source-note-packet-diary {
+  color: var(--green) !important;
+  font-weight: 900;
 }
 
 .docket-card {
@@ -1032,6 +1096,8 @@ footer {
   .compiler-brief-summary,
   .compiler-brief-actions,
   .compiler-queue-grid,
+  .source-note-packet-summary,
+  .source-note-group-grid,
   .chapter-grid,
   .gap-grid,
   .source-grid {
@@ -1091,6 +1157,8 @@ footer {
   .compiler-brief-summary,
   .compiler-brief-actions,
   .compiler-queue-grid,
+  .source-note-packet-summary,
+  .source-note-group-grid,
   .chapter-grid,
   .gap-grid,
   .file-grid,
