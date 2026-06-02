@@ -116,6 +116,7 @@
         <a href="#records">Declassified Chronology</a>
         <a href="#country-dossiers">Country Dossiers</a>
         <a href="#draft-documents">Draft Docs</a>
+        <a href="#document-readiness">Readiness</a>
         <a href="#compiler-brief">Compiler Brief</a>
         <a href="#source-note-packet">Source Notes</a>
         <a href="#research-runbook">Runbook</a>
@@ -247,6 +248,16 @@
         </div>
         <div id="draft-document-list-root" class="draft-document-list-root" aria-live="polite">
           <p class="loading">Loading draft document list...</p>
+        </div>
+      </section>
+
+      <section class="section document-readiness-section" id="document-readiness" aria-labelledby="document-readiness-title">
+        <div class="section-heading">
+          <p class="kicker">Document Readiness</p>
+          <h2 id="document-readiness-title">Ready Rows, Blockers, and Source Controls</h2>
+        </div>
+        <div id="document-readiness-root" class="document-readiness-root" aria-live="polite">
+          <p class="loading">Loading document readiness packet...</p>
         </div>
       </section>
 
@@ -561,6 +572,7 @@ node scripts/build-decision-worksheets.js
 node scripts/build-research-runbook.js
 node scripts/build-country-dossiers.js
 node scripts/build-draft-document-list.js
+node scripts/build-document-readiness-packet.js
 node scripts/build-gap-tracker.js
 BUSH_NAMES_DOCX=... node scripts/build-persons-list.js
 node scripts/build-persons-authority-packet.js
@@ -587,8 +599,9 @@ python3 -m http.server 4194</code></pre>
     <script src="data/research-runbook.js?v=20260601-draftdocs"></script>
     <script src="data/country-dossiers.js?v=20260601-draftdocs"></script>
     <script src="data/draft-document-list.js?v=20260601-draftdocs"></script>
+    <script src="data/document-readiness-packet.js?v=20260601-readiness"></script>
     <script src="data/decision-worksheets.js?v=20260601-draftdocs"></script>
-    <script src="app.js?v=20260601-draftdocs"></script>
+    <script src="app.js?v=20260601-readiness"></script>
     <script id="compiler-network-script">
       (() => {
         const button = document.querySelector("[data-compiler-handoff]");

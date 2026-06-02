@@ -412,6 +412,11 @@ dd {
   gap: 16px;
 }
 
+.document-readiness-root {
+  display: grid;
+  gap: 16px;
+}
+
 .decision-worksheets-root {
   display: grid;
   gap: 16px;
@@ -427,6 +432,7 @@ dd {
 .source-note-packet-summary,
 .research-runbook-summary,
 .draft-document-summary,
+.document-readiness-summary,
 .decision-worksheets-summary,
 .persons-authority-summary {
   display: grid;
@@ -571,6 +577,42 @@ dd {
 }
 
 .draft-document-summary span {
+  font-weight: 900;
+}
+
+.document-readiness-summary div {
+  min-height: 112px;
+  padding: 18px;
+  color: #fff;
+  background: var(--navy);
+  border-radius: 8px;
+}
+
+.document-readiness-summary div:nth-child(2) {
+  background: var(--green);
+}
+
+.document-readiness-summary div:nth-child(3) {
+  background: var(--blue);
+}
+
+.document-readiness-summary div:nth-child(4) {
+  background: var(--rust);
+}
+
+.document-readiness-summary div:nth-child(5) {
+  background: var(--plum);
+}
+
+.document-readiness-summary strong {
+  display: block;
+  margin-bottom: 8px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2.7rem;
+  line-height: 0.95;
+}
+
+.document-readiness-summary span {
   font-weight: 900;
 }
 
@@ -772,6 +814,18 @@ dd {
   gap: 14px;
 }
 
+.document-readiness-board {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.document-readiness-chapter-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
 .draft-document-proposed {
   padding: 18px;
   background: rgba(255, 255, 255, 0.74);
@@ -811,6 +865,19 @@ dd {
 .country-dossier-card {
   min-height: auto;
   border-top: 5px solid var(--green);
+}
+
+.document-readiness-card {
+  min-height: auto;
+  border-top: 5px solid var(--green);
+}
+
+.document-readiness-card.tone-authority {
+  border-top-color: var(--blue);
+}
+
+.document-readiness-card.tone-blocked {
+  border-top-color: var(--rust);
 }
 
 .country-dossier-card.status-cross-volume-review,
@@ -1404,6 +1471,9 @@ footer {
   .research-runbook-grid,
   .draft-document-summary,
   .draft-chapter-grid,
+  .document-readiness-summary,
+  .document-readiness-board,
+  .document-readiness-chapter-grid,
   .country-dossier-grid,
   .country-dossier-preview-grid,
   .persons-authority-summary,
@@ -1476,6 +1546,9 @@ footer {
   .research-runbook-grid,
   .draft-document-summary,
   .draft-chapter-grid,
+  .document-readiness-summary,
+  .document-readiness-board,
+  .document-readiness-chapter-grid,
   .country-dossier-grid,
   .country-dossier-preview-grid,
   .persons-authority-summary,

@@ -11,6 +11,7 @@ const sourceNotePacket = window.SOURCE_NOTE_PACKET || null;
 const researchRunbook = window.RESEARCH_RUNBOOK || null;
 const countryDossiers = window.COUNTRY_DOSSIERS || null;
 const draftDocumentList = window.DRAFT_DOCUMENT_LIST || null;
+const documentReadinessPacket = window.DOCUMENT_READINESS_PACKET || null;
 const decisionWorksheets = window.DECISION_WORKSHEETS || null;
 const chapters = meta.chapters || [];
 const selectionMatrix = buildSelectionMatrix();
@@ -70,6 +71,7 @@ const nodes = {
   sourceNotePacketRoot: document.querySelector("#source-note-packet-root"),
   researchRunbookRoot: document.querySelector("#research-runbook-root"),
   draftDocumentListRoot: document.querySelector("#draft-document-list-root"),
+  documentReadinessRoot: document.querySelector("#document-readiness-root"),
   countryDossierRoot: document.querySelector("#country-dossier-root"),
   countryDossierSummary: document.querySelector("#country-dossier-summary"),
   countryDossierSearch: document.querySelector("#country-dossier-search"),
@@ -1231,6 +1233,157 @@ function draftDocumentRow(row) {
   return item;
 }
 
+function renderDocumentReadiness() {
+  if (!nodes.documentReadinessRoot) return;
+  if (!documentReadinessPacket) {
+    nodes.documentReadinessRoot.innerHTML = '<p class="empty">Document readiness packet data is unavailable.</p>';
+    return;
+  }
+
+  const summary = document.createElement("div");
+  summary.className = "document-readiness-summary";
+  summary.append(
+    documentReadinessSummaryItem("draft rows", documentReadinessPacket.summary?.documentCount),
+    documentReadinessSummaryItem("ready now", documentReadinessPacket.summary?.readyForReadCount),
+    documentReadinessSummaryItem("authority check", documentReadinessPacket.summary?.readyWithAuthorityCheckCount),
+    documentReadinessSummaryItem("blocked", documentReadinessPacket.summary?.blockerCount),
+    documentReadinessSummaryItem("diary matched", documentReadinessPacket.summary?.diaryMatchedCount)
+  );
+
+  const actions = document.createElement("div");
+  actions.className = "file-actions packet-actions";
+  actions.append(
+    linkButton("Open readiness packet", "reports/document-readiness-packet.md"),
+    linkButton("All rows CSV", "reports/document-readiness/document-readiness.csv"),
+    linkButton("Ready CSV", "reports/document-readiness/ready-first-pass.csv"),
+    linkButton("Blockers CSV", "reports/document-readiness/blockers.csv"),
+    linkButton("Authority CSV", "reports/document-readiness/authority-checks.csv")
+  );
+
+  const queue = document.createElement("div");
+  queue.className = "document-readiness-board";
+  queue.append(
+    readinessQueueCard("Ready for First-Pass Read", documentReadinessPacket.readyRows || [], "ready"),
+    readinessQueueCard("Ready with Authority Check", documentReadinessPacket.authorityRows || [], "authority"),
+    readinessQueueCard("Blocked / Conditional", documentReadinessPacket.blockerRows || [], "blocked")
+  );
+
+  const chapters = document.createElement("div");
+  chapters.className = "document-readiness-chapter-grid";
+  chapters.append(...(documentReadinessPacket.chapterGroups || []).map(readinessChapterCard));
+
+  nodes.documentReadinessRoot.replaceChildren(summary, actions, queue, chapters);
+}
+
+function documentReadinessSummaryItem(label, value) {
+  const item = document.createElement("div");
+  const strong = document.createElement("strong");
+  strong.textContent = Number(value || 0).toLocaleString();
+  const span = document.createElement("span");
+  span.textContent = label;
+  item.append(strong, span);
+  return item;
+}
+
+function readinessQueueCard(title, rows, tone) {
+  const card = document.createElement("article");
+  card.className = `file-card document-readiness-card tone-${tone}`;
+
+  const header = document.createElement("header");
+  const titleBlock = document.createElement("div");
+  const meta = document.createElement("div");
+  meta.className = "file-meta";
+  meta.append(textSpan(`${rows.length} rows`));
+  const heading = document.createElement("h3");
+  heading.textContent = title;
+  titleBlock.append(meta, heading);
+  header.append(titleBlock);
+
+  const list = document.createElement("ul");
+  list.className = "compiler-row-list";
+  for (const row of rows.slice(0, 6)) list.append(readinessDocumentRow(row));
+  if (!rows.length) list.append(emptyListItem("No rows in this queue."));
+
+  const actions = document.createElement("div");
+  actions.className = "file-actions";
+  if (tone === "ready") actions.append(linkButton("Download queue", "reports/document-readiness/ready-first-pass.csv"));
+  if (tone === "authority") actions.append(linkButton("Download queue", "reports/document-readiness/authority-checks.csv"));
+  if (tone === "blocked") actions.append(linkButton("Download queue", "reports/document-readiness/blockers.csv"));
+
+  card.append(header, list, actions);
+  return card;
+}
+
+function readinessChapterCard(group) {
+  const card = document.createElement("article");
+  card.className = "file-card document-readiness-card";
+
+  const header = document.createElement("header");
+  const titleBlock = document.createElement("div");
+  const meta = document.createElement("div");
+  meta.className = "file-meta";
+  meta.append(textSpan(`${group.readyForReadCount} ready`), textSpan(`${group.readyWithAuthorityCheckCount} authority`), textSpan(`${group.blockerCount} blocked`));
+  const title = document.createElement("h3");
+  title.textContent = group.lane;
+  titleBlock.append(meta, title);
+  header.append(titleBlock);
+
+  const chips = document.createElement("div");
+  chips.className = "chips";
+  if (group.sourceCopyCount) chips.append(chip(`${group.sourceCopyCount} source-copy`, "warn"));
+  if (group.declassificationCount) chips.append(chip(`${group.declassificationCount} declass`, "warn"));
+  if (group.crossVolumeCount) chips.append(chip(`${group.crossVolumeCount} cross-volume`, "warn"));
+  if (!chips.children.length) chips.append(chip("no blockers", "good"));
+
+  const list = document.createElement("ul");
+  list.className = "compiler-row-list";
+  for (const row of (group.rows || []).slice(0, 4)) list.append(readinessDocumentRow(row));
+
+  card.append(header, chips, list);
+  return card;
+}
+
+function readinessDocumentRow(row) {
+  const item = document.createElement("li");
+  const title = row.catalogUrl ? document.createElement("a") : document.createElement("span");
+  if (row.catalogUrl) {
+    title.href = row.catalogUrl;
+    title.target = "_blank";
+    title.rel = "noreferrer";
+  }
+  title.className = "compiler-row-title";
+  title.textContent = `${row.draftNumber} - ${row.dateText || row.date || "Undated"} - ${row.title}`;
+  const detail = document.createElement("p");
+  detail.textContent = [row.readinessStatus, row.country || row.lane, row.releaseStatus].filter(Boolean).join(" / ");
+  item.append(title, detail);
+
+  if (row.blockers?.length || row.authorityReviewEntries?.length) {
+    const chips = document.createElement("div");
+    chips.className = "chips";
+    for (const blocker of row.blockers || []) chips.append(chip(blocker, "warn"));
+    for (const authority of (row.authorityReviewEntries || []).slice(0, 2)) chips.append(chip(authority, "boundary"));
+    item.append(chips);
+  }
+
+  const action = document.createElement("p");
+  action.className = "source-note";
+  action.textContent = row.nextAction || row.decisionNeeded || "";
+  item.append(action);
+
+  const actions = document.createElement("div");
+  actions.className = "file-actions";
+  if (row.pdfUrl) actions.append(linkButton("PDF", row.pdfUrl));
+  if (row.frusSourceNote) actions.append(copyTextButton("Copy note", row.frusSourceNote));
+  item.append(actions);
+
+  const sourceDetails = sourceNoteDetails(row);
+  if (sourceDetails) item.append(sourceDetails);
+  const diaryDetails = diaryReferenceDetails(row);
+  if (diaryDetails) item.append(diaryDetails);
+
+  return item;
+}
+
 function renderResearchRunbook() {
   if (!nodes.researchRunbookRoot) return;
   if (!researchRunbook) {
@@ -2150,6 +2303,7 @@ function init() {
   setStats();
   renderCountryDossiers();
   renderDraftDocumentList();
+  renderDocumentReadiness();
   renderCompilerBrief();
   renderSourceNotePacket();
   renderResearchRunbook();

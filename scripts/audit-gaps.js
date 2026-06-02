@@ -14,6 +14,7 @@ const decisionWorksheetsReportPath = path.join(reportDir, "decision-worksheets-b
 const researchRunbookReportPath = path.join(reportDir, "research-runbook-build.json");
 const countryDossiersReportPath = path.join(reportDir, "country-dossiers-build.json");
 const draftDocumentListReportPath = path.join(reportDir, "draft-document-list-build.json");
+const documentReadinessReportPath = path.join(reportDir, "document-readiness-packet-build.json");
 const personsAuthorityPacketReportPath = path.join(reportDir, "persons-authority-packet-build.json");
 
 const meta = readJson("volume-meta.json");
@@ -31,6 +32,7 @@ const decisionWorksheetsReport = readOptionalJson(decisionWorksheetsReportPath) 
 const researchRunbookReport = readOptionalJson(researchRunbookReportPath) || {};
 const countryDossiersReport = readOptionalJson(countryDossiersReportPath) || {};
 const draftDocumentListReport = readOptionalJson(draftDocumentListReportPath) || {};
+const documentReadinessReport = readOptionalJson(documentReadinessReportPath) || {};
 const personsAuthorityPacketReport = readOptionalJson(personsAuthorityPacketReportPath) || {};
 
 const GAP_PERSON_TERMS = [
@@ -110,6 +112,18 @@ const reportBody = {
   draftDocumentMissingSourceNoteCount: draftDocumentListReport.missingSourceNoteCount || 0,
   draftDocumentChapterCount: draftDocumentListReport.chapterCount || 0,
   draftDocumentCsvFiles: draftDocumentListReport.csvFiles || [],
+  documentReadinessCount: documentReadinessReport.documentCount || 0,
+  documentReadinessProposedCount: documentReadinessReport.proposedCount || 0,
+  documentReadinessConditionalCount: documentReadinessReport.conditionalCount || 0,
+  documentReadinessReadyForReadCount: documentReadinessReport.readyForReadCount || 0,
+  documentReadinessReadyWithAuthorityCheckCount: documentReadinessReport.readyWithAuthorityCheckCount || 0,
+  documentReadinessBlockerCount: documentReadinessReport.blockerCount || 0,
+  documentReadinessSourceCopyCount: documentReadinessReport.sourceCopyCount || 0,
+  documentReadinessDeclassificationCount: documentReadinessReport.declassificationCount || 0,
+  documentReadinessCrossVolumeCount: documentReadinessReport.crossVolumeCount || 0,
+  documentReadinessMissingSourceNoteCount: documentReadinessReport.missingSourceNoteCount || 0,
+  documentReadinessDiaryMatchedCount: documentReadinessReport.diaryMatchedCount || 0,
+  documentReadinessCsvFiles: documentReadinessReport.csvFiles || [],
   personsAuthorityPacketPersonCount: personsAuthorityPacketReport.personCount || 0,
   personsAuthorityPacketAuthorityMode: personsAuthorityPacketReport.authorityMode || "",
   personsAuthorityPacketAuthorityEntryCount: personsAuthorityPacketReport.authorityEntryCount || 0,
@@ -224,6 +238,52 @@ const failures = [
   ...report.draftDocumentCsvFiles
     .filter((filePath) => !fs.existsSync(path.join(repoRoot, filePath)))
     .map((filePath) => `missing draft document CSV: ${filePath}`),
+  ...(report.documentReadinessCount === report.draftDocumentProposedCount + report.draftDocumentConditionalCount
+    ? []
+    : [
+        `document readiness count mismatch: expected ${
+          report.draftDocumentProposedCount + report.draftDocumentConditionalCount
+        }, found ${report.documentReadinessCount}`
+      ]),
+  ...(report.documentReadinessProposedCount === report.draftDocumentProposedCount
+    ? []
+    : [
+        `document readiness proposed count mismatch: expected ${report.draftDocumentProposedCount}, found ${report.documentReadinessProposedCount}`
+      ]),
+  ...(report.documentReadinessConditionalCount === report.draftDocumentConditionalCount
+    ? []
+    : [
+        `document readiness conditional count mismatch: expected ${report.draftDocumentConditionalCount}, found ${report.documentReadinessConditionalCount}`
+      ]),
+  ...(report.documentReadinessMissingSourceNoteCount === 0
+    ? []
+    : [`document readiness packet has missing FRUS source notes: ${report.documentReadinessMissingSourceNoteCount}`]),
+  ...(report.documentReadinessSourceCopyCount === (draftDocumentListReport.sourceCopyBlockers || 0)
+    ? []
+    : [
+        `document readiness source-copy count mismatch: expected ${draftDocumentListReport.sourceCopyBlockers || 0}, found ${report.documentReadinessSourceCopyCount}`
+      ]),
+  ...(report.documentReadinessDeclassificationCount === (draftDocumentListReport.declassificationBlockers || 0)
+    ? []
+    : [
+        `document readiness declassification count mismatch: expected ${draftDocumentListReport.declassificationBlockers || 0}, found ${report.documentReadinessDeclassificationCount}`
+      ]),
+  ...(report.documentReadinessCrossVolumeCount === (draftDocumentListReport.crossVolumeScreens || 0)
+    ? []
+    : [
+        `document readiness cross-volume count mismatch: expected ${draftDocumentListReport.crossVolumeScreens || 0}, found ${report.documentReadinessCrossVolumeCount}`
+      ]),
+  ...(report.documentReadinessReadyForReadCount + report.documentReadinessReadyWithAuthorityCheckCount > 0
+    ? []
+    : ["document readiness packet has no ready rows"]),
+  ...(report.documentReadinessDiaryMatchedCount >= report.documentReadinessCount - 5
+    ? []
+    : [
+        `document readiness diary-match count unexpectedly low: ${report.documentReadinessDiaryMatchedCount} of ${report.documentReadinessCount}`
+      ]),
+  ...report.documentReadinessCsvFiles
+    .filter((filePath) => !fs.existsSync(path.join(repoRoot, filePath)))
+    .map((filePath) => `missing document readiness CSV: ${filePath}`),
   ...(report.personsAuthorityPacketPersonCount === report.personsCount
     ? []
     : [
@@ -264,7 +324,7 @@ if (failures.length) {
 }
 
 console.log(
-  `Gap audit passed: ${persons.length} persons, ${report.selectionMatrixCount} selection rows, ${report.compilerBriefQueueCount} compiler brief queues, ${report.sourceNotePacketCount} source-note packet rows, ${report.decisionWorksheetCount} decision worksheets, ${report.researchRunbookQueryCount} research runbook queries, ${report.countryDossierCount} country dossiers, ${report.draftDocumentProposedCount} draft proposed rows, ${sourceCopyLedger.length} source-copy ledger rows, ${report.personsNeedingAuthorityReview.length} authority-review entries, ${report.personsAuthorityPacketDocumentLinkCount} authority document links.`
+  `Gap audit passed: ${persons.length} persons, ${report.selectionMatrixCount} selection rows, ${report.compilerBriefQueueCount} compiler brief queues, ${report.sourceNotePacketCount} source-note packet rows, ${report.decisionWorksheetCount} decision worksheets, ${report.researchRunbookQueryCount} research runbook queries, ${report.countryDossierCount} country dossiers, ${report.draftDocumentProposedCount} draft proposed rows, ${report.documentReadinessCount} readiness rows, ${sourceCopyLedger.length} source-copy ledger rows, ${report.personsNeedingAuthorityReview.length} authority-review entries, ${report.personsAuthorityPacketDocumentLinkCount} authority document links.`
 );
 
 function readJson(fileName) {

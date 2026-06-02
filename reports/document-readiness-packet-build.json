@@ -1,0 +1,22 @@
+{
+  "generatedAt": "2026-06-02T01:34:20.340Z",
+  "documentCount": 104,
+  "proposedCount": 36,
+  "conditionalCount": 68,
+  "readyForReadCount": 28,
+  "readyWithAuthorityCheckCount": 8,
+  "blockerCount": 68,
+  "sourceCopyCount": 9,
+  "declassificationCount": 21,
+  "crossVolumeCount": 38,
+  "missingSourceNoteCount": 0,
+  "diaryMatchedCount": 100,
+  "authorityReviewDocumentCount": 17,
+  "highAuthorityReviewDocumentCount": 17,
+  "csvFiles": [
+    "reports/document-readiness/document-readiness.csv",
+    "reports/document-readiness/ready-first-pass.csv",
+    "reports/document-readiness/blockers.csv",
+    "reports/document-readiness/authority-checks.csv"
+  ]
+}
