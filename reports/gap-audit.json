@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-01T17:43:05.547Z",
+  "generatedAt": "2026-06-02T01:25:28.628Z",
   "personsCount": 51,
   "selectionMatrixCount": 186,
   "expectedSelectionMatrixCount": 186,
@@ -51,6 +51,18 @@
     "reports/draft-document-list/proposed-documents.csv",
     "reports/draft-document-list/conditional-documents.csv",
     "reports/draft-document-list/chapter-gaps.csv"
+  ],
+  "personsAuthorityPacketPersonCount": 51,
+  "personsAuthorityPacketAuthorityMode": "docx",
+  "personsAuthorityPacketAuthorityEntryCount": 4597,
+  "personsAuthorityPacketReviewCount": 18,
+  "personsAuthorityPacketDocumentLinkCount": 472,
+  "personsAuthorityPacketReviewDocumentLinkCount": 44,
+  "personsAuthorityPacketHighPriorityReviewCount": 15,
+  "personsAuthorityPacketCsvFiles": [
+    "reports/persons-authority/authority-review.csv",
+    "reports/persons-authority/person-document-links.csv",
+    "reports/persons-authority/all-persons-authority.csv"
   ],
   "selectionMatrixByRecommendation": {
     "Public-line/context check": 43,
