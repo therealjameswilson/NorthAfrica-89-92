@@ -26,6 +26,7 @@ const documentReadiness = readJson("document-readiness-packet");
 const blockerResolution = readJson("blocker-resolution-packet");
 const documentStubs = readJson("document-stubs-packet");
 const diaryControl = readJson("diary-control-packet");
+const annotationLeads = readJson("annotation-leads-packet");
 const decisionWorksheets = readJson("decision-worksheets");
 const personsAuthority = readJson("persons-authority-packet");
 
@@ -38,6 +39,7 @@ const liveSections = [
   section("document-stubs", "Compiler Stubs", "Per-document Markdown working files with source notes, diary controls, and decision fields.", documentStubs.summary?.stubCount),
   section("compiler-handoff", "Compiler Handoff", "One-screen start order, packets, links, and refresh commands.", null),
   section("diary-controls", "Daily Diary / Backup Controls", "Meeting and call controls for time, location, attendees, call status, and scheduling context.", diaryControl.summary?.controlRows),
+  section("annotation-leads", "Annotation Leads", "Public-line, persons authority, diary, blocker, and source-note drafting checks.", annotationLeads.summary?.documentCount),
   section("compiler-brief", "Compiler Brief", "Queue-level overview for selection, source, and gap work.", null),
   section("source-note-packet", "Source Note Packet", "FRUS-style source notes, provenance rows, and diary/backup controls.", sourceNotePacket.summary?.sourceRows),
   section("research-runbook", "Research Runbook", "Gap-driven searches and archival routes.", researchRunbook.summary?.queryCount),
@@ -58,6 +60,7 @@ const packetLinks = [
   packet("Compiler handoff", "reports/compiler-handoff.md", "Use this as the first plain-text handoff for the volume.", null, ["reports/compiler-handoff-links.csv"], "#compiler-handoff"),
   packet("Document stubs", "reports/document-stubs-packet.md", "Open per-document working files and stub index before writing final document text.", documentStubs.summary?.stubCount, documentStubs.summary?.csvFiles, "#document-stubs"),
   packet("Daily Diary / Backup controls", "reports/diary-control-packet.md", "Verify meeting/call time, location, attendees, call status, and scheduling context from NAID 186322.", diaryControl.summary?.controlRows, diaryControl.summary?.csvFiles, "#diary-controls"),
+  packet("Annotation leads", "reports/annotation-leads-packet.md", "Pair draft documents with public-line leads, persons authority flags, diary controls, blockers, and source notes.", annotationLeads.summary?.documentCount, annotationLeads.summary?.csvFiles, "#annotation-leads"),
   packet("Document readiness", "reports/document-readiness-packet.md", "Confirm first-pass ready rows, authority checks, and blockers.", documentReadiness.summary?.documentCount, documentReadiness.summary?.csvFiles, "#document-readiness"),
   packet("Blocker resolution", "reports/blocker-resolution-packet.md", "Work source-copy, declassification, and cross-volume queues.", blockerResolution.summary?.blockerCount, blockerResolution.summary?.csvFiles, "#blocker-resolution"),
   packet("Persons authority", "reports/persons-authority-packet.md", "Resolve persons list authority matches and review rows.", personsAuthority.summary?.personCount, personsAuthority.summary?.csvFiles, "persons.html#authority-packet"),
@@ -91,6 +94,7 @@ const refreshCommands = [
   "node scripts/build-blocker-resolution-packet.js",
   "node scripts/build-document-stubs.js",
   "node scripts/build-diary-control-packet.js",
+  "node scripts/build-annotation-leads-packet.js",
   "node scripts/build-gap-tracker.js",
   "BUSH_NAMES_DOCX=... node scripts/build-persons-list.js",
   "node scripts/build-persons-authority-packet.js",
@@ -118,6 +122,10 @@ const summary = {
   diaryControlRows: diaryControl.summary?.controlRows || 0,
   diaryControlMatchedRows: diaryControl.summary?.matchedRows || 0,
   diaryReferenceFiles: diaryControl.summary?.uniqueDiaryReferenceCount || 0,
+  annotationRows: annotationLeads.summary?.documentCount || 0,
+  directAnnotationRows: annotationLeads.summary?.documentsWithDirectPublicLeads || 0,
+  contextOnlyAnnotationRows: annotationLeads.summary?.contextOnlyPublicLeadRows || 0,
+  publicLineGapRows: annotationLeads.summary?.documentsWithoutPublicLeads || 0,
   sourceNoteRows: sourceNotePacket.summary?.sourceRows || 0,
   missingFrusSourceNotes: sourceNotePacket.summary?.missingFrusSourceNoteRows || 0,
   diaryMatchedRows: sourceNotePacket.summary?.diaryMatchedRows || 0,
@@ -140,7 +148,8 @@ const startHere = [
   start(4, "Resolve blockers by type", "#blocker-resolution", `${summary.sourceCopyBlockers} source-copy searches, ${summary.declassificationBlockers} declassification reviews, and ${summary.crossVolumeBlockers} cross-volume screens are itemized.`),
   start(5, "Check persons authority", "persons.html#authority-packet", `${summary.personsRows} persons are matched against ${summary.authorityDocxEntries} Bush names-list entries, with ${summary.authorityReviewRows} review rows.`),
   start(6, "Confirm Daily Diary / Backup controls", "#diary-controls", `${summary.diaryControlRows} meeting/call controls are matched to ${summary.diaryReferenceFiles} unique NAID 186322 diary/backup file units.`),
-  start(7, "Use source notes while drafting", "#source-note-packet", `${summary.sourceNoteRows} FRUS-style source-note rows are available, with ${summary.missingFrusSourceNotes} missing notes in the generated packet.`)
+  start(7, "Open annotation leads", "#annotation-leads", `${summary.annotationRows} draft rows carry public-line, authority, diary, blocker, and source-note drafting checks.`),
+  start(8, "Use source notes while drafting", "#source-note-packet", `${summary.sourceNoteRows} FRUS-style source-note rows are available, with ${summary.missingFrusSourceNotes} missing notes in the generated packet.`)
 ];
 
 const packetBody = {
@@ -177,6 +186,10 @@ writeStableJson(path.join(reportDir, "compiler-handoff-build.json"), {
   documentStubs: packetData.summary.documentStubs,
   diaryControlRows: packetData.summary.diaryControlRows,
   diaryReferenceFiles: packetData.summary.diaryReferenceFiles,
+  annotationRows: packetData.summary.annotationRows,
+  directAnnotationRows: packetData.summary.directAnnotationRows,
+  contextOnlyAnnotationRows: packetData.summary.contextOnlyAnnotationRows,
+  publicLineGapRows: packetData.summary.publicLineGapRows,
   readyForReadRows: packetData.summary.readyForReadRows,
   readyWithAuthorityCheckRows: packetData.summary.readyWithAuthorityCheckRows,
   blockerRows: packetData.summary.blockerRows,
@@ -249,6 +262,7 @@ function buildCopyText(packet) {
     `- ${packet.summary.chronologyRows} chronology rows`,
     `- ${packet.summary.documentStubs} document stubs (${packet.summary.readyForReadRows} ready, ${packet.summary.readyWithAuthorityCheckRows} authority-check, ${packet.summary.blockerRows} blockers)`,
     `- ${packet.summary.diaryControlRows} Daily Diary/Backup controls matched to ${packet.summary.diaryReferenceFiles} file units`,
+    `- ${packet.summary.annotationRows} annotation rows (${packet.summary.directAnnotationRows} direct public-line, ${packet.summary.contextOnlyAnnotationRows} context-only, ${packet.summary.publicLineGapRows} gaps)`,
     `- ${packet.summary.sourceNoteRows} FRUS-style source-note rows; ${packet.summary.missingFrusSourceNotes} missing notes`,
     `- ${packet.summary.personsRows} persons; ${packet.summary.authorityReviewRows} authority-review rows from the Bush names list`,
     `- ${packet.summary.runbookQueries} runbook queries and ${packet.summary.countryDossiers} country dossiers`,
@@ -257,6 +271,7 @@ function buildCopyText(packet) {
     `- Handoff report: ${LIVE_URL}reports/compiler-handoff.md`,
     `- Stub index: ${LIVE_URL}reports/document-stubs/document-stub-index.csv`,
     `- Diary controls: ${LIVE_URL}reports/diary-control-packet.md`,
+    `- Annotation leads: ${LIVE_URL}reports/annotation-leads-packet.md`,
     `- Readiness packet: ${LIVE_URL}reports/document-readiness-packet.md`,
     `- Blocker packet: ${LIVE_URL}reports/blocker-resolution-packet.md`,
     `- Persons authority: ${LIVE_URL}persons.html#authority-packet`,
@@ -315,6 +330,10 @@ function writeMarkdown(filePath, packet) {
     `- Document stubs: ${packet.summary.documentStubs}`,
     `- Daily Diary/Backup control rows: ${packet.summary.diaryControlRows}`,
     `- Unique diary/backup file units: ${packet.summary.diaryReferenceFiles}`,
+    `- Annotation rows: ${packet.summary.annotationRows}`,
+    `- Direct public-line leads: ${packet.summary.directAnnotationRows}`,
+    `- Context-only public-line rows: ${packet.summary.contextOnlyAnnotationRows}`,
+    `- Public-line gaps: ${packet.summary.publicLineGapRows}`,
     `- Ready rows: ${packet.summary.readyForReadRows}`,
     `- Authority-check rows: ${packet.summary.readyWithAuthorityCheckRows}`,
     `- Blocker rows: ${packet.summary.blockerRows}`,

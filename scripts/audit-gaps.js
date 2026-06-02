@@ -18,6 +18,7 @@ const documentReadinessReportPath = path.join(reportDir, "document-readiness-pac
 const blockerResolutionReportPath = path.join(reportDir, "blocker-resolution-packet-build.json");
 const documentStubsReportPath = path.join(reportDir, "document-stubs-packet-build.json");
 const diaryControlReportPath = path.join(reportDir, "diary-control-packet-build.json");
+const annotationLeadsReportPath = path.join(reportDir, "annotation-leads-packet-build.json");
 const compilerHandoffReportPath = path.join(reportDir, "compiler-handoff-build.json");
 const personsAuthorityPacketReportPath = path.join(reportDir, "persons-authority-packet-build.json");
 
@@ -40,6 +41,7 @@ const documentReadinessReport = readOptionalJson(documentReadinessReportPath) ||
 const blockerResolutionReport = readOptionalJson(blockerResolutionReportPath) || {};
 const documentStubsReport = readOptionalJson(documentStubsReportPath) || {};
 const diaryControlReport = readOptionalJson(diaryControlReportPath) || {};
+const annotationLeadsReport = readOptionalJson(annotationLeadsReportPath) || {};
 const compilerHandoffReport = readOptionalJson(compilerHandoffReportPath) || {};
 const personsAuthorityPacketReport = readOptionalJson(personsAuthorityPacketReportPath) || {};
 
@@ -169,10 +171,29 @@ const reportBody = {
   diaryControlMeetingRows: diaryControlReport.meetingRows || 0,
   diaryControlMarkdown: diaryControlReport.markdown || "",
   diaryControlCsvFiles: diaryControlReport.csvFiles || [],
+  annotationLeadsDocumentCount: annotationLeadsReport.documentCount || 0,
+  annotationLeadsPublicReferencePoolCount: annotationLeadsReport.publicReferencePoolCount || 0,
+  annotationLeadsDocumentsWithPublicLeads: annotationLeadsReport.documentsWithPublicLeads || 0,
+  annotationLeadsDocumentsWithDirectPublicLeads: annotationLeadsReport.documentsWithDirectPublicLeads || 0,
+  annotationLeadsContextOnlyPublicLeadRows: annotationLeadsReport.contextOnlyPublicLeadRows || 0,
+  annotationLeadsDocumentsWithoutPublicLeads: annotationLeadsReport.documentsWithoutPublicLeads || 0,
+  annotationLeadsPublicReferenceLinkCount: annotationLeadsReport.publicReferenceLinkCount || 0,
+  annotationLeadsUniquePublicReferenceCount: annotationLeadsReport.uniquePublicReferenceCount || 0,
+  annotationLeadsReadyRows: annotationLeadsReport.readyAnnotationRows || 0,
+  annotationLeadsAuthorityReviewRows: annotationLeadsReport.authorityReviewRows || 0,
+  annotationLeadsBlockerRows: annotationLeadsReport.blockerRows || 0,
+  annotationLeadsDiaryControlledRows: annotationLeadsReport.diaryControlledRows || 0,
+  annotationLeadsSourceNoteRows: annotationLeadsReport.sourceNoteRows || 0,
+  annotationLeadsMarkdown: annotationLeadsReport.markdown || "",
+  annotationLeadsCsvFiles: annotationLeadsReport.csvFiles || [],
   compilerHandoffChronologyRows: compilerHandoffReport.chronologyRows || 0,
   compilerHandoffDocumentStubs: compilerHandoffReport.documentStubs || 0,
   compilerHandoffDiaryControlRows: compilerHandoffReport.diaryControlRows || 0,
   compilerHandoffDiaryReferenceFiles: compilerHandoffReport.diaryReferenceFiles || 0,
+  compilerHandoffAnnotationRows: compilerHandoffReport.annotationRows || 0,
+  compilerHandoffDirectAnnotationRows: compilerHandoffReport.directAnnotationRows || 0,
+  compilerHandoffContextOnlyAnnotationRows: compilerHandoffReport.contextOnlyAnnotationRows || 0,
+  compilerHandoffPublicLineGapRows: compilerHandoffReport.publicLineGapRows || 0,
   compilerHandoffReadyForReadRows: compilerHandoffReport.readyForReadRows || 0,
   compilerHandoffReadyWithAuthorityCheckRows: compilerHandoffReport.readyWithAuthorityCheckRows || 0,
   compilerHandoffBlockerRows: compilerHandoffReport.blockerRows || 0,
@@ -483,6 +504,61 @@ const failures = [
   ...report.diaryControlCsvFiles
     .filter((filePath) => !fs.existsSync(path.join(repoRoot, filePath)))
     .map((filePath) => `missing diary control CSV: ${filePath}`),
+  ...(report.annotationLeadsDocumentCount === report.documentReadinessCount
+    ? []
+    : [`annotation leads document count mismatch: expected ${report.documentReadinessCount}, found ${report.annotationLeadsDocumentCount}`]),
+  ...(report.annotationLeadsPublicReferencePoolCount === publicReferences.length
+    ? []
+    : [
+        `annotation leads public-reference pool mismatch: expected ${publicReferences.length}, found ${report.annotationLeadsPublicReferencePoolCount}`
+      ]),
+  ...(report.annotationLeadsDocumentsWithPublicLeads + report.annotationLeadsDocumentsWithoutPublicLeads === report.annotationLeadsDocumentCount
+    ? []
+    : [
+        `annotation leads public coverage does not sum to document count: ${
+          report.annotationLeadsDocumentsWithPublicLeads + report.annotationLeadsDocumentsWithoutPublicLeads
+        } of ${report.annotationLeadsDocumentCount}`
+      ]),
+  ...(report.annotationLeadsDocumentsWithDirectPublicLeads + report.annotationLeadsContextOnlyPublicLeadRows === report.annotationLeadsDocumentsWithPublicLeads
+    ? []
+    : [
+        `annotation leads direct/context coverage mismatch: ${
+          report.annotationLeadsDocumentsWithDirectPublicLeads + report.annotationLeadsContextOnlyPublicLeadRows
+        } of ${report.annotationLeadsDocumentsWithPublicLeads}`
+      ]),
+  ...(report.annotationLeadsPublicReferenceLinkCount >= report.annotationLeadsDocumentsWithPublicLeads
+    ? []
+    : [`annotation leads public-link count too low: found ${report.annotationLeadsPublicReferenceLinkCount}`]),
+  ...(report.annotationLeadsUniquePublicReferenceCount > 0
+    ? []
+    : ["annotation leads packet has no unique public references"]),
+  ...(report.annotationLeadsReadyRows > 0
+    ? []
+    : ["annotation leads packet has no ready annotation rows"]),
+  ...(report.annotationLeadsAuthorityReviewRows === report.documentStubsAuthorityReviewCount
+    ? []
+    : [
+        `annotation leads authority-review count mismatch: expected ${report.documentStubsAuthorityReviewCount}, found ${report.annotationLeadsAuthorityReviewRows}`
+      ]),
+  ...(report.annotationLeadsBlockerRows === report.blockerResolutionCount
+    ? []
+    : [`annotation leads blocker count mismatch: expected ${report.blockerResolutionCount}, found ${report.annotationLeadsBlockerRows}`]),
+  ...(report.annotationLeadsDiaryControlledRows === report.documentReadinessDiaryMatchedCount
+    ? []
+    : [
+        `annotation leads diary-control count mismatch: expected ${report.documentReadinessDiaryMatchedCount}, found ${report.annotationLeadsDiaryControlledRows}`
+      ]),
+  ...(report.annotationLeadsSourceNoteRows === report.documentReadinessCount
+    ? []
+    : [
+        `annotation leads source-note coverage mismatch: expected ${report.documentReadinessCount}, found ${report.annotationLeadsSourceNoteRows}`
+      ]),
+  ...(report.annotationLeadsMarkdown && fs.existsSync(path.join(repoRoot, report.annotationLeadsMarkdown))
+    ? []
+    : [`missing annotation leads Markdown: ${report.annotationLeadsMarkdown || "blank"}`]),
+  ...report.annotationLeadsCsvFiles
+    .filter((filePath) => !fs.existsSync(path.join(repoRoot, filePath)))
+    .map((filePath) => `missing annotation leads CSV: ${filePath}`),
   ...(report.compilerHandoffChronologyRows === records.length
     ? []
     : [`compiler handoff chronology count mismatch: expected ${records.length}, found ${report.compilerHandoffChronologyRows}`]),
@@ -500,6 +576,26 @@ const failures = [
     ? []
     : [
         `compiler handoff diary-reference count mismatch: expected ${report.diaryControlUniqueReferenceCount}, found ${report.compilerHandoffDiaryReferenceFiles}`
+      ]),
+  ...(report.compilerHandoffAnnotationRows === report.annotationLeadsDocumentCount
+    ? []
+    : [
+        `compiler handoff annotation count mismatch: expected ${report.annotationLeadsDocumentCount}, found ${report.compilerHandoffAnnotationRows}`
+      ]),
+  ...(report.compilerHandoffDirectAnnotationRows === report.annotationLeadsDocumentsWithDirectPublicLeads
+    ? []
+    : [
+        `compiler handoff direct annotation count mismatch: expected ${report.annotationLeadsDocumentsWithDirectPublicLeads}, found ${report.compilerHandoffDirectAnnotationRows}`
+      ]),
+  ...(report.compilerHandoffContextOnlyAnnotationRows === report.annotationLeadsContextOnlyPublicLeadRows
+    ? []
+    : [
+        `compiler handoff context annotation count mismatch: expected ${report.annotationLeadsContextOnlyPublicLeadRows}, found ${report.compilerHandoffContextOnlyAnnotationRows}`
+      ]),
+  ...(report.compilerHandoffPublicLineGapRows === report.annotationLeadsDocumentsWithoutPublicLeads
+    ? []
+    : [
+        `compiler handoff public-line gap count mismatch: expected ${report.annotationLeadsDocumentsWithoutPublicLeads}, found ${report.compilerHandoffPublicLineGapRows}`
       ]),
   ...(report.compilerHandoffReadyForReadRows === report.documentReadinessReadyForReadCount
     ? []
@@ -545,9 +641,15 @@ const failures = [
   ...(report.compilerHandoffLiveSectionIds.includes("diary-controls")
     ? []
     : ["compiler handoff live section list is missing diary-controls"]),
+  ...(report.compilerHandoffLiveSectionIds.includes("annotation-leads")
+    ? []
+    : ["compiler handoff live section list is missing annotation-leads"]),
   ...(report.compilerHandoffRefreshCommands.includes("node scripts/build-diary-control-packet.js")
     ? []
     : ["compiler handoff refresh commands are missing build-diary-control-packet.js"]),
+  ...(report.compilerHandoffRefreshCommands.includes("node scripts/build-annotation-leads-packet.js")
+    ? []
+    : ["compiler handoff refresh commands are missing build-annotation-leads-packet.js"]),
   ...(report.compilerHandoffRefreshCommands.includes("node scripts/build-compiler-handoff.js")
     ? []
     : ["compiler handoff refresh commands are missing build-compiler-handoff.js"]),
@@ -597,7 +699,7 @@ if (failures.length) {
 }
 
 console.log(
-  `Gap audit passed: ${persons.length} persons, ${report.selectionMatrixCount} selection rows, ${report.compilerBriefQueueCount} compiler brief queues, ${report.sourceNotePacketCount} source-note packet rows, ${report.decisionWorksheetCount} decision worksheets, ${report.researchRunbookQueryCount} research runbook queries, ${report.countryDossierCount} country dossiers, ${report.draftDocumentProposedCount} draft proposed rows, ${report.documentReadinessCount} readiness rows, ${report.blockerResolutionCount} blocker-resolution rows, ${report.documentStubsCount} document stubs, ${report.diaryControlRows} diary controls, ${report.compilerHandoffPacketCount} handoff packets, ${sourceCopyLedger.length} source-copy ledger rows, ${report.personsNeedingAuthorityReview.length} authority-review entries, ${report.personsAuthorityPacketDocumentLinkCount} authority document links.`
+  `Gap audit passed: ${persons.length} persons, ${report.selectionMatrixCount} selection rows, ${report.compilerBriefQueueCount} compiler brief queues, ${report.sourceNotePacketCount} source-note packet rows, ${report.decisionWorksheetCount} decision worksheets, ${report.researchRunbookQueryCount} research runbook queries, ${report.countryDossierCount} country dossiers, ${report.draftDocumentProposedCount} draft proposed rows, ${report.documentReadinessCount} readiness rows, ${report.blockerResolutionCount} blocker-resolution rows, ${report.documentStubsCount} document stubs, ${report.diaryControlRows} diary controls, ${report.annotationLeadsDocumentCount} annotation rows, ${report.compilerHandoffPacketCount} handoff packets, ${sourceCopyLedger.length} source-copy ledger rows, ${report.personsNeedingAuthorityReview.length} authority-review entries, ${report.personsAuthorityPacketDocumentLinkCount} authority document links.`
 );
 
 function readJson(fileName) {

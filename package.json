@@ -18,12 +18,13 @@
     "blockers": "node scripts/build-blocker-resolution-packet.js",
     "stubs": "node scripts/build-document-stubs.js",
     "diary-controls": "node scripts/build-diary-control-packet.js",
+    "annotations": "node scripts/build-annotation-leads-packet.js",
     "handoff": "node scripts/build-compiler-handoff.js",
     "gaps": "node scripts/build-gap-tracker.js",
     "persons": "node scripts/build-persons-list.js",
     "authority": "node scripts/build-persons-authority-packet.js",
     "audit": "node scripts/audit-gaps.js",
-    "check": "node --check app.js && node --check persons.js && node --check scripts/harvest-volume20.js && node --check scripts/build-diary-cross-references.js && node --check scripts/build-frus-source-notes.js && node --check scripts/selection-matrix-core.js && node --check scripts/build-selection-matrix.js && node --check scripts/build-compiler-brief.js && node --check scripts/build-source-note-packet.js && node --check scripts/build-decision-worksheets.js && node --check scripts/build-research-runbook.js && node --check scripts/build-country-dossiers.js && node --check scripts/build-draft-document-list.js && node --check scripts/build-document-readiness-packet.js && node --check scripts/build-blocker-resolution-packet.js && node --check scripts/build-document-stubs.js && node --check scripts/build-diary-control-packet.js && node --check scripts/build-compiler-handoff.js && node --check scripts/build-gap-tracker.js && node --check scripts/build-persons-list.js && node --check scripts/build-persons-authority-packet.js && node --check scripts/audit-gaps.js"
+    "check": "node --check app.js && node --check persons.js && node --check scripts/harvest-volume20.js && node --check scripts/build-diary-cross-references.js && node --check scripts/build-frus-source-notes.js && node --check scripts/selection-matrix-core.js && node --check scripts/build-selection-matrix.js && node --check scripts/build-compiler-brief.js && node --check scripts/build-source-note-packet.js && node --check scripts/build-decision-worksheets.js && node --check scripts/build-research-runbook.js && node --check scripts/build-country-dossiers.js && node --check scripts/build-draft-document-list.js && node --check scripts/build-document-readiness-packet.js && node --check scripts/build-blocker-resolution-packet.js && node --check scripts/build-document-stubs.js && node --check scripts/build-diary-control-packet.js && node --check scripts/build-annotation-leads-packet.js && node --check scripts/build-compiler-handoff.js && node --check scripts/build-gap-tracker.js && node --check scripts/build-persons-list.js && node --check scripts/build-persons-authority-packet.js && node --check scripts/audit-gaps.js"
   },
   "license": "ISC"
 }

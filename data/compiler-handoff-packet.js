@@ -1,5 +1,5 @@
 window.COMPILER_HANDOFF_PACKET = {
-  "generatedAt": "2026-06-02T10:32:10.263Z",
+  "generatedAt": "2026-06-02T11:03:11.151Z",
   "volume": {
     "id": "frus1989-92v20",
     "title": "Foreign Relations of the United States, 1989-1992, Volume XX, North Africa; Sub-Saharan Africa",
@@ -25,6 +25,10 @@ window.COMPILER_HANDOFF_PACKET = {
     "diaryControlRows": 134,
     "diaryControlMatchedRows": 134,
     "diaryReferenceFiles": 176,
+    "annotationRows": 104,
+    "directAnnotationRows": 74,
+    "contextOnlyAnnotationRows": 25,
+    "publicLineGapRows": 5,
     "sourceNoteRows": 143,
     "missingFrusSourceNotes": 0,
     "diaryMatchedRows": 134,
@@ -34,10 +38,10 @@ window.COMPILER_HANDOFF_PACKET = {
     "personsRows": 51,
     "authorityReviewRows": 18,
     "authorityDocxEntries": 4597,
-    "sectionCount": 22,
-    "packetCount": 13,
-    "reportCount": 13,
-    "csvCount": 32
+    "sectionCount": 23,
+    "packetCount": 14,
+    "reportCount": 14,
+    "csvCount": 39
   },
   "startHere": [
     {
@@ -84,6 +88,13 @@ window.COMPILER_HANDOFF_PACKET = {
     },
     {
       "step": 7,
+      "title": "Open annotation leads",
+      "href": "#annotation-leads",
+      "liveUrl": "https://therealjameswilson.github.io/NorthAfrica-89-92/#annotation-leads",
+      "detail": "104 draft rows carry public-line, authority, diary, blocker, and source-note drafting checks."
+    },
+    {
+      "step": 8,
       "title": "Use source notes while drafting",
       "href": "#source-note-packet",
       "liveUrl": "https://therealjameswilson.github.io/NorthAfrica-89-92/#source-note-packet",
@@ -154,6 +165,14 @@ window.COMPILER_HANDOFF_PACKET = {
       "liveUrl": "https://therealjameswilson.github.io/NorthAfrica-89-92/#diary-controls",
       "count": 134,
       "use": "Meeting and call controls for time, location, attendees, call status, and scheduling context."
+    },
+    {
+      "id": "annotation-leads",
+      "title": "Annotation Leads",
+      "href": "#annotation-leads",
+      "liveUrl": "https://therealjameswilson.github.io/NorthAfrica-89-92/#annotation-leads",
+      "count": 104,
+      "use": "Public-line, persons authority, diary, blocker, and source-note drafting checks."
     },
     {
       "id": "compiler-brief",
@@ -304,6 +323,22 @@ window.COMPILER_HANDOFF_PACKET = {
       ]
     },
     {
+      "title": "Annotation leads",
+      "href": "reports/annotation-leads-packet.md",
+      "liveUrl": "https://therealjameswilson.github.io/NorthAfrica-89-92/#annotation-leads",
+      "count": 104,
+      "use": "Pair draft documents with public-line leads, persons authority flags, diary controls, blockers, and source notes.",
+      "csvFiles": [
+        "reports/annotation-leads/all-annotation-leads.csv",
+        "reports/annotation-leads/authority-annotation-leads.csv",
+        "reports/annotation-leads/blocker-annotation-leads.csv",
+        "reports/annotation-leads/context-only-public-leads.csv",
+        "reports/annotation-leads/direct-public-leads.csv",
+        "reports/annotation-leads/no-public-line-leads.csv",
+        "reports/annotation-leads/public-line-links.csv"
+      ]
+    },
+    {
       "title": "Document readiness",
       "href": "reports/document-readiness-packet.md",
       "liveUrl": "https://therealjameswilson.github.io/NorthAfrica-89-92/#document-readiness",
@@ -417,6 +452,13 @@ window.COMPILER_HANDOFF_PACKET = {
     }
   ],
   "csvFiles": [
+    "reports/annotation-leads/all-annotation-leads.csv",
+    "reports/annotation-leads/authority-annotation-leads.csv",
+    "reports/annotation-leads/blocker-annotation-leads.csv",
+    "reports/annotation-leads/context-only-public-leads.csv",
+    "reports/annotation-leads/direct-public-leads.csv",
+    "reports/annotation-leads/no-public-line-leads.csv",
+    "reports/annotation-leads/public-line-links.csv",
     "reports/blocker-resolution/all-blockers.csv",
     "reports/blocker-resolution/cross-volume-actions.csv",
     "reports/blocker-resolution/declassification-actions.csv",
@@ -451,6 +493,7 @@ window.COMPILER_HANDOFF_PACKET = {
     "reports/worksheets/source-copy-searches.csv"
   ],
   "reportFiles": [
+    "reports/annotation-leads-packet.md",
     "reports/blocker-resolution-packet.md",
     "reports/compiler-brief.md",
     "reports/compiler-handoff.md",
@@ -480,6 +523,7 @@ window.COMPILER_HANDOFF_PACKET = {
     "node scripts/build-blocker-resolution-packet.js",
     "node scripts/build-document-stubs.js",
     "node scripts/build-diary-control-packet.js",
+    "node scripts/build-annotation-leads-packet.js",
     "node scripts/build-gap-tracker.js",
     "BUSH_NAMES_DOCX=... node scripts/build-persons-list.js",
     "node scripts/build-persons-authority-packet.js",
@@ -491,5 +535,5 @@ window.COMPILER_HANDOFF_PACKET = {
     "npm run check",
     "npm run audit"
   ],
-  "copyText": "# FRUS Volume XX Compiler Handoff\n\nLive chronology first: https://therealjameswilson.github.io/NorthAfrica-89-92/#records\nFull live page: https://therealjameswilson.github.io/NorthAfrica-89-92/\nOfficial volume: https://history.state.gov/historicaldocuments/frus1989-92v20\n\nCurrent queues:\n- 100 chronology rows\n- 104 document stubs (28 ready, 8 authority-check, 68 blockers)\n- 134 Daily Diary/Backup controls matched to 176 file units\n- 143 FRUS-style source-note rows; 0 missing notes\n- 51 persons; 18 authority-review rows from the Bush names list\n- 98 runbook queries and 34 country dossiers\n\nOpen next:\n- Handoff report: https://therealjameswilson.github.io/NorthAfrica-89-92/reports/compiler-handoff.md\n- Stub index: https://therealjameswilson.github.io/NorthAfrica-89-92/reports/document-stubs/document-stub-index.csv\n- Diary controls: https://therealjameswilson.github.io/NorthAfrica-89-92/reports/diary-control-packet.md\n- Readiness packet: https://therealjameswilson.github.io/NorthAfrica-89-92/reports/document-readiness-packet.md\n- Blocker packet: https://therealjameswilson.github.io/NorthAfrica-89-92/reports/blocker-resolution-packet.md\n- Persons authority: https://therealjameswilson.github.io/NorthAfrica-89-92/persons.html#authority-packet\n\nRefresh locally:\nnode scripts/build-compiler-handoff.js\nnpm run check\nnpm run audit"
+  "copyText": "# FRUS Volume XX Compiler Handoff\n\nLive chronology first: https://therealjameswilson.github.io/NorthAfrica-89-92/#records\nFull live page: https://therealjameswilson.github.io/NorthAfrica-89-92/\nOfficial volume: https://history.state.gov/historicaldocuments/frus1989-92v20\n\nCurrent queues:\n- 100 chronology rows\n- 104 document stubs (28 ready, 8 authority-check, 68 blockers)\n- 134 Daily Diary/Backup controls matched to 176 file units\n- 104 annotation rows (74 direct public-line, 25 context-only, 5 gaps)\n- 143 FRUS-style source-note rows; 0 missing notes\n- 51 persons; 18 authority-review rows from the Bush names list\n- 98 runbook queries and 34 country dossiers\n\nOpen next:\n- Handoff report: https://therealjameswilson.github.io/NorthAfrica-89-92/reports/compiler-handoff.md\n- Stub index: https://therealjameswilson.github.io/NorthAfrica-89-92/reports/document-stubs/document-stub-index.csv\n- Diary controls: https://therealjameswilson.github.io/NorthAfrica-89-92/reports/diary-control-packet.md\n- Annotation leads: https://therealjameswilson.github.io/NorthAfrica-89-92/reports/annotation-leads-packet.md\n- Readiness packet: https://therealjameswilson.github.io/NorthAfrica-89-92/reports/document-readiness-packet.md\n- Blocker packet: https://therealjameswilson.github.io/NorthAfrica-89-92/reports/blocker-resolution-packet.md\n- Persons authority: https://therealjameswilson.github.io/NorthAfrica-89-92/persons.html#authority-packet\n\nRefresh locally:\nnode scripts/build-compiler-handoff.js\nnpm run check\nnpm run audit"
 };

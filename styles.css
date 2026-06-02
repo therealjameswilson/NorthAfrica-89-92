@@ -437,6 +437,11 @@ dd {
   gap: 16px;
 }
 
+.annotation-leads-root {
+  display: grid;
+  gap: 16px;
+}
+
 .decision-worksheets-root {
   display: grid;
   gap: 16px;
@@ -457,6 +462,7 @@ dd {
 .document-stubs-summary,
 .compiler-handoff-summary,
 .diary-control-summary,
+.annotation-leads-summary,
 .decision-worksheets-summary,
 .persons-authority-summary {
   display: grid;
@@ -784,6 +790,42 @@ dd {
   font-weight: 900;
 }
 
+.annotation-leads-summary div {
+  min-height: 112px;
+  padding: 18px;
+  color: #fff;
+  background: var(--navy);
+  border-radius: 8px;
+}
+
+.annotation-leads-summary div:nth-child(2) {
+  background: var(--green);
+}
+
+.annotation-leads-summary div:nth-child(3) {
+  background: var(--blue);
+}
+
+.annotation-leads-summary div:nth-child(4) {
+  background: var(--rust);
+}
+
+.annotation-leads-summary div:nth-child(5) {
+  background: var(--plum);
+}
+
+.annotation-leads-summary strong {
+  display: block;
+  margin-bottom: 8px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2.7rem;
+  line-height: 0.95;
+}
+
+.annotation-leads-summary span {
+  font-weight: 900;
+}
+
 .decision-worksheets-summary div {
   min-height: 112px;
   padding: 18px;
@@ -1013,6 +1055,12 @@ dd {
   gap: 14px;
 }
 
+.annotation-leads-board {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
 .document-readiness-chapter-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1145,6 +1193,19 @@ dd {
 .diary-control-card.tone-boundary,
 .diary-control-reference-card {
   border-top-color: var(--plum);
+}
+
+.annotation-leads-card {
+  min-height: auto;
+  border-top: 5px solid var(--green);
+}
+
+.annotation-leads-card.tone-context {
+  border-top-color: var(--blue);
+}
+
+.annotation-leads-card.tone-blocked {
+  border-top-color: var(--rust);
 }
 
 .country-dossier-card.status-cross-volume-review,
@@ -1750,6 +1811,8 @@ footer {
   .compiler-handoff-packet-grid,
   .diary-control-summary,
   .diary-control-board,
+  .annotation-leads-summary,
+  .annotation-leads-board,
   .country-dossier-grid,
   .country-dossier-preview-grid,
   .persons-authority-summary,
@@ -1834,6 +1897,8 @@ footer {
   .compiler-handoff-packet-grid,
   .diary-control-summary,
   .diary-control-board,
+  .annotation-leads-summary,
+  .annotation-leads-board,
   .country-dossier-grid,
   .country-dossier-preview-grid,
   .persons-authority-summary,

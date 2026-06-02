@@ -8,7 +8,7 @@
       name="description"
       content="A compiler-facing FRUS Assist page for Foreign Relations of the United States, 1989-1992, Volume XX, North Africa; Sub-Saharan Africa."
     />
-    <link rel="stylesheet" href="styles.css?v=20260602-diary-controls" />
+    <link rel="stylesheet" href="styles.css?v=20260602-annotations" />
     <style id="compiler-network-style">
       .compiler-network {
         border-bottom: 1px solid rgba(31, 41, 51, 0.14);
@@ -121,6 +121,7 @@
         <a href="#document-stubs">Stubs</a>
         <a href="#compiler-handoff">Handoff</a>
         <a href="#diary-controls">Diary Controls</a>
+        <a href="#annotation-leads">Annotation Leads</a>
         <a href="#compiler-brief">Compiler Brief</a>
         <a href="#source-note-packet">Source Notes</a>
         <a href="#research-runbook">Runbook</a>
@@ -302,6 +303,16 @@
         </div>
         <div id="diary-control-root" class="diary-control-root" aria-live="polite">
           <p class="loading">Loading diary controls...</p>
+        </div>
+      </section>
+
+      <section class="section annotation-leads-section" id="annotation-leads" aria-labelledby="annotation-leads-title">
+        <div class="section-heading">
+          <p class="kicker">Annotation Leads</p>
+          <h2 id="annotation-leads-title">Public Line, Authority, and Drafting Checks</h2>
+        </div>
+        <div id="annotation-leads-root" class="annotation-leads-root" aria-live="polite">
+          <p class="loading">Loading annotation leads...</p>
         </div>
       </section>
 
@@ -620,6 +631,7 @@ node scripts/build-document-readiness-packet.js
 node scripts/build-blocker-resolution-packet.js
 node scripts/build-document-stubs.js
 node scripts/build-diary-control-packet.js
+node scripts/build-annotation-leads-packet.js
 node scripts/build-gap-tracker.js
 BUSH_NAMES_DOCX=... node scripts/build-persons-list.js
 node scripts/build-persons-authority-packet.js
@@ -652,8 +664,9 @@ python3 -m http.server 4194</code></pre>
     <script src="data/document-stubs-packet.js?v=20260601-stubs"></script>
     <script src="data/compiler-handoff-packet.js?v=20260602-handoff"></script>
     <script src="data/diary-control-packet.js?v=20260602-diary-controls"></script>
+    <script src="data/annotation-leads-packet.js?v=20260602-annotations"></script>
     <script src="data/decision-worksheets.js?v=20260601-draftdocs"></script>
-    <script src="app.js?v=20260602-diary-controls"></script>
+    <script src="app.js?v=20260602-annotations"></script>
     <script id="compiler-network-script">
       (() => {
         const button = document.querySelector("[data-compiler-handoff]");

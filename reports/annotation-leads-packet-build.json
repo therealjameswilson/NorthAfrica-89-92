@@ -1,0 +1,26 @@
+{
+  "generatedAt": "2026-06-02T11:02:20.092Z",
+  "documentCount": 104,
+  "publicReferencePoolCount": 43,
+  "documentsWithPublicLeads": 99,
+  "documentsWithDirectPublicLeads": 74,
+  "contextOnlyPublicLeadRows": 25,
+  "documentsWithoutPublicLeads": 5,
+  "publicReferenceLinkCount": 414,
+  "uniquePublicReferenceCount": 39,
+  "readyAnnotationRows": 12,
+  "authorityReviewRows": 17,
+  "blockerRows": 68,
+  "diaryControlledRows": 100,
+  "sourceNoteRows": 104,
+  "markdown": "reports/annotation-leads-packet.md",
+  "csvFiles": [
+    "reports/annotation-leads/all-annotation-leads.csv",
+    "reports/annotation-leads/direct-public-leads.csv",
+    "reports/annotation-leads/context-only-public-leads.csv",
+    "reports/annotation-leads/public-line-links.csv",
+    "reports/annotation-leads/no-public-line-leads.csv",
+    "reports/annotation-leads/authority-annotation-leads.csv",
+    "reports/annotation-leads/blocker-annotation-leads.csv"
+  ]
+}

@@ -16,6 +16,7 @@ const blockerResolutionPacket = window.BLOCKER_RESOLUTION_PACKET || null;
 const documentStubsPacket = window.DOCUMENT_STUBS_PACKET || null;
 const compilerHandoffPacket = window.COMPILER_HANDOFF_PACKET || null;
 const diaryControlPacket = window.DIARY_CONTROL_PACKET || null;
+const annotationLeadsPacket = window.ANNOTATION_LEADS_PACKET || null;
 const decisionWorksheets = window.DECISION_WORKSHEETS || null;
 const chapters = meta.chapters || [];
 const selectionMatrix = buildSelectionMatrix();
@@ -80,6 +81,7 @@ const nodes = {
   documentStubsRoot: document.querySelector("#document-stubs-root"),
   compilerHandoffRoot: document.querySelector("#compiler-handoff-root"),
   diaryControlRoot: document.querySelector("#diary-control-root"),
+  annotationLeadsRoot: document.querySelector("#annotation-leads-root"),
   countryDossierRoot: document.querySelector("#country-dossier-root"),
   countryDossierSummary: document.querySelector("#country-dossier-summary"),
   countryDossierSearch: document.querySelector("#country-dossier-search"),
@@ -1888,6 +1890,137 @@ function diaryReferenceIndexRow(reference) {
   return item;
 }
 
+function renderAnnotationLeads() {
+  if (!nodes.annotationLeadsRoot) return;
+  if (!annotationLeadsPacket) {
+    nodes.annotationLeadsRoot.innerHTML = '<p class="empty">Annotation leads packet data is unavailable.</p>';
+    return;
+  }
+
+  const summary = document.createElement("div");
+  summary.className = "annotation-leads-summary";
+  summary.append(
+    annotationLeadsSummaryItem("documents", annotationLeadsPacket.summary?.documentCount),
+    annotationLeadsSummaryItem("direct leads", annotationLeadsPacket.summary?.documentsWithDirectPublicLeads),
+    annotationLeadsSummaryItem("context only", annotationLeadsPacket.summary?.contextOnlyPublicLeadRows),
+    annotationLeadsSummaryItem("public gaps", annotationLeadsPacket.summary?.documentsWithoutPublicLeads),
+    annotationLeadsSummaryItem("authority", annotationLeadsPacket.summary?.authorityReviewRows)
+  );
+
+  const actions = document.createElement("div");
+  actions.className = "file-actions packet-actions";
+  actions.append(
+    linkButton("Open annotation packet", "reports/annotation-leads-packet.md"),
+    linkButton("All annotations CSV", "reports/annotation-leads/all-annotation-leads.csv"),
+    linkButton("Public links CSV", "reports/annotation-leads/public-line-links.csv"),
+    linkButton("No public lead CSV", "reports/annotation-leads/no-public-line-leads.csv")
+  );
+
+  const searchNextRows = uniqueAnnotationRows((annotationLeadsPacket.contextOnlyRows || []).concat(annotationLeadsPacket.noPublicLeadRows || []));
+  const reviewRows = uniqueAnnotationRows((annotationLeadsPacket.authorityRows || []).concat(annotationLeadsPacket.blockerRows || []));
+  const board = document.createElement("div");
+  board.className = "annotation-leads-board";
+  board.append(
+    annotationLeadQueueCard("Ready Direct Leads", annotationLeadsPacket.readyRows || [], "ready"),
+    annotationLeadQueueCard("Context / Search Next", searchNextRows, "context"),
+    annotationLeadQueueCard("Authority / Blocker Checks", reviewRows, "blocked")
+  );
+
+  nodes.annotationLeadsRoot.replaceChildren(summary, actions, board);
+}
+
+function annotationLeadsSummaryItem(label, value) {
+  const item = document.createElement("div");
+  const strong = document.createElement("strong");
+  strong.textContent = Number(value || 0).toLocaleString();
+  const span = document.createElement("span");
+  span.textContent = label;
+  item.append(strong, span);
+  return item;
+}
+
+function annotationLeadQueueCard(title, rows, tone) {
+  const card = document.createElement("article");
+  card.className = `file-card annotation-leads-card tone-${tone}`;
+
+  const header = document.createElement("header");
+  const titleBlock = document.createElement("div");
+  const meta = document.createElement("div");
+  meta.className = "file-meta";
+  meta.append(textSpan(`${rows.length} rows`));
+  const heading = document.createElement("h3");
+  heading.textContent = title;
+  titleBlock.append(meta, heading);
+  header.append(titleBlock);
+
+  const list = document.createElement("ul");
+  list.className = "compiler-row-list";
+  for (const row of rows.slice(0, 7)) list.append(annotationLeadRow(row));
+  if (!rows.length) list.append(emptyListItem("No annotation leads in this queue."));
+
+  const actions = document.createElement("div");
+  actions.className = "file-actions";
+  if (tone === "blocked") {
+    actions.append(
+      linkButton("Authority CSV", "reports/annotation-leads/authority-annotation-leads.csv"),
+      linkButton("Blockers CSV", "reports/annotation-leads/blocker-annotation-leads.csv")
+    );
+  } else if (tone === "context") {
+    actions.append(
+      linkButton("Context CSV", "reports/annotation-leads/context-only-public-leads.csv"),
+      linkButton("Gap CSV", "reports/annotation-leads/no-public-line-leads.csv")
+    );
+  } else {
+    actions.append(linkButton("Direct CSV", "reports/annotation-leads/direct-public-leads.csv"));
+  }
+
+  card.append(header, list, actions);
+  return card;
+}
+
+function annotationLeadRow(row) {
+  const item = document.createElement("li");
+  const title = linkButton(`${row.draftNumber} - ${row.title}`, row.stubPath || row.catalogUrl || "#annotation-leads");
+  title.className = "compiler-row-title";
+  const detail = document.createElement("p");
+  detail.textContent = [row.dateText || row.date, row.country || row.lane, row.annotationStatus].filter(Boolean).join(" / ");
+  item.append(title, detail);
+
+  const lead = row.publicLeads?.[0];
+  if (lead) {
+    const publicLead = document.createElement("p");
+    publicLead.textContent = `${lead.leadType}: ${lead.title} (${lead.dateText || lead.date || "undated"})`;
+    item.append(publicLead);
+  }
+
+  const chips = document.createElement("div");
+  chips.className = "chips";
+  if (row.directPublicLeadCount) chips.append(chip(`${row.directPublicLeadCount} direct`, "good"));
+  if (row.contextPublicLeadCount) chips.append(chip(`${row.contextPublicLeadCount} context`, "boundary"));
+  if (row.authorityReviewCount) chips.append(chip(`${row.authorityReviewCount} authority`, "warn"));
+  if (row.blockerType) chips.append(chip(row.blockerType, "warn"));
+  item.append(chips);
+
+  const actions = document.createElement("div");
+  actions.className = "file-actions";
+  if (lead?.pdfUrl || lead?.govinfoUrl) actions.append(linkButton("Public lead", lead.pdfUrl || lead.govinfoUrl));
+  if (row.pdfUrl) actions.append(linkButton("Document PDF", row.pdfUrl));
+  item.append(actions);
+  return item;
+}
+
+function uniqueAnnotationRows(rows) {
+  const seen = new Set();
+  const result = [];
+  for (const row of rows) {
+    const key = row.draftNumber || row.id || row.naid;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    result.push(row);
+  }
+  return result;
+}
+
 function renderResearchRunbook() {
   if (!nodes.researchRunbookRoot) return;
   if (!researchRunbook) {
@@ -2812,6 +2945,7 @@ function init() {
   renderDocumentStubs();
   renderCompilerHandoff();
   renderDiaryControls();
+  renderAnnotationLeads();
   renderCompilerBrief();
   renderSourceNotePacket();
   renderResearchRunbook();
