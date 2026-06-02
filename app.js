@@ -15,6 +15,7 @@ const documentReadinessPacket = window.DOCUMENT_READINESS_PACKET || null;
 const blockerResolutionPacket = window.BLOCKER_RESOLUTION_PACKET || null;
 const documentStubsPacket = window.DOCUMENT_STUBS_PACKET || null;
 const compilerHandoffPacket = window.COMPILER_HANDOFF_PACKET || null;
+const diaryControlPacket = window.DIARY_CONTROL_PACKET || null;
 const decisionWorksheets = window.DECISION_WORKSHEETS || null;
 const chapters = meta.chapters || [];
 const selectionMatrix = buildSelectionMatrix();
@@ -78,6 +79,7 @@ const nodes = {
   blockerResolutionRoot: document.querySelector("#blocker-resolution-root"),
   documentStubsRoot: document.querySelector("#document-stubs-root"),
   compilerHandoffRoot: document.querySelector("#compiler-handoff-root"),
+  diaryControlRoot: document.querySelector("#diary-control-root"),
   countryDossierRoot: document.querySelector("#country-dossier-root"),
   countryDossierSummary: document.querySelector("#country-dossier-summary"),
   countryDossierSearch: document.querySelector("#country-dossier-search"),
@@ -1755,6 +1757,137 @@ function compilerHandoffPacketCard(item) {
   return card;
 }
 
+function renderDiaryControls() {
+  if (!nodes.diaryControlRoot) return;
+  if (!diaryControlPacket) {
+    nodes.diaryControlRoot.innerHTML = '<p class="empty">Diary control packet data is unavailable.</p>';
+    return;
+  }
+
+  const summary = document.createElement("div");
+  summary.className = "diary-control-summary";
+  summary.append(
+    diaryControlSummaryItem("rows", diaryControlPacket.summary?.controlRows),
+    diaryControlSummaryItem("matched", diaryControlPacket.summary?.matchedRows),
+    diaryControlSummaryItem("diary files", diaryControlPacket.summary?.uniqueDiaryReferenceCount),
+    diaryControlSummaryItem("blockers", diaryControlPacket.summary?.blockerRows),
+    diaryControlSummaryItem("boundary", diaryControlPacket.summary?.boundaryRows)
+  );
+
+  const actions = document.createElement("div");
+  actions.className = "file-actions packet-actions";
+  actions.append(
+    linkButton("Open control packet", "reports/diary-control-packet.md"),
+    linkButton("All controls CSV", "reports/diary-control/all-diary-controls.csv"),
+    linkButton("Reference index CSV", "reports/diary-control/diary-reference-index.csv"),
+    linkButton("NAID 186322", diaryControlPacket.sourceSeries?.catalogUrl || "https://catalog.archives.gov/id/186322")
+  );
+
+  const board = document.createElement("div");
+  board.className = "diary-control-board";
+  board.append(
+    diaryControlQueueCard("Ready / Authority Controls", diaryControlPacket.readyRows || [], "ready"),
+    diaryControlQueueCard("Blocker Controls", diaryControlPacket.blockerRows || [], "blocked"),
+    diaryControlQueueCard("Boundary Handoff Controls", diaryControlPacket.boundaryRows || [], "boundary")
+  );
+
+  const referenceCard = document.createElement("article");
+  referenceCard.className = "file-card diary-control-reference-card";
+  const referenceTitle = document.createElement("h3");
+  referenceTitle.textContent = "Unique Diary / Backup File Units";
+  const referenceText = document.createElement("p");
+  referenceText.textContent = `${diaryControlPacket.summary?.dailyDiaryReferenceCount || 0} Daily Diary file units and ${diaryControlPacket.summary?.dailyBackupReferenceCount || 0} Daily Backup file units are linked to the chronology and boundary controls.`;
+  const referenceList = document.createElement("ul");
+  referenceList.className = "compiler-row-list";
+  for (const reference of (diaryControlPacket.references || []).slice(0, 8)) referenceList.append(diaryReferenceIndexRow(reference));
+  const referenceActions = document.createElement("div");
+  referenceActions.className = "file-actions";
+  referenceActions.append(linkButton("Open reference CSV", "reports/diary-control/diary-reference-index.csv"));
+  referenceCard.append(referenceTitle, referenceText, referenceList, referenceActions);
+
+  nodes.diaryControlRoot.replaceChildren(summary, actions, board, referenceCard);
+}
+
+function diaryControlSummaryItem(label, value) {
+  const item = document.createElement("div");
+  const strong = document.createElement("strong");
+  strong.textContent = Number(value || 0).toLocaleString();
+  const span = document.createElement("span");
+  span.textContent = label;
+  item.append(strong, span);
+  return item;
+}
+
+function diaryControlQueueCard(title, rows, tone) {
+  const card = document.createElement("article");
+  card.className = `file-card diary-control-card tone-${tone}`;
+
+  const header = document.createElement("header");
+  const titleBlock = document.createElement("div");
+  const meta = document.createElement("div");
+  meta.className = "file-meta";
+  meta.append(textSpan(`${rows.length} rows`));
+  const heading = document.createElement("h3");
+  heading.textContent = title;
+  titleBlock.append(meta, heading);
+  header.append(titleBlock);
+
+  const list = document.createElement("ul");
+  list.className = "compiler-row-list";
+  for (const row of rows.slice(0, 7)) list.append(diaryControlRow(row));
+  if (!rows.length) list.append(emptyListItem("No diary controls in this queue."));
+
+  const actions = document.createElement("div");
+  actions.className = "file-actions";
+  const csvPath =
+    tone === "blocked"
+      ? "reports/diary-control/blocker-diary-controls.csv"
+      : tone === "boundary"
+        ? "reports/diary-control/boundary-diary-controls.csv"
+        : "reports/diary-control/ready-diary-controls.csv";
+  actions.append(linkButton("Open CSV", csvPath));
+
+  card.append(header, list, actions);
+  return card;
+}
+
+function diaryControlRow(row) {
+  const item = document.createElement("li");
+  const href = row.stubPath || row.catalogUrl || "#diary-controls";
+  const title = linkButton(`${row.controlNumber} - ${row.draftNumber || row.naid} - ${row.title}`, href);
+  title.className = "compiler-row-title";
+  const detail = document.createElement("p");
+  detail.textContent = [row.dateText || row.date, row.country, row.queue, `${row.diaryReferenceCount} diary/backup`].filter(Boolean).join(" / ");
+  const target = document.createElement("p");
+  target.textContent = `Verify: ${(row.verificationTargets || []).join(", ")}.`;
+  item.append(title, detail, target);
+
+  const chips = document.createElement("div");
+  chips.className = "chips";
+  for (const kind of row.diaryReferenceKinds || []) chips.append(chip(kind, kind === "Daily Diary" ? "good" : "boundary"));
+  item.append(chips);
+
+  const firstReference = row.diaryReferences?.[0];
+  if (firstReference?.catalogUrl) {
+    const actions = document.createElement("div");
+    actions.className = "file-actions";
+    actions.append(linkButton("First diary file", firstReference.catalogUrl));
+    if (row.pdfUrl) actions.append(linkButton("Document PDF", row.pdfUrl));
+    item.append(actions);
+  }
+  return item;
+}
+
+function diaryReferenceIndexRow(reference) {
+  const item = document.createElement("li");
+  const title = linkButton(`${reference.kind} NAID ${reference.naid}`, reference.catalogUrl);
+  title.className = "compiler-row-title";
+  const detail = document.createElement("p");
+  detail.textContent = `${reference.date} - ${reference.title} - ${reference.rowCount} linked row${reference.rowCount === 1 ? "" : "s"}`;
+  item.append(title, detail);
+  return item;
+}
+
 function renderResearchRunbook() {
   if (!nodes.researchRunbookRoot) return;
   if (!researchRunbook) {
@@ -2678,6 +2811,7 @@ function init() {
   renderBlockerResolution();
   renderDocumentStubs();
   renderCompilerHandoff();
+  renderDiaryControls();
   renderCompilerBrief();
   renderSourceNotePacket();
   renderResearchRunbook();

@@ -8,7 +8,7 @@
       name="description"
       content="A compiler-facing FRUS Assist page for Foreign Relations of the United States, 1989-1992, Volume XX, North Africa; Sub-Saharan Africa."
     />
-    <link rel="stylesheet" href="styles.css?v=20260602-handoff" />
+    <link rel="stylesheet" href="styles.css?v=20260602-diary-controls" />
     <style id="compiler-network-style">
       .compiler-network {
         border-bottom: 1px solid rgba(31, 41, 51, 0.14);
@@ -120,6 +120,7 @@
         <a href="#blocker-resolution">Blockers</a>
         <a href="#document-stubs">Stubs</a>
         <a href="#compiler-handoff">Handoff</a>
+        <a href="#diary-controls">Diary Controls</a>
         <a href="#compiler-brief">Compiler Brief</a>
         <a href="#source-note-packet">Source Notes</a>
         <a href="#research-runbook">Runbook</a>
@@ -291,6 +292,16 @@
         </div>
         <div id="compiler-handoff-root" class="compiler-handoff-root" aria-live="polite">
           <p class="loading">Loading compiler handoff...</p>
+        </div>
+      </section>
+
+      <section class="section diary-control-section" id="diary-controls" aria-labelledby="diary-controls-title">
+        <div class="section-heading">
+          <p class="kicker">Daily Diary / Backup Controls</p>
+          <h2 id="diary-controls-title">Meetings, Calls, and Scheduling Evidence</h2>
+        </div>
+        <div id="diary-control-root" class="diary-control-root" aria-live="polite">
+          <p class="loading">Loading diary controls...</p>
         </div>
       </section>
 
@@ -608,6 +619,7 @@ node scripts/build-draft-document-list.js
 node scripts/build-document-readiness-packet.js
 node scripts/build-blocker-resolution-packet.js
 node scripts/build-document-stubs.js
+node scripts/build-diary-control-packet.js
 node scripts/build-gap-tracker.js
 BUSH_NAMES_DOCX=... node scripts/build-persons-list.js
 node scripts/build-persons-authority-packet.js
@@ -639,8 +651,9 @@ python3 -m http.server 4194</code></pre>
     <script src="data/blocker-resolution-packet.js?v=20260601-blockers"></script>
     <script src="data/document-stubs-packet.js?v=20260601-stubs"></script>
     <script src="data/compiler-handoff-packet.js?v=20260602-handoff"></script>
+    <script src="data/diary-control-packet.js?v=20260602-diary-controls"></script>
     <script src="data/decision-worksheets.js?v=20260601-draftdocs"></script>
-    <script src="app.js?v=20260602-handoff"></script>
+    <script src="app.js?v=20260602-diary-controls"></script>
     <script id="compiler-network-script">
       (() => {
         const button = document.querySelector("[data-compiler-handoff]");

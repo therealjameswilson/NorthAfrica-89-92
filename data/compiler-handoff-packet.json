@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-02T10:10:49.016Z",
+  "generatedAt": "2026-06-02T10:32:10.263Z",
   "volume": {
     "id": "frus1989-92v20",
     "title": "Foreign Relations of the United States, 1989-1992, Volume XX, North Africa; Sub-Saharan Africa",
@@ -22,6 +22,9 @@
     "declassificationBlockers": 21,
     "crossVolumeBlockers": 38,
     "documentStubs": 104,
+    "diaryControlRows": 134,
+    "diaryControlMatchedRows": 134,
+    "diaryReferenceFiles": 176,
     "sourceNoteRows": 143,
     "missingFrusSourceNotes": 0,
     "diaryMatchedRows": 134,
@@ -31,10 +34,10 @@
     "personsRows": 51,
     "authorityReviewRows": 18,
     "authorityDocxEntries": 4597,
-    "sectionCount": 21,
-    "packetCount": 12,
-    "reportCount": 12,
-    "csvCount": 27
+    "sectionCount": 22,
+    "packetCount": 13,
+    "reportCount": 13,
+    "csvCount": 32
   },
   "startHere": [
     {
@@ -74,6 +77,13 @@
     },
     {
       "step": 6,
+      "title": "Confirm Daily Diary / Backup controls",
+      "href": "#diary-controls",
+      "liveUrl": "https://therealjameswilson.github.io/NorthAfrica-89-92/#diary-controls",
+      "detail": "134 meeting/call controls are matched to 176 unique NAID 186322 diary/backup file units."
+    },
+    {
+      "step": 7,
       "title": "Use source notes while drafting",
       "href": "#source-note-packet",
       "liveUrl": "https://therealjameswilson.github.io/NorthAfrica-89-92/#source-note-packet",
@@ -136,6 +146,14 @@
       "liveUrl": "https://therealjameswilson.github.io/NorthAfrica-89-92/#compiler-handoff",
       "count": null,
       "use": "One-screen start order, packets, links, and refresh commands."
+    },
+    {
+      "id": "diary-controls",
+      "title": "Daily Diary / Backup Controls",
+      "href": "#diary-controls",
+      "liveUrl": "https://therealjameswilson.github.io/NorthAfrica-89-92/#diary-controls",
+      "count": 134,
+      "use": "Meeting and call controls for time, location, attendees, call status, and scheduling context."
     },
     {
       "id": "compiler-brief",
@@ -272,6 +290,20 @@
       ]
     },
     {
+      "title": "Daily Diary / Backup controls",
+      "href": "reports/diary-control-packet.md",
+      "liveUrl": "https://therealjameswilson.github.io/NorthAfrica-89-92/#diary-controls",
+      "count": 134,
+      "use": "Verify meeting/call time, location, attendees, call status, and scheduling context from NAID 186322.",
+      "csvFiles": [
+        "reports/diary-control/all-diary-controls.csv",
+        "reports/diary-control/blocker-diary-controls.csv",
+        "reports/diary-control/boundary-diary-controls.csv",
+        "reports/diary-control/diary-reference-index.csv",
+        "reports/diary-control/ready-diary-controls.csv"
+      ]
+    },
+    {
       "title": "Document readiness",
       "href": "reports/document-readiness-packet.md",
       "liveUrl": "https://therealjameswilson.github.io/NorthAfrica-89-92/#document-readiness",
@@ -392,6 +424,11 @@
     "reports/compiler-handoff-links.csv",
     "reports/country-dossiers/country-dossiers.csv",
     "reports/country-dossiers/country-searches.csv",
+    "reports/diary-control/all-diary-controls.csv",
+    "reports/diary-control/blocker-diary-controls.csv",
+    "reports/diary-control/boundary-diary-controls.csv",
+    "reports/diary-control/diary-reference-index.csv",
+    "reports/diary-control/ready-diary-controls.csv",
     "reports/document-readiness/authority-checks.csv",
     "reports/document-readiness/blockers.csv",
     "reports/document-readiness/document-readiness.csv",
@@ -419,6 +456,7 @@
     "reports/compiler-handoff.md",
     "reports/country-dossiers.md",
     "reports/decision-worksheets.md",
+    "reports/diary-control-packet.md",
     "reports/document-readiness-packet.md",
     "reports/document-stubs-packet.md",
     "reports/draft-document-list.md",
@@ -441,6 +479,7 @@
     "node scripts/build-document-readiness-packet.js",
     "node scripts/build-blocker-resolution-packet.js",
     "node scripts/build-document-stubs.js",
+    "node scripts/build-diary-control-packet.js",
     "node scripts/build-gap-tracker.js",
     "BUSH_NAMES_DOCX=... node scripts/build-persons-list.js",
     "node scripts/build-persons-authority-packet.js",
@@ -452,5 +491,5 @@
     "npm run check",
     "npm run audit"
   ],
-  "copyText": "# FRUS Volume XX Compiler Handoff\n\nLive chronology first: https://therealjameswilson.github.io/NorthAfrica-89-92/#records\nFull live page: https://therealjameswilson.github.io/NorthAfrica-89-92/\nOfficial volume: https://history.state.gov/historicaldocuments/frus1989-92v20\n\nCurrent queues:\n- 100 chronology rows\n- 104 document stubs (28 ready, 8 authority-check, 68 blockers)\n- 143 FRUS-style source-note rows; 0 missing notes\n- 51 persons; 18 authority-review rows from the Bush names list\n- 98 runbook queries and 34 country dossiers\n\nOpen next:\n- Handoff report: https://therealjameswilson.github.io/NorthAfrica-89-92/reports/compiler-handoff.md\n- Stub index: https://therealjameswilson.github.io/NorthAfrica-89-92/reports/document-stubs/document-stub-index.csv\n- Readiness packet: https://therealjameswilson.github.io/NorthAfrica-89-92/reports/document-readiness-packet.md\n- Blocker packet: https://therealjameswilson.github.io/NorthAfrica-89-92/reports/blocker-resolution-packet.md\n- Persons authority: https://therealjameswilson.github.io/NorthAfrica-89-92/persons.html#authority-packet\n\nRefresh locally:\nnode scripts/build-compiler-handoff.js\nnpm run check\nnpm run audit"
+  "copyText": "# FRUS Volume XX Compiler Handoff\n\nLive chronology first: https://therealjameswilson.github.io/NorthAfrica-89-92/#records\nFull live page: https://therealjameswilson.github.io/NorthAfrica-89-92/\nOfficial volume: https://history.state.gov/historicaldocuments/frus1989-92v20\n\nCurrent queues:\n- 100 chronology rows\n- 104 document stubs (28 ready, 8 authority-check, 68 blockers)\n- 134 Daily Diary/Backup controls matched to 176 file units\n- 143 FRUS-style source-note rows; 0 missing notes\n- 51 persons; 18 authority-review rows from the Bush names list\n- 98 runbook queries and 34 country dossiers\n\nOpen next:\n- Handoff report: https://therealjameswilson.github.io/NorthAfrica-89-92/reports/compiler-handoff.md\n- Stub index: https://therealjameswilson.github.io/NorthAfrica-89-92/reports/document-stubs/document-stub-index.csv\n- Diary controls: https://therealjameswilson.github.io/NorthAfrica-89-92/reports/diary-control-packet.md\n- Readiness packet: https://therealjameswilson.github.io/NorthAfrica-89-92/reports/document-readiness-packet.md\n- Blocker packet: https://therealjameswilson.github.io/NorthAfrica-89-92/reports/blocker-resolution-packet.md\n- Persons authority: https://therealjameswilson.github.io/NorthAfrica-89-92/persons.html#authority-packet\n\nRefresh locally:\nnode scripts/build-compiler-handoff.js\nnpm run check\nnpm run audit"
 }

@@ -432,6 +432,11 @@ dd {
   gap: 16px;
 }
 
+.diary-control-root {
+  display: grid;
+  gap: 16px;
+}
+
 .decision-worksheets-root {
   display: grid;
   gap: 16px;
@@ -451,6 +456,7 @@ dd {
 .blocker-resolution-summary,
 .document-stubs-summary,
 .compiler-handoff-summary,
+.diary-control-summary,
 .decision-worksheets-summary,
 .persons-authority-summary {
   display: grid;
@@ -742,6 +748,42 @@ dd {
   font-weight: 900;
 }
 
+.diary-control-summary div {
+  min-height: 112px;
+  padding: 18px;
+  color: #fff;
+  background: var(--navy);
+  border-radius: 8px;
+}
+
+.diary-control-summary div:nth-child(2) {
+  background: var(--green);
+}
+
+.diary-control-summary div:nth-child(3) {
+  background: var(--blue);
+}
+
+.diary-control-summary div:nth-child(4) {
+  background: var(--rust);
+}
+
+.diary-control-summary div:nth-child(5) {
+  background: var(--plum);
+}
+
+.diary-control-summary strong {
+  display: block;
+  margin-bottom: 8px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2.7rem;
+  line-height: 0.95;
+}
+
+.diary-control-summary span {
+  font-weight: 900;
+}
+
 .decision-worksheets-summary div {
   min-height: 112px;
   padding: 18px;
@@ -965,6 +1007,12 @@ dd {
   gap: 14px;
 }
 
+.diary-control-board {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
 .document-readiness-chapter-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1082,6 +1130,21 @@ dd {
 
 .compiler-handoff-refresh pre {
   margin-top: 4px;
+}
+
+.diary-control-card,
+.diary-control-reference-card {
+  min-height: auto;
+  border-top: 5px solid var(--green);
+}
+
+.diary-control-card.tone-blocked {
+  border-top-color: var(--rust);
+}
+
+.diary-control-card.tone-boundary,
+.diary-control-reference-card {
+  border-top-color: var(--plum);
 }
 
 .country-dossier-card.status-cross-volume-review,
@@ -1685,6 +1748,8 @@ footer {
   .compiler-handoff-summary,
   .compiler-handoff-start-grid,
   .compiler-handoff-packet-grid,
+  .diary-control-summary,
+  .diary-control-board,
   .country-dossier-grid,
   .country-dossier-preview-grid,
   .persons-authority-summary,
@@ -1767,6 +1832,8 @@ footer {
   .compiler-handoff-summary,
   .compiler-handoff-start-grid,
   .compiler-handoff-packet-grid,
+  .diary-control-summary,
+  .diary-control-board,
   .country-dossier-grid,
   .country-dossier-preview-grid,
   .persons-authority-summary,

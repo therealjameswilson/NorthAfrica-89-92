@@ -1,0 +1,25 @@
+{
+  "generatedAt": "2026-06-02T10:24:10.068Z",
+  "sourceSeriesNaid": "186322",
+  "controlRows": 134,
+  "matchedRows": 134,
+  "missingRows": 0,
+  "volumeRows": 100,
+  "boundaryRows": 34,
+  "readyRows": 32,
+  "blockerRows": 68,
+  "diaryReferenceCount": 215,
+  "uniqueDiaryReferenceCount": 176,
+  "dailyDiaryReferenceCount": 87,
+  "dailyBackupReferenceCount": 89,
+  "callRows": 75,
+  "meetingRows": 59,
+  "markdown": "reports/diary-control-packet.md",
+  "csvFiles": [
+    "reports/diary-control/all-diary-controls.csv",
+    "reports/diary-control/ready-diary-controls.csv",
+    "reports/diary-control/blocker-diary-controls.csv",
+    "reports/diary-control/boundary-diary-controls.csv",
+    "reports/diary-control/diary-reference-index.csv"
+  ]
+}

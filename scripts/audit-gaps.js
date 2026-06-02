@@ -17,6 +17,7 @@ const draftDocumentListReportPath = path.join(reportDir, "draft-document-list-bu
 const documentReadinessReportPath = path.join(reportDir, "document-readiness-packet-build.json");
 const blockerResolutionReportPath = path.join(reportDir, "blocker-resolution-packet-build.json");
 const documentStubsReportPath = path.join(reportDir, "document-stubs-packet-build.json");
+const diaryControlReportPath = path.join(reportDir, "diary-control-packet-build.json");
 const compilerHandoffReportPath = path.join(reportDir, "compiler-handoff-build.json");
 const personsAuthorityPacketReportPath = path.join(reportDir, "persons-authority-packet-build.json");
 
@@ -38,6 +39,7 @@ const draftDocumentListReport = readOptionalJson(draftDocumentListReportPath) ||
 const documentReadinessReport = readOptionalJson(documentReadinessReportPath) || {};
 const blockerResolutionReport = readOptionalJson(blockerResolutionReportPath) || {};
 const documentStubsReport = readOptionalJson(documentStubsReportPath) || {};
+const diaryControlReport = readOptionalJson(diaryControlReportPath) || {};
 const compilerHandoffReport = readOptionalJson(compilerHandoffReportPath) || {};
 const personsAuthorityPacketReport = readOptionalJson(personsAuthorityPacketReportPath) || {};
 
@@ -151,8 +153,26 @@ const reportBody = {
   documentStubsCrossVolumeCount: documentStubsReport.crossVolumeStubCount || 0,
   documentStubsFiles: documentStubsReport.stubFiles || [],
   documentStubsCsvFiles: documentStubsReport.csvFiles || [],
+  diaryControlSourceSeriesNaid: diaryControlReport.sourceSeriesNaid || "",
+  diaryControlRows: diaryControlReport.controlRows || 0,
+  diaryControlMatchedRows: diaryControlReport.matchedRows || 0,
+  diaryControlMissingRows: diaryControlReport.missingRows || 0,
+  diaryControlVolumeRows: diaryControlReport.volumeRows || 0,
+  diaryControlBoundaryRows: diaryControlReport.boundaryRows || 0,
+  diaryControlReadyRows: diaryControlReport.readyRows || 0,
+  diaryControlBlockerRows: diaryControlReport.blockerRows || 0,
+  diaryControlReferenceCount: diaryControlReport.diaryReferenceCount || 0,
+  diaryControlUniqueReferenceCount: diaryControlReport.uniqueDiaryReferenceCount || 0,
+  diaryControlDailyDiaryReferenceCount: diaryControlReport.dailyDiaryReferenceCount || 0,
+  diaryControlDailyBackupReferenceCount: diaryControlReport.dailyBackupReferenceCount || 0,
+  diaryControlCallRows: diaryControlReport.callRows || 0,
+  diaryControlMeetingRows: diaryControlReport.meetingRows || 0,
+  diaryControlMarkdown: diaryControlReport.markdown || "",
+  diaryControlCsvFiles: diaryControlReport.csvFiles || [],
   compilerHandoffChronologyRows: compilerHandoffReport.chronologyRows || 0,
   compilerHandoffDocumentStubs: compilerHandoffReport.documentStubs || 0,
+  compilerHandoffDiaryControlRows: compilerHandoffReport.diaryControlRows || 0,
+  compilerHandoffDiaryReferenceFiles: compilerHandoffReport.diaryReferenceFiles || 0,
   compilerHandoffReadyForReadRows: compilerHandoffReport.readyForReadRows || 0,
   compilerHandoffReadyWithAuthorityCheckRows: compilerHandoffReport.readyWithAuthorityCheckRows || 0,
   compilerHandoffBlockerRows: compilerHandoffReport.blockerRows || 0,
@@ -417,6 +437,52 @@ const failures = [
   ...report.documentStubsCsvFiles
     .filter((filePath) => !fs.existsSync(path.join(repoRoot, filePath)))
     .map((filePath) => `missing document stubs CSV: ${filePath}`),
+  ...(report.diaryControlSourceSeriesNaid === "186322"
+    ? []
+    : [`diary control packet source series mismatch: ${report.diaryControlSourceSeriesNaid || "blank"}`]),
+  ...(report.diaryControlRows === records.length + boundaryRecords.length
+    ? []
+    : [`diary control row count mismatch: expected ${records.length + boundaryRecords.length}, found ${report.diaryControlRows}`]),
+  ...(report.diaryControlMatchedRows === report.diaryControlRows
+    ? []
+    : [`diary control matched count mismatch: expected ${report.diaryControlRows}, found ${report.diaryControlMatchedRows}`]),
+  ...(report.diaryControlMissingRows === 0
+    ? []
+    : [`diary control packet has missing rows: ${report.diaryControlMissingRows}`]),
+  ...(report.diaryControlVolumeRows === records.length
+    ? []
+    : [`diary control volume-row count mismatch: expected ${records.length}, found ${report.diaryControlVolumeRows}`]),
+  ...(report.diaryControlBoundaryRows === boundaryRecords.length
+    ? []
+    : [`diary control boundary-row count mismatch: expected ${boundaryRecords.length}, found ${report.diaryControlBoundaryRows}`]),
+  ...(report.diaryControlReadyRows + report.diaryControlBlockerRows === records.length
+    ? []
+    : [
+        `diary control draft queue count mismatch: expected ${records.length}, found ${
+          report.diaryControlReadyRows + report.diaryControlBlockerRows
+        }`
+      ]),
+  ...(report.diaryControlBlockerRows === report.blockerResolutionCount
+    ? []
+    : [`diary control blocker count mismatch: expected ${report.blockerResolutionCount}, found ${report.diaryControlBlockerRows}`]),
+  ...(report.diaryControlReferenceCount >= report.diaryControlRows
+    ? []
+    : [`diary control reference count too low: found ${report.diaryControlReferenceCount}`]),
+  ...(report.diaryControlUniqueReferenceCount > 100
+    ? []
+    : [`diary control unique reference count too low: found ${report.diaryControlUniqueReferenceCount}`]),
+  ...(report.diaryControlDailyDiaryReferenceCount > 0 && report.diaryControlDailyBackupReferenceCount > 0
+    ? []
+    : ["diary control packet is missing Daily Diary or Daily Backup reference coverage"]),
+  ...(report.diaryControlCallRows > 0 && report.diaryControlMeetingRows > 0
+    ? []
+    : ["diary control packet is missing call or meeting rows"]),
+  ...(report.diaryControlMarkdown && fs.existsSync(path.join(repoRoot, report.diaryControlMarkdown))
+    ? []
+    : [`missing diary control Markdown: ${report.diaryControlMarkdown || "blank"}`]),
+  ...report.diaryControlCsvFiles
+    .filter((filePath) => !fs.existsSync(path.join(repoRoot, filePath)))
+    .map((filePath) => `missing diary control CSV: ${filePath}`),
   ...(report.compilerHandoffChronologyRows === records.length
     ? []
     : [`compiler handoff chronology count mismatch: expected ${records.length}, found ${report.compilerHandoffChronologyRows}`]),
@@ -424,6 +490,16 @@ const failures = [
     ? []
     : [
         `compiler handoff document-stubs count mismatch: expected ${report.documentStubsCount}, found ${report.compilerHandoffDocumentStubs}`
+      ]),
+  ...(report.compilerHandoffDiaryControlRows === report.diaryControlRows
+    ? []
+    : [
+        `compiler handoff diary-control count mismatch: expected ${report.diaryControlRows}, found ${report.compilerHandoffDiaryControlRows}`
+      ]),
+  ...(report.compilerHandoffDiaryReferenceFiles === report.diaryControlUniqueReferenceCount
+    ? []
+    : [
+        `compiler handoff diary-reference count mismatch: expected ${report.diaryControlUniqueReferenceCount}, found ${report.compilerHandoffDiaryReferenceFiles}`
       ]),
   ...(report.compilerHandoffReadyForReadRows === report.documentReadinessReadyForReadCount
     ? []
@@ -466,6 +542,12 @@ const failures = [
   ...(report.compilerHandoffLiveSectionIds.includes("compiler-handoff")
     ? []
     : ["compiler handoff live section list is missing compiler-handoff"]),
+  ...(report.compilerHandoffLiveSectionIds.includes("diary-controls")
+    ? []
+    : ["compiler handoff live section list is missing diary-controls"]),
+  ...(report.compilerHandoffRefreshCommands.includes("node scripts/build-diary-control-packet.js")
+    ? []
+    : ["compiler handoff refresh commands are missing build-diary-control-packet.js"]),
   ...(report.compilerHandoffRefreshCommands.includes("node scripts/build-compiler-handoff.js")
     ? []
     : ["compiler handoff refresh commands are missing build-compiler-handoff.js"]),
@@ -515,7 +597,7 @@ if (failures.length) {
 }
 
 console.log(
-  `Gap audit passed: ${persons.length} persons, ${report.selectionMatrixCount} selection rows, ${report.compilerBriefQueueCount} compiler brief queues, ${report.sourceNotePacketCount} source-note packet rows, ${report.decisionWorksheetCount} decision worksheets, ${report.researchRunbookQueryCount} research runbook queries, ${report.countryDossierCount} country dossiers, ${report.draftDocumentProposedCount} draft proposed rows, ${report.documentReadinessCount} readiness rows, ${report.blockerResolutionCount} blocker-resolution rows, ${report.documentStubsCount} document stubs, ${report.compilerHandoffPacketCount} handoff packets, ${sourceCopyLedger.length} source-copy ledger rows, ${report.personsNeedingAuthorityReview.length} authority-review entries, ${report.personsAuthorityPacketDocumentLinkCount} authority document links.`
+  `Gap audit passed: ${persons.length} persons, ${report.selectionMatrixCount} selection rows, ${report.compilerBriefQueueCount} compiler brief queues, ${report.sourceNotePacketCount} source-note packet rows, ${report.decisionWorksheetCount} decision worksheets, ${report.researchRunbookQueryCount} research runbook queries, ${report.countryDossierCount} country dossiers, ${report.draftDocumentProposedCount} draft proposed rows, ${report.documentReadinessCount} readiness rows, ${report.blockerResolutionCount} blocker-resolution rows, ${report.documentStubsCount} document stubs, ${report.diaryControlRows} diary controls, ${report.compilerHandoffPacketCount} handoff packets, ${sourceCopyLedger.length} source-copy ledger rows, ${report.personsNeedingAuthorityReview.length} authority-review entries, ${report.personsAuthorityPacketDocumentLinkCount} authority document links.`
 );
 
 function readJson(fileName) {
