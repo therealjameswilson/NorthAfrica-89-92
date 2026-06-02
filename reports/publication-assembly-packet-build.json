@@ -1,0 +1,22 @@
+{
+  "assemblyRows": 104,
+  "proposedRows": 36,
+  "conditionalRows": 68,
+  "readyToNumberRows": 28,
+  "authorityCheckRows": 8,
+  "blockerRows": 68,
+  "chapterCount": 5,
+  "sourceNoteRows": 104,
+  "diaryControlledRows": 100,
+  "directPublicLeadRows": 74,
+  "publicLineGapRows": 5,
+  "markdown": "reports/publication-assembly-packet.md",
+  "csvFiles": [
+    "reports/publication-assembly/all-publication-assembly.csv",
+    "reports/publication-assembly/proposed-toc.csv",
+    "reports/publication-assembly/ready-to-number.csv",
+    "reports/publication-assembly/authority-checks.csv",
+    "reports/publication-assembly/assembly-blockers.csv",
+    "reports/publication-assembly/chapter-toc.csv"
+  ]
+}

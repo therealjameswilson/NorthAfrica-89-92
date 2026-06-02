@@ -11,6 +11,7 @@ const sourceNotePacket = window.SOURCE_NOTE_PACKET || null;
 const researchRunbook = window.RESEARCH_RUNBOOK || null;
 const countryDossiers = window.COUNTRY_DOSSIERS || null;
 const draftDocumentList = window.DRAFT_DOCUMENT_LIST || null;
+const publicationAssemblyPacket = window.PUBLICATION_ASSEMBLY_PACKET || null;
 const documentReadinessPacket = window.DOCUMENT_READINESS_PACKET || null;
 const blockerResolutionPacket = window.BLOCKER_RESOLUTION_PACKET || null;
 const documentStubsPacket = window.DOCUMENT_STUBS_PACKET || null;
@@ -76,6 +77,7 @@ const nodes = {
   sourceNotePacketRoot: document.querySelector("#source-note-packet-root"),
   researchRunbookRoot: document.querySelector("#research-runbook-root"),
   draftDocumentListRoot: document.querySelector("#draft-document-list-root"),
+  publicationAssemblyRoot: document.querySelector("#publication-assembly-root"),
   documentReadinessRoot: document.querySelector("#document-readiness-root"),
   blockerResolutionRoot: document.querySelector("#blocker-resolution-root"),
   documentStubsRoot: document.querySelector("#document-stubs-root"),
@@ -1092,6 +1094,191 @@ function countryChronologyButton(country) {
     document.querySelector("#records")?.scrollIntoView({ behavior: "smooth", block: "start" });
   });
   return button;
+}
+
+function renderPublicationAssembly() {
+  if (!nodes.publicationAssemblyRoot) return;
+  if (!publicationAssemblyPacket) {
+    nodes.publicationAssemblyRoot.innerHTML = '<p class="empty">Publication assembly packet data is unavailable.</p>';
+    return;
+  }
+
+  const summary = document.createElement("div");
+  summary.className = "publication-assembly-summary";
+  summary.append(
+    publicationAssemblySummaryItem("assembly rows", publicationAssemblyPacket.summary?.assemblyRows),
+    publicationAssemblySummaryItem("proposed TOC", publicationAssemblyPacket.summary?.proposedRows),
+    publicationAssemblySummaryItem("ready now", publicationAssemblyPacket.summary?.readyToNumberRows),
+    publicationAssemblySummaryItem("authority", publicationAssemblyPacket.summary?.authorityCheckRows),
+    publicationAssemblySummaryItem("blockers", publicationAssemblyPacket.summary?.blockerRows)
+  );
+
+  const actions = document.createElement("div");
+  actions.className = "file-actions packet-actions";
+  actions.append(
+    linkButton("Open assembly packet", "reports/publication-assembly-packet.md"),
+    linkButton("All assembly CSV", "reports/publication-assembly/all-publication-assembly.csv"),
+    linkButton("Proposed TOC CSV", "reports/publication-assembly/proposed-toc.csv"),
+    linkButton("Ready CSV", "reports/publication-assembly/ready-to-number.csv"),
+    linkButton("Blockers CSV", "reports/publication-assembly/assembly-blockers.csv")
+  );
+
+  const board = document.createElement("div");
+  board.className = "publication-assembly-board";
+  board.append(
+    publicationAssemblyQueueCard("Ready To Number", publicationAssemblyPacket.readyToNumberRows || [], "ready", "reports/publication-assembly/ready-to-number.csv"),
+    publicationAssemblyChapterTocCard(publicationAssemblyPacket.chapterGroups || []),
+    publicationAssemblyQueueCard("Hold Before Assembly", publicationAssemblyPacket.blockerRows || [], "blocked", "reports/publication-assembly/assembly-blockers.csv")
+  );
+
+  const chapters = document.createElement("div");
+  chapters.className = "publication-assembly-chapter-grid";
+  chapters.append(...(publicationAssemblyPacket.chapterGroups || []).map(publicationAssemblyChapterCard));
+
+  nodes.publicationAssemblyRoot.replaceChildren(summary, actions, board, chapters);
+}
+
+function publicationAssemblySummaryItem(label, value) {
+  const item = document.createElement("div");
+  const strong = document.createElement("strong");
+  strong.textContent = Number(value || 0).toLocaleString();
+  const span = document.createElement("span");
+  span.textContent = label;
+  item.append(strong, span);
+  return item;
+}
+
+function publicationAssemblyQueueCard(title, rows, tone, csvPath) {
+  const card = document.createElement("article");
+  card.className = `file-card publication-assembly-card tone-${tone}`;
+
+  const header = document.createElement("header");
+  const titleBlock = document.createElement("div");
+  const meta = document.createElement("div");
+  meta.className = "file-meta";
+  meta.append(textSpan(`${rows.length} rows`));
+  const heading = document.createElement("h3");
+  heading.textContent = title;
+  titleBlock.append(meta, heading);
+  header.append(titleBlock);
+
+  const list = document.createElement("ul");
+  list.className = "compiler-row-list";
+  for (const row of rows.slice(0, 7)) list.append(publicationAssemblyRow(row));
+  if (!rows.length) list.append(emptyListItem("No rows in this assembly queue."));
+
+  const actions = document.createElement("div");
+  actions.className = "file-actions";
+  actions.append(linkButton("Open CSV", csvPath));
+
+  card.append(header, list, actions);
+  return card;
+}
+
+function publicationAssemblyChapterTocCard(groups) {
+  const card = document.createElement("article");
+  card.className = "file-card publication-assembly-card tone-toc";
+
+  const header = document.createElement("header");
+  const titleBlock = document.createElement("div");
+  const meta = document.createElement("div");
+  meta.className = "file-meta";
+  meta.append(textSpan(`${groups.reduce((total, group) => total + (group.tocRows?.length || 0), 0)} proposed`));
+  const heading = document.createElement("h3");
+  heading.textContent = "Draft TOC By Chapter";
+  titleBlock.append(meta, heading);
+  header.append(titleBlock);
+
+  const list = document.createElement("ul");
+  list.className = "compiler-row-list";
+  for (const group of groups) {
+    const item = document.createElement("li");
+    const title = document.createElement("span");
+    title.className = "compiler-row-title";
+    title.textContent = `Chapter ${group.chapterNumber}. ${group.chapter}`;
+    const detail = document.createElement("p");
+    detail.textContent = `${group.proposedCount} proposed / ${group.readyToNumberCount} ready / ${group.blockerCount} holds`;
+    item.append(title, detail);
+    list.append(item);
+  }
+
+  const actions = document.createElement("div");
+  actions.className = "file-actions";
+  actions.append(linkButton("Chapter TOC CSV", "reports/publication-assembly/chapter-toc.csv"));
+
+  card.append(header, list, actions);
+  return card;
+}
+
+function publicationAssemblyChapterCard(group) {
+  const card = document.createElement("article");
+  card.className = "file-card publication-assembly-chapter-card";
+
+  const header = document.createElement("header");
+  const titleBlock = document.createElement("div");
+  const meta = document.createElement("div");
+  meta.className = "file-meta";
+  meta.append(textSpan(`${group.proposedCount} proposed`), textSpan(`${group.readyToNumberCount} ready`), textSpan(`${group.blockerCount} holds`));
+  const title = document.createElement("h3");
+  title.textContent = `Chapter ${group.chapterNumber}. ${group.chapter}`;
+  titleBlock.append(meta, title);
+  header.append(titleBlock);
+
+  const description = document.createElement("p");
+  description.textContent = group.description || "";
+
+  const chips = document.createElement("div");
+  chips.className = "chips";
+  if (group.authorityCheckCount) chips.append(chip(`${group.authorityCheckCount} authority`, "boundary"));
+  if (group.directPublicLeadCount) chips.append(chip(`${group.directPublicLeadCount} direct public`, "good"));
+  if (group.publicLineGapCount) chips.append(chip(`${group.publicLineGapCount} public gaps`, "warn"));
+  if (!chips.children.length) chips.append(chip("no open assembly flags", "good"));
+
+  const list = document.createElement("ul");
+  list.className = "compiler-row-list";
+  for (const row of (group.rows || []).filter((item) => item.proposalStatus === "Proposed").slice(0, 5)) list.append(publicationAssemblyRow(row));
+  if (!list.children.length) list.append(emptyListItem("No proposed rows in this chapter yet."));
+
+  card.append(header, description, chips, list);
+  return card;
+}
+
+function publicationAssemblyRow(row) {
+  const item = document.createElement("li");
+  const title = linkButton(`${[row.provisionalTocNumber, row.assemblyNumber, row.draftNumber].filter(Boolean).join(" / ")} - ${row.title}`, row.stubPath || row.catalogUrl || "#publication-assembly");
+  title.className = "compiler-row-title";
+  const detail = document.createElement("p");
+  detail.textContent = [row.dateText || row.date, row.country || row.chapter, row.assemblyStatus].filter(Boolean).join(" / ");
+  item.append(title, detail);
+
+  const chips = document.createElement("div");
+  chips.className = "chips";
+  if (row.publicLeadStatus === "Direct") chips.append(chip("direct public lead", "good"));
+  if (row.publicLeadStatus === "Context") chips.append(chip("context public lead", "boundary"));
+  if (row.publicLeadStatus === "Gap") chips.append(chip("public-line gap", "warn"));
+  if (row.diaryControlNumber) chips.append(chip(row.diaryControlNumber, "boundary"));
+  if (row.blockerType) chips.append(chip(row.blockerType, "warn"));
+  item.append(chips);
+
+  if (row.primaryPublicLead?.title) {
+    const lead = document.createElement("p");
+    lead.textContent = `${row.primaryPublicLead.leadType || "Public"} lead: ${row.primaryPublicLead.title}`;
+    item.append(lead);
+  }
+
+  const action = document.createElement("p");
+  action.className = "source-note";
+  action.textContent = row.nextAction || "";
+  item.append(action);
+
+  const actions = document.createElement("div");
+  actions.className = "file-actions";
+  if (row.pdfUrl) actions.append(linkButton("PDF", row.pdfUrl));
+  if (row.catalogUrl) actions.append(linkButton("Catalog", row.catalogUrl));
+  if (row.primaryPublicLead?.pdfUrl || row.primaryPublicLead?.govinfoUrl) actions.append(linkButton("Public lead", row.primaryPublicLead.pdfUrl || row.primaryPublicLead.govinfoUrl));
+  if (row.frusSourceNote) actions.append(copyTextButton("Copy note", row.frusSourceNote));
+  item.append(actions);
+  return item;
 }
 
 function renderDraftDocumentList() {
@@ -2938,6 +3125,7 @@ function setupEvents() {
 
 function init() {
   setStats();
+  renderPublicationAssembly();
   renderCountryDossiers();
   renderDraftDocumentList();
   renderDocumentReadiness();

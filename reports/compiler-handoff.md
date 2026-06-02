@@ -1,6 +1,6 @@
 # FRUS Volume XX Compiler Handoff
 
-Generated: 2026-06-02T11:03:11.151Z
+Generated: 2026-06-02T11:25:29.745Z
 Live page: https://therealjameswilson.github.io/NorthAfrica-89-92/
 Start with the chronology: https://therealjameswilson.github.io/NorthAfrica-89-92/#records
 Official volume: https://history.state.gov/historicaldocuments/frus1989-92v20
@@ -8,19 +8,24 @@ Official volume: https://history.state.gov/historicaldocuments/frus1989-92v20
 ## Start Here
 
 1. [Open the declassified chronology first](https://therealjameswilson.github.io/NorthAfrica-89-92/#records) - 100 chronology rows are sorted by date and filterable by lane, country, release posture, and document availability.
-2. [Open the document stubs](https://therealjameswilson.github.io/NorthAfrica-89-92/#document-stubs) - 104 Markdown stubs carry FRUS-style source notes, diary/backup controls, authority flags, and blank compiler fields.
-3. [Clear readiness queues](https://therealjameswilson.github.io/NorthAfrica-89-92/#document-readiness) - 28 ready rows, 8 authority-check rows, and 68 blockers are separated for review.
-4. [Resolve blockers by type](https://therealjameswilson.github.io/NorthAfrica-89-92/#blocker-resolution) - 9 source-copy searches, 21 declassification reviews, and 38 cross-volume screens are itemized.
-5. [Check persons authority](https://therealjameswilson.github.io/NorthAfrica-89-92/persons.html#authority-packet) - 51 persons are matched against 4597 Bush names-list entries, with 18 review rows.
-6. [Confirm Daily Diary / Backup controls](https://therealjameswilson.github.io/NorthAfrica-89-92/#diary-controls) - 134 meeting/call controls are matched to 176 unique NAID 186322 diary/backup file units.
-7. [Open annotation leads](https://therealjameswilson.github.io/NorthAfrica-89-92/#annotation-leads) - 104 draft rows carry public-line, authority, diary, blocker, and source-note drafting checks.
-8. [Use source notes while drafting](https://therealjameswilson.github.io/NorthAfrica-89-92/#source-note-packet) - 143 FRUS-style source-note rows are available, with 0 missing notes in the generated packet.
+2. [Assemble provisional TOC](https://therealjameswilson.github.io/NorthAfrica-89-92/#publication-assembly) - 104 rows are ordered by chapter, with 28 ready to number and 68 holds separated.
+3. [Open the document stubs](https://therealjameswilson.github.io/NorthAfrica-89-92/#document-stubs) - 104 Markdown stubs carry FRUS-style source notes, diary/backup controls, authority flags, and blank compiler fields.
+4. [Clear readiness queues](https://therealjameswilson.github.io/NorthAfrica-89-92/#document-readiness) - 28 ready rows, 8 authority-check rows, and 68 blockers are separated for review.
+5. [Resolve blockers by type](https://therealjameswilson.github.io/NorthAfrica-89-92/#blocker-resolution) - 9 source-copy searches, 21 declassification reviews, and 38 cross-volume screens are itemized.
+6. [Check persons authority](https://therealjameswilson.github.io/NorthAfrica-89-92/persons.html#authority-packet) - 51 persons are matched against 4597 Bush names-list entries, with 18 review rows.
+7. [Confirm Daily Diary / Backup controls](https://therealjameswilson.github.io/NorthAfrica-89-92/#diary-controls) - 134 meeting/call controls are matched to 176 unique NAID 186322 diary/backup file units.
+8. [Open annotation leads](https://therealjameswilson.github.io/NorthAfrica-89-92/#annotation-leads) - 104 draft rows carry public-line, authority, diary, blocker, and source-note drafting checks.
+9. [Use source notes while drafting](https://therealjameswilson.github.io/NorthAfrica-89-92/#source-note-packet) - 143 FRUS-style source-note rows are available, with 0 missing notes in the generated packet.
 
 ## Current Counts
 
 - Chronology rows: 100
 - Proposed documents: 36
 - Conditional documents: 68
+- Publication assembly rows: 104
+- Ready to number: 28
+- Authority checks before numbering: 8
+- Assembly holds: 68
 - Document stubs: 104
 - Daily Diary/Backup control rows: 134
 - Unique diary/backup file units: 176
@@ -39,6 +44,7 @@ Official volume: https://history.state.gov/historicaldocuments/frus1989-92v20
 ## Live Sections
 
 - [Declassified Document Chronology](https://therealjameswilson.github.io/NorthAfrica-89-92/#records) - 100 - Start here with dated Bush Library/NARA memcons, telcons, and release controls.
+- [Publication Assembly](https://therealjameswilson.github.io/NorthAfrica-89-92/#publication-assembly) - 104 - Provisional TOC, numbering queue, chapter order, and holds before final placement.
 - [Country Dossiers](https://therealjameswilson.github.io/NorthAfrica-89-92/#country-dossiers) - 34 - Country-by-country desks with source gaps, query leads, and chronology coverage.
 - [Draft Document List](https://therealjameswilson.github.io/NorthAfrica-89-92/#draft-documents) - 104 - Proposed and conditional document rows grouped by chapter and selection posture.
 - [Document Readiness](https://therealjameswilson.github.io/NorthAfrica-89-92/#document-readiness) - 104 - Ready rows, authority-check rows, and blocked rows with source controls.
@@ -65,6 +71,7 @@ Official volume: https://history.state.gov/historicaldocuments/frus1989-92v20
 ## Report Packets
 
 - [Compiler handoff](https://therealjameswilson.github.io/NorthAfrica-89-92/reports/compiler-handoff.md) - Use this as the first plain-text handoff for the volume.
+- [Publication assembly](https://therealjameswilson.github.io/NorthAfrica-89-92/reports/publication-assembly-packet.md) - 104 - Use the provisional TOC and numbering queue after reviewing the chronology.
 - [Document stubs](https://therealjameswilson.github.io/NorthAfrica-89-92/reports/document-stubs-packet.md) - 104 - Open per-document working files and stub index before writing final document text.
 - [Daily Diary / Backup controls](https://therealjameswilson.github.io/NorthAfrica-89-92/reports/diary-control-packet.md) - 134 - Verify meeting/call time, location, attendees, call status, and scheduling context from NAID 186322.
 - [Annotation leads](https://therealjameswilson.github.io/NorthAfrica-89-92/reports/annotation-leads-packet.md) - 104 - Pair draft documents with public-line leads, persons authority flags, diary controls, blockers, and source notes.
@@ -111,6 +118,12 @@ Official volume: https://history.state.gov/historicaldocuments/frus1989-92v20
 - [reports/persons-authority/all-persons-authority.csv](https://therealjameswilson.github.io/NorthAfrica-89-92/reports/persons-authority/all-persons-authority.csv)
 - [reports/persons-authority/authority-review.csv](https://therealjameswilson.github.io/NorthAfrica-89-92/reports/persons-authority/authority-review.csv)
 - [reports/persons-authority/person-document-links.csv](https://therealjameswilson.github.io/NorthAfrica-89-92/reports/persons-authority/person-document-links.csv)
+- [reports/publication-assembly/all-publication-assembly.csv](https://therealjameswilson.github.io/NorthAfrica-89-92/reports/publication-assembly/all-publication-assembly.csv)
+- [reports/publication-assembly/assembly-blockers.csv](https://therealjameswilson.github.io/NorthAfrica-89-92/reports/publication-assembly/assembly-blockers.csv)
+- [reports/publication-assembly/authority-checks.csv](https://therealjameswilson.github.io/NorthAfrica-89-92/reports/publication-assembly/authority-checks.csv)
+- [reports/publication-assembly/chapter-toc.csv](https://therealjameswilson.github.io/NorthAfrica-89-92/reports/publication-assembly/chapter-toc.csv)
+- [reports/publication-assembly/proposed-toc.csv](https://therealjameswilson.github.io/NorthAfrica-89-92/reports/publication-assembly/proposed-toc.csv)
+- [reports/publication-assembly/ready-to-number.csv](https://therealjameswilson.github.io/NorthAfrica-89-92/reports/publication-assembly/ready-to-number.csv)
 - [reports/research-runbook/all-gap-queries.csv](https://therealjameswilson.github.io/NorthAfrica-89-92/reports/research-runbook/all-gap-queries.csv)
 - [reports/research-runbook/priority-gap-queries.csv](https://therealjameswilson.github.io/NorthAfrica-89-92/reports/research-runbook/priority-gap-queries.csv)
 - [reports/worksheets/all-selection-decisions.csv](https://therealjameswilson.github.io/NorthAfrica-89-92/reports/worksheets/all-selection-decisions.csv)
@@ -139,6 +152,7 @@ node scripts/build-blocker-resolution-packet.js
 node scripts/build-document-stubs.js
 node scripts/build-diary-control-packet.js
 node scripts/build-annotation-leads-packet.js
+node scripts/build-publication-assembly-packet.js
 node scripts/build-gap-tracker.js
 BUSH_NAMES_DOCX=... node scripts/build-persons-list.js
 node scripts/build-persons-authority-packet.js
@@ -158,6 +172,7 @@ Official volume: https://history.state.gov/historicaldocuments/frus1989-92v20
 
 Current queues:
 - 100 chronology rows
+- 104 publication assembly rows (28 ready to number, 8 authority-check, 68 holds)
 - 104 document stubs (28 ready, 8 authority-check, 68 blockers)
 - 134 Daily Diary/Backup controls matched to 176 file units
 - 104 annotation rows (74 direct public-line, 25 context-only, 5 gaps)
@@ -167,6 +182,7 @@ Current queues:
 
 Open next:
 - Handoff report: https://therealjameswilson.github.io/NorthAfrica-89-92/reports/compiler-handoff.md
+- Publication assembly: https://therealjameswilson.github.io/NorthAfrica-89-92/reports/publication-assembly-packet.md
 - Stub index: https://therealjameswilson.github.io/NorthAfrica-89-92/reports/document-stubs/document-stub-index.csv
 - Diary controls: https://therealjameswilson.github.io/NorthAfrica-89-92/reports/diary-control-packet.md
 - Annotation leads: https://therealjameswilson.github.io/NorthAfrica-89-92/reports/annotation-leads-packet.md

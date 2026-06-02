@@ -412,6 +412,11 @@ dd {
   gap: 16px;
 }
 
+.publication-assembly-root {
+  display: grid;
+  gap: 16px;
+}
+
 .document-readiness-root {
   display: grid;
   gap: 16px;
@@ -457,6 +462,7 @@ dd {
 .source-note-packet-summary,
 .research-runbook-summary,
 .draft-document-summary,
+.publication-assembly-summary,
 .document-readiness-summary,
 .blocker-resolution-summary,
 .document-stubs-summary,
@@ -607,6 +613,42 @@ dd {
 }
 
 .draft-document-summary span {
+  font-weight: 900;
+}
+
+.publication-assembly-summary div {
+  min-height: 112px;
+  padding: 18px;
+  color: #fff;
+  background: var(--navy);
+  border-radius: 8px;
+}
+
+.publication-assembly-summary div:nth-child(2) {
+  background: var(--green);
+}
+
+.publication-assembly-summary div:nth-child(3) {
+  background: var(--blue);
+}
+
+.publication-assembly-summary div:nth-child(4) {
+  background: var(--plum);
+}
+
+.publication-assembly-summary div:nth-child(5) {
+  background: var(--rust);
+}
+
+.publication-assembly-summary strong {
+  display: block;
+  margin-bottom: 8px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2.7rem;
+  line-height: 0.95;
+}
+
+.publication-assembly-summary span {
   font-weight: 900;
 }
 
@@ -1024,6 +1066,18 @@ dd {
   gap: 14px;
 }
 
+.publication-assembly-board {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.publication-assembly-chapter-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
 .document-readiness-board {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -1225,6 +1279,21 @@ dd {
 .draft-chapter-card {
   min-height: auto;
   border-top: 5px solid var(--blue);
+}
+
+.publication-assembly-card,
+.publication-assembly-chapter-card {
+  min-height: auto;
+  border-top: 5px solid var(--green);
+}
+
+.publication-assembly-card.tone-toc,
+.publication-assembly-chapter-card {
+  border-top-color: var(--blue);
+}
+
+.publication-assembly-card.tone-blocked {
+  border-top-color: var(--rust);
 }
 
 .compiler-row-list {
@@ -1799,6 +1868,9 @@ footer {
   .research-runbook-grid,
   .draft-document-summary,
   .draft-chapter-grid,
+  .publication-assembly-summary,
+  .publication-assembly-board,
+  .publication-assembly-chapter-grid,
   .document-readiness-summary,
   .document-readiness-board,
   .document-readiness-chapter-grid,
@@ -1885,6 +1957,9 @@ footer {
   .research-runbook-grid,
   .draft-document-summary,
   .draft-chapter-grid,
+  .publication-assembly-summary,
+  .publication-assembly-board,
+  .publication-assembly-chapter-grid,
   .document-readiness-summary,
   .document-readiness-board,
   .document-readiness-chapter-grid,

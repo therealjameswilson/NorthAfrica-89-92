@@ -19,6 +19,7 @@ const blockerResolutionReportPath = path.join(reportDir, "blocker-resolution-pac
 const documentStubsReportPath = path.join(reportDir, "document-stubs-packet-build.json");
 const diaryControlReportPath = path.join(reportDir, "diary-control-packet-build.json");
 const annotationLeadsReportPath = path.join(reportDir, "annotation-leads-packet-build.json");
+const publicationAssemblyReportPath = path.join(reportDir, "publication-assembly-packet-build.json");
 const compilerHandoffReportPath = path.join(reportDir, "compiler-handoff-build.json");
 const personsAuthorityPacketReportPath = path.join(reportDir, "persons-authority-packet-build.json");
 
@@ -42,6 +43,7 @@ const blockerResolutionReport = readOptionalJson(blockerResolutionReportPath) ||
 const documentStubsReport = readOptionalJson(documentStubsReportPath) || {};
 const diaryControlReport = readOptionalJson(diaryControlReportPath) || {};
 const annotationLeadsReport = readOptionalJson(annotationLeadsReportPath) || {};
+const publicationAssemblyReport = readOptionalJson(publicationAssemblyReportPath) || {};
 const compilerHandoffReport = readOptionalJson(compilerHandoffReportPath) || {};
 const personsAuthorityPacketReport = readOptionalJson(personsAuthorityPacketReportPath) || {};
 
@@ -186,8 +188,25 @@ const reportBody = {
   annotationLeadsSourceNoteRows: annotationLeadsReport.sourceNoteRows || 0,
   annotationLeadsMarkdown: annotationLeadsReport.markdown || "",
   annotationLeadsCsvFiles: annotationLeadsReport.csvFiles || [],
+  publicationAssemblyRows: publicationAssemblyReport.assemblyRows || 0,
+  publicationAssemblyProposedRows: publicationAssemblyReport.proposedRows || 0,
+  publicationAssemblyConditionalRows: publicationAssemblyReport.conditionalRows || 0,
+  publicationAssemblyReadyToNumberRows: publicationAssemblyReport.readyToNumberRows || 0,
+  publicationAssemblyAuthorityRows: publicationAssemblyReport.authorityCheckRows || 0,
+  publicationAssemblyBlockerRows: publicationAssemblyReport.blockerRows || 0,
+  publicationAssemblyChapterCount: publicationAssemblyReport.chapterCount || 0,
+  publicationAssemblySourceNoteRows: publicationAssemblyReport.sourceNoteRows || 0,
+  publicationAssemblyDiaryControlledRows: publicationAssemblyReport.diaryControlledRows || 0,
+  publicationAssemblyDirectPublicLeadRows: publicationAssemblyReport.directPublicLeadRows || 0,
+  publicationAssemblyPublicLineGapRows: publicationAssemblyReport.publicLineGapRows || 0,
+  publicationAssemblyMarkdown: publicationAssemblyReport.markdown || "",
+  publicationAssemblyCsvFiles: publicationAssemblyReport.csvFiles || [],
   compilerHandoffChronologyRows: compilerHandoffReport.chronologyRows || 0,
   compilerHandoffDocumentStubs: compilerHandoffReport.documentStubs || 0,
+  compilerHandoffAssemblyRows: compilerHandoffReport.assemblyRows || 0,
+  compilerHandoffAssemblyReadyToNumberRows: compilerHandoffReport.assemblyReadyToNumberRows || 0,
+  compilerHandoffAssemblyAuthorityRows: compilerHandoffReport.assemblyAuthorityRows || 0,
+  compilerHandoffAssemblyBlockerRows: compilerHandoffReport.assemblyBlockerRows || 0,
   compilerHandoffDiaryControlRows: compilerHandoffReport.diaryControlRows || 0,
   compilerHandoffDiaryReferenceFiles: compilerHandoffReport.diaryReferenceFiles || 0,
   compilerHandoffAnnotationRows: compilerHandoffReport.annotationRows || 0,
@@ -559,9 +578,90 @@ const failures = [
   ...report.annotationLeadsCsvFiles
     .filter((filePath) => !fs.existsSync(path.join(repoRoot, filePath)))
     .map((filePath) => `missing annotation leads CSV: ${filePath}`),
+  ...(report.publicationAssemblyRows === report.documentReadinessCount
+    ? []
+    : [
+        `publication assembly row count mismatch: expected ${report.documentReadinessCount}, found ${report.publicationAssemblyRows}`
+      ]),
+  ...(report.publicationAssemblyProposedRows === report.draftDocumentProposedCount
+    ? []
+    : [
+        `publication assembly proposed count mismatch: expected ${report.draftDocumentProposedCount}, found ${report.publicationAssemblyProposedRows}`
+      ]),
+  ...(report.publicationAssemblyConditionalRows === report.draftDocumentConditionalCount
+    ? []
+    : [
+        `publication assembly conditional count mismatch: expected ${report.draftDocumentConditionalCount}, found ${report.publicationAssemblyConditionalRows}`
+      ]),
+  ...(report.publicationAssemblyReadyToNumberRows === report.documentReadinessReadyForReadCount
+    ? []
+    : [
+        `publication assembly ready-to-number count mismatch: expected ${report.documentReadinessReadyForReadCount}, found ${report.publicationAssemblyReadyToNumberRows}`
+      ]),
+  ...(report.publicationAssemblyAuthorityRows === report.documentReadinessReadyWithAuthorityCheckCount
+    ? []
+    : [
+        `publication assembly authority count mismatch: expected ${report.documentReadinessReadyWithAuthorityCheckCount}, found ${report.publicationAssemblyAuthorityRows}`
+      ]),
+  ...(report.publicationAssemblyBlockerRows === report.blockerResolutionCount
+    ? []
+    : [
+        `publication assembly blocker count mismatch: expected ${report.blockerResolutionCount}, found ${report.publicationAssemblyBlockerRows}`
+      ]),
+  ...(report.publicationAssemblyChapterCount === (meta.chapters || []).length
+    ? []
+    : [
+        `publication assembly chapter count mismatch: expected ${(meta.chapters || []).length}, found ${report.publicationAssemblyChapterCount}`
+      ]),
+  ...(report.publicationAssemblySourceNoteRows === report.documentReadinessCount
+    ? []
+    : [
+        `publication assembly source-note coverage mismatch: expected ${report.documentReadinessCount}, found ${report.publicationAssemblySourceNoteRows}`
+      ]),
+  ...(report.publicationAssemblyDiaryControlledRows === report.documentReadinessDiaryMatchedCount
+    ? []
+    : [
+        `publication assembly diary-control coverage mismatch: expected ${report.documentReadinessDiaryMatchedCount}, found ${report.publicationAssemblyDiaryControlledRows}`
+      ]),
+  ...(report.publicationAssemblyDirectPublicLeadRows === report.annotationLeadsDocumentsWithDirectPublicLeads
+    ? []
+    : [
+        `publication assembly direct public lead count mismatch: expected ${report.annotationLeadsDocumentsWithDirectPublicLeads}, found ${report.publicationAssemblyDirectPublicLeadRows}`
+      ]),
+  ...(report.publicationAssemblyPublicLineGapRows === report.annotationLeadsDocumentsWithoutPublicLeads
+    ? []
+    : [
+        `publication assembly public-line gap count mismatch: expected ${report.annotationLeadsDocumentsWithoutPublicLeads}, found ${report.publicationAssemblyPublicLineGapRows}`
+      ]),
+  ...(report.publicationAssemblyMarkdown && fs.existsSync(path.join(repoRoot, report.publicationAssemblyMarkdown))
+    ? []
+    : [`missing publication assembly Markdown: ${report.publicationAssemblyMarkdown || "blank"}`]),
+  ...report.publicationAssemblyCsvFiles
+    .filter((filePath) => !fs.existsSync(path.join(repoRoot, filePath)))
+    .map((filePath) => `missing publication assembly CSV: ${filePath}`),
   ...(report.compilerHandoffChronologyRows === records.length
     ? []
     : [`compiler handoff chronology count mismatch: expected ${records.length}, found ${report.compilerHandoffChronologyRows}`]),
+  ...(report.compilerHandoffAssemblyRows === report.publicationAssemblyRows
+    ? []
+    : [
+        `compiler handoff assembly count mismatch: expected ${report.publicationAssemblyRows}, found ${report.compilerHandoffAssemblyRows}`
+      ]),
+  ...(report.compilerHandoffAssemblyReadyToNumberRows === report.publicationAssemblyReadyToNumberRows
+    ? []
+    : [
+        `compiler handoff assembly ready count mismatch: expected ${report.publicationAssemblyReadyToNumberRows}, found ${report.compilerHandoffAssemblyReadyToNumberRows}`
+      ]),
+  ...(report.compilerHandoffAssemblyAuthorityRows === report.publicationAssemblyAuthorityRows
+    ? []
+    : [
+        `compiler handoff assembly authority count mismatch: expected ${report.publicationAssemblyAuthorityRows}, found ${report.compilerHandoffAssemblyAuthorityRows}`
+      ]),
+  ...(report.compilerHandoffAssemblyBlockerRows === report.publicationAssemblyBlockerRows
+    ? []
+    : [
+        `compiler handoff assembly blocker count mismatch: expected ${report.publicationAssemblyBlockerRows}, found ${report.compilerHandoffAssemblyBlockerRows}`
+      ]),
   ...(report.compilerHandoffDocumentStubs === report.documentStubsCount
     ? []
     : [
@@ -635,6 +735,14 @@ const failures = [
   ...(report.compilerHandoffLiveSectionIds[0] === "records"
     ? []
     : [`compiler handoff does not preserve chronology-first section order: ${report.compilerHandoffLiveSectionIds[0] || "blank"}`]),
+  ...(report.compilerHandoffLiveSectionIds[1] === "publication-assembly"
+    ? []
+    : [
+        `compiler handoff does not place publication assembly after chronology: ${report.compilerHandoffLiveSectionIds[1] || "blank"}`
+      ]),
+  ...(report.compilerHandoffLiveSectionIds.includes("publication-assembly")
+    ? []
+    : ["compiler handoff live section list is missing publication-assembly"]),
   ...(report.compilerHandoffLiveSectionIds.includes("compiler-handoff")
     ? []
     : ["compiler handoff live section list is missing compiler-handoff"]),
@@ -650,6 +758,9 @@ const failures = [
   ...(report.compilerHandoffRefreshCommands.includes("node scripts/build-annotation-leads-packet.js")
     ? []
     : ["compiler handoff refresh commands are missing build-annotation-leads-packet.js"]),
+  ...(report.compilerHandoffRefreshCommands.includes("node scripts/build-publication-assembly-packet.js")
+    ? []
+    : ["compiler handoff refresh commands are missing build-publication-assembly-packet.js"]),
   ...(report.compilerHandoffRefreshCommands.includes("node scripts/build-compiler-handoff.js")
     ? []
     : ["compiler handoff refresh commands are missing build-compiler-handoff.js"]),
@@ -699,7 +810,7 @@ if (failures.length) {
 }
 
 console.log(
-  `Gap audit passed: ${persons.length} persons, ${report.selectionMatrixCount} selection rows, ${report.compilerBriefQueueCount} compiler brief queues, ${report.sourceNotePacketCount} source-note packet rows, ${report.decisionWorksheetCount} decision worksheets, ${report.researchRunbookQueryCount} research runbook queries, ${report.countryDossierCount} country dossiers, ${report.draftDocumentProposedCount} draft proposed rows, ${report.documentReadinessCount} readiness rows, ${report.blockerResolutionCount} blocker-resolution rows, ${report.documentStubsCount} document stubs, ${report.diaryControlRows} diary controls, ${report.annotationLeadsDocumentCount} annotation rows, ${report.compilerHandoffPacketCount} handoff packets, ${sourceCopyLedger.length} source-copy ledger rows, ${report.personsNeedingAuthorityReview.length} authority-review entries, ${report.personsAuthorityPacketDocumentLinkCount} authority document links.`
+  `Gap audit passed: ${persons.length} persons, ${report.selectionMatrixCount} selection rows, ${report.compilerBriefQueueCount} compiler brief queues, ${report.sourceNotePacketCount} source-note packet rows, ${report.decisionWorksheetCount} decision worksheets, ${report.researchRunbookQueryCount} research runbook queries, ${report.countryDossierCount} country dossiers, ${report.draftDocumentProposedCount} draft proposed rows, ${report.documentReadinessCount} readiness rows, ${report.blockerResolutionCount} blocker-resolution rows, ${report.documentStubsCount} document stubs, ${report.diaryControlRows} diary controls, ${report.annotationLeadsDocumentCount} annotation rows, ${report.publicationAssemblyRows} assembly rows, ${report.compilerHandoffPacketCount} handoff packets, ${sourceCopyLedger.length} source-copy ledger rows, ${report.personsNeedingAuthorityReview.length} authority-review entries, ${report.personsAuthorityPacketDocumentLinkCount} authority document links.`
 );
 
 function readJson(fileName) {
