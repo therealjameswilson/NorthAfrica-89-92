@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-05-25T10:55:34.356Z",
-  "namesDocxSource": "data/persons.json selected authority entries",
-  "authorityMode": "cached-selected-authority",
-  "authorityEntryCount": 33,
+  "generatedAt": "2026-06-02T01:17:43.046Z",
+  "namesDocxSource": "Bush Comprehensive Names List.docx",
+  "authorityMode": "docx",
+  "authorityEntryCount": 4597,
   "selectedPersonCount": 51,
   "matchedAuthorityCount": 33,
   "generatedFallbackCount": 18,

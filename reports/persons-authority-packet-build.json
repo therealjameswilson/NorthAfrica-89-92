@@ -1,0 +1,19 @@
+{
+  "generatedAt": "2026-06-02T01:21:12.683Z",
+  "personCount": 51,
+  "authorityMatchedCount": 33,
+  "reviewCount": 18,
+  "documentLinkCount": 472,
+  "reviewDocumentLinkCount": 44,
+  "proposedDocumentLinkCount": 66,
+  "conditionalDocumentLinkCount": 136,
+  "gapMentionCount": 4,
+  "highPriorityReviewCount": 15,
+  "authorityMode": "docx",
+  "authorityEntryCount": 4597,
+  "csvFiles": [
+    "reports/persons-authority/authority-review.csv",
+    "reports/persons-authority/person-document-links.csv",
+    "reports/persons-authority/all-persons-authority.csv"
+  ]
+}

@@ -417,12 +417,18 @@ dd {
   gap: 16px;
 }
 
+.persons-authority-root {
+  display: grid;
+  gap: 16px;
+}
+
 .compiler-brief-summary,
 .compiler-brief-actions,
 .source-note-packet-summary,
 .research-runbook-summary,
 .draft-document-summary,
-.decision-worksheets-summary {
+.decision-worksheets-summary,
+.persons-authority-summary {
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 14px;
@@ -600,6 +606,42 @@ dd {
   font-weight: 900;
 }
 
+.persons-authority-summary div {
+  min-height: 112px;
+  padding: 18px;
+  color: #fff;
+  background: var(--navy);
+  border-radius: 8px;
+}
+
+.persons-authority-summary div:nth-child(2) {
+  background: var(--green);
+}
+
+.persons-authority-summary div:nth-child(3) {
+  background: var(--rust);
+}
+
+.persons-authority-summary div:nth-child(4) {
+  background: var(--blue);
+}
+
+.persons-authority-summary div:nth-child(5) {
+  background: var(--plum);
+}
+
+.persons-authority-summary strong {
+  display: block;
+  margin-bottom: 8px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2.7rem;
+  line-height: 0.95;
+}
+
+.persons-authority-summary span {
+  font-weight: 900;
+}
+
 .packet-actions {
   padding: 14px;
   background: rgba(255, 255, 255, 0.74);
@@ -668,6 +710,47 @@ dd {
 
 .country-dossier-preview {
   min-width: 0;
+}
+
+.persons-authority-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.persons-authority-card {
+  min-height: auto;
+  border-top: 5px solid var(--green);
+}
+
+.persons-authority-card.priority-high {
+  border-top-color: var(--rust);
+}
+
+.persons-authority-card.priority-medium {
+  border-top-color: var(--gold);
+}
+
+.authority-document-preview {
+  display: grid;
+  gap: 8px;
+}
+
+.authority-document-preview h4 {
+  margin: 0;
+  color: var(--navy);
+  font-size: 0.82rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.authority-document-actions {
+  margin-top: 8px;
+}
+
+.authority-gap-list {
+  padding-top: 8px;
+  border-top: 1px solid var(--line);
 }
 
 .country-dossier-preview h4 {
@@ -1323,6 +1406,8 @@ footer {
   .draft-chapter-grid,
   .country-dossier-grid,
   .country-dossier-preview-grid,
+  .persons-authority-summary,
+  .persons-authority-grid,
   .decision-worksheets-summary,
   .decision-worksheet-grid,
   .chapter-grid,
@@ -1393,6 +1478,8 @@ footer {
   .draft-chapter-grid,
   .country-dossier-grid,
   .country-dossier-preview-grid,
+  .persons-authority-summary,
+  .persons-authority-grid,
   .decision-worksheets-summary,
   .decision-worksheet-grid,
   .chapter-grid,

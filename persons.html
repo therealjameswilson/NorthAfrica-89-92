@@ -20,6 +20,7 @@
         <a href="index.html#workbench">Desk</a>
         <a href="index.html#gap-tracker">Gaps</a>
         <a href="persons.html" aria-current="page">Persons</a>
+        <a href="#authority-packet">Authority</a>
         <a href="index.html#records">Chronology</a>
         <a href="index.html#policy-files">Policy Files</a>
         <a href="index.html#boundary">Boundaries</a>
@@ -36,6 +37,19 @@
           generated from the Bush comprehensive names authority list and the
           current Volume XX chronology, boundary, and gap-tracker data.
         </p>
+      </section>
+
+      <section class="section persons-authority-section" id="authority-packet" aria-labelledby="authority-packet-title">
+        <div class="section-heading compact-heading">
+          <h2 id="authority-packet-title">Authority Review Packet</h2>
+          <p class="source-note compact-note">
+            Names still needing compiler authority decisions, with links back to proposed documents,
+            conditional rows, gaps, and FRUS-style source notes.
+          </p>
+        </div>
+        <div id="persons-authority-root" class="persons-authority-root" aria-live="polite">
+          <p class="loading">Loading persons authority packet...</p>
+        </div>
       </section>
 
       <section class="section persons-section" aria-labelledby="persons-list-title">
@@ -72,7 +86,8 @@
       <p>Persons list for Volume XX. Authority entries are taken from the attached Bush comprehensive names list where available.</p>
     </footer>
 
-    <script src="data/persons.js"></script>
-    <script src="persons.js"></script>
+    <script src="data/persons.js?v=20260601-authority"></script>
+    <script src="data/persons-authority-packet.js?v=20260601-authority"></script>
+    <script src="persons.js?v=20260601-authority"></script>
   </body>
 </html>

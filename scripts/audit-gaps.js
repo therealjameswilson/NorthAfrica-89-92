@@ -14,6 +14,7 @@ const decisionWorksheetsReportPath = path.join(reportDir, "decision-worksheets-b
 const researchRunbookReportPath = path.join(reportDir, "research-runbook-build.json");
 const countryDossiersReportPath = path.join(reportDir, "country-dossiers-build.json");
 const draftDocumentListReportPath = path.join(reportDir, "draft-document-list-build.json");
+const personsAuthorityPacketReportPath = path.join(reportDir, "persons-authority-packet-build.json");
 
 const meta = readJson("volume-meta.json");
 const records = readJson("records.json");
@@ -30,6 +31,7 @@ const decisionWorksheetsReport = readOptionalJson(decisionWorksheetsReportPath) 
 const researchRunbookReport = readOptionalJson(researchRunbookReportPath) || {};
 const countryDossiersReport = readOptionalJson(countryDossiersReportPath) || {};
 const draftDocumentListReport = readOptionalJson(draftDocumentListReportPath) || {};
+const personsAuthorityPacketReport = readOptionalJson(personsAuthorityPacketReportPath) || {};
 
 const GAP_PERSON_TERMS = [
   "Babangida",
@@ -108,6 +110,14 @@ const reportBody = {
   draftDocumentMissingSourceNoteCount: draftDocumentListReport.missingSourceNoteCount || 0,
   draftDocumentChapterCount: draftDocumentListReport.chapterCount || 0,
   draftDocumentCsvFiles: draftDocumentListReport.csvFiles || [],
+  personsAuthorityPacketPersonCount: personsAuthorityPacketReport.personCount || 0,
+  personsAuthorityPacketAuthorityMode: personsAuthorityPacketReport.authorityMode || "",
+  personsAuthorityPacketAuthorityEntryCount: personsAuthorityPacketReport.authorityEntryCount || 0,
+  personsAuthorityPacketReviewCount: personsAuthorityPacketReport.reviewCount || 0,
+  personsAuthorityPacketDocumentLinkCount: personsAuthorityPacketReport.documentLinkCount || 0,
+  personsAuthorityPacketReviewDocumentLinkCount: personsAuthorityPacketReport.reviewDocumentLinkCount || 0,
+  personsAuthorityPacketHighPriorityReviewCount: personsAuthorityPacketReport.highPriorityReviewCount || 0,
+  personsAuthorityPacketCsvFiles: personsAuthorityPacketReport.csvFiles || [],
   selectionMatrixByRecommendation: selectionReport.byRecommendation || {},
   sourceCopyLedgerCount: sourceCopyLedger.length,
   sourceCopyLedgerByIssue: countBy(sourceCopyLedger.map((item) => item.issueType)),
@@ -214,6 +224,34 @@ const failures = [
   ...report.draftDocumentCsvFiles
     .filter((filePath) => !fs.existsSync(path.join(repoRoot, filePath)))
     .map((filePath) => `missing draft document CSV: ${filePath}`),
+  ...(report.personsAuthorityPacketPersonCount === report.personsCount
+    ? []
+    : [
+        `persons authority packet count mismatch: expected ${report.personsCount}, found ${report.personsAuthorityPacketPersonCount}`
+      ]),
+  ...(report.personsAuthorityPacketReviewCount === report.personsNeedingAuthorityReview.length
+    ? []
+    : [
+        `persons authority packet review count mismatch: expected ${report.personsNeedingAuthorityReview.length}, found ${report.personsAuthorityPacketReviewCount}`
+      ]),
+  ...(report.personsAuthorityPacketAuthorityMode === "docx"
+    ? []
+    : [`persons authority packet did not record DOCX authority mode: ${report.personsAuthorityPacketAuthorityMode || "blank"}`]),
+  ...(report.personsAuthorityPacketAuthorityEntryCount >= 1000
+    ? []
+    : [`persons authority packet authority count too low: found ${report.personsAuthorityPacketAuthorityEntryCount}`]),
+  ...(report.personsAuthorityPacketDocumentLinkCount > 0
+    ? []
+    : ["persons authority packet has no document links"]),
+  ...(report.personsAuthorityPacketReviewDocumentLinkCount > 0
+    ? []
+    : ["persons authority packet has no review-document links"]),
+  ...(report.personsAuthorityPacketHighPriorityReviewCount > 0
+    ? []
+    : ["persons authority packet has no high-priority review rows"]),
+  ...report.personsAuthorityPacketCsvFiles
+    .filter((filePath) => !fs.existsSync(path.join(repoRoot, filePath)))
+    .map((filePath) => `missing persons authority CSV: ${filePath}`),
   ...report.missingChronologyParticipants.map((name) => `missing chronology participant: ${name}`),
   ...report.missingBoundaryParticipants.map((name) => `missing boundary participant: ${name}`),
   ...report.missingGapPersonTerms.map((name) => `missing gap person term: ${name}`),
