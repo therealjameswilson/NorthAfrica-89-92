@@ -14,6 +14,7 @@ const draftDocumentList = window.DRAFT_DOCUMENT_LIST || null;
 const documentReadinessPacket = window.DOCUMENT_READINESS_PACKET || null;
 const blockerResolutionPacket = window.BLOCKER_RESOLUTION_PACKET || null;
 const documentStubsPacket = window.DOCUMENT_STUBS_PACKET || null;
+const compilerHandoffPacket = window.COMPILER_HANDOFF_PACKET || null;
 const decisionWorksheets = window.DECISION_WORKSHEETS || null;
 const chapters = meta.chapters || [];
 const selectionMatrix = buildSelectionMatrix();
@@ -76,6 +77,7 @@ const nodes = {
   documentReadinessRoot: document.querySelector("#document-readiness-root"),
   blockerResolutionRoot: document.querySelector("#blocker-resolution-root"),
   documentStubsRoot: document.querySelector("#document-stubs-root"),
+  compilerHandoffRoot: document.querySelector("#compiler-handoff-root"),
   countryDossierRoot: document.querySelector("#country-dossier-root"),
   countryDossierSummary: document.querySelector("#country-dossier-summary"),
   countryDossierSearch: document.querySelector("#country-dossier-search"),
@@ -1646,6 +1648,113 @@ function documentStubRow(row) {
   return item;
 }
 
+function renderCompilerHandoff() {
+  if (!nodes.compilerHandoffRoot) return;
+  if (!compilerHandoffPacket) {
+    nodes.compilerHandoffRoot.innerHTML = '<p class="empty">Compiler handoff data is unavailable.</p>';
+    return;
+  }
+
+  const summary = document.createElement("div");
+  summary.className = "compiler-handoff-summary";
+  summary.append(
+    compilerHandoffSummaryItem("chronology", compilerHandoffPacket.summary?.chronologyRows),
+    compilerHandoffSummaryItem("stubs", compilerHandoffPacket.summary?.documentStubs),
+    compilerHandoffSummaryItem("ready", compilerHandoffPacket.summary?.readyRows),
+    compilerHandoffSummaryItem("blockers", compilerHandoffPacket.summary?.blockerRows),
+    compilerHandoffSummaryItem("authority", compilerHandoffPacket.summary?.authorityReviewRows)
+  );
+
+  const actions = document.createElement("div");
+  actions.className = "file-actions packet-actions";
+  actions.append(
+    linkButton("Open handoff report", "reports/compiler-handoff.md"),
+    linkButton("Links CSV", "reports/compiler-handoff-links.csv"),
+    linkButton("Chronology first", "#records"),
+    linkButton("Persons authority", "persons.html#authority-packet"),
+    copyTextButton("Copy handoff", compilerHandoffPacket.copyText || "")
+  );
+
+  const startGrid = document.createElement("div");
+  startGrid.className = "compiler-handoff-start-grid";
+  startGrid.append(...(compilerHandoffPacket.startHere || []).map(compilerHandoffStartCard));
+
+  const packetGrid = document.createElement("div");
+  packetGrid.className = "compiler-handoff-packet-grid";
+  packetGrid.append(...(compilerHandoffPacket.packetLinks || []).map(compilerHandoffPacketCard));
+
+  const refresh = document.createElement("article");
+  refresh.className = "file-card compiler-handoff-refresh";
+  const refreshTitle = document.createElement("h3");
+  refreshTitle.textContent = "Local Refresh Order";
+  const refreshNote = document.createElement("p");
+  refreshNote.textContent = "Run these commands after changing sources or companion packets so the live page, reports, and audit stay synchronized.";
+  const pre = document.createElement("pre");
+  const code = document.createElement("code");
+  code.textContent = (compilerHandoffPacket.refreshCommands || []).join("\n");
+  pre.append(code);
+  refresh.append(refreshTitle, refreshNote, pre);
+
+  nodes.compilerHandoffRoot.replaceChildren(summary, actions, startGrid, packetGrid, refresh);
+}
+
+function compilerHandoffSummaryItem(label, value) {
+  const item = document.createElement("div");
+  const strong = document.createElement("strong");
+  strong.textContent = Number(value || 0).toLocaleString();
+  const span = document.createElement("span");
+  span.textContent = label;
+  item.append(strong, span);
+  return item;
+}
+
+function compilerHandoffStartCard(item) {
+  const card = document.createElement("article");
+  card.className = "file-card compiler-handoff-card priority-active";
+
+  const meta = document.createElement("div");
+  meta.className = "file-meta";
+  meta.append(textSpan(`Step ${item.step}`));
+  const title = document.createElement("h3");
+  title.textContent = item.title || "";
+  const detail = document.createElement("p");
+  detail.textContent = item.detail || "";
+  const actions = document.createElement("div");
+  actions.className = "file-actions";
+  actions.append(linkButton("Open", item.href || item.liveUrl || "#compiler-handoff"));
+
+  card.append(meta, title, detail, actions);
+  return card;
+}
+
+function compilerHandoffPacketCard(item) {
+  const card = document.createElement("article");
+  card.className = "file-card compiler-handoff-card";
+
+  const header = document.createElement("header");
+  const titleBlock = document.createElement("div");
+  const meta = document.createElement("div");
+  meta.className = "file-meta";
+  if (item.count !== null && item.count !== undefined) meta.append(textSpan(`${item.count} rows`));
+  if (item.csvFiles?.length) meta.append(textSpan(`${item.csvFiles.length} CSV`));
+  const title = document.createElement("h3");
+  title.textContent = item.title || "";
+  titleBlock.append(meta, title);
+  header.append(titleBlock);
+
+  const detail = document.createElement("p");
+  detail.textContent = item.use || "";
+
+  const actions = document.createElement("div");
+  actions.className = "file-actions";
+  actions.append(linkButton("Open report", item.href || "#compiler-handoff"));
+  if (item.liveUrl) actions.append(linkButton("Open page", item.liveUrl));
+  if (item.csvFiles?.[0]) actions.append(linkButton("First CSV", item.csvFiles[0]));
+
+  card.append(header, detail, actions);
+  return card;
+}
+
 function renderResearchRunbook() {
   if (!nodes.researchRunbookRoot) return;
   if (!researchRunbook) {
@@ -2568,6 +2677,7 @@ function init() {
   renderDocumentReadiness();
   renderBlockerResolution();
   renderDocumentStubs();
+  renderCompilerHandoff();
   renderCompilerBrief();
   renderSourceNotePacket();
   renderResearchRunbook();

@@ -427,6 +427,11 @@ dd {
   gap: 16px;
 }
 
+.compiler-handoff-root {
+  display: grid;
+  gap: 16px;
+}
+
 .decision-worksheets-root {
   display: grid;
   gap: 16px;
@@ -445,6 +450,7 @@ dd {
 .document-readiness-summary,
 .blocker-resolution-summary,
 .document-stubs-summary,
+.compiler-handoff-summary,
 .decision-worksheets-summary,
 .persons-authority-summary {
   display: grid;
@@ -700,6 +706,42 @@ dd {
   font-weight: 900;
 }
 
+.compiler-handoff-summary div {
+  min-height: 112px;
+  padding: 18px;
+  color: #fff;
+  background: var(--navy);
+  border-radius: 8px;
+}
+
+.compiler-handoff-summary div:nth-child(2) {
+  background: var(--green);
+}
+
+.compiler-handoff-summary div:nth-child(3) {
+  background: var(--blue);
+}
+
+.compiler-handoff-summary div:nth-child(4) {
+  background: var(--rust);
+}
+
+.compiler-handoff-summary div:nth-child(5) {
+  background: var(--plum);
+}
+
+.compiler-handoff-summary strong {
+  display: block;
+  margin-bottom: 8px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2.7rem;
+  line-height: 0.95;
+}
+
+.compiler-handoff-summary span {
+  font-weight: 900;
+}
+
 .decision-worksheets-summary div {
   min-height: 112px;
   padding: 18px;
@@ -916,6 +958,13 @@ dd {
   gap: 14px;
 }
 
+.compiler-handoff-start-grid,
+.compiler-handoff-packet-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
 .document-readiness-chapter-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1015,6 +1064,24 @@ dd {
 
 .document-stubs-card.tone-blocked {
   border-top-color: var(--rust);
+}
+
+.compiler-handoff-card {
+  min-height: auto;
+  border-top: 5px solid var(--green);
+}
+
+.compiler-handoff-packet-grid .compiler-handoff-card {
+  border-top-color: var(--blue);
+}
+
+.compiler-handoff-refresh {
+  min-height: auto;
+  border-top-color: var(--navy);
+}
+
+.compiler-handoff-refresh pre {
+  margin-top: 4px;
 }
 
 .country-dossier-card.status-cross-volume-review,
@@ -1615,6 +1682,9 @@ footer {
   .blocker-resolution-board,
   .document-stubs-summary,
   .document-stubs-board,
+  .compiler-handoff-summary,
+  .compiler-handoff-start-grid,
+  .compiler-handoff-packet-grid,
   .country-dossier-grid,
   .country-dossier-preview-grid,
   .persons-authority-summary,
@@ -1694,6 +1764,9 @@ footer {
   .blocker-resolution-board,
   .document-stubs-summary,
   .document-stubs-board,
+  .compiler-handoff-summary,
+  .compiler-handoff-start-grid,
+  .compiler-handoff-packet-grid,
   .country-dossier-grid,
   .country-dossier-preview-grid,
   .persons-authority-summary,

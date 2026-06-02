@@ -17,6 +17,7 @@ const draftDocumentListReportPath = path.join(reportDir, "draft-document-list-bu
 const documentReadinessReportPath = path.join(reportDir, "document-readiness-packet-build.json");
 const blockerResolutionReportPath = path.join(reportDir, "blocker-resolution-packet-build.json");
 const documentStubsReportPath = path.join(reportDir, "document-stubs-packet-build.json");
+const compilerHandoffReportPath = path.join(reportDir, "compiler-handoff-build.json");
 const personsAuthorityPacketReportPath = path.join(reportDir, "persons-authority-packet-build.json");
 
 const meta = readJson("volume-meta.json");
@@ -37,6 +38,7 @@ const draftDocumentListReport = readOptionalJson(draftDocumentListReportPath) ||
 const documentReadinessReport = readOptionalJson(documentReadinessReportPath) || {};
 const blockerResolutionReport = readOptionalJson(blockerResolutionReportPath) || {};
 const documentStubsReport = readOptionalJson(documentStubsReportPath) || {};
+const compilerHandoffReport = readOptionalJson(compilerHandoffReportPath) || {};
 const personsAuthorityPacketReport = readOptionalJson(personsAuthorityPacketReportPath) || {};
 
 const GAP_PERSON_TERMS = [
@@ -149,6 +151,22 @@ const reportBody = {
   documentStubsCrossVolumeCount: documentStubsReport.crossVolumeStubCount || 0,
   documentStubsFiles: documentStubsReport.stubFiles || [],
   documentStubsCsvFiles: documentStubsReport.csvFiles || [],
+  compilerHandoffChronologyRows: compilerHandoffReport.chronologyRows || 0,
+  compilerHandoffDocumentStubs: compilerHandoffReport.documentStubs || 0,
+  compilerHandoffReadyForReadRows: compilerHandoffReport.readyForReadRows || 0,
+  compilerHandoffReadyWithAuthorityCheckRows: compilerHandoffReport.readyWithAuthorityCheckRows || 0,
+  compilerHandoffBlockerRows: compilerHandoffReport.blockerRows || 0,
+  compilerHandoffAuthorityReviewRows: compilerHandoffReport.authorityReviewRows || 0,
+  compilerHandoffSourceNoteRows: compilerHandoffReport.sourceNoteRows || 0,
+  compilerHandoffSectionCount: compilerHandoffReport.sectionCount || 0,
+  compilerHandoffPacketCount: compilerHandoffReport.packetCount || 0,
+  compilerHandoffReportCount: compilerHandoffReport.reportCount || 0,
+  compilerHandoffCsvCount: compilerHandoffReport.csvCount || 0,
+  compilerHandoffLiveSectionIds: compilerHandoffReport.liveSectionIds || [],
+  compilerHandoffRefreshCommandCount: compilerHandoffReport.refreshCommandCount || 0,
+  compilerHandoffRefreshCommands: compilerHandoffReport.refreshCommands || [],
+  compilerHandoffMarkdown: compilerHandoffReport.markdown || "",
+  compilerHandoffLinksCsv: compilerHandoffReport.linksCsv || "",
   personsAuthorityPacketPersonCount: personsAuthorityPacketReport.personCount || 0,
   personsAuthorityPacketAuthorityMode: personsAuthorityPacketReport.authorityMode || "",
   personsAuthorityPacketAuthorityEntryCount: personsAuthorityPacketReport.authorityEntryCount || 0,
@@ -399,6 +417,64 @@ const failures = [
   ...report.documentStubsCsvFiles
     .filter((filePath) => !fs.existsSync(path.join(repoRoot, filePath)))
     .map((filePath) => `missing document stubs CSV: ${filePath}`),
+  ...(report.compilerHandoffChronologyRows === records.length
+    ? []
+    : [`compiler handoff chronology count mismatch: expected ${records.length}, found ${report.compilerHandoffChronologyRows}`]),
+  ...(report.compilerHandoffDocumentStubs === report.documentStubsCount
+    ? []
+    : [
+        `compiler handoff document-stubs count mismatch: expected ${report.documentStubsCount}, found ${report.compilerHandoffDocumentStubs}`
+      ]),
+  ...(report.compilerHandoffReadyForReadRows === report.documentReadinessReadyForReadCount
+    ? []
+    : [
+        `compiler handoff ready count mismatch: expected ${report.documentReadinessReadyForReadCount}, found ${report.compilerHandoffReadyForReadRows}`
+      ]),
+  ...(report.compilerHandoffReadyWithAuthorityCheckRows === report.documentReadinessReadyWithAuthorityCheckCount
+    ? []
+    : [
+        `compiler handoff authority-ready count mismatch: expected ${report.documentReadinessReadyWithAuthorityCheckCount}, found ${report.compilerHandoffReadyWithAuthorityCheckRows}`
+      ]),
+  ...(report.compilerHandoffBlockerRows === report.blockerResolutionCount
+    ? []
+    : [`compiler handoff blocker count mismatch: expected ${report.blockerResolutionCount}, found ${report.compilerHandoffBlockerRows}`]),
+  ...(report.compilerHandoffAuthorityReviewRows === report.personsNeedingAuthorityReview.length
+    ? []
+    : [
+        `compiler handoff authority-review count mismatch: expected ${report.personsNeedingAuthorityReview.length}, found ${report.compilerHandoffAuthorityReviewRows}`
+      ]),
+  ...(report.compilerHandoffSourceNoteRows === report.sourceNotePacketCount
+    ? []
+    : [
+        `compiler handoff source-note count mismatch: expected ${report.sourceNotePacketCount}, found ${report.compilerHandoffSourceNoteRows}`
+      ]),
+  ...(report.compilerHandoffSectionCount >= 20
+    ? []
+    : [`compiler handoff section count too low: found ${report.compilerHandoffSectionCount}`]),
+  ...(report.compilerHandoffPacketCount >= 10
+    ? []
+    : [`compiler handoff packet count too low: found ${report.compilerHandoffPacketCount}`]),
+  ...(report.compilerHandoffReportCount >= 10
+    ? []
+    : [`compiler handoff report count too low: found ${report.compilerHandoffReportCount}`]),
+  ...(report.compilerHandoffCsvCount >= 20
+    ? []
+    : [`compiler handoff CSV count too low: found ${report.compilerHandoffCsvCount}`]),
+  ...(report.compilerHandoffLiveSectionIds[0] === "records"
+    ? []
+    : [`compiler handoff does not preserve chronology-first section order: ${report.compilerHandoffLiveSectionIds[0] || "blank"}`]),
+  ...(report.compilerHandoffLiveSectionIds.includes("compiler-handoff")
+    ? []
+    : ["compiler handoff live section list is missing compiler-handoff"]),
+  ...(report.compilerHandoffRefreshCommands.includes("node scripts/build-compiler-handoff.js")
+    ? []
+    : ["compiler handoff refresh commands are missing build-compiler-handoff.js"]),
+  ...(report.compilerHandoffMarkdown && fs.existsSync(path.join(repoRoot, report.compilerHandoffMarkdown))
+    ? []
+    : [`missing compiler handoff Markdown: ${report.compilerHandoffMarkdown || "blank"}`]),
+  ...(report.compilerHandoffLinksCsv && fs.existsSync(path.join(repoRoot, report.compilerHandoffLinksCsv))
+    ? []
+    : [`missing compiler handoff links CSV: ${report.compilerHandoffLinksCsv || "blank"}`]),
   ...(report.personsAuthorityPacketPersonCount === report.personsCount
     ? []
     : [
@@ -439,7 +515,7 @@ if (failures.length) {
 }
 
 console.log(
-  `Gap audit passed: ${persons.length} persons, ${report.selectionMatrixCount} selection rows, ${report.compilerBriefQueueCount} compiler brief queues, ${report.sourceNotePacketCount} source-note packet rows, ${report.decisionWorksheetCount} decision worksheets, ${report.researchRunbookQueryCount} research runbook queries, ${report.countryDossierCount} country dossiers, ${report.draftDocumentProposedCount} draft proposed rows, ${report.documentReadinessCount} readiness rows, ${report.blockerResolutionCount} blocker-resolution rows, ${report.documentStubsCount} document stubs, ${sourceCopyLedger.length} source-copy ledger rows, ${report.personsNeedingAuthorityReview.length} authority-review entries, ${report.personsAuthorityPacketDocumentLinkCount} authority document links.`
+  `Gap audit passed: ${persons.length} persons, ${report.selectionMatrixCount} selection rows, ${report.compilerBriefQueueCount} compiler brief queues, ${report.sourceNotePacketCount} source-note packet rows, ${report.decisionWorksheetCount} decision worksheets, ${report.researchRunbookQueryCount} research runbook queries, ${report.countryDossierCount} country dossiers, ${report.draftDocumentProposedCount} draft proposed rows, ${report.documentReadinessCount} readiness rows, ${report.blockerResolutionCount} blocker-resolution rows, ${report.documentStubsCount} document stubs, ${report.compilerHandoffPacketCount} handoff packets, ${sourceCopyLedger.length} source-copy ledger rows, ${report.personsNeedingAuthorityReview.length} authority-review entries, ${report.personsAuthorityPacketDocumentLinkCount} authority document links.`
 );
 
 function readJson(fileName) {
