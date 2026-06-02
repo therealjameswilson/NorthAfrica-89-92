@@ -1,0 +1,17 @@
+{
+  "generatedAt": "2026-06-02T01:43:52.680Z",
+  "blockerCount": 68,
+  "sourceCopyCount": 9,
+  "declassificationCount": 21,
+  "crossVolumeCount": 38,
+  "diaryControlledCount": 68,
+  "frusSourceNoteCount": 68,
+  "queryLinkedCount": 68,
+  "comparatorLinkedCount": 38,
+  "csvFiles": [
+    "reports/blocker-resolution/all-blockers.csv",
+    "reports/blocker-resolution/source-copy-actions.csv",
+    "reports/blocker-resolution/declassification-actions.csv",
+    "reports/blocker-resolution/cross-volume-actions.csv"
+  ]
+}

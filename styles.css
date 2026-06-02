@@ -417,6 +417,11 @@ dd {
   gap: 16px;
 }
 
+.blocker-resolution-root {
+  display: grid;
+  gap: 16px;
+}
+
 .decision-worksheets-root {
   display: grid;
   gap: 16px;
@@ -433,6 +438,7 @@ dd {
 .research-runbook-summary,
 .draft-document-summary,
 .document-readiness-summary,
+.blocker-resolution-summary,
 .decision-worksheets-summary,
 .persons-authority-summary {
   display: grid;
@@ -613,6 +619,42 @@ dd {
 }
 
 .document-readiness-summary span {
+  font-weight: 900;
+}
+
+.blocker-resolution-summary div {
+  min-height: 112px;
+  padding: 18px;
+  color: #fff;
+  background: var(--navy);
+  border-radius: 8px;
+}
+
+.blocker-resolution-summary div:nth-child(2) {
+  background: var(--rust);
+}
+
+.blocker-resolution-summary div:nth-child(3) {
+  background: var(--gold);
+}
+
+.blocker-resolution-summary div:nth-child(4) {
+  background: var(--blue);
+}
+
+.blocker-resolution-summary div:nth-child(5) {
+  background: var(--green);
+}
+
+.blocker-resolution-summary strong {
+  display: block;
+  margin-bottom: 8px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2.7rem;
+  line-height: 0.95;
+}
+
+.blocker-resolution-summary span {
   font-weight: 900;
 }
 
@@ -820,6 +862,12 @@ dd {
   gap: 14px;
 }
 
+.blocker-resolution-board {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
 .document-readiness-chapter-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -878,6 +926,34 @@ dd {
 
 .document-readiness-card.tone-blocked {
   border-top-color: var(--rust);
+}
+
+.blocker-resolution-card {
+  min-height: auto;
+  border-top: 5px solid var(--green);
+}
+
+.blocker-resolution-card.tone-source-copy {
+  border-top-color: var(--rust);
+}
+
+.blocker-resolution-card.tone-declass {
+  border-top-color: var(--gold);
+}
+
+.blocker-resolution-card.tone-cross-volume {
+  border-top-color: var(--blue);
+}
+
+.blocker-comparator-card {
+  min-height: auto;
+  border-top: 5px solid var(--blue);
+}
+
+.blocker-comparator-card .compact-list a {
+  margin-right: 6px;
+  color: var(--navy);
+  font-weight: 900;
 }
 
 .country-dossier-card.status-cross-volume-review,
@@ -1474,6 +1550,8 @@ footer {
   .document-readiness-summary,
   .document-readiness-board,
   .document-readiness-chapter-grid,
+  .blocker-resolution-summary,
+  .blocker-resolution-board,
   .country-dossier-grid,
   .country-dossier-preview-grid,
   .persons-authority-summary,
@@ -1549,6 +1627,8 @@ footer {
   .document-readiness-summary,
   .document-readiness-board,
   .document-readiness-chapter-grid,
+  .blocker-resolution-summary,
+  .blocker-resolution-board,
   .country-dossier-grid,
   .country-dossier-preview-grid,
   .persons-authority-summary,

@@ -12,6 +12,7 @@ const researchRunbook = window.RESEARCH_RUNBOOK || null;
 const countryDossiers = window.COUNTRY_DOSSIERS || null;
 const draftDocumentList = window.DRAFT_DOCUMENT_LIST || null;
 const documentReadinessPacket = window.DOCUMENT_READINESS_PACKET || null;
+const blockerResolutionPacket = window.BLOCKER_RESOLUTION_PACKET || null;
 const decisionWorksheets = window.DECISION_WORKSHEETS || null;
 const chapters = meta.chapters || [];
 const selectionMatrix = buildSelectionMatrix();
@@ -72,6 +73,7 @@ const nodes = {
   researchRunbookRoot: document.querySelector("#research-runbook-root"),
   draftDocumentListRoot: document.querySelector("#draft-document-list-root"),
   documentReadinessRoot: document.querySelector("#document-readiness-root"),
+  blockerResolutionRoot: document.querySelector("#blocker-resolution-root"),
   countryDossierRoot: document.querySelector("#country-dossier-root"),
   countryDossierSummary: document.querySelector("#country-dossier-summary"),
   countryDossierSearch: document.querySelector("#country-dossier-search"),
@@ -1384,6 +1386,173 @@ function readinessDocumentRow(row) {
   return item;
 }
 
+function renderBlockerResolution() {
+  if (!nodes.blockerResolutionRoot) return;
+  if (!blockerResolutionPacket) {
+    nodes.blockerResolutionRoot.innerHTML = '<p class="empty">Blocker resolution packet data is unavailable.</p>';
+    return;
+  }
+
+  const summary = document.createElement("div");
+  summary.className = "blocker-resolution-summary";
+  summary.append(
+    blockerResolutionSummaryItem("blockers", blockerResolutionPacket.summary?.blockerCount),
+    blockerResolutionSummaryItem("source-copy", blockerResolutionPacket.summary?.sourceCopyCount),
+    blockerResolutionSummaryItem("declass", blockerResolutionPacket.summary?.declassificationCount),
+    blockerResolutionSummaryItem("cross-volume", blockerResolutionPacket.summary?.crossVolumeCount),
+    blockerResolutionSummaryItem("query linked", blockerResolutionPacket.summary?.queryLinkedCount)
+  );
+
+  const actions = document.createElement("div");
+  actions.className = "file-actions packet-actions";
+  actions.append(
+    linkButton("Open blocker packet", "reports/blocker-resolution-packet.md"),
+    linkButton("All blockers CSV", "reports/blocker-resolution/all-blockers.csv"),
+    linkButton("Source-copy CSV", "reports/blocker-resolution/source-copy-actions.csv"),
+    linkButton("Declass CSV", "reports/blocker-resolution/declassification-actions.csv"),
+    linkButton("Cross-volume CSV", "reports/blocker-resolution/cross-volume-actions.csv")
+  );
+
+  const board = document.createElement("div");
+  board.className = "blocker-resolution-board";
+  board.append(
+    blockerQueueCard("Source-Copy Searches", blockerResolutionPacket.sourceCopyRows || [], "source-copy", "reports/blocker-resolution/source-copy-actions.csv"),
+    blockerQueueCard("Declassification Reviews", blockerResolutionPacket.declassificationRows || [], "declass", "reports/blocker-resolution/declassification-actions.csv"),
+    blockerQueueCard("Cross-Volume Ownership", blockerResolutionPacket.crossVolumeRows || [], "cross-volume", "reports/blocker-resolution/cross-volume-actions.csv")
+  );
+
+  const comparators = document.createElement("article");
+  comparators.className = "file-card blocker-comparator-card";
+  const comparatorHeader = document.createElement("header");
+  const comparatorTitle = document.createElement("h3");
+  comparatorTitle.textContent = "Cross-Volume Comparators";
+  comparatorHeader.append(comparatorTitle);
+  const comparatorList = document.createElement("ul");
+  comparatorList.className = "compact-list";
+  for (const volume of blockerResolutionPacket.comparatorVolumes || []) {
+    const item = document.createElement("li");
+    const link = linkButton(volume.title, volume.url);
+    const use = document.createElement("span");
+    use.textContent = ` ${volume.use}`;
+    item.append(link, use);
+    comparatorList.append(item);
+  }
+  comparators.append(comparatorHeader, comparatorList);
+
+  nodes.blockerResolutionRoot.replaceChildren(summary, actions, board, comparators);
+}
+
+function blockerResolutionSummaryItem(label, value) {
+  const item = document.createElement("div");
+  const strong = document.createElement("strong");
+  strong.textContent = Number(value || 0).toLocaleString();
+  const span = document.createElement("span");
+  span.textContent = label;
+  item.append(strong, span);
+  return item;
+}
+
+function blockerQueueCard(title, rows, tone, csvPath) {
+  const card = document.createElement("article");
+  card.className = `file-card blocker-resolution-card tone-${tone}`;
+
+  const header = document.createElement("header");
+  const titleBlock = document.createElement("div");
+  const meta = document.createElement("div");
+  meta.className = "file-meta";
+  meta.append(textSpan(`${rows.length} rows`));
+  const heading = document.createElement("h3");
+  heading.textContent = title;
+  titleBlock.append(meta, heading);
+  header.append(titleBlock);
+
+  const list = document.createElement("ul");
+  list.className = "compiler-row-list";
+  for (const row of rows.slice(0, 5)) list.append(blockerResolutionRow(row));
+  if (!rows.length) list.append(emptyListItem("No blockers in this queue."));
+
+  const actions = document.createElement("div");
+  actions.className = "file-actions";
+  actions.append(linkButton("Download queue", csvPath));
+
+  card.append(header, list, actions);
+  return card;
+}
+
+function blockerResolutionRow(row) {
+  const item = document.createElement("li");
+  const title = row.catalogUrl ? document.createElement("a") : document.createElement("span");
+  if (row.catalogUrl) {
+    title.href = row.catalogUrl;
+    title.target = "_blank";
+    title.rel = "noreferrer";
+  }
+  title.className = "compiler-row-title";
+  title.textContent = `${row.draftNumber} - ${row.dateText || row.date || "Undated"} - ${row.title}`;
+  const detail = document.createElement("p");
+  detail.textContent = [row.resolutionType, row.country || row.lane, row.releaseStatus].filter(Boolean).join(" / ");
+  item.append(title, detail);
+
+  const action = document.createElement("p");
+  action.className = "source-note";
+  action.textContent = row.nextAction || row.handoffNote || "";
+  item.append(action);
+
+  const steps = document.createElement("details");
+  const stepsSummary = document.createElement("summary");
+  stepsSummary.textContent = "Resolution steps";
+  const stepList = document.createElement("ol");
+  stepList.className = "compact-list";
+  for (const step of row.actionSteps || []) {
+    const stepItem = document.createElement("li");
+    stepItem.textContent = step;
+    stepList.append(stepItem);
+  }
+  steps.append(stepsSummary, stepList);
+  item.append(steps);
+
+  if (row.comparatorVolumes?.length) {
+    const comparatorList = document.createElement("ul");
+    comparatorList.className = "compact-list";
+    for (const volume of row.comparatorVolumes) {
+      const comparator = document.createElement("li");
+      comparator.append(linkButton(volume.title, volume.url));
+      comparatorList.append(comparator);
+    }
+    item.append(comparatorList);
+  }
+
+  const actions = document.createElement("div");
+  actions.className = "file-actions";
+  if (row.pdfUrl) actions.append(linkButton("PDF", row.pdfUrl));
+  if (row.catalogSearchUrl) actions.append(linkButton("Search", row.catalogSearchUrl));
+  if (row.frusSourceNote) actions.append(copyTextButton("Copy note", row.frusSourceNote));
+  actions.append(copyTextButton("Copy handoff", blockerHandoffText(row)));
+  item.append(actions);
+
+  const sourceDetails = sourceNoteDetails({ ...row, sourceNote: row.catalogProvenance });
+  if (sourceDetails) item.append(sourceDetails);
+  const diaryDetails = diaryReferenceDetails(row);
+  if (diaryDetails) item.append(diaryDetails);
+
+  return item;
+}
+
+function blockerHandoffText(row) {
+  return [
+    `${row.draftNumber} - ${row.title}`,
+    `Resolution type: ${row.resolutionType}`,
+    `Recommended field: ${row.recommendedDecisionField}`,
+    `Next action: ${row.nextAction}`,
+    `Search terms: ${row.searchTerms}`,
+    `Catalog: ${row.catalogUrl}`,
+    `PDF: ${row.pdfUrl}`,
+    `Source note: ${row.frusSourceNote}`
+  ]
+    .filter(Boolean)
+    .join("\n");
+}
+
 function renderResearchRunbook() {
   if (!nodes.researchRunbookRoot) return;
   if (!researchRunbook) {
@@ -2304,6 +2473,7 @@ function init() {
   renderCountryDossiers();
   renderDraftDocumentList();
   renderDocumentReadiness();
+  renderBlockerResolution();
   renderCompilerBrief();
   renderSourceNotePacket();
   renderResearchRunbook();

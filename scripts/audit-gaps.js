@@ -15,6 +15,7 @@ const researchRunbookReportPath = path.join(reportDir, "research-runbook-build.j
 const countryDossiersReportPath = path.join(reportDir, "country-dossiers-build.json");
 const draftDocumentListReportPath = path.join(reportDir, "draft-document-list-build.json");
 const documentReadinessReportPath = path.join(reportDir, "document-readiness-packet-build.json");
+const blockerResolutionReportPath = path.join(reportDir, "blocker-resolution-packet-build.json");
 const personsAuthorityPacketReportPath = path.join(reportDir, "persons-authority-packet-build.json");
 
 const meta = readJson("volume-meta.json");
@@ -33,6 +34,7 @@ const researchRunbookReport = readOptionalJson(researchRunbookReportPath) || {};
 const countryDossiersReport = readOptionalJson(countryDossiersReportPath) || {};
 const draftDocumentListReport = readOptionalJson(draftDocumentListReportPath) || {};
 const documentReadinessReport = readOptionalJson(documentReadinessReportPath) || {};
+const blockerResolutionReport = readOptionalJson(blockerResolutionReportPath) || {};
 const personsAuthorityPacketReport = readOptionalJson(personsAuthorityPacketReportPath) || {};
 
 const GAP_PERSON_TERMS = [
@@ -124,6 +126,15 @@ const reportBody = {
   documentReadinessMissingSourceNoteCount: documentReadinessReport.missingSourceNoteCount || 0,
   documentReadinessDiaryMatchedCount: documentReadinessReport.diaryMatchedCount || 0,
   documentReadinessCsvFiles: documentReadinessReport.csvFiles || [],
+  blockerResolutionCount: blockerResolutionReport.blockerCount || 0,
+  blockerResolutionSourceCopyCount: blockerResolutionReport.sourceCopyCount || 0,
+  blockerResolutionDeclassificationCount: blockerResolutionReport.declassificationCount || 0,
+  blockerResolutionCrossVolumeCount: blockerResolutionReport.crossVolumeCount || 0,
+  blockerResolutionDiaryControlledCount: blockerResolutionReport.diaryControlledCount || 0,
+  blockerResolutionFrusSourceNoteCount: blockerResolutionReport.frusSourceNoteCount || 0,
+  blockerResolutionQueryLinkedCount: blockerResolutionReport.queryLinkedCount || 0,
+  blockerResolutionComparatorLinkedCount: blockerResolutionReport.comparatorLinkedCount || 0,
+  blockerResolutionCsvFiles: blockerResolutionReport.csvFiles || [],
   personsAuthorityPacketPersonCount: personsAuthorityPacketReport.personCount || 0,
   personsAuthorityPacketAuthorityMode: personsAuthorityPacketReport.authorityMode || "",
   personsAuthorityPacketAuthorityEntryCount: personsAuthorityPacketReport.authorityEntryCount || 0,
@@ -284,6 +295,49 @@ const failures = [
   ...report.documentReadinessCsvFiles
     .filter((filePath) => !fs.existsSync(path.join(repoRoot, filePath)))
     .map((filePath) => `missing document readiness CSV: ${filePath}`),
+  ...(report.blockerResolutionCount === report.documentReadinessBlockerCount
+    ? []
+    : [
+        `blocker resolution count mismatch: expected ${report.documentReadinessBlockerCount}, found ${report.blockerResolutionCount}`
+      ]),
+  ...(report.blockerResolutionSourceCopyCount === report.documentReadinessSourceCopyCount
+    ? []
+    : [
+        `blocker resolution source-copy count mismatch: expected ${report.documentReadinessSourceCopyCount}, found ${report.blockerResolutionSourceCopyCount}`
+      ]),
+  ...(report.blockerResolutionDeclassificationCount === report.documentReadinessDeclassificationCount
+    ? []
+    : [
+        `blocker resolution declassification count mismatch: expected ${report.documentReadinessDeclassificationCount}, found ${report.blockerResolutionDeclassificationCount}`
+      ]),
+  ...(report.blockerResolutionCrossVolumeCount === report.documentReadinessCrossVolumeCount
+    ? []
+    : [
+        `blocker resolution cross-volume count mismatch: expected ${report.documentReadinessCrossVolumeCount}, found ${report.blockerResolutionCrossVolumeCount}`
+      ]),
+  ...(report.blockerResolutionFrusSourceNoteCount === report.blockerResolutionCount
+    ? []
+    : [
+        `blocker resolution FRUS source-note coverage mismatch: expected ${report.blockerResolutionCount}, found ${report.blockerResolutionFrusSourceNoteCount}`
+      ]),
+  ...(report.blockerResolutionDiaryControlledCount === report.blockerResolutionCount
+    ? []
+    : [
+        `blocker resolution diary-control coverage mismatch: expected ${report.blockerResolutionCount}, found ${report.blockerResolutionDiaryControlledCount}`
+      ]),
+  ...(report.blockerResolutionQueryLinkedCount === report.blockerResolutionCount
+    ? []
+    : [
+        `blocker resolution query-link coverage mismatch: expected ${report.blockerResolutionCount}, found ${report.blockerResolutionQueryLinkedCount}`
+      ]),
+  ...(report.blockerResolutionComparatorLinkedCount === report.blockerResolutionCrossVolumeCount
+    ? []
+    : [
+        `blocker resolution comparator coverage mismatch: expected ${report.blockerResolutionCrossVolumeCount}, found ${report.blockerResolutionComparatorLinkedCount}`
+      ]),
+  ...report.blockerResolutionCsvFiles
+    .filter((filePath) => !fs.existsSync(path.join(repoRoot, filePath)))
+    .map((filePath) => `missing blocker resolution CSV: ${filePath}`),
   ...(report.personsAuthorityPacketPersonCount === report.personsCount
     ? []
     : [
@@ -324,7 +378,7 @@ if (failures.length) {
 }
 
 console.log(
-  `Gap audit passed: ${persons.length} persons, ${report.selectionMatrixCount} selection rows, ${report.compilerBriefQueueCount} compiler brief queues, ${report.sourceNotePacketCount} source-note packet rows, ${report.decisionWorksheetCount} decision worksheets, ${report.researchRunbookQueryCount} research runbook queries, ${report.countryDossierCount} country dossiers, ${report.draftDocumentProposedCount} draft proposed rows, ${report.documentReadinessCount} readiness rows, ${sourceCopyLedger.length} source-copy ledger rows, ${report.personsNeedingAuthorityReview.length} authority-review entries, ${report.personsAuthorityPacketDocumentLinkCount} authority document links.`
+  `Gap audit passed: ${persons.length} persons, ${report.selectionMatrixCount} selection rows, ${report.compilerBriefQueueCount} compiler brief queues, ${report.sourceNotePacketCount} source-note packet rows, ${report.decisionWorksheetCount} decision worksheets, ${report.researchRunbookQueryCount} research runbook queries, ${report.countryDossierCount} country dossiers, ${report.draftDocumentProposedCount} draft proposed rows, ${report.documentReadinessCount} readiness rows, ${report.blockerResolutionCount} blocker-resolution rows, ${sourceCopyLedger.length} source-copy ledger rows, ${report.personsNeedingAuthorityReview.length} authority-review entries, ${report.personsAuthorityPacketDocumentLinkCount} authority document links.`
 );
 
 function readJson(fileName) {

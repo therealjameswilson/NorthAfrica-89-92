@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-02T01:37:10.970Z",
+  "generatedAt": "2026-06-02T01:46:46.546Z",
   "personsCount": 51,
   "selectionMatrixCount": 186,
   "expectedSelectionMatrixCount": 186,
@@ -68,6 +68,20 @@
     "reports/document-readiness/ready-first-pass.csv",
     "reports/document-readiness/blockers.csv",
     "reports/document-readiness/authority-checks.csv"
+  ],
+  "blockerResolutionCount": 68,
+  "blockerResolutionSourceCopyCount": 9,
+  "blockerResolutionDeclassificationCount": 21,
+  "blockerResolutionCrossVolumeCount": 38,
+  "blockerResolutionDiaryControlledCount": 68,
+  "blockerResolutionFrusSourceNoteCount": 68,
+  "blockerResolutionQueryLinkedCount": 68,
+  "blockerResolutionComparatorLinkedCount": 38,
+  "blockerResolutionCsvFiles": [
+    "reports/blocker-resolution/all-blockers.csv",
+    "reports/blocker-resolution/source-copy-actions.csv",
+    "reports/blocker-resolution/declassification-actions.csv",
+    "reports/blocker-resolution/cross-volume-actions.csv"
   ],
   "personsAuthorityPacketPersonCount": 51,
   "personsAuthorityPacketAuthorityMode": "docx",
