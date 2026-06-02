@@ -422,6 +422,11 @@ dd {
   gap: 16px;
 }
 
+.document-stubs-root {
+  display: grid;
+  gap: 16px;
+}
+
 .decision-worksheets-root {
   display: grid;
   gap: 16px;
@@ -439,6 +444,7 @@ dd {
 .draft-document-summary,
 .document-readiness-summary,
 .blocker-resolution-summary,
+.document-stubs-summary,
 .decision-worksheets-summary,
 .persons-authority-summary {
   display: grid;
@@ -658,6 +664,42 @@ dd {
   font-weight: 900;
 }
 
+.document-stubs-summary div {
+  min-height: 112px;
+  padding: 18px;
+  color: #fff;
+  background: var(--navy);
+  border-radius: 8px;
+}
+
+.document-stubs-summary div:nth-child(2) {
+  background: var(--green);
+}
+
+.document-stubs-summary div:nth-child(3) {
+  background: var(--blue);
+}
+
+.document-stubs-summary div:nth-child(4) {
+  background: var(--rust);
+}
+
+.document-stubs-summary div:nth-child(5) {
+  background: var(--plum);
+}
+
+.document-stubs-summary strong {
+  display: block;
+  margin-bottom: 8px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2.7rem;
+  line-height: 0.95;
+}
+
+.document-stubs-summary span {
+  font-weight: 900;
+}
+
 .decision-worksheets-summary div {
   min-height: 112px;
   padding: 18px;
@@ -868,6 +910,12 @@ dd {
   gap: 14px;
 }
 
+.document-stubs-board {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
 .document-readiness-chapter-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -954,6 +1002,19 @@ dd {
   margin-right: 6px;
   color: var(--navy);
   font-weight: 900;
+}
+
+.document-stubs-card {
+  min-height: auto;
+  border-top: 5px solid var(--green);
+}
+
+.document-stubs-card.tone-authority {
+  border-top-color: var(--blue);
+}
+
+.document-stubs-card.tone-blocked {
+  border-top-color: var(--rust);
 }
 
 .country-dossier-card.status-cross-volume-review,
@@ -1552,6 +1613,8 @@ footer {
   .document-readiness-chapter-grid,
   .blocker-resolution-summary,
   .blocker-resolution-board,
+  .document-stubs-summary,
+  .document-stubs-board,
   .country-dossier-grid,
   .country-dossier-preview-grid,
   .persons-authority-summary,
@@ -1629,6 +1692,8 @@ footer {
   .document-readiness-chapter-grid,
   .blocker-resolution-summary,
   .blocker-resolution-board,
+  .document-stubs-summary,
+  .document-stubs-board,
   .country-dossier-grid,
   .country-dossier-preview-grid,
   .persons-authority-summary,

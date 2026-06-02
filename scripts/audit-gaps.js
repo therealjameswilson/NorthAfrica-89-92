@@ -16,6 +16,7 @@ const countryDossiersReportPath = path.join(reportDir, "country-dossiers-build.j
 const draftDocumentListReportPath = path.join(reportDir, "draft-document-list-build.json");
 const documentReadinessReportPath = path.join(reportDir, "document-readiness-packet-build.json");
 const blockerResolutionReportPath = path.join(reportDir, "blocker-resolution-packet-build.json");
+const documentStubsReportPath = path.join(reportDir, "document-stubs-packet-build.json");
 const personsAuthorityPacketReportPath = path.join(reportDir, "persons-authority-packet-build.json");
 
 const meta = readJson("volume-meta.json");
@@ -35,6 +36,7 @@ const countryDossiersReport = readOptionalJson(countryDossiersReportPath) || {};
 const draftDocumentListReport = readOptionalJson(draftDocumentListReportPath) || {};
 const documentReadinessReport = readOptionalJson(documentReadinessReportPath) || {};
 const blockerResolutionReport = readOptionalJson(blockerResolutionReportPath) || {};
+const documentStubsReport = readOptionalJson(documentStubsReportPath) || {};
 const personsAuthorityPacketReport = readOptionalJson(personsAuthorityPacketReportPath) || {};
 
 const GAP_PERSON_TERMS = [
@@ -135,6 +137,18 @@ const reportBody = {
   blockerResolutionQueryLinkedCount: blockerResolutionReport.queryLinkedCount || 0,
   blockerResolutionComparatorLinkedCount: blockerResolutionReport.comparatorLinkedCount || 0,
   blockerResolutionCsvFiles: blockerResolutionReport.csvFiles || [],
+  documentStubsCount: documentStubsReport.stubCount || 0,
+  documentStubsReadyCount: documentStubsReport.readyStubCount || 0,
+  documentStubsAuthorityCount: documentStubsReport.authorityStubCount || 0,
+  documentStubsBlockerCount: documentStubsReport.blockerStubCount || 0,
+  documentStubsSourceNoteCount: documentStubsReport.sourceNoteStubCount || 0,
+  documentStubsDiaryControlledCount: documentStubsReport.diaryControlledStubCount || 0,
+  documentStubsAuthorityReviewCount: documentStubsReport.authorityReviewStubCount || 0,
+  documentStubsSourceCopyCount: documentStubsReport.sourceCopyStubCount || 0,
+  documentStubsDeclassificationCount: documentStubsReport.declassificationStubCount || 0,
+  documentStubsCrossVolumeCount: documentStubsReport.crossVolumeStubCount || 0,
+  documentStubsFiles: documentStubsReport.stubFiles || [],
+  documentStubsCsvFiles: documentStubsReport.csvFiles || [],
   personsAuthorityPacketPersonCount: personsAuthorityPacketReport.personCount || 0,
   personsAuthorityPacketAuthorityMode: personsAuthorityPacketReport.authorityMode || "",
   personsAuthorityPacketAuthorityEntryCount: personsAuthorityPacketReport.authorityEntryCount || 0,
@@ -338,6 +352,53 @@ const failures = [
   ...report.blockerResolutionCsvFiles
     .filter((filePath) => !fs.existsSync(path.join(repoRoot, filePath)))
     .map((filePath) => `missing blocker resolution CSV: ${filePath}`),
+  ...(report.documentStubsCount === report.documentReadinessCount
+    ? []
+    : [`document stubs count mismatch: expected ${report.documentReadinessCount}, found ${report.documentStubsCount}`]),
+  ...(report.documentStubsReadyCount === report.documentReadinessReadyForReadCount
+    ? []
+    : [
+        `document stubs ready count mismatch: expected ${report.documentReadinessReadyForReadCount}, found ${report.documentStubsReadyCount}`
+      ]),
+  ...(report.documentStubsAuthorityCount === report.documentReadinessReadyWithAuthorityCheckCount
+    ? []
+    : [
+        `document stubs authority count mismatch: expected ${report.documentReadinessReadyWithAuthorityCheckCount}, found ${report.documentStubsAuthorityCount}`
+      ]),
+  ...(report.documentStubsBlockerCount === report.blockerResolutionCount
+    ? []
+    : [`document stubs blocker count mismatch: expected ${report.blockerResolutionCount}, found ${report.documentStubsBlockerCount}`]),
+  ...(report.documentStubsSourceNoteCount === report.documentStubsCount
+    ? []
+    : [
+        `document stubs source-note coverage mismatch: expected ${report.documentStubsCount}, found ${report.documentStubsSourceNoteCount}`
+      ]),
+  ...(report.documentStubsDiaryControlledCount >= report.documentStubsCount - 5
+    ? []
+    : [
+        `document stubs diary-control coverage unexpectedly low: ${report.documentStubsDiaryControlledCount} of ${report.documentStubsCount}`
+      ]),
+  ...(report.documentStubsSourceCopyCount === report.blockerResolutionSourceCopyCount
+    ? []
+    : [
+        `document stubs source-copy count mismatch: expected ${report.blockerResolutionSourceCopyCount}, found ${report.documentStubsSourceCopyCount}`
+      ]),
+  ...(report.documentStubsDeclassificationCount === report.blockerResolutionDeclassificationCount
+    ? []
+    : [
+        `document stubs declassification count mismatch: expected ${report.blockerResolutionDeclassificationCount}, found ${report.documentStubsDeclassificationCount}`
+      ]),
+  ...(report.documentStubsCrossVolumeCount === report.blockerResolutionCrossVolumeCount
+    ? []
+    : [
+        `document stubs cross-volume count mismatch: expected ${report.blockerResolutionCrossVolumeCount}, found ${report.documentStubsCrossVolumeCount}`
+      ]),
+  ...report.documentStubsFiles
+    .filter((filePath) => !fs.existsSync(path.join(repoRoot, filePath)))
+    .map((filePath) => `missing document stub file: ${filePath}`),
+  ...report.documentStubsCsvFiles
+    .filter((filePath) => !fs.existsSync(path.join(repoRoot, filePath)))
+    .map((filePath) => `missing document stubs CSV: ${filePath}`),
   ...(report.personsAuthorityPacketPersonCount === report.personsCount
     ? []
     : [
@@ -378,7 +439,7 @@ if (failures.length) {
 }
 
 console.log(
-  `Gap audit passed: ${persons.length} persons, ${report.selectionMatrixCount} selection rows, ${report.compilerBriefQueueCount} compiler brief queues, ${report.sourceNotePacketCount} source-note packet rows, ${report.decisionWorksheetCount} decision worksheets, ${report.researchRunbookQueryCount} research runbook queries, ${report.countryDossierCount} country dossiers, ${report.draftDocumentProposedCount} draft proposed rows, ${report.documentReadinessCount} readiness rows, ${report.blockerResolutionCount} blocker-resolution rows, ${sourceCopyLedger.length} source-copy ledger rows, ${report.personsNeedingAuthorityReview.length} authority-review entries, ${report.personsAuthorityPacketDocumentLinkCount} authority document links.`
+  `Gap audit passed: ${persons.length} persons, ${report.selectionMatrixCount} selection rows, ${report.compilerBriefQueueCount} compiler brief queues, ${report.sourceNotePacketCount} source-note packet rows, ${report.decisionWorksheetCount} decision worksheets, ${report.researchRunbookQueryCount} research runbook queries, ${report.countryDossierCount} country dossiers, ${report.draftDocumentProposedCount} draft proposed rows, ${report.documentReadinessCount} readiness rows, ${report.blockerResolutionCount} blocker-resolution rows, ${report.documentStubsCount} document stubs, ${sourceCopyLedger.length} source-copy ledger rows, ${report.personsNeedingAuthorityReview.length} authority-review entries, ${report.personsAuthorityPacketDocumentLinkCount} authority document links.`
 );
 
 function readJson(fileName) {

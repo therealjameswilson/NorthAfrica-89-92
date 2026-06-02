@@ -13,6 +13,7 @@ const countryDossiers = window.COUNTRY_DOSSIERS || null;
 const draftDocumentList = window.DRAFT_DOCUMENT_LIST || null;
 const documentReadinessPacket = window.DOCUMENT_READINESS_PACKET || null;
 const blockerResolutionPacket = window.BLOCKER_RESOLUTION_PACKET || null;
+const documentStubsPacket = window.DOCUMENT_STUBS_PACKET || null;
 const decisionWorksheets = window.DECISION_WORKSHEETS || null;
 const chapters = meta.chapters || [];
 const selectionMatrix = buildSelectionMatrix();
@@ -74,6 +75,7 @@ const nodes = {
   draftDocumentListRoot: document.querySelector("#draft-document-list-root"),
   documentReadinessRoot: document.querySelector("#document-readiness-root"),
   blockerResolutionRoot: document.querySelector("#blocker-resolution-root"),
+  documentStubsRoot: document.querySelector("#document-stubs-root"),
   countryDossierRoot: document.querySelector("#country-dossier-root"),
   countryDossierSummary: document.querySelector("#country-dossier-summary"),
   countryDossierSearch: document.querySelector("#country-dossier-search"),
@@ -1553,6 +1555,97 @@ function blockerHandoffText(row) {
     .join("\n");
 }
 
+function renderDocumentStubs() {
+  if (!nodes.documentStubsRoot) return;
+  if (!documentStubsPacket) {
+    nodes.documentStubsRoot.innerHTML = '<p class="empty">Document stubs packet data is unavailable.</p>';
+    return;
+  }
+
+  const summary = document.createElement("div");
+  summary.className = "document-stubs-summary";
+  summary.append(
+    documentStubsSummaryItem("stubs", documentStubsPacket.summary?.stubCount),
+    documentStubsSummaryItem("ready", documentStubsPacket.summary?.readyStubCount),
+    documentStubsSummaryItem("authority", documentStubsPacket.summary?.authorityStubCount),
+    documentStubsSummaryItem("blockers", documentStubsPacket.summary?.blockerStubCount),
+    documentStubsSummaryItem("source notes", documentStubsPacket.summary?.sourceNoteStubCount)
+  );
+
+  const actions = document.createElement("div");
+  actions.className = "file-actions packet-actions";
+  actions.append(
+    linkButton("Open stubs packet", "reports/document-stubs-packet.md"),
+    linkButton("Stub index CSV", "reports/document-stubs/document-stub-index.csv"),
+    linkButton("First ready stub", documentStubsPacket.readyRows?.[0]?.stubPath || "reports/document-stubs-packet.md"),
+    linkButton("First blocker stub", documentStubsPacket.blockerRows?.[0]?.stubPath || "reports/document-stubs-packet.md")
+  );
+
+  const board = document.createElement("div");
+  board.className = "document-stubs-board";
+  board.append(
+    documentStubQueueCard("Ready Stubs", documentStubsPacket.readyRows || [], "ready"),
+    documentStubQueueCard("Authority-Check Stubs", documentStubsPacket.authorityRows || [], "authority"),
+    documentStubQueueCard("Blocker Stubs", documentStubsPacket.blockerRows || [], "blocked")
+  );
+
+  nodes.documentStubsRoot.replaceChildren(summary, actions, board);
+}
+
+function documentStubsSummaryItem(label, value) {
+  const item = document.createElement("div");
+  const strong = document.createElement("strong");
+  strong.textContent = Number(value || 0).toLocaleString();
+  const span = document.createElement("span");
+  span.textContent = label;
+  item.append(strong, span);
+  return item;
+}
+
+function documentStubQueueCard(title, rows, tone) {
+  const card = document.createElement("article");
+  card.className = `file-card document-stubs-card tone-${tone}`;
+
+  const header = document.createElement("header");
+  const titleBlock = document.createElement("div");
+  const meta = document.createElement("div");
+  meta.className = "file-meta";
+  meta.append(textSpan(`${rows.length} files`));
+  const heading = document.createElement("h3");
+  heading.textContent = title;
+  titleBlock.append(meta, heading);
+  header.append(titleBlock);
+
+  const list = document.createElement("ul");
+  list.className = "compiler-row-list";
+  for (const row of rows.slice(0, 8)) list.append(documentStubRow(row));
+  if (!rows.length) list.append(emptyListItem("No stubs in this queue."));
+
+  const actions = document.createElement("div");
+  actions.className = "file-actions";
+  actions.append(linkButton("Index CSV", "reports/document-stubs/document-stub-index.csv"));
+
+  card.append(header, list, actions);
+  return card;
+}
+
+function documentStubRow(row) {
+  const item = document.createElement("li");
+  const title = linkButton(`${row.draftNumber} - ${row.title}`, row.stubPath);
+  title.className = "compiler-row-title";
+  const detail = document.createElement("p");
+  detail.textContent = [row.stubStatus, row.country || row.lane, row.readinessStatus].filter(Boolean).join(" / ");
+  item.append(title, detail);
+  if (row.authorityReviewCount || row.resolutionType) {
+    const chips = document.createElement("div");
+    chips.className = "chips";
+    if (row.authorityReviewCount) chips.append(chip(`${row.authorityReviewCount} authority`, "boundary"));
+    if (row.resolutionType) chips.append(chip(row.resolutionType, "warn"));
+    item.append(chips);
+  }
+  return item;
+}
+
 function renderResearchRunbook() {
   if (!nodes.researchRunbookRoot) return;
   if (!researchRunbook) {
@@ -2474,6 +2567,7 @@ function init() {
   renderDraftDocumentList();
   renderDocumentReadiness();
   renderBlockerResolution();
+  renderDocumentStubs();
   renderCompilerBrief();
   renderSourceNotePacket();
   renderResearchRunbook();
