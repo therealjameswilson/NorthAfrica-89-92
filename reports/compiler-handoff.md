@@ -1,6 +1,6 @@
 # FRUS Volume XX Compiler Handoff
 
-Generated: 2026-06-03T00:16:08.920Z
+Generated: 2026-06-03T02:24:24.851Z
 Live page: https://therealjameswilson.github.io/NorthAfrica-89-92/
 Start with the chronology: https://therealjameswilson.github.io/NorthAfrica-89-92/#records
 Official volume: https://history.state.gov/historicaldocuments/frus1989-92v20
@@ -13,7 +13,7 @@ Official volume: https://history.state.gov/historicaldocuments/frus1989-92v20
 4. [Clear readiness queues](https://therealjameswilson.github.io/NorthAfrica-89-92/#document-readiness) - 28 ready rows, 8 authority-check rows, and 68 blockers are separated for review.
 5. [Resolve blockers by type](https://therealjameswilson.github.io/NorthAfrica-89-92/#blocker-resolution) - 9 source-copy searches, 21 declassification reviews, and 38 cross-volume screens are itemized.
 6. [Check persons authority](https://therealjameswilson.github.io/NorthAfrica-89-92/persons.html#authority-packet) - 51 persons are matched against 4597 Bush names-list entries, with 18 review rows.
-7. [Confirm Daily Diary / Backup controls](https://therealjameswilson.github.io/NorthAfrica-89-92/#diary-controls) - 134 meeting/call controls are matched to 176 unique NAID 186322 diary/backup file units.
+7. [Confirm Daily Diary / Backup controls](https://therealjameswilson.github.io/NorthAfrica-89-92/#diary-controls) - 134 meeting/call controls are matched to 189 unique NAID 186322 diary/backup file units.
 8. [Open annotation leads](https://therealjameswilson.github.io/NorthAfrica-89-92/#annotation-leads) - 104 draft rows carry public-line, authority, diary, blocker, and source-note drafting checks.
 9. [Use source notes while drafting](https://therealjameswilson.github.io/NorthAfrica-89-92/#source-note-packet) - 143 FRUS-style source-note rows are available, with 0 missing notes in the generated packet.
 
@@ -28,7 +28,7 @@ Official volume: https://history.state.gov/historicaldocuments/frus1989-92v20
 - Assembly holds: 68
 - Document stubs: 104
 - Daily Diary/Backup control rows: 134
-- Unique diary/backup file units: 176
+- Unique diary/backup file units: 189
 - Annotation rows: 104
 - Direct public-line leads: 74
 - Context-only public-line rows: 25
@@ -174,7 +174,7 @@ Current queues:
 - 100 chronology rows
 - 104 publication assembly rows (28 ready to number, 8 authority-check, 68 holds)
 - 104 document stubs (28 ready, 8 authority-check, 68 blockers)
-- 134 Daily Diary/Backup controls matched to 176 file units
+- 134 Daily Diary/Backup controls matched to 189 file units
 - 104 annotation rows (74 direct public-line, 25 context-only, 5 gaps)
 - 143 FRUS-style source-note rows; 0 missing notes
 - 51 persons; 18 authority-review rows from the Bush names list

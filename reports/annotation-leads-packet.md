@@ -1,6 +1,6 @@
 # FRUS Volume XX Annotation Leads
 
-Generated: 2026-06-02T11:02:19.957Z
+Generated: 2026-06-03T02:24:15.750Z
 Live page: https://therealjameswilson.github.io/NorthAfrica-89-92/#annotation-leads
 Official volume: https://history.state.gov/historicaldocuments/frus1989-92v20
 

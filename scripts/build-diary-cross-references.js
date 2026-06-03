@@ -214,8 +214,8 @@ function kindRank(kind) {
 function buildDiarySourceNote(fileUnit, series) {
   return [
     `Source: George H.W. Bush Library, White House Office of Appointments and Scheduling Files, ${series.title}, ${fileUnit.title}.`,
-    `Catalog metadata records access status as ${fileUnit.accessRestriction?.status || series.accessRestriction?.status || "not stated"}.`,
-    `Catalog reference: NAID ${fileUnit.naId}.`
+    `Catalog access status: ${fileUnit.accessRestriction?.status || series.accessRestriction?.status || "not stated"}.`,
+    `National Archives Catalog, NAID ${fileUnit.naId}.`
   ].join(" ");
 }
 

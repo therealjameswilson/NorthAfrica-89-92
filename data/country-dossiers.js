@@ -1,5 +1,5 @@
 window.COUNTRY_DOSSIERS = {
-  "generatedAt": "2026-06-01T16:04:50.993Z",
+  "generatedAt": "2026-06-03T02:23:42.963Z",
   "volume": {
     "id": "frus1989-92v20",
     "title": "Foreign Relations of the United States, 1989-1992, Volume XX, North Africa; Sub-Saharan Africa",
@@ -75,8 +75,8 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428079787",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-01-23--Mubarak.pdf",
           "pageCount": 2,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079787.",
-          "diaryReferenceCount": 1
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. Confidential; OADR. National Archives Catalog, NAID 428079787.",
+          "diaryReferenceCount": 2
         },
         {
           "id": "bush-library-428079849",
@@ -94,7 +94,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428079849",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-02-23--Mubarak.pdf",
           "pageCount": 6,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428079849.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. Confidential. National Archives Catalog, NAID 428079849.",
           "diaryReferenceCount": 2
         },
         {
@@ -113,8 +113,8 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428079939",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-04-03--Mubarak.pdf",
           "pageCount": 4,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - January 1989-May 1989]: April 1989. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428079939.",
-          "diaryReferenceCount": 1
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - January 1989-May 1989]: April 1989. Confidential. National Archives Catalog, NAID 428079939.",
+          "diaryReferenceCount": 2
         },
         {
           "id": "bush-library-428080059",
@@ -132,8 +132,8 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080059",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-06-09--Mubarak.pdf",
           "pageCount": 3,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: June 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080059.",
-          "diaryReferenceCount": 1
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: June 1989. No classification marking identified. National Archives Catalog, NAID 428080059.",
+          "diaryReferenceCount": 2
         },
         {
           "id": "bush-library-428080133",
@@ -151,7 +151,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080133",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-08-08--Abu-Talib.pdf",
           "pageCount": 3,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: August 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080133.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: August 1989. No classification marking identified. National Archives Catalog, NAID 428080133.",
           "diaryReferenceCount": 1
         }
       ],
@@ -169,7 +169,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428079787",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-01-23--Mubarak.pdf",
           "nextAction": "Tag primary volume ownership before selecting; retain only Africa-specific substance for Volume XX.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079787."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. Confidential; OADR. National Archives Catalog, NAID 428079787."
         },
         {
           "id": "selection-bush-library-428079849",
@@ -184,7 +184,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428079849",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-02-23--Mubarak.pdf",
           "nextAction": "Assess whether redactions block selection; queue MDR/referral or locate cleaner duplicate copies.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428079849."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. Confidential. National Archives Catalog, NAID 428079849."
         },
         {
           "id": "selection-bush-library-428079939",
@@ -199,7 +199,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428079939",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-04-03--Mubarak.pdf",
           "nextAction": "Assess whether redactions block selection; queue MDR/referral or locate cleaner duplicate copies.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - January 1989-May 1989]: April 1989. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428079939."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - January 1989-May 1989]: April 1989. Confidential. National Archives Catalog, NAID 428079939."
         },
         {
           "id": "selection-bush-library-428080059",
@@ -214,7 +214,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080059",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-06-09--Mubarak.pdf",
           "nextAction": "Tag primary volume ownership before selecting; retain only Africa-specific substance for Volume XX.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: June 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080059."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: June 1989. No classification marking identified. National Archives Catalog, NAID 428080059."
         },
         {
           "id": "selection-bush-library-428080133",
@@ -229,7 +229,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080133",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-08-08--Abu-Talib.pdf",
           "nextAction": "Tag primary volume ownership before selecting; retain only Africa-specific substance for Volume XX.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: August 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080133."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: August 1989. No classification marking identified. National Archives Catalog, NAID 428080133."
         }
       ],
       "policyFiles": [],
@@ -247,7 +247,7 @@ window.COUNTRY_DOSSIERS = {
           "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-34-90001-025.pdf",
           "pageCount": 62,
           "reason": "NSC meeting file on Libya, the clearest Catalog-level North Africa policy anchor.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), H-Files - National Security Council (NSC) Meeting Files, NSC0034 - December 18, 1989 - Libya. Classification marking not identified in the available catalog/OCR metadata. File unit. Catalog metadata records access status as Restricted - Possibly. Catalog reference: NAID 470760928."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC) Meeting Files, NSC0034 - December 18, 1989 - Libya. No classification marking identified. National Archives Catalog, NAID 470760928."
         },
         {
           "id": "policy-446394969",
@@ -262,7 +262,7 @@ window.COUNTRY_DOSSIERS = {
           "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-23-90007-017.pdf",
           "pageCount": 36,
           "reason": "NSR on U.S. policy toward the Maghreb: Morocco, Algeria, and Tunisia.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), H-Files - National Security Review (NSR) Files, NSR-23 - February 21, 1990 - U.S. Policy Towards the Maghreb-Morocco / Algeria and Tunisia. Classification marking not identified in the available catalog/OCR metadata. File unit. Catalog metadata records access status as Restricted - Possibly. Catalog reference: NAID 446394969."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Review (NSR) Files, NSR-23 - February 21, 1990 - U.S. Policy Towards the Maghreb-Morocco / Algeria and Tunisia. No classification marking identified. National Archives Catalog, NAID 446394969."
         }
       ],
       "publicReferences": [
@@ -582,7 +582,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428079849",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-02-23--Mubarak.pdf",
           "action": "Review redactions, withdrawal sheets, and duplicate source copies before MDR/referral decisions.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428079849."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. Confidential. National Archives Catalog, NAID 428079849."
         },
         {
           "id": "ledger-428079939",
@@ -601,7 +601,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428079939",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-04-03--Mubarak.pdf",
           "action": "Review redactions, withdrawal sheets, and duplicate source copies before MDR/referral decisions.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - January 1989-May 1989]: April 1989. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428079939."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - January 1989-May 1989]: April 1989. Confidential. National Archives Catalog, NAID 428079939."
         },
         {
           "id": "ledger-428080439",
@@ -620,7 +620,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080439",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-01-19--Abdel-Meguid.pdf",
           "action": "Review redactions, withdrawal sheets, and duplicate source copies before MDR/referral decisions.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: January 1990. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428080439."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: January 1990. Confidential. National Archives Catalog, NAID 428080439."
         },
         {
           "id": "ledger-428080783",
@@ -639,7 +639,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080783",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-06-26--Abdel-Meguid.pdf",
           "action": "Review redactions, withdrawal sheets, and duplicate source copies before MDR/referral decisions.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: June 1990. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428080783."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: June 1990. Confidential. National Archives Catalog, NAID 428080783."
         },
         {
           "id": "ledger-428080877",
@@ -658,7 +658,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080877",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-07--Mubarak.pdf",
           "action": "Search Scowcroft Papers, Presidential Daily File, State files, and adjacent volume files for a duplicate source copy or confirm no memorandum exists.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [1]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428080877."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [1]. No classification marking identified. National Archives Catalog, NAID 428080877."
         }
       ]
     },
@@ -718,8 +718,8 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428079889",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-02-02--Museveni.pdf",
           "pageCount": 2,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428079889.",
-          "diaryReferenceCount": 1
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. No classification marking identified. National Archives Catalog, NAID 428079889.",
+          "diaryReferenceCount": 2
         },
         {
           "id": "bush-library-428081107",
@@ -737,7 +737,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428081107",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-10-01--Museveni.pdf",
           "pageCount": 4,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: October 1990. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081107.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: October 1990. Confidential; OADR. National Archives Catalog, NAID 428081107.",
           "diaryReferenceCount": 1
         }
       ],
@@ -755,7 +755,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428079889",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-02-02--Museveni.pdf",
           "nextAction": "Search Presidential Daily Diary/Backup, Scowcroft files, Presidential Daily File, and State files for duplicate source-copy evidence.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428079889."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. No classification marking identified. National Archives Catalog, NAID 428079889."
         },
         {
           "id": "selection-bush-library-428081107",
@@ -770,7 +770,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428081107",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-10-01--Museveni.pdf",
           "nextAction": "Read for substance, prepare selection/excerpt decision, and verify persons/source notes.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: October 1990. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081107."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: October 1990. Confidential; OADR. National Archives Catalog, NAID 428081107."
         }
       ],
       "policyFiles": [],
@@ -940,7 +940,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428079889",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-02-02--Museveni.pdf",
           "action": "Search Scowcroft Papers, Presidential Daily File, State files, and adjacent volume files for a duplicate source copy or confirm no memorandum exists.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428079889."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. No classification marking identified. National Archives Catalog, NAID 428079889."
         }
       ]
     },
@@ -997,7 +997,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080491",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-02-01--Buyoya.pdf",
           "pageCount": 2,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428080491.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990. No classification marking identified. National Archives Catalog, NAID 428080491.",
           "diaryReferenceCount": 1
         }
       ],
@@ -1015,7 +1015,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080491",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-02-01--Buyoya.pdf",
           "nextAction": "Search Presidential Daily Diary/Backup, Scowcroft files, Presidential Daily File, and State files for duplicate source-copy evidence.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428080491."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990. No classification marking identified. National Archives Catalog, NAID 428080491."
         }
       ],
       "policyFiles": [],
@@ -1209,7 +1209,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080491",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-02-01--Buyoya.pdf",
           "action": "Search Scowcroft Papers, Presidential Daily File, State files, and adjacent volume files for a duplicate source copy or confirm no memorandum exists.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428080491."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990. No classification marking identified. National Archives Catalog, NAID 428080491."
         }
       ]
     },
@@ -1266,7 +1266,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080497",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-02-01--Moi.pdf",
           "pageCount": 2,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428080497.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990. No classification marking identified. National Archives Catalog, NAID 428080497.",
           "diaryReferenceCount": 1
         }
       ],
@@ -1284,7 +1284,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080497",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-02-01--Moi.pdf",
           "nextAction": "Search Presidential Daily Diary/Backup, Scowcroft files, Presidential Daily File, and State files for duplicate source-copy evidence.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428080497."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990. No classification marking identified. National Archives Catalog, NAID 428080497."
         }
       ],
       "policyFiles": [],
@@ -1454,7 +1454,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080497",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-02-01--Moi.pdf",
           "action": "Search Scowcroft Papers, Presidential Daily File, State files, and adjacent volume files for a duplicate source copy or confirm no memorandum exists.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428080497."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990. No classification marking identified. National Archives Catalog, NAID 428080497."
         }
       ]
     },
@@ -1512,7 +1512,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428079821",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-01-31--Hassan.pdf",
           "pageCount": 3,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079821.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. No classification marking identified. National Archives Catalog, NAID 428079821.",
           "diaryReferenceCount": 2
         },
         {
@@ -1531,8 +1531,8 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080109",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-07-03--Hassan.pdf",
           "pageCount": 3,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: July 1989. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080109.",
-          "diaryReferenceCount": 2
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: July 1989. Confidential; OADR. National Archives Catalog, NAID 428080109.",
+          "diaryReferenceCount": 1
         },
         {
           "id": "bush-library-428080159",
@@ -1550,7 +1550,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080159",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-08-02--Hassan.pdf",
           "pageCount": 3,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: August 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080159.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: August 1989. No classification marking identified. National Archives Catalog, NAID 428080159.",
           "diaryReferenceCount": 2
         },
         {
@@ -1569,7 +1569,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080525",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-02-20--Filali.pdf",
           "pageCount": 5,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428080525.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990. No classification marking identified. National Archives Catalog, NAID 428080525.",
           "diaryReferenceCount": 2
         },
         {
@@ -1588,8 +1588,8 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080905",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-07--Hassan.pdf",
           "pageCount": 3,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [1]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080905.",
-          "diaryReferenceCount": 2
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [1]. No classification marking identified. National Archives Catalog, NAID 428080905.",
+          "diaryReferenceCount": 1
         }
       ],
       "selectionPreview": [
@@ -1606,7 +1606,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428079821",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-01-31--Hassan.pdf",
           "nextAction": "Read for substance, prepare selection/excerpt decision, and verify persons/source notes.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079821."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. No classification marking identified. National Archives Catalog, NAID 428079821."
         },
         {
           "id": "selection-bush-library-428080109",
@@ -1621,7 +1621,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080109",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-07-03--Hassan.pdf",
           "nextAction": "Read for substance, prepare selection/excerpt decision, and verify persons/source notes.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: July 1989. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080109."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: July 1989. Confidential; OADR. National Archives Catalog, NAID 428080109."
         },
         {
           "id": "selection-bush-library-428080159",
@@ -1636,7 +1636,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080159",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-08-02--Hassan.pdf",
           "nextAction": "Read for substance, prepare selection/excerpt decision, and verify persons/source notes.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: August 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080159."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: August 1989. No classification marking identified. National Archives Catalog, NAID 428080159."
         },
         {
           "id": "selection-bush-library-428080525",
@@ -1651,7 +1651,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080525",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-02-20--Filali.pdf",
           "nextAction": "Assess whether redactions block selection; queue MDR/referral or locate cleaner duplicate copies.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428080525."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990. No classification marking identified. National Archives Catalog, NAID 428080525."
         },
         {
           "id": "selection-bush-library-428080905",
@@ -1666,7 +1666,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080905",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-07--Hassan.pdf",
           "nextAction": "Read for substance, prepare selection/excerpt decision, and verify persons/source notes.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [1]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080905."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [1]. No classification marking identified. National Archives Catalog, NAID 428080905."
         }
       ],
       "policyFiles": [
@@ -1683,7 +1683,7 @@ window.COUNTRY_DOSSIERS = {
           "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-23-90007-017.pdf",
           "pageCount": 36,
           "reason": "NSR on U.S. policy toward the Maghreb: Morocco, Algeria, and Tunisia.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), H-Files - National Security Review (NSR) Files, NSR-23 - February 21, 1990 - U.S. Policy Towards the Maghreb-Morocco / Algeria and Tunisia. Classification marking not identified in the available catalog/OCR metadata. File unit. Catalog metadata records access status as Restricted - Possibly. Catalog reference: NAID 446394969."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Review (NSR) Files, NSR-23 - February 21, 1990 - U.S. Policy Towards the Maghreb-Morocco / Algeria and Tunisia. No classification marking identified. National Archives Catalog, NAID 446394969."
         }
       ],
       "lanePolicyFiles": [
@@ -1700,7 +1700,7 @@ window.COUNTRY_DOSSIERS = {
           "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-34-90001-025.pdf",
           "pageCount": 62,
           "reason": "NSC meeting file on Libya, the clearest Catalog-level North Africa policy anchor.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), H-Files - National Security Council (NSC) Meeting Files, NSC0034 - December 18, 1989 - Libya. Classification marking not identified in the available catalog/OCR metadata. File unit. Catalog metadata records access status as Restricted - Possibly. Catalog reference: NAID 470760928."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC) Meeting Files, NSC0034 - December 18, 1989 - Libya. No classification marking identified. National Archives Catalog, NAID 470760928."
         }
       ],
       "publicReferences": [
@@ -1938,7 +1938,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080525",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-02-20--Filali.pdf",
           "action": "Review redactions, withdrawal sheets, and duplicate source copies before MDR/referral decisions.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428080525."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990. No classification marking identified. National Archives Catalog, NAID 428080525."
         },
         {
           "id": "ledger-428081451",
@@ -1957,7 +1957,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428081451",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-02-12--Hassan.pdf",
           "action": "Review redactions, withdrawal sheets, and duplicate source copies before MDR/referral decisions.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: February 1991 [1]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428081451."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: February 1991 [1]. No classification marking identified. National Archives Catalog, NAID 428081451."
         },
         {
           "id": "ledger-428082125",
@@ -1976,7 +1976,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428082125",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1992-01-30--Hassan.pdf",
           "action": "Review redactions, withdrawal sheets, and duplicate source copies before MDR/referral decisions.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1992-June 1992]: January 1992. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428082125."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1992-June 1992]: January 1992. No classification marking identified. National Archives Catalog, NAID 428082125."
         }
       ]
     },
@@ -2034,8 +2034,8 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080293",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-11-14--Ali.pdf",
           "pageCount": 5,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: November 1989. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428080293.",
-          "diaryReferenceCount": 2
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: November 1989. Confidential. National Archives Catalog, NAID 428080293.",
+          "diaryReferenceCount": 1
         },
         {
           "id": "bush-library-428080691",
@@ -2053,7 +2053,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080691",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-05-15--Ali-1.pdf",
           "pageCount": 4,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: May 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080691.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: May 1990. No classification marking identified. National Archives Catalog, NAID 428080691.",
           "diaryReferenceCount": 2
         },
         {
@@ -2072,7 +2072,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080693",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-05-15--Ali-2.pdf",
           "pageCount": 7,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: May 1990. Secret; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080693.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: May 1990. Secret; OADR. National Archives Catalog, NAID 428080693.",
           "diaryReferenceCount": 2
         },
         {
@@ -2091,7 +2091,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428081577",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-04-11--Khelil.pdf",
           "pageCount": 3,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1991-June 1991]: April 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081577.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1991-June 1991]: April 1991. No classification marking identified. National Archives Catalog, NAID 428081577.",
           "diaryReferenceCount": 2
         }
       ],
@@ -2109,7 +2109,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080293",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-11-14--Ali.pdf",
           "nextAction": "Assess whether redactions block selection; queue MDR/referral or locate cleaner duplicate copies.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: November 1989. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428080293."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: November 1989. Confidential. National Archives Catalog, NAID 428080293."
         },
         {
           "id": "selection-bush-library-428080691",
@@ -2124,7 +2124,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080691",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-05-15--Ali-1.pdf",
           "nextAction": "Read for substance, prepare selection/excerpt decision, and verify persons/source notes.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: May 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080691."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: May 1990. No classification marking identified. National Archives Catalog, NAID 428080691."
         },
         {
           "id": "selection-bush-library-428080693",
@@ -2139,7 +2139,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080693",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-05-15--Ali-2.pdf",
           "nextAction": "Read for substance, prepare selection/excerpt decision, and verify persons/source notes.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: May 1990. Secret; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080693."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: May 1990. Secret; OADR. National Archives Catalog, NAID 428080693."
         },
         {
           "id": "selection-bush-library-428081577",
@@ -2154,7 +2154,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428081577",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-04-11--Khelil.pdf",
           "nextAction": "Read for substance, prepare selection/excerpt decision, and verify persons/source notes.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1991-June 1991]: April 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081577."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1991-June 1991]: April 1991. No classification marking identified. National Archives Catalog, NAID 428081577."
         }
       ],
       "policyFiles": [
@@ -2171,7 +2171,7 @@ window.COUNTRY_DOSSIERS = {
           "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-23-90007-017.pdf",
           "pageCount": 36,
           "reason": "NSR on U.S. policy toward the Maghreb: Morocco, Algeria, and Tunisia.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), H-Files - National Security Review (NSR) Files, NSR-23 - February 21, 1990 - U.S. Policy Towards the Maghreb-Morocco / Algeria and Tunisia. Classification marking not identified in the available catalog/OCR metadata. File unit. Catalog metadata records access status as Restricted - Possibly. Catalog reference: NAID 446394969."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Review (NSR) Files, NSR-23 - February 21, 1990 - U.S. Policy Towards the Maghreb-Morocco / Algeria and Tunisia. No classification marking identified. National Archives Catalog, NAID 446394969."
         }
       ],
       "lanePolicyFiles": [
@@ -2188,7 +2188,7 @@ window.COUNTRY_DOSSIERS = {
           "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-34-90001-025.pdf",
           "pageCount": 62,
           "reason": "NSC meeting file on Libya, the clearest Catalog-level North Africa policy anchor.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), H-Files - National Security Council (NSC) Meeting Files, NSC0034 - December 18, 1989 - Libya. Classification marking not identified in the available catalog/OCR metadata. File unit. Catalog metadata records access status as Restricted - Possibly. Catalog reference: NAID 470760928."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC) Meeting Files, NSC0034 - December 18, 1989 - Libya. No classification marking identified. National Archives Catalog, NAID 470760928."
         }
       ],
       "publicReferences": [],
@@ -2415,7 +2415,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080293",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-11-14--Ali.pdf",
           "action": "Review redactions, withdrawal sheets, and duplicate source copies before MDR/referral decisions.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: November 1989. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428080293."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: November 1989. Confidential. National Archives Catalog, NAID 428080293."
         }
       ]
     },
@@ -2475,8 +2475,8 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428079793",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-01-24--Diouf.pdf",
           "pageCount": 3,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079793.",
-          "diaryReferenceCount": 1
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. No classification marking identified. National Archives Catalog, NAID 428079793.",
+          "diaryReferenceCount": 2
         },
         {
           "id": "bush-library-428080689",
@@ -2494,8 +2494,8 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080689",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-05-14--Diouf.pdf",
           "pageCount": 9,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: May 1990. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428080689.",
-          "diaryReferenceCount": 2
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: May 1990. Confidential. National Archives Catalog, NAID 428080689.",
+          "diaryReferenceCount": 1
         },
         {
           "id": "bush-library-428081571",
@@ -2513,7 +2513,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428081571",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-03-22--Diouf.pdf",
           "pageCount": 3,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: March 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081571.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: March 1991. No classification marking identified. National Archives Catalog, NAID 428081571.",
           "diaryReferenceCount": 1
         },
         {
@@ -2532,8 +2532,8 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428081873",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-09-10--Diouf-2.pdf",
           "pageCount": 6,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428081873.",
-          "diaryReferenceCount": 2
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991. Confidential. National Archives Catalog, NAID 428081873.",
+          "diaryReferenceCount": 1
         },
         {
           "id": "bush-library-428081871",
@@ -2551,8 +2551,8 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428081871",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-09-10--Diouf-1.pdf",
           "pageCount": 3,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081871.",
-          "diaryReferenceCount": 2
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991. No classification marking identified. National Archives Catalog, NAID 428081871.",
+          "diaryReferenceCount": 1
         }
       ],
       "selectionPreview": [
@@ -2569,7 +2569,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428079793",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-01-24--Diouf.pdf",
           "nextAction": "Read for substance, prepare selection/excerpt decision, and verify persons/source notes.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079793."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. No classification marking identified. National Archives Catalog, NAID 428079793."
         },
         {
           "id": "selection-bush-library-428080689",
@@ -2584,7 +2584,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080689",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-05-14--Diouf.pdf",
           "nextAction": "Assess whether redactions block selection; queue MDR/referral or locate cleaner duplicate copies.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: May 1990. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428080689."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: May 1990. Confidential. National Archives Catalog, NAID 428080689."
         },
         {
           "id": "selection-bush-library-428081571",
@@ -2599,7 +2599,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428081571",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-03-22--Diouf.pdf",
           "nextAction": "Read for substance, prepare selection/excerpt decision, and verify persons/source notes.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: March 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081571."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: March 1991. No classification marking identified. National Archives Catalog, NAID 428081571."
         },
         {
           "id": "selection-bush-library-428081871",
@@ -2614,7 +2614,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428081871",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-09-10--Diouf-1.pdf",
           "nextAction": "Read for substance, prepare selection/excerpt decision, and verify persons/source notes.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081871."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991. No classification marking identified. National Archives Catalog, NAID 428081871."
         },
         {
           "id": "selection-bush-library-428081873",
@@ -2629,7 +2629,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428081873",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-09-10--Diouf-2.pdf",
           "nextAction": "Assess whether redactions block selection; queue MDR/referral or locate cleaner duplicate copies.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428081873."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991. Confidential. National Archives Catalog, NAID 428081873."
         }
       ],
       "policyFiles": [],
@@ -2823,7 +2823,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080689",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-05-14--Diouf.pdf",
           "action": "Review redactions, withdrawal sheets, and duplicate source copies before MDR/referral decisions.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: May 1990. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428080689."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: May 1990. Confidential. National Archives Catalog, NAID 428080689."
         },
         {
           "id": "ledger-428081873",
@@ -2842,7 +2842,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428081873",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-09-10--Diouf-2.pdf",
           "action": "Review redactions, withdrawal sheets, and duplicate source copies before MDR/referral decisions.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428081873."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991. Confidential. National Archives Catalog, NAID 428081873."
         }
       ]
     },
@@ -2899,8 +2899,8 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428079977",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-04-21--Pereira.pdf",
           "pageCount": 3,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - January 1989-May 1989]: April 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079977.",
-          "diaryReferenceCount": 1
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - January 1989-May 1989]: April 1989. No classification marking identified. National Archives Catalog, NAID 428079977.",
+          "diaryReferenceCount": 2
         },
         {
           "id": "bush-library-428080651",
@@ -2918,7 +2918,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080651",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-04-27--Pereira.pdf",
           "pageCount": 6,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: April 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080651.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: April 1990. No classification marking identified. National Archives Catalog, NAID 428080651.",
           "diaryReferenceCount": 2
         },
         {
@@ -2937,8 +2937,8 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428082123",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1992-01-30--Viega.pdf",
           "pageCount": 3,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1992-June 1992]: January 1992. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428082123.",
-          "diaryReferenceCount": 2
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1992-June 1992]: January 1992. No classification marking identified. National Archives Catalog, NAID 428082123.",
+          "diaryReferenceCount": 1
         }
       ],
       "selectionPreview": [
@@ -2955,7 +2955,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428079977",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-04-21--Pereira.pdf",
           "nextAction": "Read for substance, prepare selection/excerpt decision, and verify persons/source notes.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - January 1989-May 1989]: April 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079977."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - January 1989-May 1989]: April 1989. No classification marking identified. National Archives Catalog, NAID 428079977."
         },
         {
           "id": "selection-bush-library-428080651",
@@ -2970,7 +2970,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080651",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-04-27--Pereira.pdf",
           "nextAction": "Read for substance, prepare selection/excerpt decision, and verify persons/source notes.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: April 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080651."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: April 1990. No classification marking identified. National Archives Catalog, NAID 428080651."
         },
         {
           "id": "selection-bush-library-428082123",
@@ -2985,7 +2985,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428082123",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1992-01-30--Viega.pdf",
           "nextAction": "Assess whether redactions block selection; queue MDR/referral or locate cleaner duplicate copies.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1992-June 1992]: January 1992. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428082123."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1992-June 1992]: January 1992. No classification marking identified. National Archives Catalog, NAID 428082123."
         }
       ],
       "policyFiles": [],
@@ -3066,7 +3066,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428082123",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1992-01-30--Viega.pdf",
           "action": "Review redactions, withdrawal sheets, and duplicate source copies before MDR/referral decisions.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1992-June 1992]: January 1992. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428082123."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1992-June 1992]: January 1992. No classification marking identified. National Archives Catalog, NAID 428082123."
         }
       ]
     },
@@ -3123,7 +3123,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080851",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-07-31--Eyadema-3.pdf",
           "pageCount": 5,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: July 1990. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080851.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: July 1990. Confidential; OADR. National Archives Catalog, NAID 428080851.",
           "diaryReferenceCount": 2
         },
         {
@@ -3142,7 +3142,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080847",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-07-31--Eyadema-1.pdf",
           "pageCount": 3,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: July 1990. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080847.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: July 1990. Confidential; OADR. National Archives Catalog, NAID 428080847.",
           "diaryReferenceCount": 2
         },
         {
@@ -3161,7 +3161,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080849",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-07-31--Eyadema-2.pdf",
           "pageCount": 6,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: July 1990. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428080849.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: July 1990. Confidential. National Archives Catalog, NAID 428080849.",
           "diaryReferenceCount": 2
         }
       ],
@@ -3179,7 +3179,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080851",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-07-31--Eyadema-3.pdf",
           "nextAction": "Read for substance, prepare selection/excerpt decision, and verify persons/source notes.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: July 1990. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080851."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: July 1990. Confidential; OADR. National Archives Catalog, NAID 428080851."
         },
         {
           "id": "selection-bush-library-428080847",
@@ -3194,7 +3194,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080847",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-07-31--Eyadema-1.pdf",
           "nextAction": "Read for substance, prepare selection/excerpt decision, and verify persons/source notes.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: July 1990. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080847."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: July 1990. Confidential; OADR. National Archives Catalog, NAID 428080847."
         },
         {
           "id": "selection-bush-library-428080849",
@@ -3209,7 +3209,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080849",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-07-31--Eyadema-2.pdf",
           "nextAction": "Assess whether redactions block selection; queue MDR/referral or locate cleaner duplicate copies.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: July 1990. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428080849."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: July 1990. Confidential. National Archives Catalog, NAID 428080849."
         }
       ],
       "policyFiles": [],
@@ -3281,7 +3281,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080849",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-07-31--Eyadema-2.pdf",
           "action": "Review redactions, withdrawal sheets, and duplicate source copies before MDR/referral decisions.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: July 1990. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428080849."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: July 1990. Confidential. National Archives Catalog, NAID 428080849."
         }
       ]
     },
@@ -5116,7 +5116,7 @@ window.COUNTRY_DOSSIERS = {
           "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-34-90001-025.pdf",
           "pageCount": 62,
           "reason": "NSC meeting file on Libya, the clearest Catalog-level North Africa policy anchor.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), H-Files - National Security Council (NSC) Meeting Files, NSC0034 - December 18, 1989 - Libya. Classification marking not identified in the available catalog/OCR metadata. File unit. Catalog metadata records access status as Restricted - Possibly. Catalog reference: NAID 470760928."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC) Meeting Files, NSC0034 - December 18, 1989 - Libya. No classification marking identified. National Archives Catalog, NAID 470760928."
         }
       ],
       "lanePolicyFiles": [
@@ -5133,7 +5133,7 @@ window.COUNTRY_DOSSIERS = {
           "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-23-90007-017.pdf",
           "pageCount": 36,
           "reason": "NSR on U.S. policy toward the Maghreb: Morocco, Algeria, and Tunisia.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), H-Files - National Security Review (NSR) Files, NSR-23 - February 21, 1990 - U.S. Policy Towards the Maghreb-Morocco / Algeria and Tunisia. Classification marking not identified in the available catalog/OCR metadata. File unit. Catalog metadata records access status as Restricted - Possibly. Catalog reference: NAID 446394969."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Review (NSR) Files, NSR-23 - February 21, 1990 - U.S. Policy Towards the Maghreb-Morocco / Algeria and Tunisia. No classification marking identified. National Archives Catalog, NAID 446394969."
         }
       ],
       "publicReferences": [
@@ -6836,7 +6836,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428079823",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-01-31--Sese-Seko.pdf",
           "pageCount": 3,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079823.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. No classification marking identified. National Archives Catalog, NAID 428079823.",
           "diaryReferenceCount": 2
         },
         {
@@ -6855,8 +6855,8 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428079865",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-02-24--Sese-Seko.pdf",
           "pageCount": 3,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. Secret; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079865.",
-          "diaryReferenceCount": 1
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. Secret; OADR. National Archives Catalog, NAID 428079865.",
+          "diaryReferenceCount": 2
         },
         {
           "id": "bush-library-428080079",
@@ -6874,7 +6874,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080079",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-06-29--Sese-Seko-1.pdf",
           "pageCount": 3,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: June 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080079.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: June 1989. No classification marking identified. National Archives Catalog, NAID 428080079.",
           "diaryReferenceCount": 2
         },
         {
@@ -6893,7 +6893,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080081",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-06-29--Sese-Seko-2.pdf",
           "pageCount": 4,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: June 1989. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080081.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: June 1989. Confidential; OADR. National Archives Catalog, NAID 428080081.",
           "diaryReferenceCount": 2
         },
         {
@@ -6912,8 +6912,8 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080247",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-10-04--Sese-Seko.pdf",
           "pageCount": 6,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: October 1989. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080247.",
-          "diaryReferenceCount": 1
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: October 1989. Confidential; OADR. National Archives Catalog, NAID 428080247.",
+          "diaryReferenceCount": 2
         }
       ],
       "selectionPreview": [
@@ -6930,7 +6930,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428079823",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-01-31--Sese-Seko.pdf",
           "nextAction": "Read for substance, prepare selection/excerpt decision, and verify persons/source notes.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079823."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. No classification marking identified. National Archives Catalog, NAID 428079823."
         },
         {
           "id": "selection-bush-library-428079865",
@@ -6945,7 +6945,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428079865",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-02-24--Sese-Seko.pdf",
           "nextAction": "Read for substance, prepare selection/excerpt decision, and verify persons/source notes.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. Secret; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079865."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. Secret; OADR. National Archives Catalog, NAID 428079865."
         },
         {
           "id": "selection-bush-library-428080079",
@@ -6960,7 +6960,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080079",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-06-29--Sese-Seko-1.pdf",
           "nextAction": "Read for substance, prepare selection/excerpt decision, and verify persons/source notes.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: June 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080079."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: June 1989. No classification marking identified. National Archives Catalog, NAID 428080079."
         },
         {
           "id": "selection-bush-library-428080081",
@@ -6975,7 +6975,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080081",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-06-29--Sese-Seko-2.pdf",
           "nextAction": "Read for substance, prepare selection/excerpt decision, and verify persons/source notes.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: June 1989. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080081."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: June 1989. Confidential; OADR. National Archives Catalog, NAID 428080081."
         },
         {
           "id": "selection-bush-library-428080247",
@@ -6990,7 +6990,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080247",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-10-04--Sese-Seko.pdf",
           "nextAction": "Read for substance, prepare selection/excerpt decision, and verify persons/source notes.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: October 1989. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080247."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: October 1989. Confidential; OADR. National Archives Catalog, NAID 428080247."
         }
       ],
       "policyFiles": [],
@@ -7237,7 +7237,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428081625",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-04-24--Gouled-2.pdf",
           "pageCount": 6,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1991-June 1991]: April 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081625.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1991-June 1991]: April 1991. No classification marking identified. National Archives Catalog, NAID 428081625.",
           "diaryReferenceCount": 2
         },
         {
@@ -7256,7 +7256,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428081623",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-04-24--Gouled-1.pdf",
           "pageCount": 6,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1991-June 1991]: April 1991. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081623.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1991-June 1991]: April 1991. Confidential; OADR. National Archives Catalog, NAID 428081623.",
           "diaryReferenceCount": 2
         }
       ],
@@ -7274,7 +7274,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428081625",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-04-24--Gouled-2.pdf",
           "nextAction": "Read for substance, prepare selection/excerpt decision, and verify persons/source notes.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1991-June 1991]: April 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081625."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1991-June 1991]: April 1991. No classification marking identified. National Archives Catalog, NAID 428081625."
         },
         {
           "id": "selection-bush-library-428081623",
@@ -7289,7 +7289,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428081623",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-04-24--Gouled-1.pdf",
           "nextAction": "Read for substance, prepare selection/excerpt decision, and verify persons/source notes.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1991-June 1991]: April 1991. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081623."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1991-June 1991]: April 1991. Confidential; OADR. National Archives Catalog, NAID 428081623."
         }
       ],
       "policyFiles": [],
@@ -7494,7 +7494,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428079819",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-01-31--Bendjedid.pdf",
           "pageCount": 2,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079819.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. Confidential; OADR. National Archives Catalog, NAID 428079819.",
           "diaryReferenceCount": 2
         },
         {
@@ -7513,7 +7513,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080155",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-08-02--Bendjedid.pdf",
           "pageCount": 4,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: August 1989. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080155.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: August 1989. Confidential; OADR. National Archives Catalog, NAID 428080155.",
           "diaryReferenceCount": 2
         },
         {
@@ -7532,7 +7532,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080987",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-29--Bendjedid.pdf",
           "pageCount": 4,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [2]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080987.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [2]. No classification marking identified. National Archives Catalog, NAID 428080987.",
           "diaryReferenceCount": 2
         }
       ],
@@ -7550,7 +7550,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428079819",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-01-31--Bendjedid.pdf",
           "nextAction": "Read for substance, prepare selection/excerpt decision, and verify persons/source notes.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079819."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. Confidential; OADR. National Archives Catalog, NAID 428079819."
         },
         {
           "id": "selection-bush-library-428080155",
@@ -7565,7 +7565,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080155",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-08-02--Bendjedid.pdf",
           "nextAction": "Read for substance, prepare selection/excerpt decision, and verify persons/source notes.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: August 1989. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080155."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: August 1989. Confidential; OADR. National Archives Catalog, NAID 428080155."
         },
         {
           "id": "selection-bush-library-428080987",
@@ -7580,7 +7580,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080987",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-29--Bendjedid.pdf",
           "nextAction": "Read for substance, prepare selection/excerpt decision, and verify persons/source notes.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [2]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080987."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [2]. No classification marking identified. National Archives Catalog, NAID 428080987."
         }
       ],
       "policyFiles": [
@@ -7597,7 +7597,7 @@ window.COUNTRY_DOSSIERS = {
           "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-23-90007-017.pdf",
           "pageCount": 36,
           "reason": "NSR on U.S. policy toward the Maghreb: Morocco, Algeria, and Tunisia.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), H-Files - National Security Review (NSR) Files, NSR-23 - February 21, 1990 - U.S. Policy Towards the Maghreb-Morocco / Algeria and Tunisia. Classification marking not identified in the available catalog/OCR metadata. File unit. Catalog metadata records access status as Restricted - Possibly. Catalog reference: NAID 446394969."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Review (NSR) Files, NSR-23 - February 21, 1990 - U.S. Policy Towards the Maghreb-Morocco / Algeria and Tunisia. No classification marking identified. National Archives Catalog, NAID 446394969."
         }
       ],
       "lanePolicyFiles": [
@@ -7614,7 +7614,7 @@ window.COUNTRY_DOSSIERS = {
           "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-34-90001-025.pdf",
           "pageCount": 62,
           "reason": "NSC meeting file on Libya, the clearest Catalog-level North Africa policy anchor.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), H-Files - National Security Council (NSC) Meeting Files, NSC0034 - December 18, 1989 - Libya. Classification marking not identified in the available catalog/OCR metadata. File unit. Catalog metadata records access status as Restricted - Possibly. Catalog reference: NAID 470760928."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC) Meeting Files, NSC0034 - December 18, 1989 - Libya. No classification marking identified. National Archives Catalog, NAID 470760928."
         }
       ],
       "publicReferences": [],
@@ -7868,7 +7868,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428079831",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-02-07--Babangida.pdf",
           "pageCount": 2,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: February 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079831.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: February 1989. No classification marking identified. National Archives Catalog, NAID 428079831.",
           "diaryReferenceCount": 2
         },
         {
@@ -7887,7 +7887,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428079869",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-02-25--Babangida.pdf",
           "pageCount": 4,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079869.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. No classification marking identified. National Archives Catalog, NAID 428079869.",
           "diaryReferenceCount": 2
         }
       ],
@@ -7905,7 +7905,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428079831",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-02-07--Babangida.pdf",
           "nextAction": "Read for substance, prepare selection/excerpt decision, and verify persons/source notes.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: February 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079831."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: February 1989. No classification marking identified. National Archives Catalog, NAID 428079831."
         },
         {
           "id": "selection-bush-library-428079869",
@@ -7920,7 +7920,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428079869",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-02-25--Babangida.pdf",
           "nextAction": "Read for substance, prepare selection/excerpt decision, and verify persons/source notes.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079869."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. No classification marking identified. National Archives Catalog, NAID 428079869."
         }
       ],
       "policyFiles": [],
@@ -8197,8 +8197,8 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428082003",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-11-05--Soglo.pdf",
           "pageCount": 5,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: November 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428082003.",
-          "diaryReferenceCount": 1
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: November 1991. No classification marking identified. National Archives Catalog, NAID 428082003.",
+          "diaryReferenceCount": 2
         }
       ],
       "selectionPreview": [
@@ -8215,7 +8215,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428082003",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-11-05--Soglo.pdf",
           "nextAction": "Read for substance, prepare selection/excerpt decision, and verify persons/source notes.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: November 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428082003."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: November 1991. No classification marking identified. National Archives Catalog, NAID 428082003."
         }
       ],
       "policyFiles": [],
@@ -8321,7 +8321,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080023",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-05-15--Jawara.pdf",
           "pageCount": 5,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - January 1989-May 1989]: May 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080023.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - January 1989-May 1989]: May 1989. No classification marking identified. National Archives Catalog, NAID 428080023.",
           "diaryReferenceCount": 2
         }
       ],
@@ -8339,7 +8339,7 @@ window.COUNTRY_DOSSIERS = {
           "catalogUrl": "https://catalog.archives.gov/id/428080023",
           "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-05-15--Jawara.pdf",
           "nextAction": "Read for substance, prepare selection/excerpt decision, and verify persons/source notes.",
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - January 1989-May 1989]: May 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080023."
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - January 1989-May 1989]: May 1989. No classification marking identified. National Archives Catalog, NAID 428080023."
         }
       ],
       "policyFiles": [],

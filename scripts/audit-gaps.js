@@ -88,6 +88,8 @@ const expectedDraftConditionalCount =
   (selectionReport.byRecommendation?.["Source-copy search"] || 0) +
   (selectionReport.byRecommendation?.["Declassification review"] || 0) +
   (selectionReport.byRecommendation?.["Cross-volume review"] || 0);
+const frusSourceRows = [...records, ...boundaryRecords, ...policyFiles];
+const frusSourceNoteStyleViolations = sourceNoteStyleViolations(frusSourceRows);
 
 const reportBody = {
   personsCount: persons.length,
@@ -101,6 +103,8 @@ const reportBody = {
   sourceNotePacketFrusSourceNoteRows: sourceNotePacketReport.frusSourceNoteRows || 0,
   sourceNotePacketGroupCount: sourceNotePacketReport.groupCount || 0,
   sourceNotePacketMissingFrusSourceNoteRows: sourceNotePacketReport.missingFrusSourceNoteRows || 0,
+  frusSourceNoteStyleViolationCount: frusSourceNoteStyleViolations.length,
+  frusSourceNoteStyleViolations,
   decisionWorksheetCount: decisionWorksheetsReport.worksheetCount || 0,
   decisionWorksheetSelectionRows: decisionWorksheetsReport.selectionDecisionRows || 0,
   decisionWorksheetAuthorityReviewRows: decisionWorksheetsReport.authorityReviewRows || 0,
@@ -284,6 +288,7 @@ const failures = [
   ...(report.sourceNotePacketMissingFrusSourceNoteRows === 0
     ? []
     : [`source-note packet has missing FRUS source notes: ${report.sourceNotePacketMissingFrusSourceNoteRows}`]),
+  ...report.frusSourceNoteStyleViolations.map((issue) => `FRUS source-note style violation: ${issue}`),
   ...(report.decisionWorksheetCount >= 7 ? [] : [`decision worksheet count too low: found ${report.decisionWorksheetCount}`]),
   ...(report.decisionWorksheetSelectionRows === report.expectedSelectionMatrixCount
     ? []
@@ -841,6 +846,56 @@ function included(name) {
     .split(/\s+/)
     .filter((token) => token.length > 1);
   return tokens.length > 0 && tokens.every((token) => personHaystacks.some((haystack) => haystack.includes(token)));
+}
+
+function sourceNoteStyleViolations(rows) {
+  const violations = [];
+  for (const row of rows) {
+    const note = String(row.frusSourceNote || "");
+    const label = sourceRowLabel(row);
+    if (!note) {
+      violations.push(`${label}: missing frusSourceNote`);
+      continue;
+    }
+    if (!/^Source:\s/.test(note)) {
+      violations.push(`${label}: source note does not start with Source:`);
+    }
+    if (/Catalog metadata records/i.test(note)) {
+      violations.push(`${label}: source note contains catalog metadata status language`);
+    }
+    if (/Catalog reference:/i.test(note)) {
+      violations.push(`${label}: source note contains nonstandard Catalog reference label`);
+    }
+    if (/available catalog\/OCR metadata/i.test(note)) {
+      violations.push(`${label}: source note contains OCR caveat language`);
+    }
+    if (row.naid && !note.includes(`National Archives Catalog, NAID ${row.naid}`)) {
+      violations.push(`${label}: source note missing National Archives Catalog NAID locator`);
+    }
+    const missingMarkings = missingSourceNoteMarkings(row, note);
+    for (const marking of missingMarkings) {
+      violations.push(`${label}: source note missing marking sentence: ${marking}`);
+    }
+    if (
+      /Records of the National Security Council \(George H\. W\. Bush Administration\)/i.test(row.source?.collection || "") &&
+      !note.includes("Bush Presidential Records, National Security Council")
+    ) {
+      violations.push(`${label}: source note missing published-style Bush Presidential Records/NSC collection form`);
+    }
+  }
+  return violations;
+}
+
+function sourceRowLabel(row) {
+  return `${row.naid || row.id || "no-id"} ${row.title || row.documentTitle || ""}`.trim();
+}
+
+function missingSourceNoteMarkings(row, note) {
+  const expectedMarkings = uniqueSorted([row.classificationMarking, ...(row.handlingMarkings || [])].filter(Boolean));
+  if (!expectedMarkings.length) {
+    return /No classification marking identified\./i.test(note) ? [] : ["No classification marking identified"];
+  }
+  return expectedMarkings.filter((marking) => !note.includes(marking));
 }
 
 function uniqueSorted(values) {

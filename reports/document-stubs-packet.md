@@ -1,6 +1,6 @@
 # FRUS Volume XX Document Stubs
 
-Generated: 2026-06-02T01:51:51.548Z
+Generated: 2026-06-03T02:24:03.732Z
 Live page: https://therealjameswilson.github.io/NorthAfrica-89-92/#document-stubs
 Official volume: https://history.state.gov/historicaldocuments/frus1989-92v20
 

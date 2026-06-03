@@ -1,6 +1,6 @@
 # FRUS Volume XX Decision Worksheets
 
-Generated: 2026-06-01T15:34:29.688Z
+Generated: 2026-06-03T02:23:32.428Z
 Live page: https://therealjameswilson.github.io/NorthAfrica-89-92/
 Official volume: https://history.state.gov/historicaldocuments/frus1989-92v20
 

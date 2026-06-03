@@ -155,22 +155,14 @@ function buildFrusSourceNote(item, kind) {
   const sentences = [`Source: ${location}.`];
   const markings = markingSentence(item);
   if (markings) sentences.push(markings);
-
-  if (kind === "policy") {
-    if (item.levelOfDescription) sentences.push(`${levelLabel(item.levelOfDescription)}.`);
-    sentences.push(`Catalog metadata records access status as ${item.accessRestriction || "not stated"}.`);
-  } else {
-    sentences.push(`Catalog metadata records access/release status as ${item.releaseStatus || item.accessRestriction || "not stated"}.`);
-  }
-
-  if (item.naid) sentences.push(`Catalog reference: NAID ${item.naid}.`);
+  if (item.naid) sentences.push(`National Archives Catalog, NAID ${item.naid}.`);
   return cleanSentenceSpacing(sentences.join(" "));
 }
 
 function sourceLocation(item, kind) {
   const source = item.source || {};
   const parts = ["George H.W. Bush Library"];
-  if (source.collection) parts.push(source.collection);
+  if (source.collection) parts.push(...publishedCollectionParts(source.collection));
   if (source.series) parts.push(source.series);
   if (source.fileUnitTitle) parts.push(source.fileUnitTitle);
   if (kind === "policy" && item.title) parts.push(item.title);
@@ -186,7 +178,7 @@ function markingSentence(item) {
     if (marking && !markings.includes(marking)) markings.push(marking);
   }
   if (markings.length) return `${markings.join("; ")}.`;
-  return "Classification marking not identified in the available catalog/OCR metadata.";
+  return "No classification marking identified.";
 }
 
 function normalizePublicSourceNote(item) {
@@ -198,7 +190,15 @@ function compactCatalogSource(sourceNote) {
   const collection = matchSourceNote(sourceNote, /Collection: ([^.]+)\./);
   const series = matchSourceNote(sourceNote, /Series: ([^.]+)\./);
   const fileUnit = matchSourceNote(sourceNote, /File unit: ([^.]+)\./);
-  return ["George H.W. Bush Library", collection, series, fileUnit].filter(Boolean).join(", ");
+  return ["George H.W. Bush Library", ...publishedCollectionParts(collection), series, fileUnit].filter(Boolean).join(", ");
+}
+
+function publishedCollectionParts(value) {
+  const text = String(value || "");
+  if (/Records of the National Security Council \(George H\. W\. Bush Administration\)/i.test(text)) {
+    return ["Bush Presidential Records", "National Security Council"];
+  }
+  return text ? [text] : [];
 }
 
 function matchSourceNote(note, regex) {
@@ -218,17 +218,6 @@ function cleanSentenceSpacing(value) {
     .replace(/\s+/g, " ")
     .replace(/\s+\./g, ".")
     .trim();
-}
-
-function levelLabel(value) {
-  if (String(value || "").toLowerCase() === "fileunit") return "File unit";
-  return titleCase(value);
-}
-
-function titleCase(value) {
-  return String(value || "")
-    .replace(/([a-z])([A-Z])/g, "$1 $2")
-    .replace(/\b\w/g, (letter) => letter.toUpperCase());
 }
 
 function detectMarkings(text) {

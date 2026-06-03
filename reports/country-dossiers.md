@@ -1,6 +1,6 @@
 # FRUS Volume XX Country Dossiers
 
-Generated: 2026-06-01T16:04:50.993Z
+Generated: 2026-06-03T02:23:42.963Z
 Live page: https://therealjameswilson.github.io/NorthAfrica-89-92/
 Official volume: https://history.state.gov/historicaldocuments/frus1989-92v20
 

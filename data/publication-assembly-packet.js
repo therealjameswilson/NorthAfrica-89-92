@@ -1,5 +1,5 @@
 window.PUBLICATION_ASSEMBLY_PACKET = {
-  "generatedAt": "2026-06-02T11:19:48.398Z",
+  "generatedAt": "2026-06-03T02:24:19.886Z",
   "volume": {
     "id": "frus1989-92v20",
     "title": "Foreign Relations of the United States, 1989-1992, Volume XX, North Africa; Sub-Saharan Africa",
@@ -59,7 +59,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/d-001.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079821.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. No classification marking identified. National Archives Catalog, NAID 428079821.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/31/1989; Type Telcon; Participants Hassan III, King; Country Morocco; Release Status Full; NAID 428079821. National Archives Catalog item: Telephone Conversation with King Hassan of Morocco, January 31, 1989, NAID 428079821. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989, NAID 322361434. Digital object: 1989-01-31--Hassan.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-01-31--Hassan.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-004",
       "diaryReferenceCount": 2,
@@ -145,7 +145,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 2,
       "stubPath": "reports/document-stubs/d-002.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079819.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. Confidential; OADR. National Archives Catalog, NAID 428079819.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/31/1989; Type Telcon; Participants Bendjedid, Chadli; Country Algeria; Release Status Full; NAID 428079819. National Archives Catalog item: Telephone Conversation with President Bendjedid of Algeria, January 31, 1989, NAID 428079819. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989, NAID 322361434. Digital object: 1989-01-31--Bendjedid.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-01-31--Bendjedid.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-003",
       "diaryReferenceCount": 2,
@@ -232,12 +232,11 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/d-003.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: July 1989. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080109.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: July 1989. Confidential; OADR. National Archives Catalog, NAID 428080109.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 7/3/1989; Type Telcon; Participants Hassan III, King; Country Morocco; Release Status Full; NAID 428080109. National Archives Catalog item: Telephone Conversation King Hassan of Morocco, July 3, 1989, NAID 428080109. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: July 1989, NAID 325592634. Digital object: 1989-07-03--Hassan.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-07-03--Hassan.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-019",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415889926",
         "415889927"
       ],
       "diaryVerificationTargets": [
@@ -318,7 +317,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/d-004.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: August 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080159.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: August 1989. No classification marking identified. National Archives Catalog, NAID 428080159.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/2/1989; Type Telcon; Participants Hassan III, King; Country Morocco; Release Status Full; NAID 428080159. National Archives Catalog item: President Bush's Telephone Call to King Hassan II, August 2, 1989, NAID 428080159. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: August 1989, NAID 325592635. Digital object: 1989-08-02--Hassan.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-08-02--Hassan.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-021",
       "diaryReferenceCount": 2,
@@ -404,7 +403,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/d-005.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: August 1989. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080155.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: August 1989. Confidential; OADR. National Archives Catalog, NAID 428080155.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/2/1989; Type Telcon; Participants Bendjedid, Chadil; Country Algeria; Release Status Full; NAID 428080155. National Archives Catalog item: Telephone Conversation with President Bendjedid of Algeria, August 2, 1989, NAID 428080155. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: August 1989, NAID 325592635. Digital object: 1989-08-02--Bendjedid.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-08-02--Bendjedid.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-020",
       "diaryReferenceCount": 2,
@@ -486,7 +485,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 62,
       "stubPath": "reports/document-stubs/d-033.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), H-Files - National Security Council (NSC) Meeting Files, NSC0034 - December 18, 1989 - Libya. Classification marking not identified in the available catalog/OCR metadata. File unit. Catalog metadata records access status as Restricted - Possibly. Catalog reference: NAID 470760928.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC) Meeting Files, NSC0034 - December 18, 1989 - Libya. No classification marking identified. National Archives Catalog, NAID 470760928.",
       "catalogProvenance": "National Archives Catalog file: NSC0034 - December 18, 1989 - Libya, NAID 470760928. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: H-Files - National Security Council (NSC) Meeting Files, NAID 312293887. Access status: Restricted - Possibly. Digital object: 41-bpr-nsc-hfiles-nsc_mtgs-34-90001-025.pdf, URL https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-34-90001-025.pdf. Catalog: https://catalog.archives.gov/id/470760928.",
       "diaryControlNumber": "",
       "diaryReferenceCount": 0,
@@ -560,7 +559,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 36,
       "stubPath": "reports/document-stubs/d-034.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), H-Files - National Security Review (NSR) Files, NSR-23 - February 21, 1990 - U.S. Policy Towards the Maghreb-Morocco / Algeria and Tunisia. Classification marking not identified in the available catalog/OCR metadata. File unit. Catalog metadata records access status as Restricted - Possibly. Catalog reference: NAID 446394969.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Review (NSR) Files, NSR-23 - February 21, 1990 - U.S. Policy Towards the Maghreb-Morocco / Algeria and Tunisia. No classification marking identified. National Archives Catalog, NAID 446394969.",
       "catalogProvenance": "National Archives Catalog file: NSR-23 - February 21, 1990 - U.S. Policy Towards the Maghreb-Morocco / Algeria and Tunisia, NAID 446394969. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: H-Files - National Security Review (NSR) Files, NAID 313189297. Access status: Restricted - Possibly. Digital object: 41-bpr-nsc-hfiles-nsr-23-90007-017.pdf, URL https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-23-90007-017.pdf. Catalog: https://catalog.archives.gov/id/446394969.",
       "diaryControlNumber": "",
       "diaryReferenceCount": 0,
@@ -638,7 +637,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/d-006.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: May 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080691.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: May 1990. No classification marking identified. National Archives Catalog, NAID 428080691.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 5/15/1990; Type Memcon; Participants Ali, Ben; Country Tunisia; Release Status Full; NAID 428080691. National Archives Catalog item: Meeting with President Ben Ali of Tunisia, May 15, 1990 (1 of 2), NAID 428080691. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1990-June 1990]: May 1990, NAID 325541470. Digital object: 1990-05-15--Ali-1.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-05-15--Ali-1.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-044",
       "diaryReferenceCount": 2,
@@ -723,7 +722,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 7,
       "stubPath": "reports/document-stubs/d-007.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: May 1990. Secret; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080693.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: May 1990. Secret; OADR. National Archives Catalog, NAID 428080693.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 5/15/1990; Type Memcon; Participants Ali, Ben; Country Tunisia; Release Status Full; NAID 428080693. National Archives Catalog item: Plenary Meeting with President Ben Ali of Tunisia, May 15, 1990 (2 of 2), NAID 428080693. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1990-June 1990]: May 1990, NAID 325541470. Digital object: 1990-05-15--Ali-2.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-05-15--Ali-2.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-045",
       "diaryReferenceCount": 2,
@@ -808,12 +807,11 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/d-008.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [1]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080905.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [1]. No classification marking identified. National Archives Catalog, NAID 428080905.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/7/1990; Type Telcon; Participants Hassan III, King; Country Morocco; Release Status Full; NAID 428080905. National Archives Catalog item: Telephone Conversation with King Hassan of Morocco, August 7, 1990, NAID 428080905. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  August 1990 [1], NAID 325592647. Digital object: 1990-08-07--Hassan.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-07--Hassan.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-058",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415890726",
         "415890727"
       ],
       "diaryVerificationTargets": [
@@ -893,7 +891,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/d-009.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [2]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080987.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [2]. No classification marking identified. National Archives Catalog, NAID 428080987.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/29/1990; Type Telcon; Participants Bendjedid, Chadil; Country Algeria; Release Status Full; NAID 428080987. National Archives Catalog item: Telephone Conversation with President Bendjedid of Algeria, August 29, 1990, NAID 428080987. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  August 1990 [2], NAID 325592648. Digital object: 1990-08-29--Bendjedid.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-29--Bendjedid.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-064",
       "diaryReferenceCount": 2,
@@ -978,7 +976,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 6,
       "stubPath": "reports/document-stubs/d-011.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081925.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991. No classification marking identified. National Archives Catalog, NAID 428081925.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 9/26/1991; Type Memcon; Participants Hassan III, King; Country Morocco; Release Status Full; NAID 428081925. National Archives Catalog item: Plenary Meeting with King Hassan III of Morocco, September 26, 1991, NAID 428081925. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991, NAID 325542558. Digital object: 1991-09-26--Hassan.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-09-26--Hassan.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-113",
       "diaryReferenceCount": 2,
@@ -1064,11 +1062,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/d-012.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: November 1991. Secret; Sensitive; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428082047.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: November 1991. Secret; Sensitive; OADR. National Archives Catalog, NAID 428082047.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 11/19/1991; Type Telcon; Participants Hassan III, King; Country Morocco; Release Status Full; NAID 428082047. National Archives Catalog item: Telephone Conversation with King Hassan of Morocco on November 19, 1991, NAID 428082047. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]:  November 1991, NAID 325592664. Digital object: 1991-11-19--Hassan.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-11-19--Hassan.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-118",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415891670",
         "415891671"
       ],
       "diaryVerificationTargets": [
@@ -1149,7 +1148,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 2,
       "stubPath": "reports/document-stubs/d-013.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]: December 1992. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428082067.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]: December 1992. No classification marking identified. National Archives Catalog, NAID 428082067.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 12/3/1991; Type Telcon; Participants Hassan III, King; Country Morocco; Release Status Full; NAID 428082067. National Archives Catalog item: Telcon with King Hassan of Morocco on December 3, 1992, NAID 428082067. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]:  December 1992, NAID 325592783. Digital object: 1992-12-03--Hassan.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1992-12-03--Hassan.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-121",
       "diaryReferenceCount": 2,
@@ -1235,11 +1234,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/d-017.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079793.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. No classification marking identified. National Archives Catalog, NAID 428079793.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/24/1989; Type Telcon; Participants Diouf, Abdou; Country Senegal; Release Status Full; NAID 428079793. National Archives Catalog item: Telephone Conversation with President Diouf of Senegal, January 24, 1989, NAID 428079793. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989, NAID 322361434. Digital object: 1989-01-24--Diouf.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-01-24--Diouf.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-002",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415889606",
         "415889607"
       ],
       "diaryVerificationTargets": [
@@ -1319,7 +1319,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 5,
       "stubPath": "reports/document-stubs/d-021.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - January 1989-May 1989]: May 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080023.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - January 1989-May 1989]: May 1989. No classification marking identified. National Archives Catalog, NAID 428080023.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 5/15/1989; Type Memcon; Participants Jawara, Dawda; Country Gambia; Release Status Full; NAID 428080023. National Archives Catalog item: Memorandum of Conversation between the President and Sir Dawda Jawara, President of The Gambia, NAID 428080023. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons) - January 1989-May 1989]: May 1989, NAID 325377387. Digital object: 1989-05-15--Jawara.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-05-15--Jawara.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-013",
       "diaryReferenceCount": 2,
@@ -1404,7 +1404,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 5,
       "stubPath": "reports/document-stubs/d-023.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: July 1990. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080851.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: July 1990. Confidential; OADR. National Archives Catalog, NAID 428080851.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 7/31/1990; Type Memcon; Participants Eyadema, Gnassingbe; Country Togo; Release Status Full; NAID 428080851. National Archives Catalog item: Luncheon Meeting with President Gnassingbe Eyadema of Togo, July 31, 1990 (3 of 3), NAID 428080851. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1990-December 1990]: July 1990, NAID 325541475. Digital object: 1990-07-31--Eyadema-3.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-07-31--Eyadema-3.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-054",
       "diaryReferenceCount": 2,
@@ -1489,7 +1489,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/d-024.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: July 1990. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080847.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: July 1990. Confidential; OADR. National Archives Catalog, NAID 428080847.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 7/31/1990; Type Memcon; Participants Eyadema, Gnassingbe; Country Togo; Release Status Full; NAID 428080847. National Archives Catalog item: One-on-One Meeting with President Gnassingbe Eyadema of Togo, July 31, 1990 (1 of 3), NAID 428080847. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1990-December 1990]: July 1990, NAID 325541475. Digital object: 1990-07-31--Eyadema-1.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-07-31--Eyadema-1.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-055",
       "diaryReferenceCount": 2,
@@ -1574,12 +1574,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/d-025.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: March 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081571.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: March 1991. No classification marking identified. National Archives Catalog, NAID 428081571.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 3/22/1991; Type Telcon; Participants Diouf, Abdou; Country Senegal; Release Status Full; NAID 428081571. National Archives Catalog item: Telephone Conversation with President Abdou Diouf of Senegal, March 22, 1991, NAID 428081571. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  March 1991, NAID 325592656. Digital object: 1991-03-22--Diouf.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-03-22--Diouf.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-094",
       "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415891182"
+        "415891183"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -1659,12 +1659,11 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/d-026.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081871.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991. No classification marking identified. National Archives Catalog, NAID 428081871.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 9/10/1991; Type Memcon; Participants Diouf, Abdou; Country Senegal; Release Status Full; NAID 428081871. National Archives Catalog item: Meeting with President Abdou Diouf of Senegal, September 10, 1991 (1 of 2), NAID 428081871. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991, NAID 325542558. Digital object: 1991-09-10--Diouf-1.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-09-10--Diouf-1.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-110",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415891527",
         "415891528"
       ],
       "diaryVerificationTargets": [
@@ -1725,11 +1724,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 5,
       "stubPath": "reports/document-stubs/d-027.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: November 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428082003.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: November 1991. No classification marking identified. National Archives Catalog, NAID 428082003.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 11/5/1991; Type Memcon; Participants Soglo, Nicephore; Country Benin; Release Status Full; NAID 428082003. National Archives Catalog item: Meeting with President Soglo of Benin, November 5, 1991, NAID 428082003. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1991-December 1991]: November 1991, NAID 325542560. Digital object: 1991-11-05--Soglo.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-11-05--Soglo.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-116",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415891641",
         "415891642"
       ],
       "diaryVerificationTargets": [
@@ -1810,7 +1810,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/d-028.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079823.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. No classification marking identified. National Archives Catalog, NAID 428079823.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/31/1989; Type Telcon; Participants Sese Seko, Mobutu; Country Zaire; Release Status Full; NAID 428079823. National Archives Catalog item: Telephone Conversation with President Marshall Mobutu Sese Seko of Zaire, January 31, 1989, NAID 428079823. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989, NAID 322361434. Digital object: 1989-01-31--Sese-Seko.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-01-31--Sese-Seko.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-005",
       "diaryReferenceCount": 2,
@@ -1897,11 +1897,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/d-029.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. Secret; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079865.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. Secret; OADR. National Archives Catalog, NAID 428079865.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/24/1989; Type Memcon; Participants Sese Seko, Mobutu; Country Zaire; Release Status Full; NAID 428079865. National Archives Catalog item: Bilateral Discussion with President Sese Seko Mobutu of the Republic of Zaire, February 24, 1989, NAID 428079865. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989, NAID 325377380. Digital object: 1989-02-24--Sese-Seko.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-02-24--Sese-Seko.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-009",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415889668",
         "415889669"
       ],
       "diaryVerificationTargets": [
@@ -1983,7 +1984,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/d-030.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: June 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080079.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: June 1989. No classification marking identified. National Archives Catalog, NAID 428080079.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 6/29/1989; Type Memcon; Participants Sese Seko, Mobutu; Country Zaire; Release Status Full; NAID 428080079. National Archives Catalog item: Meeting Between the President and Zairian President Mobutu, June 29, 1989 (1 of 2), NAID 428080079. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons) - June 1989-December 1989]: June 1989, NAID 325377389. Digital object: 1989-06-29--Sese-Seko-1.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-06-29--Sese-Seko-1.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-017",
       "diaryReferenceCount": 2,
@@ -2070,7 +2071,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/d-031.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: June 1989. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080081.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: June 1989. Confidential; OADR. National Archives Catalog, NAID 428080081.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 6/29/1989; Type Memcon; Participants Sese Seko, Mobutu; Country Zaire; Release Status Full; NAID 428080081. National Archives Catalog item: Meeting with President Mobutu Sese Seko of Zaire, June 29, 1989 (2 of 2), NAID 428080081. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons) - June 1989-December 1989]: June 1989, NAID 325377389. Digital object: 1989-06-29--Sese-Seko-2.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-06-29--Sese-Seko-2.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-018",
       "diaryReferenceCount": 2,
@@ -2157,11 +2158,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 6,
       "stubPath": "reports/document-stubs/d-032.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: October 1989. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080247.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: October 1989. Confidential; OADR. National Archives Catalog, NAID 428080247.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 10/4/1989; Type Memcon; Participants Sese Seko, Mobutu; Country Zaire; Release Status Full; NAID 428080247. National Archives Catalog item: Meeting with Mobutu Sese Seko, President of Zaire, October 4, 1989, NAID 428080247. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons) - June 1989-December 1989]: October 1989, NAID 325377394. Digital object: 1989-10-04--Sese-Seko.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-10-04--Sese-Seko.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-025",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415890112",
         "415890113"
       ],
       "diaryVerificationTargets": [
@@ -2240,7 +2242,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 37,
       "stubPath": "reports/document-stubs/d-035.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), H-Files - National Security Review (NSR) Files, NSR-30 - June 15, 1992 - American Policy Toward Africa in the 1990s. Classification marking not identified in the available catalog/OCR metadata. File unit. Catalog metadata records access status as Restricted - Possibly. Catalog reference: NAID 446394987.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Review (NSR) Files, NSR-30 - June 15, 1992 - American Policy Toward Africa in the 1990s. No classification marking identified. National Archives Catalog, NAID 446394987.",
       "catalogProvenance": "National Archives Catalog file: NSR-30 - June 15, 1992 - American Policy Toward Africa in the 1990s, NAID 446394987. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: H-Files - National Security Review (NSR) Files, NAID 313189297. Access status: Restricted - Possibly. Digital object: 41-bpr-nsc-hfiles-nsr-30-90008-010.pdf, URL https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-30-90008-010.pdf. Catalog: https://catalog.archives.gov/id/446394987.",
       "diaryControlNumber": "",
       "diaryReferenceCount": 0,
@@ -2314,7 +2316,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 57,
       "stubPath": "reports/document-stubs/d-036.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), National Security Directives (NSD) Files, NSD-75 - December 23, 1992 - American Policy toward Sub-Saharan Africa in the 1990s. Classification marking not identified in the available catalog/OCR metadata. File unit. Catalog metadata records access status as Restricted - Possibly. Catalog reference: NAID 446396910.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Directives (NSD) Files, NSD-75 - December 23, 1992 - American Policy toward Sub-Saharan Africa in the 1990s. No classification marking identified. National Archives Catalog, NAID 446396910.",
       "catalogProvenance": "National Archives Catalog file: NSD-75 - December 23, 1992 - American Policy toward Sub-Saharan Africa in the 1990s, NAID 446396910. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: National Security Directives (NSD) Files, NAID 313189290. Access status: Restricted - Possibly. Digital object: 41-bpr-nsc-hfiles-nsd-75-90005-026.pdf, URL https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/H-Files/NSDs_313189290/41-bpr-nsc-hfiles-nsd-75-90005-026.pdf. Catalog: https://catalog.archives.gov/id/446396910.",
       "diaryControlNumber": "",
       "diaryReferenceCount": 0,
@@ -2393,7 +2395,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/d-010.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1991-June 1991]: April 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081577.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1991-June 1991]: April 1991. No classification marking identified. National Archives Catalog, NAID 428081577.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 4/11/1991; Type Memcon; Participants Khelil, Ismail; Country Tunisia; Release Status Full; NAID 428081577. National Archives Catalog item: Tunisian Ambassador's Credentials Ceremony, April 11, 1991, NAID 428081577. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1991-June 1991]: April 1991, NAID 325542550. Digital object: 1991-04-11--Khelil.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-04-11--Khelil.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-095",
       "diaryReferenceCount": 2,
@@ -2481,12 +2483,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/d-014.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: October 1990. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081107.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: October 1990. Confidential; OADR. National Archives Catalog, NAID 428081107.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 10/1/1990; Type Memcon; Participants Museveni, Yoweri; Country Uganda; Release Status Full; NAID 428081107. National Archives Catalog item: Meeting with President Yoweri Museveni of Uganda, Chairman of the Organization of African Unity (OAU), NAID 428081107. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1990-December 1990]: October 1990, NAID 325541480. Digital object: 1990-10-01--Museveni.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-10-01--Museveni.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-069",
       "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415890836"
+        "415890837"
       ],
       "diaryVerificationTargets": [
         "meeting time",
@@ -2548,7 +2550,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 6,
       "stubPath": "reports/document-stubs/d-015.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1991-June 1991]: April 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081625.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1991-June 1991]: April 1991. No classification marking identified. National Archives Catalog, NAID 428081625.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 4/24/1991; Type Memcon; Participants Gouled, Hassan; Country Djibouti; Release Status Full; NAID 428081625. National Archives Catalog item: Luncheon Meeting with President Hassan Gouled of the Republic of Djibouti, April 24, 1991 (2 of 2), NAID 428081625. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1991-June 1991]: April 1991, NAID 325542550. Digital object: 1991-04-24--Gouled-2.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-04-24--Gouled-2.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-096",
       "diaryReferenceCount": 2,
@@ -2616,7 +2618,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 6,
       "stubPath": "reports/document-stubs/d-016.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1991-June 1991]: April 1991. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081623.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1991-June 1991]: April 1991. Confidential; OADR. National Archives Catalog, NAID 428081623.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 4/24/1991; Type Memcon; Participants Gouled, Hassan; Country Djibouti; Release Status Full; NAID 428081623. National Archives Catalog item: Meeting with President Hassan Gouled of the Republic of Djibouti, April 24, 1991 (1 of 2), NAID 428081623. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1991-June 1991]: April 1991, NAID 325542550. Digital object: 1991-04-24--Gouled-1.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-04-24--Gouled-1.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-097",
       "diaryReferenceCount": 2,
@@ -2684,7 +2686,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 2,
       "stubPath": "reports/document-stubs/d-018.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: February 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079831.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: February 1989. No classification marking identified. National Archives Catalog, NAID 428079831.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/7/1989; Type Telcon; Participants Babangida, Ibrahim; Country Nigeria; Release Status Full; NAID 428079831. National Archives Catalog item: Telephone Conversation between President Bush and President Babangida of Nigeria, February 7, 1989, NAID 428079831. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: February 1989, NAID 325592629. Digital object: 1989-02-07--Babangida.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-02-07--Babangida.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-007",
       "diaryReferenceCount": 2,
@@ -2771,7 +2773,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/d-019.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079869.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. No classification marking identified. National Archives Catalog, NAID 428079869.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/25/1989; Type Memcon; Participants Babangida, Ibrahim; Country Nigeria; Release Status Full; NAID 428079869. National Archives Catalog item: Meeting with President Ibrahim Babangida of Nigeria, February 25, 1989, NAID 428079869. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989, NAID 325377380. Digital object: 1989-02-25--Babangida.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-02-25--Babangida.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-010",
       "diaryReferenceCount": 2,
@@ -2858,12 +2860,13 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/d-020.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - January 1989-May 1989]: April 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079977.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - January 1989-May 1989]: April 1989. No classification marking identified. National Archives Catalog, NAID 428079977.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 4/21/1989; Type Memcon; Participants Pereira, Aristides; Country Cape Verde; Release Status Full; NAID 428079977. National Archives Catalog item: Memorandum of Conversation: The President and Cape Verdean President Aristides Pereira, April 21, 1989, NAID 428079977. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons) - January 1989-May 1989]: April 1989, NAID 325377385. Digital object: 1989-04-21--Pereira.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-04-21--Pereira.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-012",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
-        "415889780"
+        "415889780",
+        "415889781"
       ],
       "diaryVerificationTargets": [
         "meeting time",
@@ -2944,7 +2947,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 6,
       "stubPath": "reports/document-stubs/d-022.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: April 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080651.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: April 1990. No classification marking identified. National Archives Catalog, NAID 428080651.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 4/27/1990; Type Memcon; Participants Pereira, Aristides; Country Cape Verde; Release Status Full; NAID 428080651. National Archives Catalog item: Meeting with President Aristides Pereira of Cape Verde, April 27, 1990, NAID 428080651. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1990-June 1990]: April 1990, NAID 325541469. Digital object: 1990-04-27--Pereira.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-04-27--Pereira.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-041",
       "diaryReferenceCount": 2,
@@ -3033,12 +3036,13 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 2,
       "stubPath": "reports/document-stubs/c-031.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079787.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. Confidential; OADR. National Archives Catalog, NAID 428079787.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/23/1989; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428079787. National Archives Catalog item: Telephone Conversation with President Mubarak of Egypt, January 23, 1989, NAID 428079787. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989, NAID 322361434. Digital object: 1989-01-23--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-01-23--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-001",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
-        "415889604"
+        "415889604",
+        "415889605"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -3119,7 +3123,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 6,
       "stubPath": "reports/document-stubs/c-010.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428079849.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. Confidential. National Archives Catalog, NAID 428079849.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/23/1989; Type Memcon; Participants Mubarak, Hosni; Country Egypt; Release Status Partial; NAID 428079849. National Archives Catalog item: Meeting with President Mohammed Hosni Mubarak of Egypt, February 23, 1989, NAID 428079849. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989, NAID 325377380. Digital object: 1989-02-23--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-02-23--Mubarak.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-008",
       "diaryReferenceCount": 2,
@@ -3206,11 +3210,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/c-011.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - January 1989-May 1989]: April 1989. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428079939.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - January 1989-May 1989]: April 1989. Confidential. National Archives Catalog, NAID 428079939.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 4/3/1989; Type Memcon; Participants Mubarak, Hosni; Country Egypt; Release Status Partial; NAID 428079939. National Archives Catalog item: Plenary Session with President Mubarak of Egypt, April 3, 1989, NAID 428079939. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons) - January 1989-May 1989]: April 1989, NAID 325377385. Digital object: 1989-04-03--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-04-03--Mubarak.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-011",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415889744",
         "415889745"
       ],
       "diaryVerificationTargets": [
@@ -3292,12 +3297,13 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-032.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: June 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080059.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: June 1989. No classification marking identified. National Archives Catalog, NAID 428080059.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 6/9/1989; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080059. National Archives Catalog item: Telephone Conversation with President Mohammad Hosni Mubarak of Egypt, June 9, 1989, NAID 428080059. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: June 1989, NAID 325592633. Digital object: 1989-06-09--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-06-09--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-016",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
-        "415889878"
+        "415889878",
+        "415889879"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -3378,12 +3384,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-033.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: August 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080133.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: August 1989. No classification marking identified. National Archives Catalog, NAID 428080133.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/8/1989; Type Memcon; Participants Abu Talib, Youssef; Country Egypt; Release Status Full; NAID 428080133. National Archives Catalog item: Meeting with General Youssef Abu Talib, Defense Minister of Egypt, NAID 428080133. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons) - June 1989-December 1989]: August 1989, NAID 325377392. Digital object: 1989-08-08--Abu-Talib.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-08-08--Abu-Talib.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-022",
       "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415889998"
+        "415889999"
       ],
       "diaryVerificationTargets": [
         "meeting time",
@@ -3466,12 +3472,13 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-034.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: August 1989. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080173.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: August 1989. Confidential; OADR. National Archives Catalog, NAID 428080173.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/9/1989; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080173. National Archives Catalog item: Telephone Conversation with - President Mubarak of Egypt, August 9, 1989, NAID 428080173. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: August 1989, NAID 325592635. Digital object: 1989-08-09--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-08-09--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-023",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
-        "415890000"
+        "415890000",
+        "415890001"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -3552,13 +3559,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 6,
       "stubPath": "reports/document-stubs/c-035.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: October 1989. Sensitive. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080243.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: October 1989. Sensitive. National Archives Catalog, NAID 428080243.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 10/2/1989; Type Memcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080243. National Archives Catalog item: Meeting with President Mubarak of Egypt, October 2, 1989, NAID 428080243. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons) - June 1989-December 1989]: October 1989, NAID 325377394. Digital object: 1989-10-02--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-10-02--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-024",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415890108",
-        "415890109"
+        "415890108"
       ],
       "diaryVerificationTargets": [
         "meeting time",
@@ -3639,7 +3645,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-036.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: October 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080303.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: October 1989. No classification marking identified. National Archives Catalog, NAID 428080303.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 10/18/1989; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080303. National Archives Catalog item: Telephone Conversation with President Mubarak of Egypt, October 18, 1989, NAID 428080303. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: October 1989, NAID 325592637. Digital object: 1989-10-18--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-10-18--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-027",
       "diaryReferenceCount": 2,
@@ -3726,13 +3732,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 5,
       "stubPath": "reports/document-stubs/c-012.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: November 1989. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428080293.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: November 1989. Confidential. National Archives Catalog, NAID 428080293.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 11/14/1989; Type Memcon; Participants Ali, Ben; Country Tunisia; Release Status Partial; NAID 428080293. National Archives Catalog item: Meeting with President Ben Ali of Tunisia, November 14, 1989, NAID 428080293. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons) - June 1989-December 1989]: November 1989, NAID 325377395. Digital object: 1989-11-14--Ali.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-11-14--Ali.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-028",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415890194",
-        "415890195"
+        "415890194"
       ],
       "diaryVerificationTargets": [
         "meeting time",
@@ -3811,7 +3816,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-037.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: November 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080341.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: November 1989. No classification marking identified. National Archives Catalog, NAID 428080341.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 11/17/1989; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080341. National Archives Catalog item: Telephone Conversation with President Hosni Mubarak of Egypt, November 17, 1989, NAID 428080341. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: November 1989, NAID 325592638. Digital object: 1989-11-17--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-11-17--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-029",
       "diaryReferenceCount": 2,
@@ -3898,7 +3903,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 6,
       "stubPath": "reports/document-stubs/c-013.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: January 1990. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428080439.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: January 1990. Confidential. National Archives Catalog, NAID 428080439.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/19/1990; Type Memcon; Participants Meguid, Ahmed Esmat Abdel; Country Egypt; Release Status Partial; NAID 428080439. National Archives Catalog item: Meeting with Foreign Minister Esmat Abd el-Meguid of Egypt, January 19, 1990, NAID 428080439. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1990-June 1990]: January 1990, NAID 325377404. Digital object: 1990-01-19--Abdel-Meguid.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-01-19--Abdel-Meguid.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-030",
       "diaryReferenceCount": 2,
@@ -3987,12 +3992,11 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 2,
       "stubPath": "reports/document-stubs/c-038.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: February 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080515.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: February 1990. No classification marking identified. National Archives Catalog, NAID 428080515.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/7/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080515. National Archives Catalog item: Telephone Call to President Mubarak, February 7, 1990, NAID 428080515. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: February 1990, NAID 325592641. Digital object: 1990-02-07--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-02-07--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-033",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415890364",
         "415890365"
       ],
       "diaryVerificationTargets": [
@@ -4074,7 +4078,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 5,
       "stubPath": "reports/document-stubs/c-014.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428080525.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990. No classification marking identified. National Archives Catalog, NAID 428080525.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/20/1990; Type Memcon; Participants Filali, Abdellatif; Country Morocco; Release Status Partial; NAID 428080525. National Archives Catalog item: Meeting with Foreign Minister Abdellatif Filali of Morocco, February 20, 1990, NAID 428080525. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990, NAID 325377405. Digital object: 1990-02-20--Filali.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-02-20--Filali.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-035",
       "diaryReferenceCount": 2,
@@ -4162,13 +4166,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-039.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: March 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080611.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: March 1990. No classification marking identified. National Archives Catalog, NAID 428080611.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 3/17/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080611. National Archives Catalog item: Telephone Conversation with President Mubarak of Egypt, March 17, 1990, NAID 428080611. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: March 1990, NAID 325592642. Digital object: 1990-03-17--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-03-17--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-040",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415890440",
-        "415890441"
+        "415890440"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -4249,7 +4252,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/c-040.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: May 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080709.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: May 1990. No classification marking identified. National Archives Catalog, NAID 428080709.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 5/4/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080709. National Archives Catalog item: Telephone Conversation with President Mubarak of Egypt, May 4, 1990, NAID 428080709. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]:  May 1990, NAID 325592644. Digital object: 1990-05-04--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-05-04--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-042",
       "diaryReferenceCount": 1,
@@ -4335,11 +4338,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/c-041.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: May 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080711.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: May 1990. No classification marking identified. National Archives Catalog, NAID 428080711.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 5/23/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080711. National Archives Catalog item: Telephone Conversation with President Mubarak of Egypt, May 23, 1990, NAID 428080711. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]:  May 1990, NAID 325592644. Digital object: 1990-05-23--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-05-23--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-046",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415890574",
         "415890575"
       ],
       "diaryVerificationTargets": [
@@ -4421,11 +4425,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/c-042.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: June 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080771.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: June 1990. No classification marking identified. National Archives Catalog, NAID 428080771.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 6/8/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080771. National Archives Catalog item: Telephone Conversation with President Mubarak of Egypt, June 8, 1990, NAID 428080771. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]:  June 1990, NAID 325592645. Digital object: 1990-06-08--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-06-08--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-047",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415890606",
         "415890607"
       ],
       "diaryVerificationTargets": [
@@ -4507,7 +4512,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-043.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: June 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080801.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: June 1990. No classification marking identified. National Archives Catalog, NAID 428080801.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 6/12/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080801. National Archives Catalog item: Telephone Conversation with President Mubarak of Egypt, June 12, 1990, NAID 428080801. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]:  June 1990, NAID 325592645. Digital object: 1990-06-12--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-06-12--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-048",
       "diaryReferenceCount": 1,
@@ -4593,11 +4598,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-044.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: June 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080807.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: June 1990. No classification marking identified. National Archives Catalog, NAID 428080807.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 6/23/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080807. National Archives Catalog item: Telephone Conversation with President Mubarak of Egypt, June 23, 1990, NAID 428080807. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]:  June 1990, NAID 325592645. Digital object: 1990-06-23--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-06-23--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-050",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415890636",
         "415890637"
       ],
       "diaryVerificationTargets": [
@@ -4679,12 +4685,13 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 5,
       "stubPath": "reports/document-stubs/c-015.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: June 1990. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428080783.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: June 1990. Confidential. National Archives Catalog, NAID 428080783.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 6/26/1990; Type Memcon; Participants Meguid, Ahmed Esmat Abdel; Country Egypt; Release Status Partial; NAID 428080783. National Archives Catalog item: Meeting with Egyptian Foreign Minister Esmat Abdel Meguid, June 26, 1990, NAID 428080783. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1990-June 1990]: June 1990, NAID 325541473. Digital object: 1990-06-26--Abdel-Meguid.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-06-26--Abdel-Meguid.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-051",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
-        "415890642"
+        "415890642",
+        "415890643"
       ],
       "diaryVerificationTargets": [
         "meeting time",
@@ -4767,12 +4774,11 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 2,
       "stubPath": "reports/document-stubs/c-001.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [1]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428080877.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [1]. No classification marking identified. National Archives Catalog, NAID 428080877.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/7/1990; Type No Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status blank; NAID 428080877. National Archives Catalog item: Telephone Call to Hosni Mubarak, August 7, 1990, NAID 428080877. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  August 1990 [1], NAID 325592647. Digital object: 1990-08-07--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-07--Mubarak.pdf. Access/release status: Marker / no memorandum listed.",
       "diaryControlNumber": "DC-057",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415890726",
         "415890727"
       ],
       "diaryVerificationTargets": [
@@ -4854,12 +4860,13 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 2,
       "stubPath": "reports/document-stubs/c-002.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [1]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428080931.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [1]. No classification marking identified. National Archives Catalog, NAID 428080931.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/11/1990; Type No Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status blank; NAID 428080931. National Archives Catalog item: Telephone Call to Hosni Mubarak, August 11, 1990, NAID 428080931. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  August 1990 [1], NAID 325592647. Digital object: 1990-08-11--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-11--Mubarak.pdf. Access/release status: Marker / no memorandum listed.",
       "diaryControlNumber": "DC-059",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
-        "415890734"
+        "415890734",
+        "415890735"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -4940,12 +4947,13 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-045.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [2]. Secret; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080955.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [2]. Secret; OADR. National Archives Catalog, NAID 428080955.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/16/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080955. National Archives Catalog item: Telephone Conversation with President Mubarak of Egypt, August 16, 1990, NAID 428080955. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  August 1990 [2], NAID 325592648. Digital object: 1990-08-16--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-16--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-061",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
-        "415890744"
+        "415890744",
+        "415890745"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -5026,13 +5034,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-016.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [2]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428080973.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [2]. No classification marking identified. National Archives Catalog, NAID 428080973.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/26/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Partial; NAID 428080973. National Archives Catalog item: Telephone Conversation with President Hosni Mubarak of Egypt, August 26, 1990, NAID 428080973. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  August 1990 [2], NAID 325592648. Digital object: 1990-08-26--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-26--Mubarak.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-062",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415890764",
-        "415890765"
+        "415890764"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -5113,12 +5120,13 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-017.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [2]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428080983.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [2]. No classification marking identified. National Archives Catalog, NAID 428080983.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/27/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Partial; NAID 428080983. National Archives Catalog item: Telephone Conversation with Hosni Mubarak of Egypt, August 27, 1990, NAID 428080983. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  August 1990 [2], NAID 325592648. Digital object: 1990-08-27--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-27--Mubarak.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-063",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
-        "415890766"
+        "415890766",
+        "415890767"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -5199,12 +5207,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-018.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [2]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428080997.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [2]. No classification marking identified. National Archives Catalog, NAID 428080997.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/30/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Partial; NAID 428080997. National Archives Catalog item: Telephone Conversation with President Mubarak of Egypt, August 30, 1990, NAID 428080997. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  August 1990 [2], NAID 325592648. Digital object: 1990-08-30--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-30--Mubarak.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-065",
       "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415890773"
+        "415890772"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -5285,7 +5293,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-046.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: September 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081009.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: September 1990. No classification marking identified. National Archives Catalog, NAID 428081009.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 9/1/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081009. National Archives Catalog item: Telephone Conversation with President Mubarak of Egypt, September 1, 1990, NAID 428081009. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  September 1990, NAID 325592649. Digital object: 1990-09-01--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-09-01--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-066",
       "diaryReferenceCount": 2,
@@ -5372,7 +5380,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 2,
       "stubPath": "reports/document-stubs/c-003.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: September 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428081047.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: September 1990. No classification marking identified. National Archives Catalog, NAID 428081047.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 9/10/1990; Type No Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status blank; NAID 428081047. National Archives Catalog item: Telephone Call to Hosni Mubarak, September 10, 1990, NAID 428081047. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  September 1990, NAID 325592649. Digital object: 1990-09-10--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-09-10--Mubarak.pdf. Access/release status: Marker / no memorandum listed.",
       "diaryControlNumber": "DC-067",
       "diaryReferenceCount": 2,
@@ -5459,7 +5467,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-047.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: October 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081147.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: October 1990. No classification marking identified. National Archives Catalog, NAID 428081147.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 10/12/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081147. National Archives Catalog item: Telephone Conversation with President Hosni Mubarak of Egypt, October 12, 1990, NAID 428081147. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  October 1990, NAID 325592650. Digital object: 1990-10-12--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-10-12--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-072",
       "diaryReferenceCount": 2,
@@ -5546,11 +5554,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-048.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: October 1990. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081159.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: October 1990. Confidential; OADR. National Archives Catalog, NAID 428081159.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 10/25/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081159. National Archives Catalog item: Telephone Conversation with President Mubarak, October 25, 1990, NAID 428081159. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  October 1990, NAID 325592650. Digital object: 1990-10-25--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-10-25--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-073",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415890886",
         "415890887"
       ],
       "diaryVerificationTargets": [
@@ -5632,7 +5641,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-049.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: October 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081167.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: October 1990. No classification marking identified. National Archives Catalog, NAID 428081167.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 10/27/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081167. National Archives Catalog item: Telephone Conversation with President Hosni Mubarak of Egypt, October 27, 1990, NAID 428081167. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  October 1990, NAID 325592650. Digital object: 1990-10-27--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-10-27--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-074",
       "diaryReferenceCount": 1,
@@ -5718,11 +5727,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-050.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: November 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081221.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: November 1990. No classification marking identified. National Archives Catalog, NAID 428081221.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 11/20/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081221. National Archives Catalog item: Telephone Conversation with President Hosni Mubarak of Egypt, November 20, 1990, NAID 428081221. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  November 1990, NAID 325592651. Digital object: 1990-11-20--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-11-20--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-075",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415890938",
         "415890939"
       ],
       "diaryVerificationTargets": [
@@ -5804,7 +5814,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 9,
       "stubPath": "reports/document-stubs/c-019.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: November 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428081203.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: November 1990. No classification marking identified. National Archives Catalog, NAID 428081203.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 11/23/1990; Type Memcon; Participants Mubarak, Hosni; Country Egypt; Release Status Partial; NAID 428081203. National Archives Catalog item: Meeting with President Mubarek of Egypt, November 23, 1990, NAID 428081203. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1990-December 1990]: November 1990, NAID 325541482. Digital object: 1990-11-23--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-11-23--Mubarak.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-076",
       "diaryReferenceCount": 2,
@@ -5891,7 +5901,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-051.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: November 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081259.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: November 1990. No classification marking identified. National Archives Catalog, NAID 428081259.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 11/30/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081259. National Archives Catalog item: Presidential Phone Call to President Mubarak of Egypt,November 30, 1990, NAID 428081259. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  November 1990, NAID 325592651. Digital object: 1990-11-30--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-11-30--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-077",
       "diaryReferenceCount": 2,
@@ -5978,7 +5988,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/c-052.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: December 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081293.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: December 1990. No classification marking identified. National Archives Catalog, NAID 428081293.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 12/31/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081293. National Archives Catalog item: Telephone Conversation with President Hosni Mubarak of Egypt, December 31, 1990, NAID 428081293. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  December 1990, NAID 325592652. Digital object: 1990-12-31--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-12-31--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-079",
       "diaryReferenceCount": 2,
@@ -6065,13 +6075,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 2,
       "stubPath": "reports/document-stubs/c-004.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: January 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428081331.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: January 1991. No classification marking identified. National Archives Catalog, NAID 428081331.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/16/1991; Type No Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status blank; NAID 428081331. National Archives Catalog item: Telephone Call to Hosni Mubarak, January 16, 1991, NAID 428081331. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  January 1991, NAID 325592653. Digital object: 1991-01-16--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-01-16--Mubarak.pdf. Access/release status: Marker / no memorandum listed.",
       "diaryControlNumber": "DC-081",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415891052",
-        "415891053"
+        "415891052"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -6152,12 +6161,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 2,
       "stubPath": "reports/document-stubs/c-005.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: January 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428081339.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: January 1991. No classification marking identified. National Archives Catalog, NAID 428081339.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/20/1991; Type No Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status blank; NAID 428081339. National Archives Catalog item: Telephone Call to Hosni Mubarek, January 20, 1991, NAID 428081339. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  January 1991, NAID 325592653. Digital object: 1991-01-20--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-01-20--Mubarak.pdf. Access/release status: Marker / no memorandum listed.",
       "diaryControlNumber": "DC-082",
       "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415891061"
+        "415891060"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -6238,7 +6247,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/c-053.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: January 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081371.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: January 1991. No classification marking identified. National Archives Catalog, NAID 428081371.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/21/1991; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081371. National Archives Catalog item: Presidential Phone Call to President Mubarak of Egypt on January 21, 1991, NAID 428081371. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  January 1991, NAID 325592653. Digital object: 1991-01-21--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-01-21--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-083",
       "diaryReferenceCount": 2,
@@ -6325,12 +6334,13 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 5,
       "stubPath": "reports/document-stubs/c-020.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1991-June 1991]: January 1991. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428081381.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1991-June 1991]: January 1991. Confidential. National Archives Catalog, NAID 428081381.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/29/1991; Type Memcon; Participants Meguid, Ahmed Esmat Abdel; Country Egypt; Release Status Partial; NAID 428081381. National Archives Catalog item: Meeting with Foreign Minister Abd el-Meguid, January 29, 1991, NAID 428081381. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1991-June 1991]: January 1991, NAID 325541486. Digital object: 1991-01-29--el-Meguid.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-01-29--el-Meguid.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-084",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
-        "415891078"
+        "415891078",
+        "415891079"
       ],
       "diaryVerificationTargets": [
         "meeting time",
@@ -6413,13 +6423,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/c-054.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: February 1991 [1]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081409.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: February 1991 [1]. No classification marking identified. National Archives Catalog, NAID 428081409.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/2/1991; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081409. National Archives Catalog item: President's Call to President Mubarak of Egypt on February 2, 1991, NAID 428081409. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  February 1991 [1], NAID 325592654. Digital object: 1991-02-02--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-02-02--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-085",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415891086",
-        "415891087"
+        "415891086"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -6500,11 +6509,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 5,
       "stubPath": "reports/document-stubs/c-021.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: February 1991 [1]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428081451.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: February 1991 [1]. No classification marking identified. National Archives Catalog, NAID 428081451.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/12/1991; Type Telcon; Participants Hassan III, King; Country Morocco; Release Status Partial; NAID 428081451. National Archives Catalog item: Telephone Conversation with Moroccan King Hassan, February 12, 1991, NAID 428081451. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  February 1991 [1], NAID 325592654. Digital object: 1991-02-12--Hassan.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-02-12--Hassan.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-087",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415891106",
         "415891107"
       ],
       "diaryVerificationTargets": [
@@ -6585,11 +6595,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-055.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: February 1991 [2]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081471.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: February 1991 [2]. No classification marking identified. National Archives Catalog, NAID 428081471.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/20/1991; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081471. National Archives Catalog item: Telcon with President Mubarak of Egypt on February 20, 1991, NAID 428081471. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  February 1991 [2], NAID 325592655. Digital object: 1991-02-20--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-02-20--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-088",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415891122",
         "415891123"
       ],
       "diaryVerificationTargets": [
@@ -6671,12 +6682,13 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-056.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: February 1991 [2]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081483.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: February 1991 [2]. No classification marking identified. National Archives Catalog, NAID 428081483.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/22/1991; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081483. National Archives Catalog item: Telcon with President Mubarak of Egypt on February 22, 1991, NAID 428081483. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  February 1991 [2], NAID 325592655. Digital object: 1991-02-22--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-02-22--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-089",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
-        "415891126"
+        "415891126",
+        "415891127"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -6757,12 +6769,11 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-057.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: February 1991 [2]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081495.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: February 1991 [2]. No classification marking identified. National Archives Catalog, NAID 428081495.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/23/1991; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081495. National Archives Catalog item: Telcon with President Mubarak of Egypt on February 23, 1991, NAID 428081495. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  February 1991 [2], NAID 325592655. Digital object: 1991-02-23--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-02-23--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-090",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415891128",
         "415891129"
       ],
       "diaryVerificationTargets": [
@@ -6844,12 +6855,11 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-022.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: February 1991 [2]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428081503.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: February 1991 [2]. No classification marking identified. National Archives Catalog, NAID 428081503.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/26/1991; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Partial; NAID 428081503. National Archives Catalog item: Telcon with President Mubarak of Egypt on Februa.:ry 26, 1991, NAID 428081503. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  February 1991 [2], NAID 325592655. Digital object: 1991-02-26--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-02-26--Mubarak.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-091",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415891134",
         "415891135"
       ],
       "diaryVerificationTargets": [
@@ -6931,7 +6941,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 2,
       "stubPath": "reports/document-stubs/c-006.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: March 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428081547.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: March 1991. No classification marking identified. National Archives Catalog, NAID 428081547.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 3/1/1991; Type No Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status blank; NAID 428081547. National Archives Catalog item: Telephone Call from Hosni Mubarak, March 1, 1991, NAID 428081547. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  March 1991, NAID 325592656. Digital object: 1991-03-01--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-03-01--Mubarak.pdf. Access/release status: Marker / no memorandum listed.",
       "diaryControlNumber": "DC-092",
       "diaryReferenceCount": 2,
@@ -7018,11 +7028,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-058.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: May 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081661.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: May 1991. No classification marking identified. National Archives Catalog, NAID 428081661.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 5/7/1991; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081661. National Archives Catalog item: Telephone Conversation with Hosni Mubarak, President of Egypt on May 7, 1991, NAID 428081661. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]:  May 1991, NAID 325592658. Digital object: 1991-05-07--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-05-07--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-099",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415891274",
         "415891275"
       ],
       "diaryVerificationTargets": [
@@ -7104,11 +7115,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 2,
       "stubPath": "reports/document-stubs/c-059.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: May 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081671.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: May 1991. No classification marking identified. National Archives Catalog, NAID 428081671.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 5/17/1991; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081671. National Archives Catalog item: Presidential Phone Call to President Mubarak of Egypt, May 17, 1991, NAID 428081671. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]:  May 1991, NAID 325592658. Digital object: 1991-05-17--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-05-17--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-100",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415891294",
         "415891295"
       ],
       "diaryVerificationTargets": [
@@ -7190,12 +7202,13 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/c-060.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: June 1991. Secret; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081717.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: June 1991. Secret; OADR. National Archives Catalog, NAID 428081717.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 6/12/1991; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081717. National Archives Catalog item: Telcon with President Mubarak of Egypt on June 12, 1991, NAID 428081717. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]:  June 1991, NAID 325592659. Digital object: 1991-06-12--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-06-12--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-101",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
-        "415891347"
+        "415891347",
+        "415891348"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -7276,7 +7289,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/c-061.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: July 1991. Secret; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081759.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: July 1991. Secret; OADR. National Archives Catalog, NAID 428081759.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 7/10/1991; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081759. National Archives Catalog item: Telcon with President Hosni Mubarak of Egypt on July. 10, 1991, NAID 428081759. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]:  July 1991, NAID 325592660. Digital object: 1991-07-10--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-07-10--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-103",
       "diaryReferenceCount": 2,
@@ -7363,13 +7376,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 5,
       "stubPath": "reports/document-stubs/c-062.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081877.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991. No classification marking identified. National Archives Catalog, NAID 428081877.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 9/13/1991; Type Memcon; Participants Boutros-Ghali, Boutros; Country Egypt; Release Status Full; NAID 428081877. National Archives Catalog item: Meeting with Egyptian Deputy Prime Minister Boutros Ghali, September 13, 1991, NAID 428081877. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991, NAID 325542558. Digital object: 1991-09-13--Boutros-Ghali.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-09-13--Boutros-Ghali.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-111",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415891533",
-        "415891534"
+        "415891533"
       ],
       "diaryVerificationTargets": [
         "meeting time",
@@ -7450,7 +7462,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-063.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: October 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081997.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: October 1991. No classification marking identified. National Archives Catalog, NAID 428081997.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 10/30/1991; Type Memcon; Participants Mousa, Amr; Country Egypt; Release Status Full; NAID 428081997. National Archives Catalog item: Memorandum of Conversation of Meeting between Foreign Minister Mousa of Egypt and President Bush, October 30, 1991, NAID 428081997. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1991-December 1991]: October 1991, NAID 325542559. Digital object: 1991-10-30--Mousa.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-10-30--Mousa.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-115",
       "diaryReferenceCount": 2,
@@ -7539,7 +7551,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/c-064.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: November 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428082043.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: November 1991. No classification marking identified. National Archives Catalog, NAID 428082043.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 11/7/1991; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428082043. National Archives Catalog item: Telcon with President Mubarak of Egypt, November 7, 1991, NAID 428082043. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]:  November 1991, NAID 325592664. Digital object: 1991-11-07--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-11-07--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-117",
       "diaryReferenceCount": 2,
@@ -7626,11 +7638,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 2,
       "stubPath": "reports/document-stubs/c-065.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: November 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428082051.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: November 1991. No classification marking identified. National Archives Catalog, NAID 428082051.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 11/22/1991; Type Telcon; Participants Boutros-Ghali, Boutros; Country Egypt; Release Status Full; NAID 428082051. National Archives Catalog item: Telcon with Boutros Boutros Ghali of Egypt, November 22, 1991, NAID 428082051. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]:  November 1991, NAID 325592664. Digital object: 1991-11-22--Boutros-Ghali.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-11-22--Boutros-Ghali.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-120",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415891676",
         "415891677"
       ],
       "diaryVerificationTargets": [
@@ -7712,7 +7725,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/c-023.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: December 1991. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428082037.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: December 1991. Confidential. National Archives Catalog, NAID 428082037.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 12/5/1991; Type Memcon; Participants Boutros-Ghali, Boutros; Country Egypt; Release Status Partial; NAID 428082037. National Archives Catalog item: Meeting with Dr. Boutros Boutros Ghali of Egypt (1 of 2), December 5, 1991, NAID 428082037. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1991-December 1991]: December 1991, NAID 325542561. Digital object: 1991-12-05--Boutros-Ghali.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-12-05--Boutros-Ghali.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-122",
       "diaryReferenceCount": 2,
@@ -7799,7 +7812,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/c-024.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: December 1991. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428082039.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: December 1991. Confidential. National Archives Catalog, NAID 428082039.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 12/5/1991; Type Memcon; Participants Boutros-Ghali, Boutros; Country Egypt; Release Status Partial; NAID 428082039. National Archives Catalog item: Meeting with Dr. Boutros Boutros Ghali of Egypt (2 of 2), December 5, 1991, NAID 428082039. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1991-December 1991]: December 1991, NAID 325542561. Digital object: 1991-12-05--Ghali.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-12-05--Ghali.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-123",
       "diaryReferenceCount": 2,
@@ -7886,12 +7899,11 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 6,
       "stubPath": "reports/document-stubs/c-025.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1992-June 1992]: January 1992. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428082125.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1992-June 1992]: January 1992. No classification marking identified. National Archives Catalog, NAID 428082125.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/30/1992; Type Memcon; Participants Hassan III, King; Country Morocco; Release Status Partial; NAID 428082125. National Archives Catalog item: Meeting with King Hassan of Morocco, January 30, 1992, NAID 428082125. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1992-June 1992]: January 1992, NAID 325568085. Digital object: 1992-01-30--Hassan.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1992-01-30--Hassan.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-127",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415891815",
         "415891816"
       ],
       "diaryVerificationTargets": [
@@ -7972,13 +7984,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-026.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]: December 1992. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428082403.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]: December 1992. No classification marking identified. National Archives Catalog, NAID 428082403.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 12/3/1992; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Partial; NAID 428082403. National Archives Catalog item: Telcon with President Mubarak of Egypt on December 3, 1992, NAID 428082403. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]:  December 1992, NAID 325592783. Digital object: 1992-12-03--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1992-12-03--Mubarak.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-130",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415892436",
-        "415892437"
+        "415892436"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -8059,12 +8070,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-066.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]: December 1992. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428082407.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]: December 1992. No classification marking identified. National Archives Catalog, NAID 428082407.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 12/4/1992; Type Telcon; Participants Boutros-Ghali, Boutros; Country Egypt; Release Status Full; NAID 428082407. National Archives Catalog item: Telcon with UN Secretary General Boutros Boutros-Ghali, December 4, 1992, NAID 428082407. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]:  December 1992, NAID 325592783. Digital object: 1992-12-04--Boutros-Ghali.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1992-12-04--Boutros-Ghali.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-131",
       "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415892438"
+        "415892439"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -8145,12 +8156,11 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/c-067.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]: December 1992. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428082417.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]: December 1992. No classification marking identified. National Archives Catalog, NAID 428082417.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 12/8/1992; Type Telcon; Participants Boutros-Ghali, Boutros; Country Egypt; Release Status Full; NAID 428082417. National Archives Catalog item: Telcon with UN Secretary General Boutros Boutros-Ghali, December 8, 1992, NAID 428082417. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]:  December 1992, NAID 325592783. Digital object: 1992-12-08--Boutros-Ghali.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1992-12-08--Boutros-Ghali.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-132",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415892446",
         "415892447"
       ],
       "diaryVerificationTargets": [
@@ -8232,7 +8242,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-068.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]: January 1993. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428082441.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]: January 1993. No classification marking identified. National Archives Catalog, NAID 428082441.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/2/1993; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428082441. National Archives Catalog item: Telcon with President Hosni Mubarak of Egypt, January 2, 1992, NAID 428082441. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]:  January 1993, NAID 325592787. Digital object: 1993-01-02--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1993-01-02--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-134",
       "diaryReferenceCount": 2,
@@ -8319,11 +8329,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 2,
       "stubPath": "reports/document-stubs/c-007.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428079889.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. No classification marking identified. National Archives Catalog, NAID 428079889.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/2/1989; Type No Memcon; Participants Museveni. Yoweri; Country Uganda; Release Status blank; NAID 428079889. National Archives Catalog item: Meeting with Yoweri Museveni of Uganda, February 2, 1989, NAID 428079889. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989, NAID 325377380. Digital object: 1989-02-02--Museveni.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-02-02--Museveni.pdf. Access/release status: Marker / no memorandum listed.",
       "diaryControlNumber": "DC-006",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415889624",
         "415889625"
       ],
       "diaryVerificationTargets": [
@@ -8405,7 +8416,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 2,
       "stubPath": "reports/document-stubs/c-008.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428080497.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990. No classification marking identified. National Archives Catalog, NAID 428080497.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/1/1990; Type No Memcon; Participants Moi, Daniel arap; Country Kenya; Release Status blank; NAID 428080497. National Archives Catalog item: Meeting with Daniel arap Moi of Kenya, February 1, 1990, NAID 428080497. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990, NAID 325377405. Digital object: 1990-02-01--Moi.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-02-01--Moi.pdf. Access/release status: Marker / no memorandum listed.",
       "diaryControlNumber": "DC-032",
       "diaryReferenceCount": 1,
@@ -8489,7 +8500,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 2,
       "stubPath": "reports/document-stubs/c-009.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428080491.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990. No classification marking identified. National Archives Catalog, NAID 428080491.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/1/1990; Type No Memcon; Participants Buyoya, Pierre; Country Burundi; Release Status blank; NAID 428080491. National Archives Catalog item: Meeting with Pierre Buyoya of Burundi, February 1, 1990, NAID 428080491. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990, NAID 325377405. Digital object: 1990-02-01--Buyoya.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-02-01--Buyoya.pdf. Access/release status: Marker / no memorandum listed.",
       "diaryControlNumber": "DC-031",
       "diaryReferenceCount": 1,
@@ -8575,12 +8586,11 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 9,
       "stubPath": "reports/document-stubs/c-027.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: May 1990. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428080689.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: May 1990. Confidential. National Archives Catalog, NAID 428080689.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 5/14/1990; Type Memcon; Participants Diouf, Abdou; Country Senegal; Release Status Partial; NAID 428080689. National Archives Catalog item: Meeting with President Abdou Diouf of Senegal, May 14, 1990, NAID 428080689. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1990-June 1990]: May 1990, NAID 325541470. Digital object: 1990-05-14--Diouf.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-05-14--Diouf.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-043",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415890556",
         "415890557"
       ],
       "diaryVerificationTargets": [
@@ -8660,7 +8670,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 6,
       "stubPath": "reports/document-stubs/c-028.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: July 1990. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428080849.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: July 1990. Confidential. National Archives Catalog, NAID 428080849.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 7/31/1990; Type Memcon; Participants Eyadema, Gnassingbe; Country Togo; Release Status Partial; NAID 428080849. National Archives Catalog item: Plenary Meeting with President Gnass;ngbe Eyadema of Togo, July 31, 1990 (2 of 3), NAID 428080849. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1990-December 1990]: July 1990, NAID 325541475. Digital object: 1990-07-31--Eyadema-2.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-07-31--Eyadema-2.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-056",
       "diaryReferenceCount": 2,
@@ -8745,12 +8755,11 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 6,
       "stubPath": "reports/document-stubs/c-029.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428081873.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991. Confidential. National Archives Catalog, NAID 428081873.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 9/10/1991; Type Memcon; Participants Diouf, Abdou; Country Senegal; Release Status Partial; NAID 428081873. National Archives Catalog item: Meeting with Abdou Diouf, President of Senegal, September 10, 1991 (2 of 2), NAID 428081873. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991, NAID 325542558. Digital object: 1991-09-10--Diouf-2.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-09-10--Diouf-2.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-109",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415891527",
         "415891528"
       ],
       "diaryVerificationTargets": [
@@ -8811,12 +8820,11 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-030.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1992-June 1992]: January 1992. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428082123.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1992-June 1992]: January 1992. No classification marking identified. National Archives Catalog, NAID 428082123.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/30/1992; Type Memcon; Participants Viega, Carlos; Country Cape Verde; Release Status Partial; NAID 428082123. National Archives Catalog item: Meeting with Prime Minister Carlos Viega of Cape Verde, January 30, 1992, NAID 428082123. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1992-June 1992]: January 1992, NAID 325568085. Digital object: 1992-01-30--Viega.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1992-01-30--Viega.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-126",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415891815",
         "415891816"
       ],
       "diaryVerificationTargets": [
@@ -8900,7 +8908,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/d-001.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079821.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. No classification marking identified. National Archives Catalog, NAID 428079821.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/31/1989; Type Telcon; Participants Hassan III, King; Country Morocco; Release Status Full; NAID 428079821. National Archives Catalog item: Telephone Conversation with King Hassan of Morocco, January 31, 1989, NAID 428079821. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989, NAID 322361434. Digital object: 1989-01-31--Hassan.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-01-31--Hassan.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-004",
       "diaryReferenceCount": 2,
@@ -8986,7 +8994,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 2,
       "stubPath": "reports/document-stubs/d-002.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079819.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. Confidential; OADR. National Archives Catalog, NAID 428079819.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/31/1989; Type Telcon; Participants Bendjedid, Chadli; Country Algeria; Release Status Full; NAID 428079819. National Archives Catalog item: Telephone Conversation with President Bendjedid of Algeria, January 31, 1989, NAID 428079819. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989, NAID 322361434. Digital object: 1989-01-31--Bendjedid.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-01-31--Bendjedid.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-003",
       "diaryReferenceCount": 2,
@@ -9073,12 +9081,11 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/d-003.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: July 1989. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080109.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: July 1989. Confidential; OADR. National Archives Catalog, NAID 428080109.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 7/3/1989; Type Telcon; Participants Hassan III, King; Country Morocco; Release Status Full; NAID 428080109. National Archives Catalog item: Telephone Conversation King Hassan of Morocco, July 3, 1989, NAID 428080109. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: July 1989, NAID 325592634. Digital object: 1989-07-03--Hassan.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-07-03--Hassan.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-019",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415889926",
         "415889927"
       ],
       "diaryVerificationTargets": [
@@ -9159,7 +9166,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/d-004.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: August 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080159.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: August 1989. No classification marking identified. National Archives Catalog, NAID 428080159.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/2/1989; Type Telcon; Participants Hassan III, King; Country Morocco; Release Status Full; NAID 428080159. National Archives Catalog item: President Bush's Telephone Call to King Hassan II, August 2, 1989, NAID 428080159. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: August 1989, NAID 325592635. Digital object: 1989-08-02--Hassan.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-08-02--Hassan.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-021",
       "diaryReferenceCount": 2,
@@ -9245,7 +9252,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/d-005.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: August 1989. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080155.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: August 1989. Confidential; OADR. National Archives Catalog, NAID 428080155.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/2/1989; Type Telcon; Participants Bendjedid, Chadil; Country Algeria; Release Status Full; NAID 428080155. National Archives Catalog item: Telephone Conversation with President Bendjedid of Algeria, August 2, 1989, NAID 428080155. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: August 1989, NAID 325592635. Digital object: 1989-08-02--Bendjedid.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-08-02--Bendjedid.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-020",
       "diaryReferenceCount": 2,
@@ -9327,7 +9334,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 62,
       "stubPath": "reports/document-stubs/d-033.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), H-Files - National Security Council (NSC) Meeting Files, NSC0034 - December 18, 1989 - Libya. Classification marking not identified in the available catalog/OCR metadata. File unit. Catalog metadata records access status as Restricted - Possibly. Catalog reference: NAID 470760928.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC) Meeting Files, NSC0034 - December 18, 1989 - Libya. No classification marking identified. National Archives Catalog, NAID 470760928.",
       "catalogProvenance": "National Archives Catalog file: NSC0034 - December 18, 1989 - Libya, NAID 470760928. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: H-Files - National Security Council (NSC) Meeting Files, NAID 312293887. Access status: Restricted - Possibly. Digital object: 41-bpr-nsc-hfiles-nsc_mtgs-34-90001-025.pdf, URL https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-34-90001-025.pdf. Catalog: https://catalog.archives.gov/id/470760928.",
       "diaryControlNumber": "",
       "diaryReferenceCount": 0,
@@ -9401,7 +9408,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 36,
       "stubPath": "reports/document-stubs/d-034.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), H-Files - National Security Review (NSR) Files, NSR-23 - February 21, 1990 - U.S. Policy Towards the Maghreb-Morocco / Algeria and Tunisia. Classification marking not identified in the available catalog/OCR metadata. File unit. Catalog metadata records access status as Restricted - Possibly. Catalog reference: NAID 446394969.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Review (NSR) Files, NSR-23 - February 21, 1990 - U.S. Policy Towards the Maghreb-Morocco / Algeria and Tunisia. No classification marking identified. National Archives Catalog, NAID 446394969.",
       "catalogProvenance": "National Archives Catalog file: NSR-23 - February 21, 1990 - U.S. Policy Towards the Maghreb-Morocco / Algeria and Tunisia, NAID 446394969. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: H-Files - National Security Review (NSR) Files, NAID 313189297. Access status: Restricted - Possibly. Digital object: 41-bpr-nsc-hfiles-nsr-23-90007-017.pdf, URL https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-23-90007-017.pdf. Catalog: https://catalog.archives.gov/id/446394969.",
       "diaryControlNumber": "",
       "diaryReferenceCount": 0,
@@ -9479,7 +9486,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/d-006.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: May 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080691.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: May 1990. No classification marking identified. National Archives Catalog, NAID 428080691.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 5/15/1990; Type Memcon; Participants Ali, Ben; Country Tunisia; Release Status Full; NAID 428080691. National Archives Catalog item: Meeting with President Ben Ali of Tunisia, May 15, 1990 (1 of 2), NAID 428080691. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1990-June 1990]: May 1990, NAID 325541470. Digital object: 1990-05-15--Ali-1.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-05-15--Ali-1.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-044",
       "diaryReferenceCount": 2,
@@ -9564,7 +9571,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 7,
       "stubPath": "reports/document-stubs/d-007.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: May 1990. Secret; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080693.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: May 1990. Secret; OADR. National Archives Catalog, NAID 428080693.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 5/15/1990; Type Memcon; Participants Ali, Ben; Country Tunisia; Release Status Full; NAID 428080693. National Archives Catalog item: Plenary Meeting with President Ben Ali of Tunisia, May 15, 1990 (2 of 2), NAID 428080693. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1990-June 1990]: May 1990, NAID 325541470. Digital object: 1990-05-15--Ali-2.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-05-15--Ali-2.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-045",
       "diaryReferenceCount": 2,
@@ -9649,12 +9656,11 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/d-008.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [1]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080905.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [1]. No classification marking identified. National Archives Catalog, NAID 428080905.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/7/1990; Type Telcon; Participants Hassan III, King; Country Morocco; Release Status Full; NAID 428080905. National Archives Catalog item: Telephone Conversation with King Hassan of Morocco, August 7, 1990, NAID 428080905. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  August 1990 [1], NAID 325592647. Digital object: 1990-08-07--Hassan.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-07--Hassan.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-058",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415890726",
         "415890727"
       ],
       "diaryVerificationTargets": [
@@ -9734,7 +9740,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/d-009.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [2]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080987.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [2]. No classification marking identified. National Archives Catalog, NAID 428080987.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/29/1990; Type Telcon; Participants Bendjedid, Chadil; Country Algeria; Release Status Full; NAID 428080987. National Archives Catalog item: Telephone Conversation with President Bendjedid of Algeria, August 29, 1990, NAID 428080987. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  August 1990 [2], NAID 325592648. Digital object: 1990-08-29--Bendjedid.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-29--Bendjedid.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-064",
       "diaryReferenceCount": 2,
@@ -9819,7 +9825,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/d-010.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1991-June 1991]: April 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081577.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1991-June 1991]: April 1991. No classification marking identified. National Archives Catalog, NAID 428081577.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 4/11/1991; Type Memcon; Participants Khelil, Ismail; Country Tunisia; Release Status Full; NAID 428081577. National Archives Catalog item: Tunisian Ambassador's Credentials Ceremony, April 11, 1991, NAID 428081577. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1991-June 1991]: April 1991, NAID 325542550. Digital object: 1991-04-11--Khelil.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-04-11--Khelil.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-095",
       "diaryReferenceCount": 2,
@@ -9907,7 +9913,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 6,
       "stubPath": "reports/document-stubs/d-011.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081925.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991. No classification marking identified. National Archives Catalog, NAID 428081925.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 9/26/1991; Type Memcon; Participants Hassan III, King; Country Morocco; Release Status Full; NAID 428081925. National Archives Catalog item: Plenary Meeting with King Hassan III of Morocco, September 26, 1991, NAID 428081925. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991, NAID 325542558. Digital object: 1991-09-26--Hassan.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-09-26--Hassan.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-113",
       "diaryReferenceCount": 2,
@@ -9993,11 +9999,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/d-012.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: November 1991. Secret; Sensitive; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428082047.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: November 1991. Secret; Sensitive; OADR. National Archives Catalog, NAID 428082047.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 11/19/1991; Type Telcon; Participants Hassan III, King; Country Morocco; Release Status Full; NAID 428082047. National Archives Catalog item: Telephone Conversation with King Hassan of Morocco on November 19, 1991, NAID 428082047. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]:  November 1991, NAID 325592664. Digital object: 1991-11-19--Hassan.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-11-19--Hassan.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-118",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415891670",
         "415891671"
       ],
       "diaryVerificationTargets": [
@@ -10078,7 +10085,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 2,
       "stubPath": "reports/document-stubs/d-013.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]: December 1992. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428082067.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]: December 1992. No classification marking identified. National Archives Catalog, NAID 428082067.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 12/3/1991; Type Telcon; Participants Hassan III, King; Country Morocco; Release Status Full; NAID 428082067. National Archives Catalog item: Telcon with King Hassan of Morocco on December 3, 1992, NAID 428082067. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]:  December 1992, NAID 325592783. Digital object: 1992-12-03--Hassan.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1992-12-03--Hassan.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-121",
       "diaryReferenceCount": 2,
@@ -10164,12 +10171,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/d-014.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: October 1990. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081107.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: October 1990. Confidential; OADR. National Archives Catalog, NAID 428081107.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 10/1/1990; Type Memcon; Participants Museveni, Yoweri; Country Uganda; Release Status Full; NAID 428081107. National Archives Catalog item: Meeting with President Yoweri Museveni of Uganda, Chairman of the Organization of African Unity (OAU), NAID 428081107. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1990-December 1990]: October 1990, NAID 325541480. Digital object: 1990-10-01--Museveni.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-10-01--Museveni.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-069",
       "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415890836"
+        "415890837"
       ],
       "diaryVerificationTargets": [
         "meeting time",
@@ -10231,7 +10238,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 6,
       "stubPath": "reports/document-stubs/d-015.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1991-June 1991]: April 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081625.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1991-June 1991]: April 1991. No classification marking identified. National Archives Catalog, NAID 428081625.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 4/24/1991; Type Memcon; Participants Gouled, Hassan; Country Djibouti; Release Status Full; NAID 428081625. National Archives Catalog item: Luncheon Meeting with President Hassan Gouled of the Republic of Djibouti, April 24, 1991 (2 of 2), NAID 428081625. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1991-June 1991]: April 1991, NAID 325542550. Digital object: 1991-04-24--Gouled-2.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-04-24--Gouled-2.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-096",
       "diaryReferenceCount": 2,
@@ -10299,7 +10306,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 6,
       "stubPath": "reports/document-stubs/d-016.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1991-June 1991]: April 1991. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081623.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1991-June 1991]: April 1991. Confidential; OADR. National Archives Catalog, NAID 428081623.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 4/24/1991; Type Memcon; Participants Gouled, Hassan; Country Djibouti; Release Status Full; NAID 428081623. National Archives Catalog item: Meeting with President Hassan Gouled of the Republic of Djibouti, April 24, 1991 (1 of 2), NAID 428081623. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1991-June 1991]: April 1991, NAID 325542550. Digital object: 1991-04-24--Gouled-1.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-04-24--Gouled-1.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-097",
       "diaryReferenceCount": 2,
@@ -10367,11 +10374,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/d-017.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079793.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. No classification marking identified. National Archives Catalog, NAID 428079793.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/24/1989; Type Telcon; Participants Diouf, Abdou; Country Senegal; Release Status Full; NAID 428079793. National Archives Catalog item: Telephone Conversation with President Diouf of Senegal, January 24, 1989, NAID 428079793. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989, NAID 322361434. Digital object: 1989-01-24--Diouf.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-01-24--Diouf.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-002",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415889606",
         "415889607"
       ],
       "diaryVerificationTargets": [
@@ -10451,7 +10459,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 2,
       "stubPath": "reports/document-stubs/d-018.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: February 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079831.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: February 1989. No classification marking identified. National Archives Catalog, NAID 428079831.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/7/1989; Type Telcon; Participants Babangida, Ibrahim; Country Nigeria; Release Status Full; NAID 428079831. National Archives Catalog item: Telephone Conversation between President Bush and President Babangida of Nigeria, February 7, 1989, NAID 428079831. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: February 1989, NAID 325592629. Digital object: 1989-02-07--Babangida.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-02-07--Babangida.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-007",
       "diaryReferenceCount": 2,
@@ -10538,7 +10546,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/d-019.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079869.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. No classification marking identified. National Archives Catalog, NAID 428079869.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/25/1989; Type Memcon; Participants Babangida, Ibrahim; Country Nigeria; Release Status Full; NAID 428079869. National Archives Catalog item: Meeting with President Ibrahim Babangida of Nigeria, February 25, 1989, NAID 428079869. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989, NAID 325377380. Digital object: 1989-02-25--Babangida.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-02-25--Babangida.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-010",
       "diaryReferenceCount": 2,
@@ -10625,12 +10633,13 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/d-020.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - January 1989-May 1989]: April 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079977.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - January 1989-May 1989]: April 1989. No classification marking identified. National Archives Catalog, NAID 428079977.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 4/21/1989; Type Memcon; Participants Pereira, Aristides; Country Cape Verde; Release Status Full; NAID 428079977. National Archives Catalog item: Memorandum of Conversation: The President and Cape Verdean President Aristides Pereira, April 21, 1989, NAID 428079977. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons) - January 1989-May 1989]: April 1989, NAID 325377385. Digital object: 1989-04-21--Pereira.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-04-21--Pereira.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-012",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
-        "415889780"
+        "415889780",
+        "415889781"
       ],
       "diaryVerificationTargets": [
         "meeting time",
@@ -10711,7 +10720,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 5,
       "stubPath": "reports/document-stubs/d-021.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - January 1989-May 1989]: May 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080023.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - January 1989-May 1989]: May 1989. No classification marking identified. National Archives Catalog, NAID 428080023.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 5/15/1989; Type Memcon; Participants Jawara, Dawda; Country Gambia; Release Status Full; NAID 428080023. National Archives Catalog item: Memorandum of Conversation between the President and Sir Dawda Jawara, President of The Gambia, NAID 428080023. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons) - January 1989-May 1989]: May 1989, NAID 325377387. Digital object: 1989-05-15--Jawara.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-05-15--Jawara.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-013",
       "diaryReferenceCount": 2,
@@ -10796,7 +10805,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 6,
       "stubPath": "reports/document-stubs/d-022.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: April 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080651.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: April 1990. No classification marking identified. National Archives Catalog, NAID 428080651.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 4/27/1990; Type Memcon; Participants Pereira, Aristides; Country Cape Verde; Release Status Full; NAID 428080651. National Archives Catalog item: Meeting with President Aristides Pereira of Cape Verde, April 27, 1990, NAID 428080651. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1990-June 1990]: April 1990, NAID 325541469. Digital object: 1990-04-27--Pereira.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-04-27--Pereira.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-041",
       "diaryReferenceCount": 2,
@@ -10883,7 +10892,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 5,
       "stubPath": "reports/document-stubs/d-023.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: July 1990. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080851.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: July 1990. Confidential; OADR. National Archives Catalog, NAID 428080851.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 7/31/1990; Type Memcon; Participants Eyadema, Gnassingbe; Country Togo; Release Status Full; NAID 428080851. National Archives Catalog item: Luncheon Meeting with President Gnassingbe Eyadema of Togo, July 31, 1990 (3 of 3), NAID 428080851. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1990-December 1990]: July 1990, NAID 325541475. Digital object: 1990-07-31--Eyadema-3.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-07-31--Eyadema-3.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-054",
       "diaryReferenceCount": 2,
@@ -10968,7 +10977,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/d-024.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: July 1990. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080847.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: July 1990. Confidential; OADR. National Archives Catalog, NAID 428080847.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 7/31/1990; Type Memcon; Participants Eyadema, Gnassingbe; Country Togo; Release Status Full; NAID 428080847. National Archives Catalog item: One-on-One Meeting with President Gnassingbe Eyadema of Togo, July 31, 1990 (1 of 3), NAID 428080847. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1990-December 1990]: July 1990, NAID 325541475. Digital object: 1990-07-31--Eyadema-1.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-07-31--Eyadema-1.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-055",
       "diaryReferenceCount": 2,
@@ -11053,12 +11062,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/d-025.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: March 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081571.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: March 1991. No classification marking identified. National Archives Catalog, NAID 428081571.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 3/22/1991; Type Telcon; Participants Diouf, Abdou; Country Senegal; Release Status Full; NAID 428081571. National Archives Catalog item: Telephone Conversation with President Abdou Diouf of Senegal, March 22, 1991, NAID 428081571. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  March 1991, NAID 325592656. Digital object: 1991-03-22--Diouf.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-03-22--Diouf.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-094",
       "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415891182"
+        "415891183"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -11138,12 +11147,11 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/d-026.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081871.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991. No classification marking identified. National Archives Catalog, NAID 428081871.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 9/10/1991; Type Memcon; Participants Diouf, Abdou; Country Senegal; Release Status Full; NAID 428081871. National Archives Catalog item: Meeting with President Abdou Diouf of Senegal, September 10, 1991 (1 of 2), NAID 428081871. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991, NAID 325542558. Digital object: 1991-09-10--Diouf-1.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-09-10--Diouf-1.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-110",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415891527",
         "415891528"
       ],
       "diaryVerificationTargets": [
@@ -11204,11 +11212,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 5,
       "stubPath": "reports/document-stubs/d-027.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: November 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428082003.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: November 1991. No classification marking identified. National Archives Catalog, NAID 428082003.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 11/5/1991; Type Memcon; Participants Soglo, Nicephore; Country Benin; Release Status Full; NAID 428082003. National Archives Catalog item: Meeting with President Soglo of Benin, November 5, 1991, NAID 428082003. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1991-December 1991]: November 1991, NAID 325542560. Digital object: 1991-11-05--Soglo.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-11-05--Soglo.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-116",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415891641",
         "415891642"
       ],
       "diaryVerificationTargets": [
@@ -11289,7 +11298,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/d-028.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079823.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. No classification marking identified. National Archives Catalog, NAID 428079823.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/31/1989; Type Telcon; Participants Sese Seko, Mobutu; Country Zaire; Release Status Full; NAID 428079823. National Archives Catalog item: Telephone Conversation with President Marshall Mobutu Sese Seko of Zaire, January 31, 1989, NAID 428079823. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989, NAID 322361434. Digital object: 1989-01-31--Sese-Seko.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-01-31--Sese-Seko.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-005",
       "diaryReferenceCount": 2,
@@ -11376,11 +11385,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/d-029.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. Secret; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079865.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. Secret; OADR. National Archives Catalog, NAID 428079865.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/24/1989; Type Memcon; Participants Sese Seko, Mobutu; Country Zaire; Release Status Full; NAID 428079865. National Archives Catalog item: Bilateral Discussion with President Sese Seko Mobutu of the Republic of Zaire, February 24, 1989, NAID 428079865. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989, NAID 325377380. Digital object: 1989-02-24--Sese-Seko.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-02-24--Sese-Seko.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-009",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415889668",
         "415889669"
       ],
       "diaryVerificationTargets": [
@@ -11462,7 +11472,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/d-030.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: June 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080079.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: June 1989. No classification marking identified. National Archives Catalog, NAID 428080079.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 6/29/1989; Type Memcon; Participants Sese Seko, Mobutu; Country Zaire; Release Status Full; NAID 428080079. National Archives Catalog item: Meeting Between the President and Zairian President Mobutu, June 29, 1989 (1 of 2), NAID 428080079. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons) - June 1989-December 1989]: June 1989, NAID 325377389. Digital object: 1989-06-29--Sese-Seko-1.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-06-29--Sese-Seko-1.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-017",
       "diaryReferenceCount": 2,
@@ -11549,7 +11559,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/d-031.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: June 1989. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080081.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: June 1989. Confidential; OADR. National Archives Catalog, NAID 428080081.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 6/29/1989; Type Memcon; Participants Sese Seko, Mobutu; Country Zaire; Release Status Full; NAID 428080081. National Archives Catalog item: Meeting with President Mobutu Sese Seko of Zaire, June 29, 1989 (2 of 2), NAID 428080081. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons) - June 1989-December 1989]: June 1989, NAID 325377389. Digital object: 1989-06-29--Sese-Seko-2.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-06-29--Sese-Seko-2.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-018",
       "diaryReferenceCount": 2,
@@ -11636,11 +11646,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 6,
       "stubPath": "reports/document-stubs/d-032.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: October 1989. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080247.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: October 1989. Confidential; OADR. National Archives Catalog, NAID 428080247.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 10/4/1989; Type Memcon; Participants Sese Seko, Mobutu; Country Zaire; Release Status Full; NAID 428080247. National Archives Catalog item: Meeting with Mobutu Sese Seko, President of Zaire, October 4, 1989, NAID 428080247. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons) - June 1989-December 1989]: October 1989, NAID 325377394. Digital object: 1989-10-04--Sese-Seko.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-10-04--Sese-Seko.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-025",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415890112",
         "415890113"
       ],
       "diaryVerificationTargets": [
@@ -11719,7 +11730,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 37,
       "stubPath": "reports/document-stubs/d-035.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), H-Files - National Security Review (NSR) Files, NSR-30 - June 15, 1992 - American Policy Toward Africa in the 1990s. Classification marking not identified in the available catalog/OCR metadata. File unit. Catalog metadata records access status as Restricted - Possibly. Catalog reference: NAID 446394987.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Review (NSR) Files, NSR-30 - June 15, 1992 - American Policy Toward Africa in the 1990s. No classification marking identified. National Archives Catalog, NAID 446394987.",
       "catalogProvenance": "National Archives Catalog file: NSR-30 - June 15, 1992 - American Policy Toward Africa in the 1990s, NAID 446394987. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: H-Files - National Security Review (NSR) Files, NAID 313189297. Access status: Restricted - Possibly. Digital object: 41-bpr-nsc-hfiles-nsr-30-90008-010.pdf, URL https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-30-90008-010.pdf. Catalog: https://catalog.archives.gov/id/446394987.",
       "diaryControlNumber": "",
       "diaryReferenceCount": 0,
@@ -11793,7 +11804,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 57,
       "stubPath": "reports/document-stubs/d-036.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), National Security Directives (NSD) Files, NSD-75 - December 23, 1992 - American Policy toward Sub-Saharan Africa in the 1990s. Classification marking not identified in the available catalog/OCR metadata. File unit. Catalog metadata records access status as Restricted - Possibly. Catalog reference: NAID 446396910.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Directives (NSD) Files, NSD-75 - December 23, 1992 - American Policy toward Sub-Saharan Africa in the 1990s. No classification marking identified. National Archives Catalog, NAID 446396910.",
       "catalogProvenance": "National Archives Catalog file: NSD-75 - December 23, 1992 - American Policy toward Sub-Saharan Africa in the 1990s, NAID 446396910. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: National Security Directives (NSD) Files, NAID 313189290. Access status: Restricted - Possibly. Digital object: 41-bpr-nsc-hfiles-nsd-75-90005-026.pdf, URL https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/H-Files/NSDs_313189290/41-bpr-nsc-hfiles-nsd-75-90005-026.pdf. Catalog: https://catalog.archives.gov/id/446396910.",
       "diaryControlNumber": "",
       "diaryReferenceCount": 0,
@@ -11872,12 +11883,13 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 2,
       "stubPath": "reports/document-stubs/c-031.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079787.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. Confidential; OADR. National Archives Catalog, NAID 428079787.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/23/1989; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428079787. National Archives Catalog item: Telephone Conversation with President Mubarak of Egypt, January 23, 1989, NAID 428079787. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989, NAID 322361434. Digital object: 1989-01-23--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-01-23--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-001",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
-        "415889604"
+        "415889604",
+        "415889605"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -11958,7 +11970,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 6,
       "stubPath": "reports/document-stubs/c-010.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428079849.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. Confidential. National Archives Catalog, NAID 428079849.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/23/1989; Type Memcon; Participants Mubarak, Hosni; Country Egypt; Release Status Partial; NAID 428079849. National Archives Catalog item: Meeting with President Mohammed Hosni Mubarak of Egypt, February 23, 1989, NAID 428079849. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989, NAID 325377380. Digital object: 1989-02-23--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-02-23--Mubarak.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-008",
       "diaryReferenceCount": 2,
@@ -12045,11 +12057,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/c-011.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - January 1989-May 1989]: April 1989. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428079939.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - January 1989-May 1989]: April 1989. Confidential. National Archives Catalog, NAID 428079939.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 4/3/1989; Type Memcon; Participants Mubarak, Hosni; Country Egypt; Release Status Partial; NAID 428079939. National Archives Catalog item: Plenary Session with President Mubarak of Egypt, April 3, 1989, NAID 428079939. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons) - January 1989-May 1989]: April 1989, NAID 325377385. Digital object: 1989-04-03--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-04-03--Mubarak.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-011",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415889744",
         "415889745"
       ],
       "diaryVerificationTargets": [
@@ -12131,12 +12144,13 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-032.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: June 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080059.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: June 1989. No classification marking identified. National Archives Catalog, NAID 428080059.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 6/9/1989; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080059. National Archives Catalog item: Telephone Conversation with President Mohammad Hosni Mubarak of Egypt, June 9, 1989, NAID 428080059. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: June 1989, NAID 325592633. Digital object: 1989-06-09--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-06-09--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-016",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
-        "415889878"
+        "415889878",
+        "415889879"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -12217,12 +12231,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-033.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: August 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080133.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: August 1989. No classification marking identified. National Archives Catalog, NAID 428080133.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/8/1989; Type Memcon; Participants Abu Talib, Youssef; Country Egypt; Release Status Full; NAID 428080133. National Archives Catalog item: Meeting with General Youssef Abu Talib, Defense Minister of Egypt, NAID 428080133. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons) - June 1989-December 1989]: August 1989, NAID 325377392. Digital object: 1989-08-08--Abu-Talib.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-08-08--Abu-Talib.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-022",
       "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415889998"
+        "415889999"
       ],
       "diaryVerificationTargets": [
         "meeting time",
@@ -12305,12 +12319,13 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-034.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: August 1989. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080173.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: August 1989. Confidential; OADR. National Archives Catalog, NAID 428080173.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/9/1989; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080173. National Archives Catalog item: Telephone Conversation with - President Mubarak of Egypt, August 9, 1989, NAID 428080173. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: August 1989, NAID 325592635. Digital object: 1989-08-09--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-08-09--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-023",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
-        "415890000"
+        "415890000",
+        "415890001"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -12391,13 +12406,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 6,
       "stubPath": "reports/document-stubs/c-035.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: October 1989. Sensitive. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080243.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: October 1989. Sensitive. National Archives Catalog, NAID 428080243.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 10/2/1989; Type Memcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080243. National Archives Catalog item: Meeting with President Mubarak of Egypt, October 2, 1989, NAID 428080243. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons) - June 1989-December 1989]: October 1989, NAID 325377394. Digital object: 1989-10-02--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-10-02--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-024",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415890108",
-        "415890109"
+        "415890108"
       ],
       "diaryVerificationTargets": [
         "meeting time",
@@ -12478,7 +12492,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-036.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: October 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080303.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: October 1989. No classification marking identified. National Archives Catalog, NAID 428080303.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 10/18/1989; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080303. National Archives Catalog item: Telephone Conversation with President Mubarak of Egypt, October 18, 1989, NAID 428080303. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: October 1989, NAID 325592637. Digital object: 1989-10-18--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-10-18--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-027",
       "diaryReferenceCount": 2,
@@ -12565,13 +12579,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 5,
       "stubPath": "reports/document-stubs/c-012.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: November 1989. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428080293.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: November 1989. Confidential. National Archives Catalog, NAID 428080293.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 11/14/1989; Type Memcon; Participants Ali, Ben; Country Tunisia; Release Status Partial; NAID 428080293. National Archives Catalog item: Meeting with President Ben Ali of Tunisia, November 14, 1989, NAID 428080293. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons) - June 1989-December 1989]: November 1989, NAID 325377395. Digital object: 1989-11-14--Ali.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-11-14--Ali.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-028",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415890194",
-        "415890195"
+        "415890194"
       ],
       "diaryVerificationTargets": [
         "meeting time",
@@ -12650,7 +12663,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-037.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: November 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080341.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: November 1989. No classification marking identified. National Archives Catalog, NAID 428080341.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 11/17/1989; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080341. National Archives Catalog item: Telephone Conversation with President Hosni Mubarak of Egypt, November 17, 1989, NAID 428080341. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: November 1989, NAID 325592638. Digital object: 1989-11-17--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-11-17--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-029",
       "diaryReferenceCount": 2,
@@ -12737,7 +12750,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 6,
       "stubPath": "reports/document-stubs/c-013.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: January 1990. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428080439.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: January 1990. Confidential. National Archives Catalog, NAID 428080439.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/19/1990; Type Memcon; Participants Meguid, Ahmed Esmat Abdel; Country Egypt; Release Status Partial; NAID 428080439. National Archives Catalog item: Meeting with Foreign Minister Esmat Abd el-Meguid of Egypt, January 19, 1990, NAID 428080439. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1990-June 1990]: January 1990, NAID 325377404. Digital object: 1990-01-19--Abdel-Meguid.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-01-19--Abdel-Meguid.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-030",
       "diaryReferenceCount": 2,
@@ -12826,12 +12839,11 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 2,
       "stubPath": "reports/document-stubs/c-038.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: February 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080515.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: February 1990. No classification marking identified. National Archives Catalog, NAID 428080515.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/7/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080515. National Archives Catalog item: Telephone Call to President Mubarak, February 7, 1990, NAID 428080515. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: February 1990, NAID 325592641. Digital object: 1990-02-07--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-02-07--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-033",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415890364",
         "415890365"
       ],
       "diaryVerificationTargets": [
@@ -12913,7 +12925,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 5,
       "stubPath": "reports/document-stubs/c-014.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428080525.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990. No classification marking identified. National Archives Catalog, NAID 428080525.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/20/1990; Type Memcon; Participants Filali, Abdellatif; Country Morocco; Release Status Partial; NAID 428080525. National Archives Catalog item: Meeting with Foreign Minister Abdellatif Filali of Morocco, February 20, 1990, NAID 428080525. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990, NAID 325377405. Digital object: 1990-02-20--Filali.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-02-20--Filali.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-035",
       "diaryReferenceCount": 2,
@@ -13001,13 +13013,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-039.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: March 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080611.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: March 1990. No classification marking identified. National Archives Catalog, NAID 428080611.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 3/17/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080611. National Archives Catalog item: Telephone Conversation with President Mubarak of Egypt, March 17, 1990, NAID 428080611. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: March 1990, NAID 325592642. Digital object: 1990-03-17--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-03-17--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-040",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415890440",
-        "415890441"
+        "415890440"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -13088,7 +13099,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/c-040.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: May 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080709.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: May 1990. No classification marking identified. National Archives Catalog, NAID 428080709.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 5/4/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080709. National Archives Catalog item: Telephone Conversation with President Mubarak of Egypt, May 4, 1990, NAID 428080709. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]:  May 1990, NAID 325592644. Digital object: 1990-05-04--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-05-04--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-042",
       "diaryReferenceCount": 1,
@@ -13174,11 +13185,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/c-041.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: May 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080711.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: May 1990. No classification marking identified. National Archives Catalog, NAID 428080711.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 5/23/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080711. National Archives Catalog item: Telephone Conversation with President Mubarak of Egypt, May 23, 1990, NAID 428080711. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]:  May 1990, NAID 325592644. Digital object: 1990-05-23--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-05-23--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-046",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415890574",
         "415890575"
       ],
       "diaryVerificationTargets": [
@@ -13260,11 +13272,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/c-042.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: June 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080771.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: June 1990. No classification marking identified. National Archives Catalog, NAID 428080771.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 6/8/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080771. National Archives Catalog item: Telephone Conversation with President Mubarak of Egypt, June 8, 1990, NAID 428080771. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]:  June 1990, NAID 325592645. Digital object: 1990-06-08--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-06-08--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-047",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415890606",
         "415890607"
       ],
       "diaryVerificationTargets": [
@@ -13346,7 +13359,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-043.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: June 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080801.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: June 1990. No classification marking identified. National Archives Catalog, NAID 428080801.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 6/12/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080801. National Archives Catalog item: Telephone Conversation with President Mubarak of Egypt, June 12, 1990, NAID 428080801. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]:  June 1990, NAID 325592645. Digital object: 1990-06-12--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-06-12--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-048",
       "diaryReferenceCount": 1,
@@ -13432,11 +13445,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-044.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: June 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080807.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: June 1990. No classification marking identified. National Archives Catalog, NAID 428080807.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 6/23/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080807. National Archives Catalog item: Telephone Conversation with President Mubarak of Egypt, June 23, 1990, NAID 428080807. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]:  June 1990, NAID 325592645. Digital object: 1990-06-23--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-06-23--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-050",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415890636",
         "415890637"
       ],
       "diaryVerificationTargets": [
@@ -13518,12 +13532,13 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 5,
       "stubPath": "reports/document-stubs/c-015.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: June 1990. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428080783.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: June 1990. Confidential. National Archives Catalog, NAID 428080783.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 6/26/1990; Type Memcon; Participants Meguid, Ahmed Esmat Abdel; Country Egypt; Release Status Partial; NAID 428080783. National Archives Catalog item: Meeting with Egyptian Foreign Minister Esmat Abdel Meguid, June 26, 1990, NAID 428080783. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1990-June 1990]: June 1990, NAID 325541473. Digital object: 1990-06-26--Abdel-Meguid.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-06-26--Abdel-Meguid.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-051",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
-        "415890642"
+        "415890642",
+        "415890643"
       ],
       "diaryVerificationTargets": [
         "meeting time",
@@ -13606,12 +13621,11 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 2,
       "stubPath": "reports/document-stubs/c-001.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [1]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428080877.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [1]. No classification marking identified. National Archives Catalog, NAID 428080877.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/7/1990; Type No Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status blank; NAID 428080877. National Archives Catalog item: Telephone Call to Hosni Mubarak, August 7, 1990, NAID 428080877. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  August 1990 [1], NAID 325592647. Digital object: 1990-08-07--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-07--Mubarak.pdf. Access/release status: Marker / no memorandum listed.",
       "diaryControlNumber": "DC-057",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415890726",
         "415890727"
       ],
       "diaryVerificationTargets": [
@@ -13693,12 +13707,13 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 2,
       "stubPath": "reports/document-stubs/c-002.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [1]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428080931.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [1]. No classification marking identified. National Archives Catalog, NAID 428080931.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/11/1990; Type No Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status blank; NAID 428080931. National Archives Catalog item: Telephone Call to Hosni Mubarak, August 11, 1990, NAID 428080931. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  August 1990 [1], NAID 325592647. Digital object: 1990-08-11--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-11--Mubarak.pdf. Access/release status: Marker / no memorandum listed.",
       "diaryControlNumber": "DC-059",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
-        "415890734"
+        "415890734",
+        "415890735"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -13779,12 +13794,13 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-045.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [2]. Secret; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080955.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [2]. Secret; OADR. National Archives Catalog, NAID 428080955.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/16/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080955. National Archives Catalog item: Telephone Conversation with President Mubarak of Egypt, August 16, 1990, NAID 428080955. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  August 1990 [2], NAID 325592648. Digital object: 1990-08-16--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-16--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-061",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
-        "415890744"
+        "415890744",
+        "415890745"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -13865,13 +13881,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-016.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [2]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428080973.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [2]. No classification marking identified. National Archives Catalog, NAID 428080973.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/26/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Partial; NAID 428080973. National Archives Catalog item: Telephone Conversation with President Hosni Mubarak of Egypt, August 26, 1990, NAID 428080973. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  August 1990 [2], NAID 325592648. Digital object: 1990-08-26--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-26--Mubarak.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-062",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415890764",
-        "415890765"
+        "415890764"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -13952,12 +13967,13 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-017.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [2]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428080983.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [2]. No classification marking identified. National Archives Catalog, NAID 428080983.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/27/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Partial; NAID 428080983. National Archives Catalog item: Telephone Conversation with Hosni Mubarak of Egypt, August 27, 1990, NAID 428080983. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  August 1990 [2], NAID 325592648. Digital object: 1990-08-27--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-27--Mubarak.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-063",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
-        "415890766"
+        "415890766",
+        "415890767"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -14038,12 +14054,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-018.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [2]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428080997.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [2]. No classification marking identified. National Archives Catalog, NAID 428080997.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/30/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Partial; NAID 428080997. National Archives Catalog item: Telephone Conversation with President Mubarak of Egypt, August 30, 1990, NAID 428080997. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  August 1990 [2], NAID 325592648. Digital object: 1990-08-30--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-30--Mubarak.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-065",
       "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415890773"
+        "415890772"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -14124,7 +14140,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-046.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: September 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081009.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: September 1990. No classification marking identified. National Archives Catalog, NAID 428081009.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 9/1/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081009. National Archives Catalog item: Telephone Conversation with President Mubarak of Egypt, September 1, 1990, NAID 428081009. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  September 1990, NAID 325592649. Digital object: 1990-09-01--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-09-01--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-066",
       "diaryReferenceCount": 2,
@@ -14211,7 +14227,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 2,
       "stubPath": "reports/document-stubs/c-003.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: September 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428081047.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: September 1990. No classification marking identified. National Archives Catalog, NAID 428081047.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 9/10/1990; Type No Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status blank; NAID 428081047. National Archives Catalog item: Telephone Call to Hosni Mubarak, September 10, 1990, NAID 428081047. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  September 1990, NAID 325592649. Digital object: 1990-09-10--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-09-10--Mubarak.pdf. Access/release status: Marker / no memorandum listed.",
       "diaryControlNumber": "DC-067",
       "diaryReferenceCount": 2,
@@ -14298,7 +14314,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-047.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: October 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081147.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: October 1990. No classification marking identified. National Archives Catalog, NAID 428081147.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 10/12/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081147. National Archives Catalog item: Telephone Conversation with President Hosni Mubarak of Egypt, October 12, 1990, NAID 428081147. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  October 1990, NAID 325592650. Digital object: 1990-10-12--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-10-12--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-072",
       "diaryReferenceCount": 2,
@@ -14385,11 +14401,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-048.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: October 1990. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081159.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: October 1990. Confidential; OADR. National Archives Catalog, NAID 428081159.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 10/25/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081159. National Archives Catalog item: Telephone Conversation with President Mubarak, October 25, 1990, NAID 428081159. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  October 1990, NAID 325592650. Digital object: 1990-10-25--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-10-25--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-073",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415890886",
         "415890887"
       ],
       "diaryVerificationTargets": [
@@ -14471,7 +14488,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-049.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: October 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081167.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: October 1990. No classification marking identified. National Archives Catalog, NAID 428081167.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 10/27/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081167. National Archives Catalog item: Telephone Conversation with President Hosni Mubarak of Egypt, October 27, 1990, NAID 428081167. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  October 1990, NAID 325592650. Digital object: 1990-10-27--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-10-27--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-074",
       "diaryReferenceCount": 1,
@@ -14557,11 +14574,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-050.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: November 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081221.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: November 1990. No classification marking identified. National Archives Catalog, NAID 428081221.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 11/20/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081221. National Archives Catalog item: Telephone Conversation with President Hosni Mubarak of Egypt, November 20, 1990, NAID 428081221. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  November 1990, NAID 325592651. Digital object: 1990-11-20--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-11-20--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-075",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415890938",
         "415890939"
       ],
       "diaryVerificationTargets": [
@@ -14643,7 +14661,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 9,
       "stubPath": "reports/document-stubs/c-019.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: November 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428081203.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: November 1990. No classification marking identified. National Archives Catalog, NAID 428081203.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 11/23/1990; Type Memcon; Participants Mubarak, Hosni; Country Egypt; Release Status Partial; NAID 428081203. National Archives Catalog item: Meeting with President Mubarek of Egypt, November 23, 1990, NAID 428081203. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1990-December 1990]: November 1990, NAID 325541482. Digital object: 1990-11-23--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-11-23--Mubarak.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-076",
       "diaryReferenceCount": 2,
@@ -14730,7 +14748,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-051.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: November 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081259.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: November 1990. No classification marking identified. National Archives Catalog, NAID 428081259.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 11/30/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081259. National Archives Catalog item: Presidential Phone Call to President Mubarak of Egypt,November 30, 1990, NAID 428081259. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  November 1990, NAID 325592651. Digital object: 1990-11-30--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-11-30--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-077",
       "diaryReferenceCount": 2,
@@ -14817,7 +14835,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/c-052.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: December 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081293.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: December 1990. No classification marking identified. National Archives Catalog, NAID 428081293.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 12/31/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081293. National Archives Catalog item: Telephone Conversation with President Hosni Mubarak of Egypt, December 31, 1990, NAID 428081293. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  December 1990, NAID 325592652. Digital object: 1990-12-31--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-12-31--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-079",
       "diaryReferenceCount": 2,
@@ -14904,13 +14922,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 2,
       "stubPath": "reports/document-stubs/c-004.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: January 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428081331.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: January 1991. No classification marking identified. National Archives Catalog, NAID 428081331.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/16/1991; Type No Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status blank; NAID 428081331. National Archives Catalog item: Telephone Call to Hosni Mubarak, January 16, 1991, NAID 428081331. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  January 1991, NAID 325592653. Digital object: 1991-01-16--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-01-16--Mubarak.pdf. Access/release status: Marker / no memorandum listed.",
       "diaryControlNumber": "DC-081",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415891052",
-        "415891053"
+        "415891052"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -14991,12 +15008,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 2,
       "stubPath": "reports/document-stubs/c-005.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: January 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428081339.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: January 1991. No classification marking identified. National Archives Catalog, NAID 428081339.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/20/1991; Type No Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status blank; NAID 428081339. National Archives Catalog item: Telephone Call to Hosni Mubarek, January 20, 1991, NAID 428081339. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  January 1991, NAID 325592653. Digital object: 1991-01-20--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-01-20--Mubarak.pdf. Access/release status: Marker / no memorandum listed.",
       "diaryControlNumber": "DC-082",
       "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415891061"
+        "415891060"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -15077,7 +15094,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/c-053.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: January 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081371.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: January 1991. No classification marking identified. National Archives Catalog, NAID 428081371.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/21/1991; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081371. National Archives Catalog item: Presidential Phone Call to President Mubarak of Egypt on January 21, 1991, NAID 428081371. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  January 1991, NAID 325592653. Digital object: 1991-01-21--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-01-21--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-083",
       "diaryReferenceCount": 2,
@@ -15164,12 +15181,13 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 5,
       "stubPath": "reports/document-stubs/c-020.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1991-June 1991]: January 1991. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428081381.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1991-June 1991]: January 1991. Confidential. National Archives Catalog, NAID 428081381.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/29/1991; Type Memcon; Participants Meguid, Ahmed Esmat Abdel; Country Egypt; Release Status Partial; NAID 428081381. National Archives Catalog item: Meeting with Foreign Minister Abd el-Meguid, January 29, 1991, NAID 428081381. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1991-June 1991]: January 1991, NAID 325541486. Digital object: 1991-01-29--el-Meguid.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-01-29--el-Meguid.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-084",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
-        "415891078"
+        "415891078",
+        "415891079"
       ],
       "diaryVerificationTargets": [
         "meeting time",
@@ -15252,13 +15270,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/c-054.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: February 1991 [1]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081409.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: February 1991 [1]. No classification marking identified. National Archives Catalog, NAID 428081409.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/2/1991; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081409. National Archives Catalog item: President's Call to President Mubarak of Egypt on February 2, 1991, NAID 428081409. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  February 1991 [1], NAID 325592654. Digital object: 1991-02-02--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-02-02--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-085",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415891086",
-        "415891087"
+        "415891086"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -15339,11 +15356,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 5,
       "stubPath": "reports/document-stubs/c-021.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: February 1991 [1]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428081451.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: February 1991 [1]. No classification marking identified. National Archives Catalog, NAID 428081451.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/12/1991; Type Telcon; Participants Hassan III, King; Country Morocco; Release Status Partial; NAID 428081451. National Archives Catalog item: Telephone Conversation with Moroccan King Hassan, February 12, 1991, NAID 428081451. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  February 1991 [1], NAID 325592654. Digital object: 1991-02-12--Hassan.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-02-12--Hassan.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-087",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415891106",
         "415891107"
       ],
       "diaryVerificationTargets": [
@@ -15424,11 +15442,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-055.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: February 1991 [2]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081471.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: February 1991 [2]. No classification marking identified. National Archives Catalog, NAID 428081471.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/20/1991; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081471. National Archives Catalog item: Telcon with President Mubarak of Egypt on February 20, 1991, NAID 428081471. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  February 1991 [2], NAID 325592655. Digital object: 1991-02-20--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-02-20--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-088",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415891122",
         "415891123"
       ],
       "diaryVerificationTargets": [
@@ -15510,12 +15529,13 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-056.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: February 1991 [2]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081483.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: February 1991 [2]. No classification marking identified. National Archives Catalog, NAID 428081483.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/22/1991; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081483. National Archives Catalog item: Telcon with President Mubarak of Egypt on February 22, 1991, NAID 428081483. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  February 1991 [2], NAID 325592655. Digital object: 1991-02-22--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-02-22--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-089",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
-        "415891126"
+        "415891126",
+        "415891127"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -15596,12 +15616,11 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-057.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: February 1991 [2]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081495.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: February 1991 [2]. No classification marking identified. National Archives Catalog, NAID 428081495.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/23/1991; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081495. National Archives Catalog item: Telcon with President Mubarak of Egypt on February 23, 1991, NAID 428081495. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  February 1991 [2], NAID 325592655. Digital object: 1991-02-23--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-02-23--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-090",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415891128",
         "415891129"
       ],
       "diaryVerificationTargets": [
@@ -15683,12 +15702,11 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-022.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: February 1991 [2]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428081503.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: February 1991 [2]. No classification marking identified. National Archives Catalog, NAID 428081503.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/26/1991; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Partial; NAID 428081503. National Archives Catalog item: Telcon with President Mubarak of Egypt on Februa.:ry 26, 1991, NAID 428081503. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  February 1991 [2], NAID 325592655. Digital object: 1991-02-26--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-02-26--Mubarak.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-091",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415891134",
         "415891135"
       ],
       "diaryVerificationTargets": [
@@ -15770,7 +15788,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 2,
       "stubPath": "reports/document-stubs/c-006.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: March 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428081547.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: March 1991. No classification marking identified. National Archives Catalog, NAID 428081547.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 3/1/1991; Type No Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status blank; NAID 428081547. National Archives Catalog item: Telephone Call from Hosni Mubarak, March 1, 1991, NAID 428081547. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  March 1991, NAID 325592656. Digital object: 1991-03-01--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-03-01--Mubarak.pdf. Access/release status: Marker / no memorandum listed.",
       "diaryControlNumber": "DC-092",
       "diaryReferenceCount": 2,
@@ -15857,11 +15875,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-058.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: May 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081661.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: May 1991. No classification marking identified. National Archives Catalog, NAID 428081661.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 5/7/1991; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081661. National Archives Catalog item: Telephone Conversation with Hosni Mubarak, President of Egypt on May 7, 1991, NAID 428081661. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]:  May 1991, NAID 325592658. Digital object: 1991-05-07--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-05-07--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-099",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415891274",
         "415891275"
       ],
       "diaryVerificationTargets": [
@@ -15943,11 +15962,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 2,
       "stubPath": "reports/document-stubs/c-059.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: May 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081671.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: May 1991. No classification marking identified. National Archives Catalog, NAID 428081671.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 5/17/1991; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081671. National Archives Catalog item: Presidential Phone Call to President Mubarak of Egypt, May 17, 1991, NAID 428081671. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]:  May 1991, NAID 325592658. Digital object: 1991-05-17--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-05-17--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-100",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415891294",
         "415891295"
       ],
       "diaryVerificationTargets": [
@@ -16029,12 +16049,13 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/c-060.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: June 1991. Secret; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081717.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: June 1991. Secret; OADR. National Archives Catalog, NAID 428081717.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 6/12/1991; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081717. National Archives Catalog item: Telcon with President Mubarak of Egypt on June 12, 1991, NAID 428081717. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]:  June 1991, NAID 325592659. Digital object: 1991-06-12--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-06-12--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-101",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
-        "415891347"
+        "415891347",
+        "415891348"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -16115,7 +16136,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/c-061.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: July 1991. Secret; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081759.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: July 1991. Secret; OADR. National Archives Catalog, NAID 428081759.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 7/10/1991; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081759. National Archives Catalog item: Telcon with President Hosni Mubarak of Egypt on July. 10, 1991, NAID 428081759. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]:  July 1991, NAID 325592660. Digital object: 1991-07-10--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-07-10--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-103",
       "diaryReferenceCount": 2,
@@ -16202,13 +16223,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 5,
       "stubPath": "reports/document-stubs/c-062.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081877.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991. No classification marking identified. National Archives Catalog, NAID 428081877.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 9/13/1991; Type Memcon; Participants Boutros-Ghali, Boutros; Country Egypt; Release Status Full; NAID 428081877. National Archives Catalog item: Meeting with Egyptian Deputy Prime Minister Boutros Ghali, September 13, 1991, NAID 428081877. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991, NAID 325542558. Digital object: 1991-09-13--Boutros-Ghali.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-09-13--Boutros-Ghali.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-111",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415891533",
-        "415891534"
+        "415891533"
       ],
       "diaryVerificationTargets": [
         "meeting time",
@@ -16289,7 +16309,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-063.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: October 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081997.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: October 1991. No classification marking identified. National Archives Catalog, NAID 428081997.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 10/30/1991; Type Memcon; Participants Mousa, Amr; Country Egypt; Release Status Full; NAID 428081997. National Archives Catalog item: Memorandum of Conversation of Meeting between Foreign Minister Mousa of Egypt and President Bush, October 30, 1991, NAID 428081997. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1991-December 1991]: October 1991, NAID 325542559. Digital object: 1991-10-30--Mousa.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-10-30--Mousa.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-115",
       "diaryReferenceCount": 2,
@@ -16378,7 +16398,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/c-064.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: November 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428082043.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: November 1991. No classification marking identified. National Archives Catalog, NAID 428082043.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 11/7/1991; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428082043. National Archives Catalog item: Telcon with President Mubarak of Egypt, November 7, 1991, NAID 428082043. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]:  November 1991, NAID 325592664. Digital object: 1991-11-07--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-11-07--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-117",
       "diaryReferenceCount": 2,
@@ -16465,11 +16485,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 2,
       "stubPath": "reports/document-stubs/c-065.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: November 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428082051.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: November 1991. No classification marking identified. National Archives Catalog, NAID 428082051.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 11/22/1991; Type Telcon; Participants Boutros-Ghali, Boutros; Country Egypt; Release Status Full; NAID 428082051. National Archives Catalog item: Telcon with Boutros Boutros Ghali of Egypt, November 22, 1991, NAID 428082051. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]:  November 1991, NAID 325592664. Digital object: 1991-11-22--Boutros-Ghali.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-11-22--Boutros-Ghali.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-120",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415891676",
         "415891677"
       ],
       "diaryVerificationTargets": [
@@ -16551,7 +16572,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/c-023.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: December 1991. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428082037.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: December 1991. Confidential. National Archives Catalog, NAID 428082037.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 12/5/1991; Type Memcon; Participants Boutros-Ghali, Boutros; Country Egypt; Release Status Partial; NAID 428082037. National Archives Catalog item: Meeting with Dr. Boutros Boutros Ghali of Egypt (1 of 2), December 5, 1991, NAID 428082037. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1991-December 1991]: December 1991, NAID 325542561. Digital object: 1991-12-05--Boutros-Ghali.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-12-05--Boutros-Ghali.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-122",
       "diaryReferenceCount": 2,
@@ -16638,7 +16659,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/c-024.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: December 1991. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428082039.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: December 1991. Confidential. National Archives Catalog, NAID 428082039.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 12/5/1991; Type Memcon; Participants Boutros-Ghali, Boutros; Country Egypt; Release Status Partial; NAID 428082039. National Archives Catalog item: Meeting with Dr. Boutros Boutros Ghali of Egypt (2 of 2), December 5, 1991, NAID 428082039. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1991-December 1991]: December 1991, NAID 325542561. Digital object: 1991-12-05--Ghali.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-12-05--Ghali.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-123",
       "diaryReferenceCount": 2,
@@ -16725,12 +16746,11 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 6,
       "stubPath": "reports/document-stubs/c-025.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1992-June 1992]: January 1992. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428082125.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1992-June 1992]: January 1992. No classification marking identified. National Archives Catalog, NAID 428082125.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/30/1992; Type Memcon; Participants Hassan III, King; Country Morocco; Release Status Partial; NAID 428082125. National Archives Catalog item: Meeting with King Hassan of Morocco, January 30, 1992, NAID 428082125. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1992-June 1992]: January 1992, NAID 325568085. Digital object: 1992-01-30--Hassan.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1992-01-30--Hassan.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-127",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415891815",
         "415891816"
       ],
       "diaryVerificationTargets": [
@@ -16811,13 +16831,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-026.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]: December 1992. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428082403.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]: December 1992. No classification marking identified. National Archives Catalog, NAID 428082403.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 12/3/1992; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Partial; NAID 428082403. National Archives Catalog item: Telcon with President Mubarak of Egypt on December 3, 1992, NAID 428082403. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]:  December 1992, NAID 325592783. Digital object: 1992-12-03--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1992-12-03--Mubarak.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-130",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415892436",
-        "415892437"
+        "415892436"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -16898,12 +16917,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-066.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]: December 1992. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428082407.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]: December 1992. No classification marking identified. National Archives Catalog, NAID 428082407.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 12/4/1992; Type Telcon; Participants Boutros-Ghali, Boutros; Country Egypt; Release Status Full; NAID 428082407. National Archives Catalog item: Telcon with UN Secretary General Boutros Boutros-Ghali, December 4, 1992, NAID 428082407. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]:  December 1992, NAID 325592783. Digital object: 1992-12-04--Boutros-Ghali.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1992-12-04--Boutros-Ghali.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-131",
       "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415892438"
+        "415892439"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -16984,12 +17003,11 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/c-067.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]: December 1992. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428082417.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]: December 1992. No classification marking identified. National Archives Catalog, NAID 428082417.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 12/8/1992; Type Telcon; Participants Boutros-Ghali, Boutros; Country Egypt; Release Status Full; NAID 428082417. National Archives Catalog item: Telcon with UN Secretary General Boutros Boutros-Ghali, December 8, 1992, NAID 428082417. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]:  December 1992, NAID 325592783. Digital object: 1992-12-08--Boutros-Ghali.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1992-12-08--Boutros-Ghali.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-132",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415892446",
         "415892447"
       ],
       "diaryVerificationTargets": [
@@ -17071,7 +17089,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-068.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]: January 1993. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428082441.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]: January 1993. No classification marking identified. National Archives Catalog, NAID 428082441.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/2/1993; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428082441. National Archives Catalog item: Telcon with President Hosni Mubarak of Egypt, January 2, 1992, NAID 428082441. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]:  January 1993, NAID 325592787. Digital object: 1993-01-02--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1993-01-02--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-134",
       "diaryReferenceCount": 2,
@@ -17158,11 +17176,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 2,
       "stubPath": "reports/document-stubs/c-007.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428079889.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. No classification marking identified. National Archives Catalog, NAID 428079889.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/2/1989; Type No Memcon; Participants Museveni. Yoweri; Country Uganda; Release Status blank; NAID 428079889. National Archives Catalog item: Meeting with Yoweri Museveni of Uganda, February 2, 1989, NAID 428079889. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989, NAID 325377380. Digital object: 1989-02-02--Museveni.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-02-02--Museveni.pdf. Access/release status: Marker / no memorandum listed.",
       "diaryControlNumber": "DC-006",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415889624",
         "415889625"
       ],
       "diaryVerificationTargets": [
@@ -17244,7 +17263,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 2,
       "stubPath": "reports/document-stubs/c-008.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428080497.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990. No classification marking identified. National Archives Catalog, NAID 428080497.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/1/1990; Type No Memcon; Participants Moi, Daniel arap; Country Kenya; Release Status blank; NAID 428080497. National Archives Catalog item: Meeting with Daniel arap Moi of Kenya, February 1, 1990, NAID 428080497. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990, NAID 325377405. Digital object: 1990-02-01--Moi.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-02-01--Moi.pdf. Access/release status: Marker / no memorandum listed.",
       "diaryControlNumber": "DC-032",
       "diaryReferenceCount": 1,
@@ -17328,7 +17347,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 2,
       "stubPath": "reports/document-stubs/c-009.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428080491.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990. No classification marking identified. National Archives Catalog, NAID 428080491.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/1/1990; Type No Memcon; Participants Buyoya, Pierre; Country Burundi; Release Status blank; NAID 428080491. National Archives Catalog item: Meeting with Pierre Buyoya of Burundi, February 1, 1990, NAID 428080491. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990, NAID 325377405. Digital object: 1990-02-01--Buyoya.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-02-01--Buyoya.pdf. Access/release status: Marker / no memorandum listed.",
       "diaryControlNumber": "DC-031",
       "diaryReferenceCount": 1,
@@ -17414,12 +17433,11 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 9,
       "stubPath": "reports/document-stubs/c-027.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: May 1990. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428080689.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: May 1990. Confidential. National Archives Catalog, NAID 428080689.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 5/14/1990; Type Memcon; Participants Diouf, Abdou; Country Senegal; Release Status Partial; NAID 428080689. National Archives Catalog item: Meeting with President Abdou Diouf of Senegal, May 14, 1990, NAID 428080689. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1990-June 1990]: May 1990, NAID 325541470. Digital object: 1990-05-14--Diouf.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-05-14--Diouf.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-043",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415890556",
         "415890557"
       ],
       "diaryVerificationTargets": [
@@ -17499,7 +17517,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 6,
       "stubPath": "reports/document-stubs/c-028.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: July 1990. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428080849.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: July 1990. Confidential. National Archives Catalog, NAID 428080849.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 7/31/1990; Type Memcon; Participants Eyadema, Gnassingbe; Country Togo; Release Status Partial; NAID 428080849. National Archives Catalog item: Plenary Meeting with President Gnass;ngbe Eyadema of Togo, July 31, 1990 (2 of 3), NAID 428080849. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1990-December 1990]: July 1990, NAID 325541475. Digital object: 1990-07-31--Eyadema-2.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-07-31--Eyadema-2.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-056",
       "diaryReferenceCount": 2,
@@ -17584,12 +17602,11 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 6,
       "stubPath": "reports/document-stubs/c-029.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428081873.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991. Confidential. National Archives Catalog, NAID 428081873.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 9/10/1991; Type Memcon; Participants Diouf, Abdou; Country Senegal; Release Status Partial; NAID 428081873. National Archives Catalog item: Meeting with Abdou Diouf, President of Senegal, September 10, 1991 (2 of 2), NAID 428081873. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991, NAID 325542558. Digital object: 1991-09-10--Diouf-2.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-09-10--Diouf-2.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-109",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415891527",
         "415891528"
       ],
       "diaryVerificationTargets": [
@@ -17650,12 +17667,11 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-030.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1992-June 1992]: January 1992. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428082123.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1992-June 1992]: January 1992. No classification marking identified. National Archives Catalog, NAID 428082123.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/30/1992; Type Memcon; Participants Viega, Carlos; Country Cape Verde; Release Status Partial; NAID 428082123. National Archives Catalog item: Meeting with Prime Minister Carlos Viega of Cape Verde, January 30, 1992, NAID 428082123. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1992-June 1992]: January 1992, NAID 325568085. Digital object: 1992-01-30--Viega.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1992-01-30--Viega.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-126",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415891815",
         "415891816"
       ],
       "diaryVerificationTargets": [
@@ -18980,12 +18996,13 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 2,
           "stubPath": "reports/document-stubs/c-031.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079787.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. Confidential; OADR. National Archives Catalog, NAID 428079787.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/23/1989; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428079787. National Archives Catalog item: Telephone Conversation with President Mubarak of Egypt, January 23, 1989, NAID 428079787. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989, NAID 322361434. Digital object: 1989-01-23--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-01-23--Mubarak.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-001",
-          "diaryReferenceCount": 1,
+          "diaryReferenceCount": 2,
           "diaryReferenceNaids": [
-            "415889604"
+            "415889604",
+            "415889605"
           ],
           "diaryVerificationTargets": [
             "call time",
@@ -19066,7 +19083,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 3,
           "stubPath": "reports/document-stubs/d-001.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079821.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. No classification marking identified. National Archives Catalog, NAID 428079821.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/31/1989; Type Telcon; Participants Hassan III, King; Country Morocco; Release Status Full; NAID 428079821. National Archives Catalog item: Telephone Conversation with King Hassan of Morocco, January 31, 1989, NAID 428079821. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989, NAID 322361434. Digital object: 1989-01-31--Hassan.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-01-31--Hassan.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-004",
           "diaryReferenceCount": 2,
@@ -19152,7 +19169,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 2,
           "stubPath": "reports/document-stubs/d-002.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079819.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. Confidential; OADR. National Archives Catalog, NAID 428079819.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/31/1989; Type Telcon; Participants Bendjedid, Chadli; Country Algeria; Release Status Full; NAID 428079819. National Archives Catalog item: Telephone Conversation with President Bendjedid of Algeria, January 31, 1989, NAID 428079819. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989, NAID 322361434. Digital object: 1989-01-31--Bendjedid.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-01-31--Bendjedid.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-003",
           "diaryReferenceCount": 2,
@@ -19239,7 +19256,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 6,
           "stubPath": "reports/document-stubs/c-010.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428079849.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. Confidential. National Archives Catalog, NAID 428079849.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/23/1989; Type Memcon; Participants Mubarak, Hosni; Country Egypt; Release Status Partial; NAID 428079849. National Archives Catalog item: Meeting with President Mohammed Hosni Mubarak of Egypt, February 23, 1989, NAID 428079849. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989, NAID 325377380. Digital object: 1989-02-23--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-02-23--Mubarak.pdf. Access/release status: Partial.",
           "diaryControlNumber": "DC-008",
           "diaryReferenceCount": 2,
@@ -19326,11 +19343,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 4,
           "stubPath": "reports/document-stubs/c-011.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - January 1989-May 1989]: April 1989. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428079939.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - January 1989-May 1989]: April 1989. Confidential. National Archives Catalog, NAID 428079939.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 4/3/1989; Type Memcon; Participants Mubarak, Hosni; Country Egypt; Release Status Partial; NAID 428079939. National Archives Catalog item: Plenary Session with President Mubarak of Egypt, April 3, 1989, NAID 428079939. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons) - January 1989-May 1989]: April 1989, NAID 325377385. Digital object: 1989-04-03--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-04-03--Mubarak.pdf. Access/release status: Partial.",
           "diaryControlNumber": "DC-011",
-          "diaryReferenceCount": 1,
+          "diaryReferenceCount": 2,
           "diaryReferenceNaids": [
+            "415889744",
             "415889745"
           ],
           "diaryVerificationTargets": [
@@ -19412,12 +19430,13 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 3,
           "stubPath": "reports/document-stubs/c-032.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: June 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080059.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: June 1989. No classification marking identified. National Archives Catalog, NAID 428080059.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 6/9/1989; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080059. National Archives Catalog item: Telephone Conversation with President Mohammad Hosni Mubarak of Egypt, June 9, 1989, NAID 428080059. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: June 1989, NAID 325592633. Digital object: 1989-06-09--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-06-09--Mubarak.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-016",
-          "diaryReferenceCount": 1,
+          "diaryReferenceCount": 2,
           "diaryReferenceNaids": [
-            "415889878"
+            "415889878",
+            "415889879"
           ],
           "diaryVerificationTargets": [
             "call time",
@@ -19498,12 +19517,11 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 3,
           "stubPath": "reports/document-stubs/d-003.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: July 1989. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080109.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: July 1989. Confidential; OADR. National Archives Catalog, NAID 428080109.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 7/3/1989; Type Telcon; Participants Hassan III, King; Country Morocco; Release Status Full; NAID 428080109. National Archives Catalog item: Telephone Conversation King Hassan of Morocco, July 3, 1989, NAID 428080109. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: July 1989, NAID 325592634. Digital object: 1989-07-03--Hassan.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-07-03--Hassan.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-019",
-          "diaryReferenceCount": 2,
+          "diaryReferenceCount": 1,
           "diaryReferenceNaids": [
-            "415889926",
             "415889927"
           ],
           "diaryVerificationTargets": [
@@ -19584,7 +19602,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 3,
           "stubPath": "reports/document-stubs/d-004.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: August 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080159.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: August 1989. No classification marking identified. National Archives Catalog, NAID 428080159.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/2/1989; Type Telcon; Participants Hassan III, King; Country Morocco; Release Status Full; NAID 428080159. National Archives Catalog item: President Bush's Telephone Call to King Hassan II, August 2, 1989, NAID 428080159. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: August 1989, NAID 325592635. Digital object: 1989-08-02--Hassan.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-08-02--Hassan.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-021",
           "diaryReferenceCount": 2,
@@ -19670,7 +19688,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 4,
           "stubPath": "reports/document-stubs/d-005.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: August 1989. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080155.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: August 1989. Confidential; OADR. National Archives Catalog, NAID 428080155.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/2/1989; Type Telcon; Participants Bendjedid, Chadil; Country Algeria; Release Status Full; NAID 428080155. National Archives Catalog item: Telephone Conversation with President Bendjedid of Algeria, August 2, 1989, NAID 428080155. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: August 1989, NAID 325592635. Digital object: 1989-08-02--Bendjedid.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-08-02--Bendjedid.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-020",
           "diaryReferenceCount": 2,
@@ -19755,12 +19773,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 3,
           "stubPath": "reports/document-stubs/c-033.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: August 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080133.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: August 1989. No classification marking identified. National Archives Catalog, NAID 428080133.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/8/1989; Type Memcon; Participants Abu Talib, Youssef; Country Egypt; Release Status Full; NAID 428080133. National Archives Catalog item: Meeting with General Youssef Abu Talib, Defense Minister of Egypt, NAID 428080133. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons) - June 1989-December 1989]: August 1989, NAID 325377392. Digital object: 1989-08-08--Abu-Talib.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-08-08--Abu-Talib.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-022",
           "diaryReferenceCount": 1,
           "diaryReferenceNaids": [
-            "415889998"
+            "415889999"
           ],
           "diaryVerificationTargets": [
             "meeting time",
@@ -19843,12 +19861,13 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 3,
           "stubPath": "reports/document-stubs/c-034.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: August 1989. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080173.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: August 1989. Confidential; OADR. National Archives Catalog, NAID 428080173.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/9/1989; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080173. National Archives Catalog item: Telephone Conversation with - President Mubarak of Egypt, August 9, 1989, NAID 428080173. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: August 1989, NAID 325592635. Digital object: 1989-08-09--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-08-09--Mubarak.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-023",
-          "diaryReferenceCount": 1,
+          "diaryReferenceCount": 2,
           "diaryReferenceNaids": [
-            "415890000"
+            "415890000",
+            "415890001"
           ],
           "diaryVerificationTargets": [
             "call time",
@@ -19929,13 +19948,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 6,
           "stubPath": "reports/document-stubs/c-035.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: October 1989. Sensitive. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080243.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: October 1989. Sensitive. National Archives Catalog, NAID 428080243.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 10/2/1989; Type Memcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080243. National Archives Catalog item: Meeting with President Mubarak of Egypt, October 2, 1989, NAID 428080243. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons) - June 1989-December 1989]: October 1989, NAID 325377394. Digital object: 1989-10-02--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-10-02--Mubarak.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-024",
-          "diaryReferenceCount": 2,
+          "diaryReferenceCount": 1,
           "diaryReferenceNaids": [
-            "415890108",
-            "415890109"
+            "415890108"
           ],
           "diaryVerificationTargets": [
             "meeting time",
@@ -20016,7 +20034,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 3,
           "stubPath": "reports/document-stubs/c-036.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: October 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080303.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: October 1989. No classification marking identified. National Archives Catalog, NAID 428080303.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 10/18/1989; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080303. National Archives Catalog item: Telephone Conversation with President Mubarak of Egypt, October 18, 1989, NAID 428080303. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: October 1989, NAID 325592637. Digital object: 1989-10-18--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-10-18--Mubarak.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-027",
           "diaryReferenceCount": 2,
@@ -20103,13 +20121,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 5,
           "stubPath": "reports/document-stubs/c-012.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: November 1989. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428080293.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: November 1989. Confidential. National Archives Catalog, NAID 428080293.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 11/14/1989; Type Memcon; Participants Ali, Ben; Country Tunisia; Release Status Partial; NAID 428080293. National Archives Catalog item: Meeting with President Ben Ali of Tunisia, November 14, 1989, NAID 428080293. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons) - June 1989-December 1989]: November 1989, NAID 325377395. Digital object: 1989-11-14--Ali.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-11-14--Ali.pdf. Access/release status: Partial.",
           "diaryControlNumber": "DC-028",
-          "diaryReferenceCount": 2,
+          "diaryReferenceCount": 1,
           "diaryReferenceNaids": [
-            "415890194",
-            "415890195"
+            "415890194"
           ],
           "diaryVerificationTargets": [
             "meeting time",
@@ -20188,7 +20205,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 3,
           "stubPath": "reports/document-stubs/c-037.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: November 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080341.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: November 1989. No classification marking identified. National Archives Catalog, NAID 428080341.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 11/17/1989; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080341. National Archives Catalog item: Telephone Conversation with President Hosni Mubarak of Egypt, November 17, 1989, NAID 428080341. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: November 1989, NAID 325592638. Digital object: 1989-11-17--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-11-17--Mubarak.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-029",
           "diaryReferenceCount": 2,
@@ -20272,7 +20289,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 62,
           "stubPath": "reports/document-stubs/d-033.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), H-Files - National Security Council (NSC) Meeting Files, NSC0034 - December 18, 1989 - Libya. Classification marking not identified in the available catalog/OCR metadata. File unit. Catalog metadata records access status as Restricted - Possibly. Catalog reference: NAID 470760928.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC) Meeting Files, NSC0034 - December 18, 1989 - Libya. No classification marking identified. National Archives Catalog, NAID 470760928.",
           "catalogProvenance": "National Archives Catalog file: NSC0034 - December 18, 1989 - Libya, NAID 470760928. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: H-Files - National Security Council (NSC) Meeting Files, NAID 312293887. Access status: Restricted - Possibly. Digital object: 41-bpr-nsc-hfiles-nsc_mtgs-34-90001-025.pdf, URL https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-34-90001-025.pdf. Catalog: https://catalog.archives.gov/id/470760928.",
           "diaryControlNumber": "",
           "diaryReferenceCount": 0,
@@ -20349,7 +20366,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 6,
           "stubPath": "reports/document-stubs/c-013.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: January 1990. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428080439.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: January 1990. Confidential. National Archives Catalog, NAID 428080439.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/19/1990; Type Memcon; Participants Meguid, Ahmed Esmat Abdel; Country Egypt; Release Status Partial; NAID 428080439. National Archives Catalog item: Meeting with Foreign Minister Esmat Abd el-Meguid of Egypt, January 19, 1990, NAID 428080439. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1990-June 1990]: January 1990, NAID 325377404. Digital object: 1990-01-19--Abdel-Meguid.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-01-19--Abdel-Meguid.pdf. Access/release status: Partial.",
           "diaryControlNumber": "DC-030",
           "diaryReferenceCount": 2,
@@ -20438,12 +20455,11 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 2,
           "stubPath": "reports/document-stubs/c-038.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: February 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080515.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: February 1990. No classification marking identified. National Archives Catalog, NAID 428080515.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/7/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080515. National Archives Catalog item: Telephone Call to President Mubarak, February 7, 1990, NAID 428080515. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: February 1990, NAID 325592641. Digital object: 1990-02-07--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-02-07--Mubarak.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-033",
-          "diaryReferenceCount": 2,
+          "diaryReferenceCount": 1,
           "diaryReferenceNaids": [
-            "415890364",
             "415890365"
           ],
           "diaryVerificationTargets": [
@@ -20525,7 +20541,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 5,
           "stubPath": "reports/document-stubs/c-014.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428080525.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990. No classification marking identified. National Archives Catalog, NAID 428080525.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/20/1990; Type Memcon; Participants Filali, Abdellatif; Country Morocco; Release Status Partial; NAID 428080525. National Archives Catalog item: Meeting with Foreign Minister Abdellatif Filali of Morocco, February 20, 1990, NAID 428080525. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990, NAID 325377405. Digital object: 1990-02-20--Filali.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-02-20--Filali.pdf. Access/release status: Partial.",
           "diaryControlNumber": "DC-035",
           "diaryReferenceCount": 2,
@@ -20610,7 +20626,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 36,
           "stubPath": "reports/document-stubs/d-034.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), H-Files - National Security Review (NSR) Files, NSR-23 - February 21, 1990 - U.S. Policy Towards the Maghreb-Morocco / Algeria and Tunisia. Classification marking not identified in the available catalog/OCR metadata. File unit. Catalog metadata records access status as Restricted - Possibly. Catalog reference: NAID 446394969.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Review (NSR) Files, NSR-23 - February 21, 1990 - U.S. Policy Towards the Maghreb-Morocco / Algeria and Tunisia. No classification marking identified. National Archives Catalog, NAID 446394969.",
           "catalogProvenance": "National Archives Catalog file: NSR-23 - February 21, 1990 - U.S. Policy Towards the Maghreb-Morocco / Algeria and Tunisia, NAID 446394969. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: H-Files - National Security Review (NSR) Files, NAID 313189297. Access status: Restricted - Possibly. Digital object: 41-bpr-nsc-hfiles-nsr-23-90007-017.pdf, URL https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-23-90007-017.pdf. Catalog: https://catalog.archives.gov/id/446394969.",
           "diaryControlNumber": "",
           "diaryReferenceCount": 0,
@@ -20688,13 +20704,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 3,
           "stubPath": "reports/document-stubs/c-039.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: March 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080611.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: March 1990. No classification marking identified. National Archives Catalog, NAID 428080611.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 3/17/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080611. National Archives Catalog item: Telephone Conversation with President Mubarak of Egypt, March 17, 1990, NAID 428080611. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: March 1990, NAID 325592642. Digital object: 1990-03-17--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-03-17--Mubarak.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-040",
-          "diaryReferenceCount": 2,
+          "diaryReferenceCount": 1,
           "diaryReferenceNaids": [
-            "415890440",
-            "415890441"
+            "415890440"
           ],
           "diaryVerificationTargets": [
             "call time",
@@ -20775,7 +20790,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 4,
           "stubPath": "reports/document-stubs/c-040.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: May 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080709.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: May 1990. No classification marking identified. National Archives Catalog, NAID 428080709.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 5/4/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080709. National Archives Catalog item: Telephone Conversation with President Mubarak of Egypt, May 4, 1990, NAID 428080709. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]:  May 1990, NAID 325592644. Digital object: 1990-05-04--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-05-04--Mubarak.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-042",
           "diaryReferenceCount": 1,
@@ -20861,7 +20876,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 4,
           "stubPath": "reports/document-stubs/d-006.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: May 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080691.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: May 1990. No classification marking identified. National Archives Catalog, NAID 428080691.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 5/15/1990; Type Memcon; Participants Ali, Ben; Country Tunisia; Release Status Full; NAID 428080691. National Archives Catalog item: Meeting with President Ben Ali of Tunisia, May 15, 1990 (1 of 2), NAID 428080691. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1990-June 1990]: May 1990, NAID 325541470. Digital object: 1990-05-15--Ali-1.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-05-15--Ali-1.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-044",
           "diaryReferenceCount": 2,
@@ -20946,7 +20961,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 7,
           "stubPath": "reports/document-stubs/d-007.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: May 1990. Secret; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080693.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: May 1990. Secret; OADR. National Archives Catalog, NAID 428080693.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 5/15/1990; Type Memcon; Participants Ali, Ben; Country Tunisia; Release Status Full; NAID 428080693. National Archives Catalog item: Plenary Meeting with President Ben Ali of Tunisia, May 15, 1990 (2 of 2), NAID 428080693. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1990-June 1990]: May 1990, NAID 325541470. Digital object: 1990-05-15--Ali-2.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-05-15--Ali-2.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-045",
           "diaryReferenceCount": 2,
@@ -21031,11 +21046,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 4,
           "stubPath": "reports/document-stubs/c-041.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: May 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080711.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: May 1990. No classification marking identified. National Archives Catalog, NAID 428080711.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 5/23/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080711. National Archives Catalog item: Telephone Conversation with President Mubarak of Egypt, May 23, 1990, NAID 428080711. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]:  May 1990, NAID 325592644. Digital object: 1990-05-23--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-05-23--Mubarak.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-046",
-          "diaryReferenceCount": 1,
+          "diaryReferenceCount": 2,
           "diaryReferenceNaids": [
+            "415890574",
             "415890575"
           ],
           "diaryVerificationTargets": [
@@ -21117,11 +21133,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 4,
           "stubPath": "reports/document-stubs/c-042.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: June 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080771.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: June 1990. No classification marking identified. National Archives Catalog, NAID 428080771.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 6/8/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080771. National Archives Catalog item: Telephone Conversation with President Mubarak of Egypt, June 8, 1990, NAID 428080771. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]:  June 1990, NAID 325592645. Digital object: 1990-06-08--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-06-08--Mubarak.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-047",
-          "diaryReferenceCount": 1,
+          "diaryReferenceCount": 2,
           "diaryReferenceNaids": [
+            "415890606",
             "415890607"
           ],
           "diaryVerificationTargets": [
@@ -21203,7 +21220,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 3,
           "stubPath": "reports/document-stubs/c-043.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: June 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080801.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: June 1990. No classification marking identified. National Archives Catalog, NAID 428080801.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 6/12/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080801. National Archives Catalog item: Telephone Conversation with President Mubarak of Egypt, June 12, 1990, NAID 428080801. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]:  June 1990, NAID 325592645. Digital object: 1990-06-12--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-06-12--Mubarak.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-048",
           "diaryReferenceCount": 1,
@@ -21289,11 +21306,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 3,
           "stubPath": "reports/document-stubs/c-044.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: June 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080807.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: June 1990. No classification marking identified. National Archives Catalog, NAID 428080807.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 6/23/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080807. National Archives Catalog item: Telephone Conversation with President Mubarak of Egypt, June 23, 1990, NAID 428080807. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]:  June 1990, NAID 325592645. Digital object: 1990-06-23--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-06-23--Mubarak.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-050",
-          "diaryReferenceCount": 1,
+          "diaryReferenceCount": 2,
           "diaryReferenceNaids": [
+            "415890636",
             "415890637"
           ],
           "diaryVerificationTargets": [
@@ -21375,12 +21393,13 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 5,
           "stubPath": "reports/document-stubs/c-015.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: June 1990. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428080783.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: June 1990. Confidential. National Archives Catalog, NAID 428080783.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 6/26/1990; Type Memcon; Participants Meguid, Ahmed Esmat Abdel; Country Egypt; Release Status Partial; NAID 428080783. National Archives Catalog item: Meeting with Egyptian Foreign Minister Esmat Abdel Meguid, June 26, 1990, NAID 428080783. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1990-June 1990]: June 1990, NAID 325541473. Digital object: 1990-06-26--Abdel-Meguid.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-06-26--Abdel-Meguid.pdf. Access/release status: Partial.",
           "diaryControlNumber": "DC-051",
-          "diaryReferenceCount": 1,
+          "diaryReferenceCount": 2,
           "diaryReferenceNaids": [
-            "415890642"
+            "415890642",
+            "415890643"
           ],
           "diaryVerificationTargets": [
             "meeting time",
@@ -21463,12 +21482,11 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 3,
           "stubPath": "reports/document-stubs/d-008.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [1]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080905.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [1]. No classification marking identified. National Archives Catalog, NAID 428080905.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/7/1990; Type Telcon; Participants Hassan III, King; Country Morocco; Release Status Full; NAID 428080905. National Archives Catalog item: Telephone Conversation with King Hassan of Morocco, August 7, 1990, NAID 428080905. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  August 1990 [1], NAID 325592647. Digital object: 1990-08-07--Hassan.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-07--Hassan.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-058",
-          "diaryReferenceCount": 2,
+          "diaryReferenceCount": 1,
           "diaryReferenceNaids": [
-            "415890726",
             "415890727"
           ],
           "diaryVerificationTargets": [
@@ -21548,12 +21566,11 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 2,
           "stubPath": "reports/document-stubs/c-001.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [1]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428080877.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [1]. No classification marking identified. National Archives Catalog, NAID 428080877.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/7/1990; Type No Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status blank; NAID 428080877. National Archives Catalog item: Telephone Call to Hosni Mubarak, August 7, 1990, NAID 428080877. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  August 1990 [1], NAID 325592647. Digital object: 1990-08-07--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-07--Mubarak.pdf. Access/release status: Marker / no memorandum listed.",
           "diaryControlNumber": "DC-057",
-          "diaryReferenceCount": 2,
+          "diaryReferenceCount": 1,
           "diaryReferenceNaids": [
-            "415890726",
             "415890727"
           ],
           "diaryVerificationTargets": [
@@ -21635,12 +21652,13 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 2,
           "stubPath": "reports/document-stubs/c-002.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [1]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428080931.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [1]. No classification marking identified. National Archives Catalog, NAID 428080931.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/11/1990; Type No Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status blank; NAID 428080931. National Archives Catalog item: Telephone Call to Hosni Mubarak, August 11, 1990, NAID 428080931. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  August 1990 [1], NAID 325592647. Digital object: 1990-08-11--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-11--Mubarak.pdf. Access/release status: Marker / no memorandum listed.",
           "diaryControlNumber": "DC-059",
-          "diaryReferenceCount": 1,
+          "diaryReferenceCount": 2,
           "diaryReferenceNaids": [
-            "415890734"
+            "415890734",
+            "415890735"
           ],
           "diaryVerificationTargets": [
             "call time",
@@ -21721,12 +21739,13 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 3,
           "stubPath": "reports/document-stubs/c-045.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [2]. Secret; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080955.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [2]. Secret; OADR. National Archives Catalog, NAID 428080955.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/16/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080955. National Archives Catalog item: Telephone Conversation with President Mubarak of Egypt, August 16, 1990, NAID 428080955. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  August 1990 [2], NAID 325592648. Digital object: 1990-08-16--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-16--Mubarak.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-061",
-          "diaryReferenceCount": 1,
+          "diaryReferenceCount": 2,
           "diaryReferenceNaids": [
-            "415890744"
+            "415890744",
+            "415890745"
           ],
           "diaryVerificationTargets": [
             "call time",
@@ -21807,13 +21826,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 3,
           "stubPath": "reports/document-stubs/c-016.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [2]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428080973.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [2]. No classification marking identified. National Archives Catalog, NAID 428080973.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/26/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Partial; NAID 428080973. National Archives Catalog item: Telephone Conversation with President Hosni Mubarak of Egypt, August 26, 1990, NAID 428080973. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  August 1990 [2], NAID 325592648. Digital object: 1990-08-26--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-26--Mubarak.pdf. Access/release status: Partial.",
           "diaryControlNumber": "DC-062",
-          "diaryReferenceCount": 2,
+          "diaryReferenceCount": 1,
           "diaryReferenceNaids": [
-            "415890764",
-            "415890765"
+            "415890764"
           ],
           "diaryVerificationTargets": [
             "call time",
@@ -21894,12 +21912,13 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 3,
           "stubPath": "reports/document-stubs/c-017.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [2]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428080983.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [2]. No classification marking identified. National Archives Catalog, NAID 428080983.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/27/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Partial; NAID 428080983. National Archives Catalog item: Telephone Conversation with Hosni Mubarak of Egypt, August 27, 1990, NAID 428080983. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  August 1990 [2], NAID 325592648. Digital object: 1990-08-27--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-27--Mubarak.pdf. Access/release status: Partial.",
           "diaryControlNumber": "DC-063",
-          "diaryReferenceCount": 1,
+          "diaryReferenceCount": 2,
           "diaryReferenceNaids": [
-            "415890766"
+            "415890766",
+            "415890767"
           ],
           "diaryVerificationTargets": [
             "call time",
@@ -21980,7 +21999,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 4,
           "stubPath": "reports/document-stubs/d-009.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [2]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080987.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [2]. No classification marking identified. National Archives Catalog, NAID 428080987.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/29/1990; Type Telcon; Participants Bendjedid, Chadil; Country Algeria; Release Status Full; NAID 428080987. National Archives Catalog item: Telephone Conversation with President Bendjedid of Algeria, August 29, 1990, NAID 428080987. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  August 1990 [2], NAID 325592648. Digital object: 1990-08-29--Bendjedid.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-29--Bendjedid.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-064",
           "diaryReferenceCount": 2,
@@ -22065,12 +22084,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 3,
           "stubPath": "reports/document-stubs/c-018.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [2]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428080997.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [2]. No classification marking identified. National Archives Catalog, NAID 428080997.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/30/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Partial; NAID 428080997. National Archives Catalog item: Telephone Conversation with President Mubarak of Egypt, August 30, 1990, NAID 428080997. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  August 1990 [2], NAID 325592648. Digital object: 1990-08-30--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-30--Mubarak.pdf. Access/release status: Partial.",
           "diaryControlNumber": "DC-065",
           "diaryReferenceCount": 1,
           "diaryReferenceNaids": [
-            "415890773"
+            "415890772"
           ],
           "diaryVerificationTargets": [
             "call time",
@@ -22151,7 +22170,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 3,
           "stubPath": "reports/document-stubs/c-046.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: September 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081009.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: September 1990. No classification marking identified. National Archives Catalog, NAID 428081009.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 9/1/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081009. National Archives Catalog item: Telephone Conversation with President Mubarak of Egypt, September 1, 1990, NAID 428081009. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  September 1990, NAID 325592649. Digital object: 1990-09-01--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-09-01--Mubarak.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-066",
           "diaryReferenceCount": 2,
@@ -22238,7 +22257,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 2,
           "stubPath": "reports/document-stubs/c-003.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: September 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428081047.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: September 1990. No classification marking identified. National Archives Catalog, NAID 428081047.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 9/10/1990; Type No Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status blank; NAID 428081047. National Archives Catalog item: Telephone Call to Hosni Mubarak, September 10, 1990, NAID 428081047. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  September 1990, NAID 325592649. Digital object: 1990-09-10--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-09-10--Mubarak.pdf. Access/release status: Marker / no memorandum listed.",
           "diaryControlNumber": "DC-067",
           "diaryReferenceCount": 2,
@@ -22325,7 +22344,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 3,
           "stubPath": "reports/document-stubs/c-047.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: October 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081147.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: October 1990. No classification marking identified. National Archives Catalog, NAID 428081147.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 10/12/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081147. National Archives Catalog item: Telephone Conversation with President Hosni Mubarak of Egypt, October 12, 1990, NAID 428081147. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  October 1990, NAID 325592650. Digital object: 1990-10-12--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-10-12--Mubarak.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-072",
           "diaryReferenceCount": 2,
@@ -22412,11 +22431,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 3,
           "stubPath": "reports/document-stubs/c-048.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: October 1990. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081159.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: October 1990. Confidential; OADR. National Archives Catalog, NAID 428081159.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 10/25/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081159. National Archives Catalog item: Telephone Conversation with President Mubarak, October 25, 1990, NAID 428081159. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  October 1990, NAID 325592650. Digital object: 1990-10-25--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-10-25--Mubarak.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-073",
-          "diaryReferenceCount": 1,
+          "diaryReferenceCount": 2,
           "diaryReferenceNaids": [
+            "415890886",
             "415890887"
           ],
           "diaryVerificationTargets": [
@@ -22498,7 +22518,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 3,
           "stubPath": "reports/document-stubs/c-049.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: October 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081167.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: October 1990. No classification marking identified. National Archives Catalog, NAID 428081167.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 10/27/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081167. National Archives Catalog item: Telephone Conversation with President Hosni Mubarak of Egypt, October 27, 1990, NAID 428081167. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  October 1990, NAID 325592650. Digital object: 1990-10-27--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-10-27--Mubarak.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-074",
           "diaryReferenceCount": 1,
@@ -22584,11 +22604,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 3,
           "stubPath": "reports/document-stubs/c-050.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: November 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081221.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: November 1990. No classification marking identified. National Archives Catalog, NAID 428081221.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 11/20/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081221. National Archives Catalog item: Telephone Conversation with President Hosni Mubarak of Egypt, November 20, 1990, NAID 428081221. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  November 1990, NAID 325592651. Digital object: 1990-11-20--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-11-20--Mubarak.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-075",
-          "diaryReferenceCount": 1,
+          "diaryReferenceCount": 2,
           "diaryReferenceNaids": [
+            "415890938",
             "415890939"
           ],
           "diaryVerificationTargets": [
@@ -22670,7 +22691,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 9,
           "stubPath": "reports/document-stubs/c-019.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: November 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428081203.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: November 1990. No classification marking identified. National Archives Catalog, NAID 428081203.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 11/23/1990; Type Memcon; Participants Mubarak, Hosni; Country Egypt; Release Status Partial; NAID 428081203. National Archives Catalog item: Meeting with President Mubarek of Egypt, November 23, 1990, NAID 428081203. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1990-December 1990]: November 1990, NAID 325541482. Digital object: 1990-11-23--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-11-23--Mubarak.pdf. Access/release status: Partial.",
           "diaryControlNumber": "DC-076",
           "diaryReferenceCount": 2,
@@ -22757,7 +22778,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 3,
           "stubPath": "reports/document-stubs/c-051.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: November 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081259.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: November 1990. No classification marking identified. National Archives Catalog, NAID 428081259.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 11/30/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081259. National Archives Catalog item: Presidential Phone Call to President Mubarak of Egypt,November 30, 1990, NAID 428081259. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  November 1990, NAID 325592651. Digital object: 1990-11-30--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-11-30--Mubarak.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-077",
           "diaryReferenceCount": 2,
@@ -22844,7 +22865,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 4,
           "stubPath": "reports/document-stubs/c-052.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: December 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081293.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: December 1990. No classification marking identified. National Archives Catalog, NAID 428081293.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 12/31/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081293. National Archives Catalog item: Telephone Conversation with President Hosni Mubarak of Egypt, December 31, 1990, NAID 428081293. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  December 1990, NAID 325592652. Digital object: 1990-12-31--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-12-31--Mubarak.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-079",
           "diaryReferenceCount": 2,
@@ -22931,13 +22952,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 2,
           "stubPath": "reports/document-stubs/c-004.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: January 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428081331.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: January 1991. No classification marking identified. National Archives Catalog, NAID 428081331.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/16/1991; Type No Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status blank; NAID 428081331. National Archives Catalog item: Telephone Call to Hosni Mubarak, January 16, 1991, NAID 428081331. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  January 1991, NAID 325592653. Digital object: 1991-01-16--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-01-16--Mubarak.pdf. Access/release status: Marker / no memorandum listed.",
           "diaryControlNumber": "DC-081",
-          "diaryReferenceCount": 2,
+          "diaryReferenceCount": 1,
           "diaryReferenceNaids": [
-            "415891052",
-            "415891053"
+            "415891052"
           ],
           "diaryVerificationTargets": [
             "call time",
@@ -23018,12 +23038,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 2,
           "stubPath": "reports/document-stubs/c-005.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: January 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428081339.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: January 1991. No classification marking identified. National Archives Catalog, NAID 428081339.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/20/1991; Type No Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status blank; NAID 428081339. National Archives Catalog item: Telephone Call to Hosni Mubarek, January 20, 1991, NAID 428081339. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  January 1991, NAID 325592653. Digital object: 1991-01-20--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-01-20--Mubarak.pdf. Access/release status: Marker / no memorandum listed.",
           "diaryControlNumber": "DC-082",
           "diaryReferenceCount": 1,
           "diaryReferenceNaids": [
-            "415891061"
+            "415891060"
           ],
           "diaryVerificationTargets": [
             "call time",
@@ -23104,7 +23124,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 4,
           "stubPath": "reports/document-stubs/c-053.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: January 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081371.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: January 1991. No classification marking identified. National Archives Catalog, NAID 428081371.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/21/1991; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081371. National Archives Catalog item: Presidential Phone Call to President Mubarak of Egypt on January 21, 1991, NAID 428081371. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  January 1991, NAID 325592653. Digital object: 1991-01-21--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-01-21--Mubarak.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-083",
           "diaryReferenceCount": 2,
@@ -23191,12 +23211,13 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 5,
           "stubPath": "reports/document-stubs/c-020.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1991-June 1991]: January 1991. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428081381.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1991-June 1991]: January 1991. Confidential. National Archives Catalog, NAID 428081381.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/29/1991; Type Memcon; Participants Meguid, Ahmed Esmat Abdel; Country Egypt; Release Status Partial; NAID 428081381. National Archives Catalog item: Meeting with Foreign Minister Abd el-Meguid, January 29, 1991, NAID 428081381. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1991-June 1991]: January 1991, NAID 325541486. Digital object: 1991-01-29--el-Meguid.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-01-29--el-Meguid.pdf. Access/release status: Partial.",
           "diaryControlNumber": "DC-084",
-          "diaryReferenceCount": 1,
+          "diaryReferenceCount": 2,
           "diaryReferenceNaids": [
-            "415891078"
+            "415891078",
+            "415891079"
           ],
           "diaryVerificationTargets": [
             "meeting time",
@@ -23279,13 +23300,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 4,
           "stubPath": "reports/document-stubs/c-054.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: February 1991 [1]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081409.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: February 1991 [1]. No classification marking identified. National Archives Catalog, NAID 428081409.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/2/1991; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081409. National Archives Catalog item: President's Call to President Mubarak of Egypt on February 2, 1991, NAID 428081409. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  February 1991 [1], NAID 325592654. Digital object: 1991-02-02--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-02-02--Mubarak.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-085",
-          "diaryReferenceCount": 2,
+          "diaryReferenceCount": 1,
           "diaryReferenceNaids": [
-            "415891086",
-            "415891087"
+            "415891086"
           ],
           "diaryVerificationTargets": [
             "call time",
@@ -23366,11 +23386,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 5,
           "stubPath": "reports/document-stubs/c-021.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: February 1991 [1]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428081451.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: February 1991 [1]. No classification marking identified. National Archives Catalog, NAID 428081451.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/12/1991; Type Telcon; Participants Hassan III, King; Country Morocco; Release Status Partial; NAID 428081451. National Archives Catalog item: Telephone Conversation with Moroccan King Hassan, February 12, 1991, NAID 428081451. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  February 1991 [1], NAID 325592654. Digital object: 1991-02-12--Hassan.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-02-12--Hassan.pdf. Access/release status: Partial.",
           "diaryControlNumber": "DC-087",
-          "diaryReferenceCount": 1,
+          "diaryReferenceCount": 2,
           "diaryReferenceNaids": [
+            "415891106",
             "415891107"
           ],
           "diaryVerificationTargets": [
@@ -23451,11 +23472,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 3,
           "stubPath": "reports/document-stubs/c-055.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: February 1991 [2]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081471.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: February 1991 [2]. No classification marking identified. National Archives Catalog, NAID 428081471.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/20/1991; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081471. National Archives Catalog item: Telcon with President Mubarak of Egypt on February 20, 1991, NAID 428081471. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  February 1991 [2], NAID 325592655. Digital object: 1991-02-20--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-02-20--Mubarak.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-088",
-          "diaryReferenceCount": 1,
+          "diaryReferenceCount": 2,
           "diaryReferenceNaids": [
+            "415891122",
             "415891123"
           ],
           "diaryVerificationTargets": [
@@ -23537,12 +23559,13 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 3,
           "stubPath": "reports/document-stubs/c-056.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: February 1991 [2]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081483.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: February 1991 [2]. No classification marking identified. National Archives Catalog, NAID 428081483.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/22/1991; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081483. National Archives Catalog item: Telcon with President Mubarak of Egypt on February 22, 1991, NAID 428081483. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  February 1991 [2], NAID 325592655. Digital object: 1991-02-22--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-02-22--Mubarak.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-089",
-          "diaryReferenceCount": 1,
+          "diaryReferenceCount": 2,
           "diaryReferenceNaids": [
-            "415891126"
+            "415891126",
+            "415891127"
           ],
           "diaryVerificationTargets": [
             "call time",
@@ -23623,12 +23646,11 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 3,
           "stubPath": "reports/document-stubs/c-057.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: February 1991 [2]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081495.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: February 1991 [2]. No classification marking identified. National Archives Catalog, NAID 428081495.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/23/1991; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081495. National Archives Catalog item: Telcon with President Mubarak of Egypt on February 23, 1991, NAID 428081495. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  February 1991 [2], NAID 325592655. Digital object: 1991-02-23--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-02-23--Mubarak.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-090",
-          "diaryReferenceCount": 2,
+          "diaryReferenceCount": 1,
           "diaryReferenceNaids": [
-            "415891128",
             "415891129"
           ],
           "diaryVerificationTargets": [
@@ -23710,12 +23732,11 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 3,
           "stubPath": "reports/document-stubs/c-022.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: February 1991 [2]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428081503.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: February 1991 [2]. No classification marking identified. National Archives Catalog, NAID 428081503.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/26/1991; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Partial; NAID 428081503. National Archives Catalog item: Telcon with President Mubarak of Egypt on Februa.:ry 26, 1991, NAID 428081503. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  February 1991 [2], NAID 325592655. Digital object: 1991-02-26--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-02-26--Mubarak.pdf. Access/release status: Partial.",
           "diaryControlNumber": "DC-091",
-          "diaryReferenceCount": 2,
+          "diaryReferenceCount": 1,
           "diaryReferenceNaids": [
-            "415891134",
             "415891135"
           ],
           "diaryVerificationTargets": [
@@ -23797,7 +23818,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 2,
           "stubPath": "reports/document-stubs/c-006.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: March 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428081547.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: March 1991. No classification marking identified. National Archives Catalog, NAID 428081547.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 3/1/1991; Type No Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status blank; NAID 428081547. National Archives Catalog item: Telephone Call from Hosni Mubarak, March 1, 1991, NAID 428081547. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  March 1991, NAID 325592656. Digital object: 1991-03-01--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-03-01--Mubarak.pdf. Access/release status: Marker / no memorandum listed.",
           "diaryControlNumber": "DC-092",
           "diaryReferenceCount": 2,
@@ -23884,7 +23905,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 3,
           "stubPath": "reports/document-stubs/d-010.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1991-June 1991]: April 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081577.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1991-June 1991]: April 1991. No classification marking identified. National Archives Catalog, NAID 428081577.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 4/11/1991; Type Memcon; Participants Khelil, Ismail; Country Tunisia; Release Status Full; NAID 428081577. National Archives Catalog item: Tunisian Ambassador's Credentials Ceremony, April 11, 1991, NAID 428081577. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1991-June 1991]: April 1991, NAID 325542550. Digital object: 1991-04-11--Khelil.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-04-11--Khelil.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-095",
           "diaryReferenceCount": 2,
@@ -23972,11 +23993,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 3,
           "stubPath": "reports/document-stubs/c-058.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: May 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081661.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: May 1991. No classification marking identified. National Archives Catalog, NAID 428081661.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 5/7/1991; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081661. National Archives Catalog item: Telephone Conversation with Hosni Mubarak, President of Egypt on May 7, 1991, NAID 428081661. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]:  May 1991, NAID 325592658. Digital object: 1991-05-07--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-05-07--Mubarak.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-099",
-          "diaryReferenceCount": 1,
+          "diaryReferenceCount": 2,
           "diaryReferenceNaids": [
+            "415891274",
             "415891275"
           ],
           "diaryVerificationTargets": [
@@ -24058,11 +24080,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 2,
           "stubPath": "reports/document-stubs/c-059.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: May 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081671.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: May 1991. No classification marking identified. National Archives Catalog, NAID 428081671.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 5/17/1991; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081671. National Archives Catalog item: Presidential Phone Call to President Mubarak of Egypt, May 17, 1991, NAID 428081671. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]:  May 1991, NAID 325592658. Digital object: 1991-05-17--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-05-17--Mubarak.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-100",
-          "diaryReferenceCount": 1,
+          "diaryReferenceCount": 2,
           "diaryReferenceNaids": [
+            "415891294",
             "415891295"
           ],
           "diaryVerificationTargets": [
@@ -24144,12 +24167,13 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 4,
           "stubPath": "reports/document-stubs/c-060.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: June 1991. Secret; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081717.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: June 1991. Secret; OADR. National Archives Catalog, NAID 428081717.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 6/12/1991; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081717. National Archives Catalog item: Telcon with President Mubarak of Egypt on June 12, 1991, NAID 428081717. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]:  June 1991, NAID 325592659. Digital object: 1991-06-12--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-06-12--Mubarak.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-101",
-          "diaryReferenceCount": 1,
+          "diaryReferenceCount": 2,
           "diaryReferenceNaids": [
-            "415891347"
+            "415891347",
+            "415891348"
           ],
           "diaryVerificationTargets": [
             "call time",
@@ -24230,7 +24254,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 4,
           "stubPath": "reports/document-stubs/c-061.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: July 1991. Secret; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081759.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: July 1991. Secret; OADR. National Archives Catalog, NAID 428081759.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 7/10/1991; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081759. National Archives Catalog item: Telcon with President Hosni Mubarak of Egypt on July. 10, 1991, NAID 428081759. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]:  July 1991, NAID 325592660. Digital object: 1991-07-10--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-07-10--Mubarak.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-103",
           "diaryReferenceCount": 2,
@@ -24317,13 +24341,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 5,
           "stubPath": "reports/document-stubs/c-062.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081877.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991. No classification marking identified. National Archives Catalog, NAID 428081877.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 9/13/1991; Type Memcon; Participants Boutros-Ghali, Boutros; Country Egypt; Release Status Full; NAID 428081877. National Archives Catalog item: Meeting with Egyptian Deputy Prime Minister Boutros Ghali, September 13, 1991, NAID 428081877. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991, NAID 325542558. Digital object: 1991-09-13--Boutros-Ghali.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-09-13--Boutros-Ghali.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-111",
-          "diaryReferenceCount": 2,
+          "diaryReferenceCount": 1,
           "diaryReferenceNaids": [
-            "415891533",
-            "415891534"
+            "415891533"
           ],
           "diaryVerificationTargets": [
             "meeting time",
@@ -24404,7 +24427,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 6,
           "stubPath": "reports/document-stubs/d-011.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081925.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991. No classification marking identified. National Archives Catalog, NAID 428081925.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 9/26/1991; Type Memcon; Participants Hassan III, King; Country Morocco; Release Status Full; NAID 428081925. National Archives Catalog item: Plenary Meeting with King Hassan III of Morocco, September 26, 1991, NAID 428081925. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991, NAID 325542558. Digital object: 1991-09-26--Hassan.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-09-26--Hassan.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-113",
           "diaryReferenceCount": 2,
@@ -24490,7 +24513,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 3,
           "stubPath": "reports/document-stubs/c-063.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: October 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081997.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: October 1991. No classification marking identified. National Archives Catalog, NAID 428081997.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 10/30/1991; Type Memcon; Participants Mousa, Amr; Country Egypt; Release Status Full; NAID 428081997. National Archives Catalog item: Memorandum of Conversation of Meeting between Foreign Minister Mousa of Egypt and President Bush, October 30, 1991, NAID 428081997. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1991-December 1991]: October 1991, NAID 325542559. Digital object: 1991-10-30--Mousa.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-10-30--Mousa.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-115",
           "diaryReferenceCount": 2,
@@ -24579,7 +24602,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 4,
           "stubPath": "reports/document-stubs/c-064.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: November 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428082043.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: November 1991. No classification marking identified. National Archives Catalog, NAID 428082043.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 11/7/1991; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428082043. National Archives Catalog item: Telcon with President Mubarak of Egypt, November 7, 1991, NAID 428082043. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]:  November 1991, NAID 325592664. Digital object: 1991-11-07--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-11-07--Mubarak.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-117",
           "diaryReferenceCount": 2,
@@ -24666,11 +24689,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 3,
           "stubPath": "reports/document-stubs/d-012.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: November 1991. Secret; Sensitive; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428082047.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: November 1991. Secret; Sensitive; OADR. National Archives Catalog, NAID 428082047.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 11/19/1991; Type Telcon; Participants Hassan III, King; Country Morocco; Release Status Full; NAID 428082047. National Archives Catalog item: Telephone Conversation with King Hassan of Morocco on November 19, 1991, NAID 428082047. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]:  November 1991, NAID 325592664. Digital object: 1991-11-19--Hassan.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-11-19--Hassan.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-118",
-          "diaryReferenceCount": 1,
+          "diaryReferenceCount": 2,
           "diaryReferenceNaids": [
+            "415891670",
             "415891671"
           ],
           "diaryVerificationTargets": [
@@ -24751,11 +24775,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 2,
           "stubPath": "reports/document-stubs/c-065.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: November 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428082051.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: November 1991. No classification marking identified. National Archives Catalog, NAID 428082051.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 11/22/1991; Type Telcon; Participants Boutros-Ghali, Boutros; Country Egypt; Release Status Full; NAID 428082051. National Archives Catalog item: Telcon with Boutros Boutros Ghali of Egypt, November 22, 1991, NAID 428082051. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]:  November 1991, NAID 325592664. Digital object: 1991-11-22--Boutros-Ghali.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-11-22--Boutros-Ghali.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-120",
-          "diaryReferenceCount": 1,
+          "diaryReferenceCount": 2,
           "diaryReferenceNaids": [
+            "415891676",
             "415891677"
           ],
           "diaryVerificationTargets": [
@@ -24837,7 +24862,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 2,
           "stubPath": "reports/document-stubs/d-013.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]: December 1992. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428082067.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]: December 1992. No classification marking identified. National Archives Catalog, NAID 428082067.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 12/3/1991; Type Telcon; Participants Hassan III, King; Country Morocco; Release Status Full; NAID 428082067. National Archives Catalog item: Telcon with King Hassan of Morocco on December 3, 1992, NAID 428082067. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]:  December 1992, NAID 325592783. Digital object: 1992-12-03--Hassan.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1992-12-03--Hassan.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-121",
           "diaryReferenceCount": 2,
@@ -24923,7 +24948,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 4,
           "stubPath": "reports/document-stubs/c-023.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: December 1991. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428082037.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: December 1991. Confidential. National Archives Catalog, NAID 428082037.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 12/5/1991; Type Memcon; Participants Boutros-Ghali, Boutros; Country Egypt; Release Status Partial; NAID 428082037. National Archives Catalog item: Meeting with Dr. Boutros Boutros Ghali of Egypt (1 of 2), December 5, 1991, NAID 428082037. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1991-December 1991]: December 1991, NAID 325542561. Digital object: 1991-12-05--Boutros-Ghali.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-12-05--Boutros-Ghali.pdf. Access/release status: Partial.",
           "diaryControlNumber": "DC-122",
           "diaryReferenceCount": 2,
@@ -25010,7 +25035,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 4,
           "stubPath": "reports/document-stubs/c-024.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: December 1991. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428082039.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: December 1991. Confidential. National Archives Catalog, NAID 428082039.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 12/5/1991; Type Memcon; Participants Boutros-Ghali, Boutros; Country Egypt; Release Status Partial; NAID 428082039. National Archives Catalog item: Meeting with Dr. Boutros Boutros Ghali of Egypt (2 of 2), December 5, 1991, NAID 428082039. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1991-December 1991]: December 1991, NAID 325542561. Digital object: 1991-12-05--Ghali.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-12-05--Ghali.pdf. Access/release status: Partial.",
           "diaryControlNumber": "DC-123",
           "diaryReferenceCount": 2,
@@ -25097,12 +25122,11 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 6,
           "stubPath": "reports/document-stubs/c-025.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1992-June 1992]: January 1992. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428082125.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1992-June 1992]: January 1992. No classification marking identified. National Archives Catalog, NAID 428082125.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/30/1992; Type Memcon; Participants Hassan III, King; Country Morocco; Release Status Partial; NAID 428082125. National Archives Catalog item: Meeting with King Hassan of Morocco, January 30, 1992, NAID 428082125. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1992-June 1992]: January 1992, NAID 325568085. Digital object: 1992-01-30--Hassan.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1992-01-30--Hassan.pdf. Access/release status: Partial.",
           "diaryControlNumber": "DC-127",
-          "diaryReferenceCount": 2,
+          "diaryReferenceCount": 1,
           "diaryReferenceNaids": [
-            "415891815",
             "415891816"
           ],
           "diaryVerificationTargets": [
@@ -25183,13 +25207,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 3,
           "stubPath": "reports/document-stubs/c-026.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]: December 1992. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428082403.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]: December 1992. No classification marking identified. National Archives Catalog, NAID 428082403.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 12/3/1992; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Partial; NAID 428082403. National Archives Catalog item: Telcon with President Mubarak of Egypt on December 3, 1992, NAID 428082403. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]:  December 1992, NAID 325592783. Digital object: 1992-12-03--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1992-12-03--Mubarak.pdf. Access/release status: Partial.",
           "diaryControlNumber": "DC-130",
-          "diaryReferenceCount": 2,
+          "diaryReferenceCount": 1,
           "diaryReferenceNaids": [
-            "415892436",
-            "415892437"
+            "415892436"
           ],
           "diaryVerificationTargets": [
             "call time",
@@ -25270,12 +25293,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 3,
           "stubPath": "reports/document-stubs/c-066.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]: December 1992. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428082407.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]: December 1992. No classification marking identified. National Archives Catalog, NAID 428082407.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 12/4/1992; Type Telcon; Participants Boutros-Ghali, Boutros; Country Egypt; Release Status Full; NAID 428082407. National Archives Catalog item: Telcon with UN Secretary General Boutros Boutros-Ghali, December 4, 1992, NAID 428082407. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]:  December 1992, NAID 325592783. Digital object: 1992-12-04--Boutros-Ghali.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1992-12-04--Boutros-Ghali.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-131",
           "diaryReferenceCount": 1,
           "diaryReferenceNaids": [
-            "415892438"
+            "415892439"
           ],
           "diaryVerificationTargets": [
             "call time",
@@ -25356,12 +25379,11 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 4,
           "stubPath": "reports/document-stubs/c-067.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]: December 1992. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428082417.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]: December 1992. No classification marking identified. National Archives Catalog, NAID 428082417.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 12/8/1992; Type Telcon; Participants Boutros-Ghali, Boutros; Country Egypt; Release Status Full; NAID 428082417. National Archives Catalog item: Telcon with UN Secretary General Boutros Boutros-Ghali, December 8, 1992, NAID 428082417. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]:  December 1992, NAID 325592783. Digital object: 1992-12-08--Boutros-Ghali.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1992-12-08--Boutros-Ghali.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-132",
-          "diaryReferenceCount": 2,
+          "diaryReferenceCount": 1,
           "diaryReferenceNaids": [
-            "415892446",
             "415892447"
           ],
           "diaryVerificationTargets": [
@@ -25443,7 +25465,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 3,
           "stubPath": "reports/document-stubs/c-068.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]: January 1993. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428082441.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]: January 1993. No classification marking identified. National Archives Catalog, NAID 428082441.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/2/1993; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428082441. National Archives Catalog item: Telcon with President Hosni Mubarak of Egypt, January 2, 1992, NAID 428082441. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]:  January 1993, NAID 325592787. Digital object: 1993-01-02--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1993-01-02--Mubarak.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-134",
           "diaryReferenceCount": 2,
@@ -25619,11 +25641,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 2,
           "stubPath": "reports/document-stubs/c-007.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428079889.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. No classification marking identified. National Archives Catalog, NAID 428079889.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/2/1989; Type No Memcon; Participants Museveni. Yoweri; Country Uganda; Release Status blank; NAID 428079889. National Archives Catalog item: Meeting with Yoweri Museveni of Uganda, February 2, 1989, NAID 428079889. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989, NAID 325377380. Digital object: 1989-02-02--Museveni.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-02-02--Museveni.pdf. Access/release status: Marker / no memorandum listed.",
           "diaryControlNumber": "DC-006",
-          "diaryReferenceCount": 1,
+          "diaryReferenceCount": 2,
           "diaryReferenceNaids": [
+            "415889624",
             "415889625"
           ],
           "diaryVerificationTargets": [
@@ -25705,7 +25728,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 2,
           "stubPath": "reports/document-stubs/c-008.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428080497.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990. No classification marking identified. National Archives Catalog, NAID 428080497.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/1/1990; Type No Memcon; Participants Moi, Daniel arap; Country Kenya; Release Status blank; NAID 428080497. National Archives Catalog item: Meeting with Daniel arap Moi of Kenya, February 1, 1990, NAID 428080497. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990, NAID 325377405. Digital object: 1990-02-01--Moi.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-02-01--Moi.pdf. Access/release status: Marker / no memorandum listed.",
           "diaryControlNumber": "DC-032",
           "diaryReferenceCount": 1,
@@ -25789,7 +25812,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 2,
           "stubPath": "reports/document-stubs/c-009.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428080491.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990. No classification marking identified. National Archives Catalog, NAID 428080491.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/1/1990; Type No Memcon; Participants Buyoya, Pierre; Country Burundi; Release Status blank; NAID 428080491. National Archives Catalog item: Meeting with Pierre Buyoya of Burundi, February 1, 1990, NAID 428080491. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990, NAID 325377405. Digital object: 1990-02-01--Buyoya.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-02-01--Buyoya.pdf. Access/release status: Marker / no memorandum listed.",
           "diaryControlNumber": "DC-031",
           "diaryReferenceCount": 1,
@@ -25875,12 +25898,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 4,
           "stubPath": "reports/document-stubs/d-014.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: October 1990. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081107.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: October 1990. Confidential; OADR. National Archives Catalog, NAID 428081107.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 10/1/1990; Type Memcon; Participants Museveni, Yoweri; Country Uganda; Release Status Full; NAID 428081107. National Archives Catalog item: Meeting with President Yoweri Museveni of Uganda, Chairman of the Organization of African Unity (OAU), NAID 428081107. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1990-December 1990]: October 1990, NAID 325541480. Digital object: 1990-10-01--Museveni.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-10-01--Museveni.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-069",
           "diaryReferenceCount": 1,
           "diaryReferenceNaids": [
-            "415890836"
+            "415890837"
           ],
           "diaryVerificationTargets": [
             "meeting time",
@@ -25942,7 +25965,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 6,
           "stubPath": "reports/document-stubs/d-015.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1991-June 1991]: April 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081625.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1991-June 1991]: April 1991. No classification marking identified. National Archives Catalog, NAID 428081625.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 4/24/1991; Type Memcon; Participants Gouled, Hassan; Country Djibouti; Release Status Full; NAID 428081625. National Archives Catalog item: Luncheon Meeting with President Hassan Gouled of the Republic of Djibouti, April 24, 1991 (2 of 2), NAID 428081625. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1991-June 1991]: April 1991, NAID 325542550. Digital object: 1991-04-24--Gouled-2.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-04-24--Gouled-2.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-096",
           "diaryReferenceCount": 2,
@@ -26010,7 +26033,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 6,
           "stubPath": "reports/document-stubs/d-016.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1991-June 1991]: April 1991. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081623.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1991-June 1991]: April 1991. Confidential; OADR. National Archives Catalog, NAID 428081623.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 4/24/1991; Type Memcon; Participants Gouled, Hassan; Country Djibouti; Release Status Full; NAID 428081623. National Archives Catalog item: Meeting with President Hassan Gouled of the Republic of Djibouti, April 24, 1991 (1 of 2), NAID 428081623. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1991-June 1991]: April 1991, NAID 325542550. Digital object: 1991-04-24--Gouled-1.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-04-24--Gouled-1.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-097",
           "diaryReferenceCount": 2,
@@ -26359,11 +26382,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 3,
           "stubPath": "reports/document-stubs/d-017.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079793.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. No classification marking identified. National Archives Catalog, NAID 428079793.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/24/1989; Type Telcon; Participants Diouf, Abdou; Country Senegal; Release Status Full; NAID 428079793. National Archives Catalog item: Telephone Conversation with President Diouf of Senegal, January 24, 1989, NAID 428079793. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989, NAID 322361434. Digital object: 1989-01-24--Diouf.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-01-24--Diouf.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-002",
-          "diaryReferenceCount": 1,
+          "diaryReferenceCount": 2,
           "diaryReferenceNaids": [
+            "415889606",
             "415889607"
           ],
           "diaryVerificationTargets": [
@@ -26443,7 +26467,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 2,
           "stubPath": "reports/document-stubs/d-018.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: February 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079831.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: February 1989. No classification marking identified. National Archives Catalog, NAID 428079831.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/7/1989; Type Telcon; Participants Babangida, Ibrahim; Country Nigeria; Release Status Full; NAID 428079831. National Archives Catalog item: Telephone Conversation between President Bush and President Babangida of Nigeria, February 7, 1989, NAID 428079831. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: February 1989, NAID 325592629. Digital object: 1989-02-07--Babangida.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-02-07--Babangida.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-007",
           "diaryReferenceCount": 2,
@@ -26530,7 +26554,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 4,
           "stubPath": "reports/document-stubs/d-019.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079869.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. No classification marking identified. National Archives Catalog, NAID 428079869.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/25/1989; Type Memcon; Participants Babangida, Ibrahim; Country Nigeria; Release Status Full; NAID 428079869. National Archives Catalog item: Meeting with President Ibrahim Babangida of Nigeria, February 25, 1989, NAID 428079869. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989, NAID 325377380. Digital object: 1989-02-25--Babangida.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-02-25--Babangida.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-010",
           "diaryReferenceCount": 2,
@@ -26617,12 +26641,13 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 3,
           "stubPath": "reports/document-stubs/d-020.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - January 1989-May 1989]: April 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079977.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - January 1989-May 1989]: April 1989. No classification marking identified. National Archives Catalog, NAID 428079977.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 4/21/1989; Type Memcon; Participants Pereira, Aristides; Country Cape Verde; Release Status Full; NAID 428079977. National Archives Catalog item: Memorandum of Conversation: The President and Cape Verdean President Aristides Pereira, April 21, 1989, NAID 428079977. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons) - January 1989-May 1989]: April 1989, NAID 325377385. Digital object: 1989-04-21--Pereira.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-04-21--Pereira.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-012",
-          "diaryReferenceCount": 1,
+          "diaryReferenceCount": 2,
           "diaryReferenceNaids": [
-            "415889780"
+            "415889780",
+            "415889781"
           ],
           "diaryVerificationTargets": [
             "meeting time",
@@ -26703,7 +26728,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 5,
           "stubPath": "reports/document-stubs/d-021.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - January 1989-May 1989]: May 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080023.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - January 1989-May 1989]: May 1989. No classification marking identified. National Archives Catalog, NAID 428080023.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 5/15/1989; Type Memcon; Participants Jawara, Dawda; Country Gambia; Release Status Full; NAID 428080023. National Archives Catalog item: Memorandum of Conversation between the President and Sir Dawda Jawara, President of The Gambia, NAID 428080023. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons) - January 1989-May 1989]: May 1989, NAID 325377387. Digital object: 1989-05-15--Jawara.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-05-15--Jawara.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-013",
           "diaryReferenceCount": 2,
@@ -26788,7 +26813,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 6,
           "stubPath": "reports/document-stubs/d-022.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: April 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080651.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: April 1990. No classification marking identified. National Archives Catalog, NAID 428080651.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 4/27/1990; Type Memcon; Participants Pereira, Aristides; Country Cape Verde; Release Status Full; NAID 428080651. National Archives Catalog item: Meeting with President Aristides Pereira of Cape Verde, April 27, 1990, NAID 428080651. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1990-June 1990]: April 1990, NAID 325541469. Digital object: 1990-04-27--Pereira.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-04-27--Pereira.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-041",
           "diaryReferenceCount": 2,
@@ -26875,12 +26900,11 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 9,
           "stubPath": "reports/document-stubs/c-027.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: May 1990. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428080689.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: May 1990. Confidential. National Archives Catalog, NAID 428080689.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 5/14/1990; Type Memcon; Participants Diouf, Abdou; Country Senegal; Release Status Partial; NAID 428080689. National Archives Catalog item: Meeting with President Abdou Diouf of Senegal, May 14, 1990, NAID 428080689. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1990-June 1990]: May 1990, NAID 325541470. Digital object: 1990-05-14--Diouf.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-05-14--Diouf.pdf. Access/release status: Partial.",
           "diaryControlNumber": "DC-043",
-          "diaryReferenceCount": 2,
+          "diaryReferenceCount": 1,
           "diaryReferenceNaids": [
-            "415890556",
             "415890557"
           ],
           "diaryVerificationTargets": [
@@ -26960,7 +26984,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 5,
           "stubPath": "reports/document-stubs/d-023.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: July 1990. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080851.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: July 1990. Confidential; OADR. National Archives Catalog, NAID 428080851.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 7/31/1990; Type Memcon; Participants Eyadema, Gnassingbe; Country Togo; Release Status Full; NAID 428080851. National Archives Catalog item: Luncheon Meeting with President Gnassingbe Eyadema of Togo, July 31, 1990 (3 of 3), NAID 428080851. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1990-December 1990]: July 1990, NAID 325541475. Digital object: 1990-07-31--Eyadema-3.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-07-31--Eyadema-3.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-054",
           "diaryReferenceCount": 2,
@@ -27045,7 +27069,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 3,
           "stubPath": "reports/document-stubs/d-024.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: July 1990. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080847.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: July 1990. Confidential; OADR. National Archives Catalog, NAID 428080847.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 7/31/1990; Type Memcon; Participants Eyadema, Gnassingbe; Country Togo; Release Status Full; NAID 428080847. National Archives Catalog item: One-on-One Meeting with President Gnassingbe Eyadema of Togo, July 31, 1990 (1 of 3), NAID 428080847. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1990-December 1990]: July 1990, NAID 325541475. Digital object: 1990-07-31--Eyadema-1.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-07-31--Eyadema-1.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-055",
           "diaryReferenceCount": 2,
@@ -27130,7 +27154,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 6,
           "stubPath": "reports/document-stubs/c-028.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: July 1990. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428080849.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: July 1990. Confidential. National Archives Catalog, NAID 428080849.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 7/31/1990; Type Memcon; Participants Eyadema, Gnassingbe; Country Togo; Release Status Partial; NAID 428080849. National Archives Catalog item: Plenary Meeting with President Gnass;ngbe Eyadema of Togo, July 31, 1990 (2 of 3), NAID 428080849. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1990-December 1990]: July 1990, NAID 325541475. Digital object: 1990-07-31--Eyadema-2.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-07-31--Eyadema-2.pdf. Access/release status: Partial.",
           "diaryControlNumber": "DC-056",
           "diaryReferenceCount": 2,
@@ -27215,12 +27239,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 3,
           "stubPath": "reports/document-stubs/d-025.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: March 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081571.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: March 1991. No classification marking identified. National Archives Catalog, NAID 428081571.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 3/22/1991; Type Telcon; Participants Diouf, Abdou; Country Senegal; Release Status Full; NAID 428081571. National Archives Catalog item: Telephone Conversation with President Abdou Diouf of Senegal, March 22, 1991, NAID 428081571. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  March 1991, NAID 325592656. Digital object: 1991-03-22--Diouf.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-03-22--Diouf.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-094",
           "diaryReferenceCount": 1,
           "diaryReferenceNaids": [
-            "415891182"
+            "415891183"
           ],
           "diaryVerificationTargets": [
             "call time",
@@ -27300,12 +27324,11 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 3,
           "stubPath": "reports/document-stubs/d-026.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081871.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991. No classification marking identified. National Archives Catalog, NAID 428081871.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 9/10/1991; Type Memcon; Participants Diouf, Abdou; Country Senegal; Release Status Full; NAID 428081871. National Archives Catalog item: Meeting with President Abdou Diouf of Senegal, September 10, 1991 (1 of 2), NAID 428081871. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991, NAID 325542558. Digital object: 1991-09-10--Diouf-1.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-09-10--Diouf-1.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-110",
-          "diaryReferenceCount": 2,
+          "diaryReferenceCount": 1,
           "diaryReferenceNaids": [
-            "415891527",
             "415891528"
           ],
           "diaryVerificationTargets": [
@@ -27366,12 +27389,11 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 6,
           "stubPath": "reports/document-stubs/c-029.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428081873.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991. Confidential. National Archives Catalog, NAID 428081873.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 9/10/1991; Type Memcon; Participants Diouf, Abdou; Country Senegal; Release Status Partial; NAID 428081873. National Archives Catalog item: Meeting with Abdou Diouf, President of Senegal, September 10, 1991 (2 of 2), NAID 428081873. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991, NAID 325542558. Digital object: 1991-09-10--Diouf-2.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-09-10--Diouf-2.pdf. Access/release status: Partial.",
           "diaryControlNumber": "DC-109",
-          "diaryReferenceCount": 2,
+          "diaryReferenceCount": 1,
           "diaryReferenceNaids": [
-            "415891527",
             "415891528"
           ],
           "diaryVerificationTargets": [
@@ -27432,11 +27454,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 5,
           "stubPath": "reports/document-stubs/d-027.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: November 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428082003.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: November 1991. No classification marking identified. National Archives Catalog, NAID 428082003.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 11/5/1991; Type Memcon; Participants Soglo, Nicephore; Country Benin; Release Status Full; NAID 428082003. National Archives Catalog item: Meeting with President Soglo of Benin, November 5, 1991, NAID 428082003. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1991-December 1991]: November 1991, NAID 325542560. Digital object: 1991-11-05--Soglo.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-11-05--Soglo.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-116",
-          "diaryReferenceCount": 1,
+          "diaryReferenceCount": 2,
           "diaryReferenceNaids": [
+            "415891641",
             "415891642"
           ],
           "diaryVerificationTargets": [
@@ -27517,12 +27540,11 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 3,
           "stubPath": "reports/document-stubs/c-030.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1992-June 1992]: January 1992. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428082123.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1992-June 1992]: January 1992. No classification marking identified. National Archives Catalog, NAID 428082123.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/30/1992; Type Memcon; Participants Viega, Carlos; Country Cape Verde; Release Status Partial; NAID 428082123. National Archives Catalog item: Meeting with Prime Minister Carlos Viega of Cape Verde, January 30, 1992, NAID 428082123. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1992-June 1992]: January 1992, NAID 325568085. Digital object: 1992-01-30--Viega.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1992-01-30--Viega.pdf. Access/release status: Partial.",
           "diaryControlNumber": "DC-126",
-          "diaryReferenceCount": 2,
+          "diaryReferenceCount": 1,
           "diaryReferenceNaids": [
-            "415891815",
             "415891816"
           ],
           "diaryVerificationTargets": [
@@ -27741,7 +27763,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 3,
           "stubPath": "reports/document-stubs/d-028.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079823.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. No classification marking identified. National Archives Catalog, NAID 428079823.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/31/1989; Type Telcon; Participants Sese Seko, Mobutu; Country Zaire; Release Status Full; NAID 428079823. National Archives Catalog item: Telephone Conversation with President Marshall Mobutu Sese Seko of Zaire, January 31, 1989, NAID 428079823. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989, NAID 322361434. Digital object: 1989-01-31--Sese-Seko.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-01-31--Sese-Seko.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-005",
           "diaryReferenceCount": 2,
@@ -27828,11 +27850,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 3,
           "stubPath": "reports/document-stubs/d-029.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. Secret; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079865.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. Secret; OADR. National Archives Catalog, NAID 428079865.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/24/1989; Type Memcon; Participants Sese Seko, Mobutu; Country Zaire; Release Status Full; NAID 428079865. National Archives Catalog item: Bilateral Discussion with President Sese Seko Mobutu of the Republic of Zaire, February 24, 1989, NAID 428079865. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989, NAID 325377380. Digital object: 1989-02-24--Sese-Seko.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-02-24--Sese-Seko.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-009",
-          "diaryReferenceCount": 1,
+          "diaryReferenceCount": 2,
           "diaryReferenceNaids": [
+            "415889668",
             "415889669"
           ],
           "diaryVerificationTargets": [
@@ -27914,7 +27937,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 3,
           "stubPath": "reports/document-stubs/d-030.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: June 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080079.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: June 1989. No classification marking identified. National Archives Catalog, NAID 428080079.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 6/29/1989; Type Memcon; Participants Sese Seko, Mobutu; Country Zaire; Release Status Full; NAID 428080079. National Archives Catalog item: Meeting Between the President and Zairian President Mobutu, June 29, 1989 (1 of 2), NAID 428080079. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons) - June 1989-December 1989]: June 1989, NAID 325377389. Digital object: 1989-06-29--Sese-Seko-1.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-06-29--Sese-Seko-1.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-017",
           "diaryReferenceCount": 2,
@@ -28001,7 +28024,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 4,
           "stubPath": "reports/document-stubs/d-031.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: June 1989. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080081.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: June 1989. Confidential; OADR. National Archives Catalog, NAID 428080081.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 6/29/1989; Type Memcon; Participants Sese Seko, Mobutu; Country Zaire; Release Status Full; NAID 428080081. National Archives Catalog item: Meeting with President Mobutu Sese Seko of Zaire, June 29, 1989 (2 of 2), NAID 428080081. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons) - June 1989-December 1989]: June 1989, NAID 325377389. Digital object: 1989-06-29--Sese-Seko-2.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-06-29--Sese-Seko-2.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-018",
           "diaryReferenceCount": 2,
@@ -28088,11 +28111,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 6,
           "stubPath": "reports/document-stubs/d-032.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: October 1989. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080247.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: October 1989. Confidential; OADR. National Archives Catalog, NAID 428080247.",
           "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 10/4/1989; Type Memcon; Participants Sese Seko, Mobutu; Country Zaire; Release Status Full; NAID 428080247. National Archives Catalog item: Meeting with Mobutu Sese Seko, President of Zaire, October 4, 1989, NAID 428080247. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons) - June 1989-December 1989]: October 1989, NAID 325377394. Digital object: 1989-10-04--Sese-Seko.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-10-04--Sese-Seko.pdf. Access/release status: Full.",
           "diaryControlNumber": "DC-025",
-          "diaryReferenceCount": 1,
+          "diaryReferenceCount": 2,
           "diaryReferenceNaids": [
+            "415890112",
             "415890113"
           ],
           "diaryVerificationTargets": [
@@ -28236,7 +28260,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 37,
           "stubPath": "reports/document-stubs/d-035.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), H-Files - National Security Review (NSR) Files, NSR-30 - June 15, 1992 - American Policy Toward Africa in the 1990s. Classification marking not identified in the available catalog/OCR metadata. File unit. Catalog metadata records access status as Restricted - Possibly. Catalog reference: NAID 446394987.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Review (NSR) Files, NSR-30 - June 15, 1992 - American Policy Toward Africa in the 1990s. No classification marking identified. National Archives Catalog, NAID 446394987.",
           "catalogProvenance": "National Archives Catalog file: NSR-30 - June 15, 1992 - American Policy Toward Africa in the 1990s, NAID 446394987. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: H-Files - National Security Review (NSR) Files, NAID 313189297. Access status: Restricted - Possibly. Digital object: 41-bpr-nsc-hfiles-nsr-30-90008-010.pdf, URL https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-30-90008-010.pdf. Catalog: https://catalog.archives.gov/id/446394987.",
           "diaryControlNumber": "",
           "diaryReferenceCount": 0,
@@ -28310,7 +28334,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
           "pageCount": 57,
           "stubPath": "reports/document-stubs/d-036.md",
           "sourceNotePresent": true,
-          "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), National Security Directives (NSD) Files, NSD-75 - December 23, 1992 - American Policy toward Sub-Saharan Africa in the 1990s. Classification marking not identified in the available catalog/OCR metadata. File unit. Catalog metadata records access status as Restricted - Possibly. Catalog reference: NAID 446396910.",
+          "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Directives (NSD) Files, NSD-75 - December 23, 1992 - American Policy toward Sub-Saharan Africa in the 1990s. No classification marking identified. National Archives Catalog, NAID 446396910.",
           "catalogProvenance": "National Archives Catalog file: NSD-75 - December 23, 1992 - American Policy toward Sub-Saharan Africa in the 1990s, NAID 446396910. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: National Security Directives (NSD) Files, NAID 313189290. Access status: Restricted - Possibly. Digital object: 41-bpr-nsc-hfiles-nsd-75-90005-026.pdf, URL https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/H-Files/NSDs_313189290/41-bpr-nsc-hfiles-nsd-75-90005-026.pdf. Catalog: https://catalog.archives.gov/id/446396910.",
           "diaryControlNumber": "",
           "diaryReferenceCount": 0,
@@ -28391,12 +28415,13 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 2,
       "stubPath": "reports/document-stubs/c-031.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079787.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. Confidential; OADR. National Archives Catalog, NAID 428079787.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/23/1989; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428079787. National Archives Catalog item: Telephone Conversation with President Mubarak of Egypt, January 23, 1989, NAID 428079787. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989, NAID 322361434. Digital object: 1989-01-23--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-01-23--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-001",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
-        "415889604"
+        "415889604",
+        "415889605"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -28477,7 +28502,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/d-001.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079821.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. No classification marking identified. National Archives Catalog, NAID 428079821.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/31/1989; Type Telcon; Participants Hassan III, King; Country Morocco; Release Status Full; NAID 428079821. National Archives Catalog item: Telephone Conversation with King Hassan of Morocco, January 31, 1989, NAID 428079821. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989, NAID 322361434. Digital object: 1989-01-31--Hassan.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-01-31--Hassan.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-004",
       "diaryReferenceCount": 2,
@@ -28563,7 +28588,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 2,
       "stubPath": "reports/document-stubs/d-002.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079819.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. Confidential; OADR. National Archives Catalog, NAID 428079819.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/31/1989; Type Telcon; Participants Bendjedid, Chadli; Country Algeria; Release Status Full; NAID 428079819. National Archives Catalog item: Telephone Conversation with President Bendjedid of Algeria, January 31, 1989, NAID 428079819. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989, NAID 322361434. Digital object: 1989-01-31--Bendjedid.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-01-31--Bendjedid.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-003",
       "diaryReferenceCount": 2,
@@ -28650,7 +28675,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 6,
       "stubPath": "reports/document-stubs/c-010.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428079849.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. Confidential. National Archives Catalog, NAID 428079849.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/23/1989; Type Memcon; Participants Mubarak, Hosni; Country Egypt; Release Status Partial; NAID 428079849. National Archives Catalog item: Meeting with President Mohammed Hosni Mubarak of Egypt, February 23, 1989, NAID 428079849. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989, NAID 325377380. Digital object: 1989-02-23--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-02-23--Mubarak.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-008",
       "diaryReferenceCount": 2,
@@ -28737,11 +28762,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/c-011.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - January 1989-May 1989]: April 1989. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428079939.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - January 1989-May 1989]: April 1989. Confidential. National Archives Catalog, NAID 428079939.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 4/3/1989; Type Memcon; Participants Mubarak, Hosni; Country Egypt; Release Status Partial; NAID 428079939. National Archives Catalog item: Plenary Session with President Mubarak of Egypt, April 3, 1989, NAID 428079939. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons) - January 1989-May 1989]: April 1989, NAID 325377385. Digital object: 1989-04-03--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-04-03--Mubarak.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-011",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415889744",
         "415889745"
       ],
       "diaryVerificationTargets": [
@@ -28823,12 +28849,13 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-032.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: June 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080059.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: June 1989. No classification marking identified. National Archives Catalog, NAID 428080059.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 6/9/1989; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080059. National Archives Catalog item: Telephone Conversation with President Mohammad Hosni Mubarak of Egypt, June 9, 1989, NAID 428080059. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: June 1989, NAID 325592633. Digital object: 1989-06-09--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-06-09--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-016",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
-        "415889878"
+        "415889878",
+        "415889879"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -28909,12 +28936,11 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/d-003.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: July 1989. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080109.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: July 1989. Confidential; OADR. National Archives Catalog, NAID 428080109.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 7/3/1989; Type Telcon; Participants Hassan III, King; Country Morocco; Release Status Full; NAID 428080109. National Archives Catalog item: Telephone Conversation King Hassan of Morocco, July 3, 1989, NAID 428080109. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: July 1989, NAID 325592634. Digital object: 1989-07-03--Hassan.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-07-03--Hassan.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-019",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415889926",
         "415889927"
       ],
       "diaryVerificationTargets": [
@@ -28995,7 +29021,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/d-004.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: August 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080159.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: August 1989. No classification marking identified. National Archives Catalog, NAID 428080159.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/2/1989; Type Telcon; Participants Hassan III, King; Country Morocco; Release Status Full; NAID 428080159. National Archives Catalog item: President Bush's Telephone Call to King Hassan II, August 2, 1989, NAID 428080159. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: August 1989, NAID 325592635. Digital object: 1989-08-02--Hassan.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-08-02--Hassan.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-021",
       "diaryReferenceCount": 2,
@@ -29081,7 +29107,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/d-005.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: August 1989. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080155.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: August 1989. Confidential; OADR. National Archives Catalog, NAID 428080155.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/2/1989; Type Telcon; Participants Bendjedid, Chadil; Country Algeria; Release Status Full; NAID 428080155. National Archives Catalog item: Telephone Conversation with President Bendjedid of Algeria, August 2, 1989, NAID 428080155. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: August 1989, NAID 325592635. Digital object: 1989-08-02--Bendjedid.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-08-02--Bendjedid.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-020",
       "diaryReferenceCount": 2,
@@ -29166,12 +29192,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-033.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: August 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080133.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: August 1989. No classification marking identified. National Archives Catalog, NAID 428080133.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/8/1989; Type Memcon; Participants Abu Talib, Youssef; Country Egypt; Release Status Full; NAID 428080133. National Archives Catalog item: Meeting with General Youssef Abu Talib, Defense Minister of Egypt, NAID 428080133. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons) - June 1989-December 1989]: August 1989, NAID 325377392. Digital object: 1989-08-08--Abu-Talib.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-08-08--Abu-Talib.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-022",
       "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415889998"
+        "415889999"
       ],
       "diaryVerificationTargets": [
         "meeting time",
@@ -29254,12 +29280,13 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-034.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: August 1989. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080173.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: August 1989. Confidential; OADR. National Archives Catalog, NAID 428080173.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/9/1989; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080173. National Archives Catalog item: Telephone Conversation with - President Mubarak of Egypt, August 9, 1989, NAID 428080173. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: August 1989, NAID 325592635. Digital object: 1989-08-09--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-08-09--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-023",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
-        "415890000"
+        "415890000",
+        "415890001"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -29340,13 +29367,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 6,
       "stubPath": "reports/document-stubs/c-035.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: October 1989. Sensitive. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080243.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: October 1989. Sensitive. National Archives Catalog, NAID 428080243.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 10/2/1989; Type Memcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080243. National Archives Catalog item: Meeting with President Mubarak of Egypt, October 2, 1989, NAID 428080243. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons) - June 1989-December 1989]: October 1989, NAID 325377394. Digital object: 1989-10-02--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-10-02--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-024",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415890108",
-        "415890109"
+        "415890108"
       ],
       "diaryVerificationTargets": [
         "meeting time",
@@ -29427,7 +29453,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-036.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: October 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080303.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: October 1989. No classification marking identified. National Archives Catalog, NAID 428080303.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 10/18/1989; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080303. National Archives Catalog item: Telephone Conversation with President Mubarak of Egypt, October 18, 1989, NAID 428080303. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: October 1989, NAID 325592637. Digital object: 1989-10-18--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-10-18--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-027",
       "diaryReferenceCount": 2,
@@ -29514,13 +29540,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 5,
       "stubPath": "reports/document-stubs/c-012.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: November 1989. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428080293.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: November 1989. Confidential. National Archives Catalog, NAID 428080293.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 11/14/1989; Type Memcon; Participants Ali, Ben; Country Tunisia; Release Status Partial; NAID 428080293. National Archives Catalog item: Meeting with President Ben Ali of Tunisia, November 14, 1989, NAID 428080293. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons) - June 1989-December 1989]: November 1989, NAID 325377395. Digital object: 1989-11-14--Ali.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-11-14--Ali.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-028",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415890194",
-        "415890195"
+        "415890194"
       ],
       "diaryVerificationTargets": [
         "meeting time",
@@ -29599,7 +29624,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-037.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: November 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080341.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: November 1989. No classification marking identified. National Archives Catalog, NAID 428080341.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 11/17/1989; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080341. National Archives Catalog item: Telephone Conversation with President Hosni Mubarak of Egypt, November 17, 1989, NAID 428080341. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1989-December 1989]: November 1989, NAID 325592638. Digital object: 1989-11-17--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-11-17--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-029",
       "diaryReferenceCount": 2,
@@ -29683,7 +29708,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 62,
       "stubPath": "reports/document-stubs/d-033.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), H-Files - National Security Council (NSC) Meeting Files, NSC0034 - December 18, 1989 - Libya. Classification marking not identified in the available catalog/OCR metadata. File unit. Catalog metadata records access status as Restricted - Possibly. Catalog reference: NAID 470760928.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC) Meeting Files, NSC0034 - December 18, 1989 - Libya. No classification marking identified. National Archives Catalog, NAID 470760928.",
       "catalogProvenance": "National Archives Catalog file: NSC0034 - December 18, 1989 - Libya, NAID 470760928. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: H-Files - National Security Council (NSC) Meeting Files, NAID 312293887. Access status: Restricted - Possibly. Digital object: 41-bpr-nsc-hfiles-nsc_mtgs-34-90001-025.pdf, URL https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-34-90001-025.pdf. Catalog: https://catalog.archives.gov/id/470760928.",
       "diaryControlNumber": "",
       "diaryReferenceCount": 0,
@@ -29760,7 +29785,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 6,
       "stubPath": "reports/document-stubs/c-013.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: January 1990. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428080439.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: January 1990. Confidential. National Archives Catalog, NAID 428080439.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/19/1990; Type Memcon; Participants Meguid, Ahmed Esmat Abdel; Country Egypt; Release Status Partial; NAID 428080439. National Archives Catalog item: Meeting with Foreign Minister Esmat Abd el-Meguid of Egypt, January 19, 1990, NAID 428080439. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1990-June 1990]: January 1990, NAID 325377404. Digital object: 1990-01-19--Abdel-Meguid.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-01-19--Abdel-Meguid.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-030",
       "diaryReferenceCount": 2,
@@ -29849,12 +29874,11 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 2,
       "stubPath": "reports/document-stubs/c-038.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: February 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080515.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: February 1990. No classification marking identified. National Archives Catalog, NAID 428080515.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/7/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080515. National Archives Catalog item: Telephone Call to President Mubarak, February 7, 1990, NAID 428080515. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: February 1990, NAID 325592641. Digital object: 1990-02-07--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-02-07--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-033",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415890364",
         "415890365"
       ],
       "diaryVerificationTargets": [
@@ -29936,7 +29960,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 5,
       "stubPath": "reports/document-stubs/c-014.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428080525.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990. No classification marking identified. National Archives Catalog, NAID 428080525.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/20/1990; Type Memcon; Participants Filali, Abdellatif; Country Morocco; Release Status Partial; NAID 428080525. National Archives Catalog item: Meeting with Foreign Minister Abdellatif Filali of Morocco, February 20, 1990, NAID 428080525. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990, NAID 325377405. Digital object: 1990-02-20--Filali.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-02-20--Filali.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-035",
       "diaryReferenceCount": 2,
@@ -30021,7 +30045,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 36,
       "stubPath": "reports/document-stubs/d-034.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), H-Files - National Security Review (NSR) Files, NSR-23 - February 21, 1990 - U.S. Policy Towards the Maghreb-Morocco / Algeria and Tunisia. Classification marking not identified in the available catalog/OCR metadata. File unit. Catalog metadata records access status as Restricted - Possibly. Catalog reference: NAID 446394969.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Review (NSR) Files, NSR-23 - February 21, 1990 - U.S. Policy Towards the Maghreb-Morocco / Algeria and Tunisia. No classification marking identified. National Archives Catalog, NAID 446394969.",
       "catalogProvenance": "National Archives Catalog file: NSR-23 - February 21, 1990 - U.S. Policy Towards the Maghreb-Morocco / Algeria and Tunisia, NAID 446394969. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: H-Files - National Security Review (NSR) Files, NAID 313189297. Access status: Restricted - Possibly. Digital object: 41-bpr-nsc-hfiles-nsr-23-90007-017.pdf, URL https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-23-90007-017.pdf. Catalog: https://catalog.archives.gov/id/446394969.",
       "diaryControlNumber": "",
       "diaryReferenceCount": 0,
@@ -30099,13 +30123,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-039.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: March 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080611.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: March 1990. No classification marking identified. National Archives Catalog, NAID 428080611.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 3/17/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080611. National Archives Catalog item: Telephone Conversation with President Mubarak of Egypt, March 17, 1990, NAID 428080611. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: March 1990, NAID 325592642. Digital object: 1990-03-17--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-03-17--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-040",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415890440",
-        "415890441"
+        "415890440"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -30186,7 +30209,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/c-040.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: May 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080709.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: May 1990. No classification marking identified. National Archives Catalog, NAID 428080709.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 5/4/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080709. National Archives Catalog item: Telephone Conversation with President Mubarak of Egypt, May 4, 1990, NAID 428080709. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]:  May 1990, NAID 325592644. Digital object: 1990-05-04--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-05-04--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-042",
       "diaryReferenceCount": 1,
@@ -30272,7 +30295,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/d-006.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: May 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080691.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: May 1990. No classification marking identified. National Archives Catalog, NAID 428080691.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 5/15/1990; Type Memcon; Participants Ali, Ben; Country Tunisia; Release Status Full; NAID 428080691. National Archives Catalog item: Meeting with President Ben Ali of Tunisia, May 15, 1990 (1 of 2), NAID 428080691. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1990-June 1990]: May 1990, NAID 325541470. Digital object: 1990-05-15--Ali-1.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-05-15--Ali-1.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-044",
       "diaryReferenceCount": 2,
@@ -30357,7 +30380,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 7,
       "stubPath": "reports/document-stubs/d-007.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: May 1990. Secret; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080693.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: May 1990. Secret; OADR. National Archives Catalog, NAID 428080693.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 5/15/1990; Type Memcon; Participants Ali, Ben; Country Tunisia; Release Status Full; NAID 428080693. National Archives Catalog item: Plenary Meeting with President Ben Ali of Tunisia, May 15, 1990 (2 of 2), NAID 428080693. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1990-June 1990]: May 1990, NAID 325541470. Digital object: 1990-05-15--Ali-2.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-05-15--Ali-2.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-045",
       "diaryReferenceCount": 2,
@@ -30442,11 +30465,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/c-041.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: May 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080711.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: May 1990. No classification marking identified. National Archives Catalog, NAID 428080711.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 5/23/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080711. National Archives Catalog item: Telephone Conversation with President Mubarak of Egypt, May 23, 1990, NAID 428080711. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]:  May 1990, NAID 325592644. Digital object: 1990-05-23--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-05-23--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-046",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415890574",
         "415890575"
       ],
       "diaryVerificationTargets": [
@@ -30528,11 +30552,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/c-042.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: June 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080771.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: June 1990. No classification marking identified. National Archives Catalog, NAID 428080771.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 6/8/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080771. National Archives Catalog item: Telephone Conversation with President Mubarak of Egypt, June 8, 1990, NAID 428080771. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]:  June 1990, NAID 325592645. Digital object: 1990-06-08--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-06-08--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-047",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415890606",
         "415890607"
       ],
       "diaryVerificationTargets": [
@@ -30614,7 +30639,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-043.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: June 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080801.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: June 1990. No classification marking identified. National Archives Catalog, NAID 428080801.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 6/12/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080801. National Archives Catalog item: Telephone Conversation with President Mubarak of Egypt, June 12, 1990, NAID 428080801. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]:  June 1990, NAID 325592645. Digital object: 1990-06-12--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-06-12--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-048",
       "diaryReferenceCount": 1,
@@ -30700,11 +30725,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-044.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: June 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080807.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]: June 1990. No classification marking identified. National Archives Catalog, NAID 428080807.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 6/23/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080807. National Archives Catalog item: Telephone Conversation with President Mubarak of Egypt, June 23, 1990, NAID 428080807. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1990-July 1990]:  June 1990, NAID 325592645. Digital object: 1990-06-23--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-06-23--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-050",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415890636",
         "415890637"
       ],
       "diaryVerificationTargets": [
@@ -30786,12 +30812,13 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 5,
       "stubPath": "reports/document-stubs/c-015.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: June 1990. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428080783.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: June 1990. Confidential. National Archives Catalog, NAID 428080783.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 6/26/1990; Type Memcon; Participants Meguid, Ahmed Esmat Abdel; Country Egypt; Release Status Partial; NAID 428080783. National Archives Catalog item: Meeting with Egyptian Foreign Minister Esmat Abdel Meguid, June 26, 1990, NAID 428080783. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1990-June 1990]: June 1990, NAID 325541473. Digital object: 1990-06-26--Abdel-Meguid.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-06-26--Abdel-Meguid.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-051",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
-        "415890642"
+        "415890642",
+        "415890643"
       ],
       "diaryVerificationTargets": [
         "meeting time",
@@ -30874,12 +30901,11 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/d-008.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [1]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080905.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [1]. No classification marking identified. National Archives Catalog, NAID 428080905.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/7/1990; Type Telcon; Participants Hassan III, King; Country Morocco; Release Status Full; NAID 428080905. National Archives Catalog item: Telephone Conversation with King Hassan of Morocco, August 7, 1990, NAID 428080905. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  August 1990 [1], NAID 325592647. Digital object: 1990-08-07--Hassan.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-07--Hassan.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-058",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415890726",
         "415890727"
       ],
       "diaryVerificationTargets": [
@@ -30959,12 +30985,11 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 2,
       "stubPath": "reports/document-stubs/c-001.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [1]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428080877.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [1]. No classification marking identified. National Archives Catalog, NAID 428080877.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/7/1990; Type No Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status blank; NAID 428080877. National Archives Catalog item: Telephone Call to Hosni Mubarak, August 7, 1990, NAID 428080877. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  August 1990 [1], NAID 325592647. Digital object: 1990-08-07--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-07--Mubarak.pdf. Access/release status: Marker / no memorandum listed.",
       "diaryControlNumber": "DC-057",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415890726",
         "415890727"
       ],
       "diaryVerificationTargets": [
@@ -31046,12 +31071,13 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 2,
       "stubPath": "reports/document-stubs/c-002.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [1]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428080931.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [1]. No classification marking identified. National Archives Catalog, NAID 428080931.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/11/1990; Type No Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status blank; NAID 428080931. National Archives Catalog item: Telephone Call to Hosni Mubarak, August 11, 1990, NAID 428080931. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  August 1990 [1], NAID 325592647. Digital object: 1990-08-11--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-11--Mubarak.pdf. Access/release status: Marker / no memorandum listed.",
       "diaryControlNumber": "DC-059",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
-        "415890734"
+        "415890734",
+        "415890735"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -31132,12 +31158,13 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-045.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [2]. Secret; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080955.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [2]. Secret; OADR. National Archives Catalog, NAID 428080955.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/16/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428080955. National Archives Catalog item: Telephone Conversation with President Mubarak of Egypt, August 16, 1990, NAID 428080955. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  August 1990 [2], NAID 325592648. Digital object: 1990-08-16--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-16--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-061",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
-        "415890744"
+        "415890744",
+        "415890745"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -31218,13 +31245,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-016.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [2]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428080973.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [2]. No classification marking identified. National Archives Catalog, NAID 428080973.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/26/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Partial; NAID 428080973. National Archives Catalog item: Telephone Conversation with President Hosni Mubarak of Egypt, August 26, 1990, NAID 428080973. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  August 1990 [2], NAID 325592648. Digital object: 1990-08-26--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-26--Mubarak.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-062",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415890764",
-        "415890765"
+        "415890764"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -31305,12 +31331,13 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-017.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [2]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428080983.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [2]. No classification marking identified. National Archives Catalog, NAID 428080983.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/27/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Partial; NAID 428080983. National Archives Catalog item: Telephone Conversation with Hosni Mubarak of Egypt, August 27, 1990, NAID 428080983. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  August 1990 [2], NAID 325592648. Digital object: 1990-08-27--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-27--Mubarak.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-063",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
-        "415890766"
+        "415890766",
+        "415890767"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -31391,7 +31418,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/d-009.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [2]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080987.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [2]. No classification marking identified. National Archives Catalog, NAID 428080987.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/29/1990; Type Telcon; Participants Bendjedid, Chadil; Country Algeria; Release Status Full; NAID 428080987. National Archives Catalog item: Telephone Conversation with President Bendjedid of Algeria, August 29, 1990, NAID 428080987. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  August 1990 [2], NAID 325592648. Digital object: 1990-08-29--Bendjedid.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-29--Bendjedid.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-064",
       "diaryReferenceCount": 2,
@@ -31476,12 +31503,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-018.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [2]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428080997.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: August 1990 [2]. No classification marking identified. National Archives Catalog, NAID 428080997.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 8/30/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Partial; NAID 428080997. National Archives Catalog item: Telephone Conversation with President Mubarak of Egypt, August 30, 1990, NAID 428080997. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  August 1990 [2], NAID 325592648. Digital object: 1990-08-30--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-30--Mubarak.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-065",
       "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415890773"
+        "415890772"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -31562,7 +31589,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-046.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: September 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081009.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: September 1990. No classification marking identified. National Archives Catalog, NAID 428081009.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 9/1/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081009. National Archives Catalog item: Telephone Conversation with President Mubarak of Egypt, September 1, 1990, NAID 428081009. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  September 1990, NAID 325592649. Digital object: 1990-09-01--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-09-01--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-066",
       "diaryReferenceCount": 2,
@@ -31649,7 +31676,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 2,
       "stubPath": "reports/document-stubs/c-003.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: September 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428081047.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: September 1990. No classification marking identified. National Archives Catalog, NAID 428081047.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 9/10/1990; Type No Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status blank; NAID 428081047. National Archives Catalog item: Telephone Call to Hosni Mubarak, September 10, 1990, NAID 428081047. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  September 1990, NAID 325592649. Digital object: 1990-09-10--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-09-10--Mubarak.pdf. Access/release status: Marker / no memorandum listed.",
       "diaryControlNumber": "DC-067",
       "diaryReferenceCount": 2,
@@ -31736,7 +31763,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-047.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: October 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081147.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: October 1990. No classification marking identified. National Archives Catalog, NAID 428081147.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 10/12/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081147. National Archives Catalog item: Telephone Conversation with President Hosni Mubarak of Egypt, October 12, 1990, NAID 428081147. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  October 1990, NAID 325592650. Digital object: 1990-10-12--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-10-12--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-072",
       "diaryReferenceCount": 2,
@@ -31823,11 +31850,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-048.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: October 1990. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081159.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: October 1990. Confidential; OADR. National Archives Catalog, NAID 428081159.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 10/25/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081159. National Archives Catalog item: Telephone Conversation with President Mubarak, October 25, 1990, NAID 428081159. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  October 1990, NAID 325592650. Digital object: 1990-10-25--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-10-25--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-073",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415890886",
         "415890887"
       ],
       "diaryVerificationTargets": [
@@ -31909,7 +31937,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-049.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: October 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081167.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: October 1990. No classification marking identified. National Archives Catalog, NAID 428081167.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 10/27/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081167. National Archives Catalog item: Telephone Conversation with President Hosni Mubarak of Egypt, October 27, 1990, NAID 428081167. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  October 1990, NAID 325592650. Digital object: 1990-10-27--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-10-27--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-074",
       "diaryReferenceCount": 1,
@@ -31995,11 +32023,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-050.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: November 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081221.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: November 1990. No classification marking identified. National Archives Catalog, NAID 428081221.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 11/20/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081221. National Archives Catalog item: Telephone Conversation with President Hosni Mubarak of Egypt, November 20, 1990, NAID 428081221. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  November 1990, NAID 325592651. Digital object: 1990-11-20--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-11-20--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-075",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415890938",
         "415890939"
       ],
       "diaryVerificationTargets": [
@@ -32081,7 +32110,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 9,
       "stubPath": "reports/document-stubs/c-019.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: November 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428081203.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: November 1990. No classification marking identified. National Archives Catalog, NAID 428081203.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 11/23/1990; Type Memcon; Participants Mubarak, Hosni; Country Egypt; Release Status Partial; NAID 428081203. National Archives Catalog item: Meeting with President Mubarek of Egypt, November 23, 1990, NAID 428081203. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1990-December 1990]: November 1990, NAID 325541482. Digital object: 1990-11-23--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-11-23--Mubarak.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-076",
       "diaryReferenceCount": 2,
@@ -32168,7 +32197,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-051.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: November 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081259.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: November 1990. No classification marking identified. National Archives Catalog, NAID 428081259.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 11/30/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081259. National Archives Catalog item: Presidential Phone Call to President Mubarak of Egypt,November 30, 1990, NAID 428081259. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  November 1990, NAID 325592651. Digital object: 1990-11-30--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-11-30--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-077",
       "diaryReferenceCount": 2,
@@ -32255,7 +32284,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/c-052.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: December 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081293.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]: December 1990. No classification marking identified. National Archives Catalog, NAID 428081293.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 12/31/1990; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081293. National Archives Catalog item: Telephone Conversation with President Hosni Mubarak of Egypt, December 31, 1990, NAID 428081293. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - August 1990-December 1990]:  December 1990, NAID 325592652. Digital object: 1990-12-31--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-12-31--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-079",
       "diaryReferenceCount": 2,
@@ -32342,13 +32371,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 2,
       "stubPath": "reports/document-stubs/c-004.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: January 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428081331.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: January 1991. No classification marking identified. National Archives Catalog, NAID 428081331.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/16/1991; Type No Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status blank; NAID 428081331. National Archives Catalog item: Telephone Call to Hosni Mubarak, January 16, 1991, NAID 428081331. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  January 1991, NAID 325592653. Digital object: 1991-01-16--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-01-16--Mubarak.pdf. Access/release status: Marker / no memorandum listed.",
       "diaryControlNumber": "DC-081",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415891052",
-        "415891053"
+        "415891052"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -32429,12 +32457,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 2,
       "stubPath": "reports/document-stubs/c-005.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: January 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428081339.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: January 1991. No classification marking identified. National Archives Catalog, NAID 428081339.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/20/1991; Type No Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status blank; NAID 428081339. National Archives Catalog item: Telephone Call to Hosni Mubarek, January 20, 1991, NAID 428081339. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  January 1991, NAID 325592653. Digital object: 1991-01-20--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-01-20--Mubarak.pdf. Access/release status: Marker / no memorandum listed.",
       "diaryControlNumber": "DC-082",
       "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415891061"
+        "415891060"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -32515,7 +32543,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/c-053.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: January 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081371.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: January 1991. No classification marking identified. National Archives Catalog, NAID 428081371.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/21/1991; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081371. National Archives Catalog item: Presidential Phone Call to President Mubarak of Egypt on January 21, 1991, NAID 428081371. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  January 1991, NAID 325592653. Digital object: 1991-01-21--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-01-21--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-083",
       "diaryReferenceCount": 2,
@@ -32602,12 +32630,13 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 5,
       "stubPath": "reports/document-stubs/c-020.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1991-June 1991]: January 1991. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428081381.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1991-June 1991]: January 1991. Confidential. National Archives Catalog, NAID 428081381.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/29/1991; Type Memcon; Participants Meguid, Ahmed Esmat Abdel; Country Egypt; Release Status Partial; NAID 428081381. National Archives Catalog item: Meeting with Foreign Minister Abd el-Meguid, January 29, 1991, NAID 428081381. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1991-June 1991]: January 1991, NAID 325541486. Digital object: 1991-01-29--el-Meguid.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-01-29--el-Meguid.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-084",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
-        "415891078"
+        "415891078",
+        "415891079"
       ],
       "diaryVerificationTargets": [
         "meeting time",
@@ -32690,13 +32719,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/c-054.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: February 1991 [1]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081409.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: February 1991 [1]. No classification marking identified. National Archives Catalog, NAID 428081409.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/2/1991; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081409. National Archives Catalog item: President's Call to President Mubarak of Egypt on February 2, 1991, NAID 428081409. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  February 1991 [1], NAID 325592654. Digital object: 1991-02-02--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-02-02--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-085",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415891086",
-        "415891087"
+        "415891086"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -32777,11 +32805,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 5,
       "stubPath": "reports/document-stubs/c-021.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: February 1991 [1]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428081451.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: February 1991 [1]. No classification marking identified. National Archives Catalog, NAID 428081451.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/12/1991; Type Telcon; Participants Hassan III, King; Country Morocco; Release Status Partial; NAID 428081451. National Archives Catalog item: Telephone Conversation with Moroccan King Hassan, February 12, 1991, NAID 428081451. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  February 1991 [1], NAID 325592654. Digital object: 1991-02-12--Hassan.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-02-12--Hassan.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-087",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415891106",
         "415891107"
       ],
       "diaryVerificationTargets": [
@@ -32862,11 +32891,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-055.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: February 1991 [2]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081471.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: February 1991 [2]. No classification marking identified. National Archives Catalog, NAID 428081471.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/20/1991; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081471. National Archives Catalog item: Telcon with President Mubarak of Egypt on February 20, 1991, NAID 428081471. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  February 1991 [2], NAID 325592655. Digital object: 1991-02-20--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-02-20--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-088",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415891122",
         "415891123"
       ],
       "diaryVerificationTargets": [
@@ -32948,12 +32978,13 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-056.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: February 1991 [2]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081483.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: February 1991 [2]. No classification marking identified. National Archives Catalog, NAID 428081483.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/22/1991; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081483. National Archives Catalog item: Telcon with President Mubarak of Egypt on February 22, 1991, NAID 428081483. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  February 1991 [2], NAID 325592655. Digital object: 1991-02-22--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-02-22--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-089",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
-        "415891126"
+        "415891126",
+        "415891127"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -33034,12 +33065,11 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-057.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: February 1991 [2]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081495.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: February 1991 [2]. No classification marking identified. National Archives Catalog, NAID 428081495.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/23/1991; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081495. National Archives Catalog item: Telcon with President Mubarak of Egypt on February 23, 1991, NAID 428081495. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  February 1991 [2], NAID 325592655. Digital object: 1991-02-23--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-02-23--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-090",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415891128",
         "415891129"
       ],
       "diaryVerificationTargets": [
@@ -33121,12 +33151,11 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-022.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: February 1991 [2]. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428081503.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: February 1991 [2]. No classification marking identified. National Archives Catalog, NAID 428081503.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/26/1991; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Partial; NAID 428081503. National Archives Catalog item: Telcon with President Mubarak of Egypt on Februa.:ry 26, 1991, NAID 428081503. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  February 1991 [2], NAID 325592655. Digital object: 1991-02-26--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-02-26--Mubarak.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-091",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415891134",
         "415891135"
       ],
       "diaryVerificationTargets": [
@@ -33208,7 +33237,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 2,
       "stubPath": "reports/document-stubs/c-006.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: March 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428081547.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: March 1991. No classification marking identified. National Archives Catalog, NAID 428081547.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 3/1/1991; Type No Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status blank; NAID 428081547. National Archives Catalog item: Telephone Call from Hosni Mubarak, March 1, 1991, NAID 428081547. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  March 1991, NAID 325592656. Digital object: 1991-03-01--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-03-01--Mubarak.pdf. Access/release status: Marker / no memorandum listed.",
       "diaryControlNumber": "DC-092",
       "diaryReferenceCount": 2,
@@ -33295,7 +33324,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/d-010.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1991-June 1991]: April 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081577.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1991-June 1991]: April 1991. No classification marking identified. National Archives Catalog, NAID 428081577.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 4/11/1991; Type Memcon; Participants Khelil, Ismail; Country Tunisia; Release Status Full; NAID 428081577. National Archives Catalog item: Tunisian Ambassador's Credentials Ceremony, April 11, 1991, NAID 428081577. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1991-June 1991]: April 1991, NAID 325542550. Digital object: 1991-04-11--Khelil.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-04-11--Khelil.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-095",
       "diaryReferenceCount": 2,
@@ -33383,11 +33412,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-058.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: May 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081661.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: May 1991. No classification marking identified. National Archives Catalog, NAID 428081661.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 5/7/1991; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081661. National Archives Catalog item: Telephone Conversation with Hosni Mubarak, President of Egypt on May 7, 1991, NAID 428081661. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]:  May 1991, NAID 325592658. Digital object: 1991-05-07--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-05-07--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-099",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415891274",
         "415891275"
       ],
       "diaryVerificationTargets": [
@@ -33469,11 +33499,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 2,
       "stubPath": "reports/document-stubs/c-059.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: May 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081671.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: May 1991. No classification marking identified. National Archives Catalog, NAID 428081671.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 5/17/1991; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081671. National Archives Catalog item: Presidential Phone Call to President Mubarak of Egypt, May 17, 1991, NAID 428081671. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]:  May 1991, NAID 325592658. Digital object: 1991-05-17--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-05-17--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-100",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415891294",
         "415891295"
       ],
       "diaryVerificationTargets": [
@@ -33555,12 +33586,13 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/c-060.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: June 1991. Secret; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081717.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: June 1991. Secret; OADR. National Archives Catalog, NAID 428081717.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 6/12/1991; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081717. National Archives Catalog item: Telcon with President Mubarak of Egypt on June 12, 1991, NAID 428081717. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]:  June 1991, NAID 325592659. Digital object: 1991-06-12--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-06-12--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-101",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
-        "415891347"
+        "415891347",
+        "415891348"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -33641,7 +33673,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/c-061.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: July 1991. Secret; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081759.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: July 1991. Secret; OADR. National Archives Catalog, NAID 428081759.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 7/10/1991; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428081759. National Archives Catalog item: Telcon with President Hosni Mubarak of Egypt on July. 10, 1991, NAID 428081759. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]:  July 1991, NAID 325592660. Digital object: 1991-07-10--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-07-10--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-103",
       "diaryReferenceCount": 2,
@@ -33728,13 +33760,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 5,
       "stubPath": "reports/document-stubs/c-062.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081877.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991. No classification marking identified. National Archives Catalog, NAID 428081877.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 9/13/1991; Type Memcon; Participants Boutros-Ghali, Boutros; Country Egypt; Release Status Full; NAID 428081877. National Archives Catalog item: Meeting with Egyptian Deputy Prime Minister Boutros Ghali, September 13, 1991, NAID 428081877. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991, NAID 325542558. Digital object: 1991-09-13--Boutros-Ghali.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-09-13--Boutros-Ghali.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-111",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415891533",
-        "415891534"
+        "415891533"
       ],
       "diaryVerificationTargets": [
         "meeting time",
@@ -33815,7 +33846,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 6,
       "stubPath": "reports/document-stubs/d-011.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081925.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991. No classification marking identified. National Archives Catalog, NAID 428081925.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 9/26/1991; Type Memcon; Participants Hassan III, King; Country Morocco; Release Status Full; NAID 428081925. National Archives Catalog item: Plenary Meeting with King Hassan III of Morocco, September 26, 1991, NAID 428081925. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991, NAID 325542558. Digital object: 1991-09-26--Hassan.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-09-26--Hassan.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-113",
       "diaryReferenceCount": 2,
@@ -33901,7 +33932,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-063.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: October 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081997.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: October 1991. No classification marking identified. National Archives Catalog, NAID 428081997.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 10/30/1991; Type Memcon; Participants Mousa, Amr; Country Egypt; Release Status Full; NAID 428081997. National Archives Catalog item: Memorandum of Conversation of Meeting between Foreign Minister Mousa of Egypt and President Bush, October 30, 1991, NAID 428081997. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1991-December 1991]: October 1991, NAID 325542559. Digital object: 1991-10-30--Mousa.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-10-30--Mousa.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-115",
       "diaryReferenceCount": 2,
@@ -33990,7 +34021,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/c-064.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: November 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428082043.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: November 1991. No classification marking identified. National Archives Catalog, NAID 428082043.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 11/7/1991; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428082043. National Archives Catalog item: Telcon with President Mubarak of Egypt, November 7, 1991, NAID 428082043. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]:  November 1991, NAID 325592664. Digital object: 1991-11-07--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-11-07--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-117",
       "diaryReferenceCount": 2,
@@ -34077,11 +34108,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/d-012.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: November 1991. Secret; Sensitive; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428082047.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: November 1991. Secret; Sensitive; OADR. National Archives Catalog, NAID 428082047.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 11/19/1991; Type Telcon; Participants Hassan III, King; Country Morocco; Release Status Full; NAID 428082047. National Archives Catalog item: Telephone Conversation with King Hassan of Morocco on November 19, 1991, NAID 428082047. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]:  November 1991, NAID 325592664. Digital object: 1991-11-19--Hassan.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-11-19--Hassan.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-118",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415891670",
         "415891671"
       ],
       "diaryVerificationTargets": [
@@ -34162,11 +34194,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 2,
       "stubPath": "reports/document-stubs/c-065.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: November 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428082051.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]: November 1991. No classification marking identified. National Archives Catalog, NAID 428082051.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 11/22/1991; Type Telcon; Participants Boutros-Ghali, Boutros; Country Egypt; Release Status Full; NAID 428082051. National Archives Catalog item: Telcon with Boutros Boutros Ghali of Egypt, November 22, 1991, NAID 428082051. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - May 1991-December 1991]:  November 1991, NAID 325592664. Digital object: 1991-11-22--Boutros-Ghali.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-11-22--Boutros-Ghali.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-120",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415891676",
         "415891677"
       ],
       "diaryVerificationTargets": [
@@ -34248,7 +34281,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 2,
       "stubPath": "reports/document-stubs/d-013.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]: December 1992. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428082067.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]: December 1992. No classification marking identified. National Archives Catalog, NAID 428082067.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 12/3/1991; Type Telcon; Participants Hassan III, King; Country Morocco; Release Status Full; NAID 428082067. National Archives Catalog item: Telcon with King Hassan of Morocco on December 3, 1992, NAID 428082067. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]:  December 1992, NAID 325592783. Digital object: 1992-12-03--Hassan.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1992-12-03--Hassan.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-121",
       "diaryReferenceCount": 2,
@@ -34334,7 +34367,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/c-023.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: December 1991. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428082037.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: December 1991. Confidential. National Archives Catalog, NAID 428082037.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 12/5/1991; Type Memcon; Participants Boutros-Ghali, Boutros; Country Egypt; Release Status Partial; NAID 428082037. National Archives Catalog item: Meeting with Dr. Boutros Boutros Ghali of Egypt (1 of 2), December 5, 1991, NAID 428082037. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1991-December 1991]: December 1991, NAID 325542561. Digital object: 1991-12-05--Boutros-Ghali.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-12-05--Boutros-Ghali.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-122",
       "diaryReferenceCount": 2,
@@ -34421,7 +34454,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/c-024.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: December 1991. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428082039.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: December 1991. Confidential. National Archives Catalog, NAID 428082039.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 12/5/1991; Type Memcon; Participants Boutros-Ghali, Boutros; Country Egypt; Release Status Partial; NAID 428082039. National Archives Catalog item: Meeting with Dr. Boutros Boutros Ghali of Egypt (2 of 2), December 5, 1991, NAID 428082039. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1991-December 1991]: December 1991, NAID 325542561. Digital object: 1991-12-05--Ghali.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-12-05--Ghali.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-123",
       "diaryReferenceCount": 2,
@@ -34508,12 +34541,11 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 6,
       "stubPath": "reports/document-stubs/c-025.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1992-June 1992]: January 1992. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428082125.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1992-June 1992]: January 1992. No classification marking identified. National Archives Catalog, NAID 428082125.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/30/1992; Type Memcon; Participants Hassan III, King; Country Morocco; Release Status Partial; NAID 428082125. National Archives Catalog item: Meeting with King Hassan of Morocco, January 30, 1992, NAID 428082125. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1992-June 1992]: January 1992, NAID 325568085. Digital object: 1992-01-30--Hassan.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1992-01-30--Hassan.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-127",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415891815",
         "415891816"
       ],
       "diaryVerificationTargets": [
@@ -34594,13 +34626,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-026.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]: December 1992. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428082403.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]: December 1992. No classification marking identified. National Archives Catalog, NAID 428082403.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 12/3/1992; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Partial; NAID 428082403. National Archives Catalog item: Telcon with President Mubarak of Egypt on December 3, 1992, NAID 428082403. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]:  December 1992, NAID 325592783. Digital object: 1992-12-03--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1992-12-03--Mubarak.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-130",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415892436",
-        "415892437"
+        "415892436"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -34681,12 +34712,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-066.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]: December 1992. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428082407.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]: December 1992. No classification marking identified. National Archives Catalog, NAID 428082407.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 12/4/1992; Type Telcon; Participants Boutros-Ghali, Boutros; Country Egypt; Release Status Full; NAID 428082407. National Archives Catalog item: Telcon with UN Secretary General Boutros Boutros-Ghali, December 4, 1992, NAID 428082407. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]:  December 1992, NAID 325592783. Digital object: 1992-12-04--Boutros-Ghali.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1992-12-04--Boutros-Ghali.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-131",
       "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415892438"
+        "415892439"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -34767,12 +34798,11 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/c-067.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]: December 1992. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428082417.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]: December 1992. No classification marking identified. National Archives Catalog, NAID 428082417.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 12/8/1992; Type Telcon; Participants Boutros-Ghali, Boutros; Country Egypt; Release Status Full; NAID 428082417. National Archives Catalog item: Telcon with UN Secretary General Boutros Boutros-Ghali, December 8, 1992, NAID 428082417. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]:  December 1992, NAID 325592783. Digital object: 1992-12-08--Boutros-Ghali.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1992-12-08--Boutros-Ghali.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-132",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415892446",
         "415892447"
       ],
       "diaryVerificationTargets": [
@@ -34854,7 +34884,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-068.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]: January 1993. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428082441.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]: January 1993. No classification marking identified. National Archives Catalog, NAID 428082441.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/2/1993; Type Telcon; Participants Mubarak, Hosni; Country Egypt; Release Status Full; NAID 428082441. National Archives Catalog item: Telcon with President Hosni Mubarak of Egypt, January 2, 1992, NAID 428082441. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - July 1992-January 1993]:  January 1993, NAID 325592787. Digital object: 1993-01-02--Mubarak.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1993-01-02--Mubarak.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-134",
       "diaryReferenceCount": 2,
@@ -34941,11 +34971,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 2,
       "stubPath": "reports/document-stubs/c-007.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428079889.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. No classification marking identified. National Archives Catalog, NAID 428079889.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/2/1989; Type No Memcon; Participants Museveni. Yoweri; Country Uganda; Release Status blank; NAID 428079889. National Archives Catalog item: Meeting with Yoweri Museveni of Uganda, February 2, 1989, NAID 428079889. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989, NAID 325377380. Digital object: 1989-02-02--Museveni.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-02-02--Museveni.pdf. Access/release status: Marker / no memorandum listed.",
       "diaryControlNumber": "DC-006",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415889624",
         "415889625"
       ],
       "diaryVerificationTargets": [
@@ -35027,7 +35058,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 2,
       "stubPath": "reports/document-stubs/c-008.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428080497.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990. No classification marking identified. National Archives Catalog, NAID 428080497.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/1/1990; Type No Memcon; Participants Moi, Daniel arap; Country Kenya; Release Status blank; NAID 428080497. National Archives Catalog item: Meeting with Daniel arap Moi of Kenya, February 1, 1990, NAID 428080497. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990, NAID 325377405. Digital object: 1990-02-01--Moi.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-02-01--Moi.pdf. Access/release status: Marker / no memorandum listed.",
       "diaryControlNumber": "DC-032",
       "diaryReferenceCount": 1,
@@ -35111,7 +35142,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 2,
       "stubPath": "reports/document-stubs/c-009.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Marker / no memorandum listed. Catalog reference: NAID 428080491.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990. No classification marking identified. National Archives Catalog, NAID 428080491.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/1/1990; Type No Memcon; Participants Buyoya, Pierre; Country Burundi; Release Status blank; NAID 428080491. National Archives Catalog item: Meeting with Pierre Buyoya of Burundi, February 1, 1990, NAID 428080491. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1990-June 1990]: February 1990, NAID 325377405. Digital object: 1990-02-01--Buyoya.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-02-01--Buyoya.pdf. Access/release status: Marker / no memorandum listed.",
       "diaryControlNumber": "DC-031",
       "diaryReferenceCount": 1,
@@ -35197,12 +35228,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/d-014.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: October 1990. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081107.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: October 1990. Confidential; OADR. National Archives Catalog, NAID 428081107.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 10/1/1990; Type Memcon; Participants Museveni, Yoweri; Country Uganda; Release Status Full; NAID 428081107. National Archives Catalog item: Meeting with President Yoweri Museveni of Uganda, Chairman of the Organization of African Unity (OAU), NAID 428081107. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1990-December 1990]: October 1990, NAID 325541480. Digital object: 1990-10-01--Museveni.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-10-01--Museveni.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-069",
       "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415890836"
+        "415890837"
       ],
       "diaryVerificationTargets": [
         "meeting time",
@@ -35264,7 +35295,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 6,
       "stubPath": "reports/document-stubs/d-015.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1991-June 1991]: April 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081625.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1991-June 1991]: April 1991. No classification marking identified. National Archives Catalog, NAID 428081625.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 4/24/1991; Type Memcon; Participants Gouled, Hassan; Country Djibouti; Release Status Full; NAID 428081625. National Archives Catalog item: Luncheon Meeting with President Hassan Gouled of the Republic of Djibouti, April 24, 1991 (2 of 2), NAID 428081625. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1991-June 1991]: April 1991, NAID 325542550. Digital object: 1991-04-24--Gouled-2.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-04-24--Gouled-2.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-096",
       "diaryReferenceCount": 2,
@@ -35332,7 +35363,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 6,
       "stubPath": "reports/document-stubs/d-016.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1991-June 1991]: April 1991. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081623.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1991-June 1991]: April 1991. Confidential; OADR. National Archives Catalog, NAID 428081623.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 4/24/1991; Type Memcon; Participants Gouled, Hassan; Country Djibouti; Release Status Full; NAID 428081623. National Archives Catalog item: Meeting with President Hassan Gouled of the Republic of Djibouti, April 24, 1991 (1 of 2), NAID 428081623. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1991-June 1991]: April 1991, NAID 325542550. Digital object: 1991-04-24--Gouled-1.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-04-24--Gouled-1.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-097",
       "diaryReferenceCount": 2,
@@ -35400,11 +35431,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/d-017.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079793.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. No classification marking identified. National Archives Catalog, NAID 428079793.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/24/1989; Type Telcon; Participants Diouf, Abdou; Country Senegal; Release Status Full; NAID 428079793. National Archives Catalog item: Telephone Conversation with President Diouf of Senegal, January 24, 1989, NAID 428079793. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989, NAID 322361434. Digital object: 1989-01-24--Diouf.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-01-24--Diouf.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-002",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415889606",
         "415889607"
       ],
       "diaryVerificationTargets": [
@@ -35484,7 +35516,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 2,
       "stubPath": "reports/document-stubs/d-018.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: February 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079831.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: February 1989. No classification marking identified. National Archives Catalog, NAID 428079831.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/7/1989; Type Telcon; Participants Babangida, Ibrahim; Country Nigeria; Release Status Full; NAID 428079831. National Archives Catalog item: Telephone Conversation between President Bush and President Babangida of Nigeria, February 7, 1989, NAID 428079831. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: February 1989, NAID 325592629. Digital object: 1989-02-07--Babangida.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-02-07--Babangida.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-007",
       "diaryReferenceCount": 2,
@@ -35571,7 +35603,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/d-019.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079869.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. No classification marking identified. National Archives Catalog, NAID 428079869.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/25/1989; Type Memcon; Participants Babangida, Ibrahim; Country Nigeria; Release Status Full; NAID 428079869. National Archives Catalog item: Meeting with President Ibrahim Babangida of Nigeria, February 25, 1989, NAID 428079869. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989, NAID 325377380. Digital object: 1989-02-25--Babangida.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-02-25--Babangida.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-010",
       "diaryReferenceCount": 2,
@@ -35658,12 +35690,13 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/d-020.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - January 1989-May 1989]: April 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079977.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - January 1989-May 1989]: April 1989. No classification marking identified. National Archives Catalog, NAID 428079977.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 4/21/1989; Type Memcon; Participants Pereira, Aristides; Country Cape Verde; Release Status Full; NAID 428079977. National Archives Catalog item: Memorandum of Conversation: The President and Cape Verdean President Aristides Pereira, April 21, 1989, NAID 428079977. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons) - January 1989-May 1989]: April 1989, NAID 325377385. Digital object: 1989-04-21--Pereira.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-04-21--Pereira.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-012",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
-        "415889780"
+        "415889780",
+        "415889781"
       ],
       "diaryVerificationTargets": [
         "meeting time",
@@ -35744,7 +35777,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 5,
       "stubPath": "reports/document-stubs/d-021.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - January 1989-May 1989]: May 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080023.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - January 1989-May 1989]: May 1989. No classification marking identified. National Archives Catalog, NAID 428080023.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 5/15/1989; Type Memcon; Participants Jawara, Dawda; Country Gambia; Release Status Full; NAID 428080023. National Archives Catalog item: Memorandum of Conversation between the President and Sir Dawda Jawara, President of The Gambia, NAID 428080023. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons) - January 1989-May 1989]: May 1989, NAID 325377387. Digital object: 1989-05-15--Jawara.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-05-15--Jawara.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-013",
       "diaryReferenceCount": 2,
@@ -35829,7 +35862,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 6,
       "stubPath": "reports/document-stubs/d-022.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: April 1990. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080651.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: April 1990. No classification marking identified. National Archives Catalog, NAID 428080651.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 4/27/1990; Type Memcon; Participants Pereira, Aristides; Country Cape Verde; Release Status Full; NAID 428080651. National Archives Catalog item: Meeting with President Aristides Pereira of Cape Verde, April 27, 1990, NAID 428080651. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1990-June 1990]: April 1990, NAID 325541469. Digital object: 1990-04-27--Pereira.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-04-27--Pereira.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-041",
       "diaryReferenceCount": 2,
@@ -35916,12 +35949,11 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 9,
       "stubPath": "reports/document-stubs/c-027.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: May 1990. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428080689.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1990-June 1990]: May 1990. Confidential. National Archives Catalog, NAID 428080689.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 5/14/1990; Type Memcon; Participants Diouf, Abdou; Country Senegal; Release Status Partial; NAID 428080689. National Archives Catalog item: Meeting with President Abdou Diouf of Senegal, May 14, 1990, NAID 428080689. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1990-June 1990]: May 1990, NAID 325541470. Digital object: 1990-05-14--Diouf.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-05-14--Diouf.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-043",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415890556",
         "415890557"
       ],
       "diaryVerificationTargets": [
@@ -36001,7 +36033,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 5,
       "stubPath": "reports/document-stubs/d-023.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: July 1990. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080851.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: July 1990. Confidential; OADR. National Archives Catalog, NAID 428080851.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 7/31/1990; Type Memcon; Participants Eyadema, Gnassingbe; Country Togo; Release Status Full; NAID 428080851. National Archives Catalog item: Luncheon Meeting with President Gnassingbe Eyadema of Togo, July 31, 1990 (3 of 3), NAID 428080851. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1990-December 1990]: July 1990, NAID 325541475. Digital object: 1990-07-31--Eyadema-3.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-07-31--Eyadema-3.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-054",
       "diaryReferenceCount": 2,
@@ -36086,7 +36118,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/d-024.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: July 1990. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080847.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: July 1990. Confidential; OADR. National Archives Catalog, NAID 428080847.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 7/31/1990; Type Memcon; Participants Eyadema, Gnassingbe; Country Togo; Release Status Full; NAID 428080847. National Archives Catalog item: One-on-One Meeting with President Gnassingbe Eyadema of Togo, July 31, 1990 (1 of 3), NAID 428080847. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1990-December 1990]: July 1990, NAID 325541475. Digital object: 1990-07-31--Eyadema-1.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-07-31--Eyadema-1.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-055",
       "diaryReferenceCount": 2,
@@ -36171,7 +36203,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 6,
       "stubPath": "reports/document-stubs/c-028.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: July 1990. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428080849.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1990-December 1990]: July 1990. Confidential. National Archives Catalog, NAID 428080849.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 7/31/1990; Type Memcon; Participants Eyadema, Gnassingbe; Country Togo; Release Status Partial; NAID 428080849. National Archives Catalog item: Plenary Meeting with President Gnass;ngbe Eyadema of Togo, July 31, 1990 (2 of 3), NAID 428080849. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1990-December 1990]: July 1990, NAID 325541475. Digital object: 1990-07-31--Eyadema-2.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-07-31--Eyadema-2.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-056",
       "diaryReferenceCount": 2,
@@ -36256,12 +36288,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/d-025.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: March 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081571.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]: March 1991. No classification marking identified. National Archives Catalog, NAID 428081571.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 3/22/1991; Type Telcon; Participants Diouf, Abdou; Country Senegal; Release Status Full; NAID 428081571. National Archives Catalog item: Telephone Conversation with President Abdou Diouf of Senegal, March 22, 1991, NAID 428081571. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1991-April 1991]:  March 1991, NAID 325592656. Digital object: 1991-03-22--Diouf.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-03-22--Diouf.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-094",
       "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415891182"
+        "415891183"
       ],
       "diaryVerificationTargets": [
         "call time",
@@ -36341,12 +36373,11 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/d-026.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428081871.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991. No classification marking identified. National Archives Catalog, NAID 428081871.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 9/10/1991; Type Memcon; Participants Diouf, Abdou; Country Senegal; Release Status Full; NAID 428081871. National Archives Catalog item: Meeting with President Abdou Diouf of Senegal, September 10, 1991 (1 of 2), NAID 428081871. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991, NAID 325542558. Digital object: 1991-09-10--Diouf-1.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-09-10--Diouf-1.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-110",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415891527",
         "415891528"
       ],
       "diaryVerificationTargets": [
@@ -36407,12 +36438,11 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 6,
       "stubPath": "reports/document-stubs/c-029.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991. Confidential. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428081873.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991. Confidential. National Archives Catalog, NAID 428081873.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 9/10/1991; Type Memcon; Participants Diouf, Abdou; Country Senegal; Release Status Partial; NAID 428081873. National Archives Catalog item: Meeting with Abdou Diouf, President of Senegal, September 10, 1991 (2 of 2), NAID 428081873. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1991-December 1991]: September 1991, NAID 325542558. Digital object: 1991-09-10--Diouf-2.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-09-10--Diouf-2.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-109",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415891527",
         "415891528"
       ],
       "diaryVerificationTargets": [
@@ -36473,11 +36503,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 5,
       "stubPath": "reports/document-stubs/d-027.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: November 1991. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428082003.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-July 1991-December 1991]: November 1991. No classification marking identified. National Archives Catalog, NAID 428082003.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 11/5/1991; Type Memcon; Participants Soglo, Nicephore; Country Benin; Release Status Full; NAID 428082003. National Archives Catalog item: Meeting with President Soglo of Benin, November 5, 1991, NAID 428082003. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-July 1991-December 1991]: November 1991, NAID 325542560. Digital object: 1991-11-05--Soglo.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-11-05--Soglo.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-116",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415891641",
         "415891642"
       ],
       "diaryVerificationTargets": [
@@ -36558,12 +36589,11 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/c-030.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1992-June 1992]: January 1992. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Partial. Catalog reference: NAID 428082123.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1992-June 1992]: January 1992. No classification marking identified. National Archives Catalog, NAID 428082123.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/30/1992; Type Memcon; Participants Viega, Carlos; Country Cape Verde; Release Status Partial; NAID 428082123. National Archives Catalog item: Meeting with Prime Minister Carlos Viega of Cape Verde, January 30, 1992, NAID 428082123. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1992-June 1992]: January 1992, NAID 325568085. Digital object: 1992-01-30--Viega.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1992-01-30--Viega.pdf. Access/release status: Partial.",
       "diaryControlNumber": "DC-126",
-      "diaryReferenceCount": 2,
+      "diaryReferenceCount": 1,
       "diaryReferenceNaids": [
-        "415891815",
         "415891816"
       ],
       "diaryVerificationTargets": [
@@ -36645,7 +36675,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/d-028.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079823.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989. No classification marking identified. National Archives Catalog, NAID 428079823.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 1/31/1989; Type Telcon; Participants Sese Seko, Mobutu; Country Zaire; Release Status Full; NAID 428079823. National Archives Catalog item: Telephone Conversation with President Marshall Mobutu Sese Seko of Zaire, January 31, 1989, NAID 428079823. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Telcon Files, NAID 321498139. File unit: [Memorandum of Telephone Conversations (Telcons) - January 1989-July 1989]: January 1989, NAID 322361434. Digital object: 1989-01-31--Sese-Seko.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-01-31--Sese-Seko.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-005",
       "diaryReferenceCount": 2,
@@ -36732,11 +36762,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/d-029.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. Secret; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428079865.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989. Secret; OADR. National Archives Catalog, NAID 428079865.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 2/24/1989; Type Memcon; Participants Sese Seko, Mobutu; Country Zaire; Release Status Full; NAID 428079865. National Archives Catalog item: Bilateral Discussion with President Sese Seko Mobutu of the Republic of Zaire, February 24, 1989, NAID 428079865. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons)-January 1989-May 1989]: February 1989, NAID 325377380. Digital object: 1989-02-24--Sese-Seko.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-02-24--Sese-Seko.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-009",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415889668",
         "415889669"
       ],
       "diaryVerificationTargets": [
@@ -36818,7 +36849,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 3,
       "stubPath": "reports/document-stubs/d-030.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: June 1989. Classification marking not identified in the available catalog/OCR metadata. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080079.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: June 1989. No classification marking identified. National Archives Catalog, NAID 428080079.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 6/29/1989; Type Memcon; Participants Sese Seko, Mobutu; Country Zaire; Release Status Full; NAID 428080079. National Archives Catalog item: Meeting Between the President and Zairian President Mobutu, June 29, 1989 (1 of 2), NAID 428080079. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons) - June 1989-December 1989]: June 1989, NAID 325377389. Digital object: 1989-06-29--Sese-Seko-1.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-06-29--Sese-Seko-1.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-017",
       "diaryReferenceCount": 2,
@@ -36905,7 +36936,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 4,
       "stubPath": "reports/document-stubs/d-031.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: June 1989. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080081.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: June 1989. Confidential; OADR. National Archives Catalog, NAID 428080081.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 6/29/1989; Type Memcon; Participants Sese Seko, Mobutu; Country Zaire; Release Status Full; NAID 428080081. National Archives Catalog item: Meeting with President Mobutu Sese Seko of Zaire, June 29, 1989 (2 of 2), NAID 428080081. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons) - June 1989-December 1989]: June 1989, NAID 325377389. Digital object: 1989-06-29--Sese-Seko-2.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-06-29--Sese-Seko-2.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-018",
       "diaryReferenceCount": 2,
@@ -36992,11 +37023,12 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 6,
       "stubPath": "reports/document-stubs/d-032.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: October 1989. Confidential; OADR. Catalog metadata records access/release status as Full. Catalog reference: NAID 428080247.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, [Memorandum of Conversations (Memcons) - June 1989-December 1989]: October 1989. Confidential; OADR. National Archives Catalog, NAID 428080247.",
       "catalogProvenance": "Source: George H.W. Bush Presidential Library and Museum, Digital Research Room, \"Memcons and Telcons\" table (https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons), row: Date 10/4/1989; Type Memcon; Participants Sese Seko, Mobutu; Country Zaire; Release Status Full; NAID 428080247. National Archives Catalog item: Meeting with Mobutu Sese Seko, President of Zaire, October 4, 1989, NAID 428080247. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: Presidential Memcon Files, NAID 321498039. File unit: [Memorandum of Conversations (Memcons) - June 1989-December 1989]: October 1989, NAID 325377394. Digital object: 1989-10-04--Sese-Seko.pdf, URL https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-10-04--Sese-Seko.pdf. Access/release status: Full.",
       "diaryControlNumber": "DC-025",
-      "diaryReferenceCount": 1,
+      "diaryReferenceCount": 2,
       "diaryReferenceNaids": [
+        "415890112",
         "415890113"
       ],
       "diaryVerificationTargets": [
@@ -37075,7 +37107,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 37,
       "stubPath": "reports/document-stubs/d-035.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), H-Files - National Security Review (NSR) Files, NSR-30 - June 15, 1992 - American Policy Toward Africa in the 1990s. Classification marking not identified in the available catalog/OCR metadata. File unit. Catalog metadata records access status as Restricted - Possibly. Catalog reference: NAID 446394987.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Review (NSR) Files, NSR-30 - June 15, 1992 - American Policy Toward Africa in the 1990s. No classification marking identified. National Archives Catalog, NAID 446394987.",
       "catalogProvenance": "National Archives Catalog file: NSR-30 - June 15, 1992 - American Policy Toward Africa in the 1990s, NAID 446394987. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: H-Files - National Security Review (NSR) Files, NAID 313189297. Access status: Restricted - Possibly. Digital object: 41-bpr-nsc-hfiles-nsr-30-90008-010.pdf, URL https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-30-90008-010.pdf. Catalog: https://catalog.archives.gov/id/446394987.",
       "diaryControlNumber": "",
       "diaryReferenceCount": 0,
@@ -37149,7 +37181,7 @@ window.PUBLICATION_ASSEMBLY_PACKET = {
       "pageCount": 57,
       "stubPath": "reports/document-stubs/d-036.md",
       "sourceNotePresent": true,
-      "frusSourceNote": "Source: George H.W. Bush Library, Records of the National Security Council (George H. W. Bush Administration), National Security Directives (NSD) Files, NSD-75 - December 23, 1992 - American Policy toward Sub-Saharan Africa in the 1990s. Classification marking not identified in the available catalog/OCR metadata. File unit. Catalog metadata records access status as Restricted - Possibly. Catalog reference: NAID 446396910.",
+      "frusSourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Directives (NSD) Files, NSD-75 - December 23, 1992 - American Policy toward Sub-Saharan Africa in the 1990s. No classification marking identified. National Archives Catalog, NAID 446396910.",
       "catalogProvenance": "National Archives Catalog file: NSD-75 - December 23, 1992 - American Policy toward Sub-Saharan Africa in the 1990s, NAID 446396910. Collection: Records of the National Security Council (George H. W. Bush Administration), NAID 2163580. Series: National Security Directives (NSD) Files, NAID 313189290. Access status: Restricted - Possibly. Digital object: 41-bpr-nsc-hfiles-nsd-75-90005-026.pdf, URL https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/H-Files/NSDs_313189290/41-bpr-nsc-hfiles-nsd-75-90005-026.pdf. Catalog: https://catalog.archives.gov/id/446396910.",
       "diaryControlNumber": "",
       "diaryReferenceCount": 0,

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-02T11:25:29.748Z",
+  "generatedAt": "2026-06-03T02:24:24.857Z",
   "chronologyRows": 100,
   "documentStubs": 104,
   "assemblyRows": 104,
@@ -7,7 +7,7 @@
   "assemblyAuthorityRows": 8,
   "assemblyBlockerRows": 68,
   "diaryControlRows": 134,
-  "diaryReferenceFiles": 176,
+  "diaryReferenceFiles": 189,
   "annotationRows": 104,
   "directAnnotationRows": 74,
   "contextOnlyAnnotationRows": 25,
