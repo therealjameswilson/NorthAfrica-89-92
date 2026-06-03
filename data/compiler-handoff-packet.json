@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-02T11:25:29.745Z",
+  "generatedAt": "2026-06-03T00:16:08.920Z",
   "volume": {
     "id": "frus1989-92v20",
     "title": "Foreign Relations of the United States, 1989-1992, Volume XX, North Africa; Sub-Saharan Africa",
@@ -481,7 +481,7 @@
       "href": "reports/gap-audit.json",
       "liveUrl": "https://therealjameswilson.github.io/NorthAfrica-89-92/#gap-tracker",
       "count": null,
-      "use": "Machine-check the generated packet counts and coverage invariants.",
+      "use": "Audit generated packet counts, source coverage, and section-order invariants.",
       "csvFiles": []
     }
   ],

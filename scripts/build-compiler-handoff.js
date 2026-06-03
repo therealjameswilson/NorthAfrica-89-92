@@ -73,7 +73,7 @@ const packetLinks = [
   packet("Draft document list", "reports/draft-document-list.md", "Review proposed and conditional document lists by chapter.", draftDocumentList.summary?.proposedCount + draftDocumentList.summary?.conditionalCount, ["reports/draft-document-list/proposed-documents.csv", "reports/draft-document-list/conditional-documents.csv", "reports/draft-document-list/chapter-gaps.csv"], "#draft-documents"),
   packet("Decision worksheets", "reports/decision-worksheets.md", "Use CSV workbooks for compiler decision entry.", decisionWorksheets.summary?.worksheetCount, (decisionWorksheets.worksheets || []).map((worksheet) => worksheet.csvPath), "#decision-worksheets"),
   packet("Compiler brief", "reports/compiler-brief.md", "Read queue summaries and high-level selection posture.", null, [], "#compiler-brief"),
-  packet("Gap audit", "reports/gap-audit.json", "Machine-check the generated packet counts and coverage invariants.", null, [], "#gap-tracker")
+  packet("Gap audit", "reports/gap-audit.json", "Audit generated packet counts, source coverage, and section-order invariants.", null, [], "#gap-tracker")
 ];
 
 const csvFiles = uniqueSorted(packetLinks.flatMap((item) => item.csvFiles || []));

@@ -6,7 +6,7 @@
     <title>FRUS 1989-1992 Volume XX Assist</title>
     <meta
       name="description"
-      content="A compiler-facing FRUS Assist page for Foreign Relations of the United States, 1989-1992, Volume XX, North Africa; Sub-Saharan Africa."
+      content="A source-forward compiler workbench for Foreign Relations of the United States, 1989-1992, Volume XX, North Africa; Sub-Saharan Africa."
     />
     <link rel="stylesheet" href="styles.css?v=20260602-assembly" />
     <style id="compiler-network-style">
@@ -147,14 +147,14 @@
           <p class="kicker">FRUS 1989-1992, Volume XX</p>
           <h1 id="hero-title">North Africa; Sub-Saharan Africa</h1>
           <p class="lede">
-            A working compiler desk led by the declassified document chronology
-            for the unpublished Volume XX: official presidential conversations,
-            NSC policy files, public-line checks, and boundary controls for
-            Southern Africa and Somalia.
+            A source-forward compiler desk led by the declassified document
+            chronology for the unpublished Volume XX: official presidential
+            conversations, NSC policy files, public-line checks, and boundary
+            controls kept visible for review.
           </p>
           <div class="hero-actions" aria-label="Primary actions">
             <a class="button primary" href="#records">Open Declassified Chronology</a>
-            <a class="button secondary" href="#policy-files">Review Policy Files</a>
+            <a class="button secondary" href="#sources">Review Source Base</a>
           </div>
         </div>
         <aside class="brief visual-brief" aria-label="Archive scope">
@@ -181,7 +181,15 @@
               <dt>Boundary Watch</dt>
               <dd>Southern Africa; Somalia</dd>
             </div>
+            <div>
+              <dt>Review Posture</dt>
+              <dd>Compiler-led</dd>
+            </div>
           </dl>
+          <p class="brief-note">
+            Treat every queue as provisional until source notes, diary controls,
+            and compiler decisions agree.
+          </p>
         </aside>
       </section>
 
@@ -627,6 +635,14 @@
             </p>
           </article>
           <article>
+            <h3>Review Posture</h3>
+            <p>
+              Counts, packets, and queues are meant to be checked against the
+              cited catalog records, PDFs, source notes, diary controls, and
+              audit output before any final compiler decision.
+            </p>
+          </article>
+          <article>
             <h3>Local Refresh</h3>
             <pre><code>node scripts/harvest-volume20.js
 node scripts/build-diary-cross-references.js
@@ -655,7 +671,7 @@ python3 -m http.server 4194</code></pre>
     </main>
 
     <footer>
-      <p>FRUS Assist for Volume XX. Data generated from public source records and local companion-volume harvests.</p>
+      <p>FRUS Assist for Volume XX. Public records, generated packets, and audit outputs remain visible for compiler review.</p>
     </footer>
 
     <script src="data/volume-meta.js?v=20260601-draftdocs"></script>

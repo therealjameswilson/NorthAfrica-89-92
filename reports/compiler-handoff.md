@@ -1,6 +1,6 @@
 # FRUS Volume XX Compiler Handoff
 
-Generated: 2026-06-02T11:25:29.745Z
+Generated: 2026-06-03T00:16:08.920Z
 Live page: https://therealjameswilson.github.io/NorthAfrica-89-92/
 Start with the chronology: https://therealjameswilson.github.io/NorthAfrica-89-92/#records
 Official volume: https://history.state.gov/historicaldocuments/frus1989-92v20
@@ -84,7 +84,7 @@ Official volume: https://history.state.gov/historicaldocuments/frus1989-92v20
 - [Draft document list](https://therealjameswilson.github.io/NorthAfrica-89-92/reports/draft-document-list.md) - 104 - Review proposed and conditional document lists by chapter.
 - [Decision worksheets](https://therealjameswilson.github.io/NorthAfrica-89-92/reports/decision-worksheets.md) - 7 - Use CSV workbooks for compiler decision entry.
 - [Compiler brief](https://therealjameswilson.github.io/NorthAfrica-89-92/reports/compiler-brief.md) - Read queue summaries and high-level selection posture.
-- [Gap audit](https://therealjameswilson.github.io/NorthAfrica-89-92/reports/gap-audit.json) - Machine-check the generated packet counts and coverage invariants.
+- [Gap audit](https://therealjameswilson.github.io/NorthAfrica-89-92/reports/gap-audit.json) - Audit generated packet counts, source coverage, and section-order invariants.
 
 ## CSV Files
 

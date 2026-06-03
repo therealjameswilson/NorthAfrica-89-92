@@ -37,7 +37,7 @@
 "Draft document list","Report packet","https://therealjameswilson.github.io/NorthAfrica-89-92/reports/draft-document-list.md","104","Review proposed and conditional document lists by chapter."
 "Decision worksheets","Report packet","https://therealjameswilson.github.io/NorthAfrica-89-92/reports/decision-worksheets.md","7","Use CSV workbooks for compiler decision entry."
 "Compiler brief","Report packet","https://therealjameswilson.github.io/NorthAfrica-89-92/reports/compiler-brief.md","","Read queue summaries and high-level selection posture."
-"Gap audit","Report packet","https://therealjameswilson.github.io/NorthAfrica-89-92/reports/gap-audit.json","","Machine-check the generated packet counts and coverage invariants."
+"Gap audit","Report packet","https://therealjameswilson.github.io/NorthAfrica-89-92/reports/gap-audit.json","","Audit generated packet counts, source coverage, and section-order invariants."
 "all-annotation-leads.csv","CSV","https://therealjameswilson.github.io/NorthAfrica-89-92/reports/annotation-leads/all-annotation-leads.csv","","Download or edit this worksheet/report table."
 "authority-annotation-leads.csv","CSV","https://therealjameswilson.github.io/NorthAfrica-89-92/reports/annotation-leads/authority-annotation-leads.csv","","Download or edit this worksheet/report table."
 "blocker-annotation-leads.csv","CSV","https://therealjameswilson.github.io/NorthAfrica-89-92/reports/annotation-leads/blocker-annotation-leads.csv","","Download or edit this worksheet/report table."

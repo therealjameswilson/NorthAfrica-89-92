@@ -1,6 +1,6 @@
 # FRUS 1989-1992 Volume XX Assist
 
-GitHub Pages research assistant for *Foreign Relations of the United States,
+GitHub Pages source-forward workbench for *Foreign Relations of the United States,
 1989-1992, Volume XX, North Africa; Sub-Saharan Africa*.
 
 The page is built as a compiler workbench rather than a general exhibit. It
@@ -12,6 +12,10 @@ combines:
 - a Public Papers reference layer reused from companion-volume harvests
 - a boundary-control lane for Southern Africa and Somalia handoff records
 - an explicit compiler gap tracker and next-harvest source-pool queue
+
+Review posture: generated rows are provisional work aids. Source links,
+FRUS-style notes, diary/backup controls, audit outputs, and blank compiler
+decision fields stay visible so final judgment remains with the compiler.
 
 ## Current Harvest
 
@@ -29,6 +33,7 @@ The committed data currently contains:
 - `98` missing-source runbook query rows across all compiler gaps
 - `34` country dossiers with chronology, gap, runbook, public-line, policy-file, and persons cues
 - `36` proposed draft-document rows and `68` conditional rows with FRUS source notes
+- `104` publication assembly rows, including `36` proposed table-of-contents rows
 - `11` compiler gap-tracker items
 - `14` next-harvest source pools
 - `37` source-copy ledger rows for markers, partials, and restricted releases
